@@ -5,7 +5,7 @@ interface Props {
   quest: QuestType;
 }
 
-const Checklist = (props: Props) => {
+const Checkbox = (props: Props) => {
   const { quest } = props;
 
   return (
@@ -16,4 +16,4 @@ const Checklist = (props: Props) => {
   );
 };
 
-export default Checklist;
+export default Checkbox;
