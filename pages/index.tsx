@@ -14,6 +14,7 @@ const Home: NextPage = () => {
 
       <main>
         <h1>Welcome to Elden Ring Checklist!</h1>
+        <h2>Quests:</h2>
         {Quests.map((quest) => (
           <CheckboxContainer key={quest.id} quest={quest} />
         ))}
