@@ -12,7 +12,9 @@ const CheckboxContainer = (props: Props) => {
   return (
     <fieldset>
       <legend>quest.title</legend>
-      <Checkbox quest={quest} />
+      {quest.requirements.map((req) => (
+        <Checkbox key={req.id} requirement={req} />
+      ))}
     </fieldset>
   );
 };

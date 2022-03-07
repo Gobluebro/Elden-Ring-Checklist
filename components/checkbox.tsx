@@ -1,17 +1,17 @@
 import React from "react";
-import { QuestType } from "../data/quests";
+import { Requirement } from "../data/quests";
 
 interface Props {
-  quest: QuestType;
+  requirement: Requirement;
 }
 
 const Checkbox = (props: Props) => {
-  const { quest } = props;
+  const { requirement } = props;
 
   return (
     <div>
-      <input id={"chk" + quest.id} type="checkbox" />
-      <label htmlFor={"chk" + quest.id}></label>
+      <input id={"chk" + requirement.id} type="checkbox" />
+      <label htmlFor={"chk" + requirement.id}>requirement.description</label>
     </div>
   );
 };
