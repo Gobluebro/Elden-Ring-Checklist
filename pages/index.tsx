@@ -23,8 +23,10 @@ const Home: NextPage = () => {
         ))}
       </main>
       <footer className="flex justify-center">
-        Check out the project on{" "}
-        <a href="https://github.com/Gobluebro/Elden-Ring-Checklist">Github</a>
+        <span>
+          Check out the project on{" "}
+          <a href="https://github.com/Gobluebro/Elden-Ring-Checklist">Github</a>
+        </span>
       </footer>
     </div>
   );
