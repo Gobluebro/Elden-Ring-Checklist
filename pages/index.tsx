@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           <CheckboxContainer key={quest.id} quest={quest} />
         ))}
       </main>
-      <footer>
+      <footer className="flex justify-center">
         Check out the project on{" "}
         <a href="https://github.com/Gobluebro/Elden-Ring-Checklist">Github</a>
       </footer>
