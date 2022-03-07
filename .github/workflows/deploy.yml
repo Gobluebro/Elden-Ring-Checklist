@@ -15,10 +15,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install, build, and export
-      - run: |
-        npm ci
-        npm run build
-        npm run export
+      - run: npm ci
+      - run: npm run build
+      - run: npm run export
       - env:
           NEXT_PUBLIC_BASE_PATH: /Elden-Ring-Checklist
 
