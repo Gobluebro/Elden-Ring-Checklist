@@ -1,9 +1,9 @@
 import React from "react";
-import { QuestType } from "../data/quests";
+import { ListType } from "../data/types";
 import Checkbox from "./checkbox";
 
 interface Props {
-  quest: QuestType;
+  quest: ListType;
 }
 
 const CheckboxContainer = (props: Props) => {

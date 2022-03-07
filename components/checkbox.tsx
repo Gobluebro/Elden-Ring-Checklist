@@ -1,5 +1,5 @@
 import React from "react";
-import { Requirement } from "../data/quests";
+import { Requirement } from "../data/types";
 
 interface Props {
   requirement: Requirement;
