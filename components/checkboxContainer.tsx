@@ -11,6 +11,7 @@ const CheckboxContainer = (props: Props) => {
 
   return (
     <fieldset>
+      <legend>quest.title</legend>
       <Checkbox quest={quest} />
     </fieldset>
   );
