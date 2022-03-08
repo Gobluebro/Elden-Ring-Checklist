@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   return (
-    <div>
+    <div className="container mx-auto">
       <Head>
         <title>Elden Ring Checklist</title>
         <meta
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>Welcome to Elden Ring Checklist!</h1>
+        <h1 className="flex justify-center">Elden Ring Checklist</h1>
         <h2>Quests:</h2>
         {Quests.map((quest) => (
           <CheckboxContainer key={quest.id} list={quest} />
