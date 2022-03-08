@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         <span>
           Check out the project on{" "}
           <a
-            className="text-elden-ring-green"
+            className="text-elden-ring-green dark:text-elden-ring-gold"
             href="https://github.com/Gobluebro/Elden-Ring-Checklist"
           >
             Github
