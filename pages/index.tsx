@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import DarkModeToggle from "../components/darkModeToggle";
-import QuestList from "../components/questList";
+import CompleteList from "../components/completeList";
 
 const Home: NextPage = () => {
   const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -45,7 +45,8 @@ const Home: NextPage = () => {
       <main>
         <h1 className="flex justify-center">Elden Ring Checklist</h1>
         <DarkModeToggle />
-        <QuestList />
+        <CompleteList listName="Quests" />
+        <CompleteList listName="Achievements" />
       </main>
       <footer className="flex justify-center">
         <span>
