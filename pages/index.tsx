@@ -1,13 +1,14 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import CheckboxContainer from "../components/checkboxContainer";
+import DarkModeToggle from "../components/darkModeToggle";
 import { Quests } from "../data/quests";
 
 const Home: NextPage = () => {
   const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto bg-white dark:bg-black">
       <Head>
         <title>Elden Ring Checklist</title>
         <meta
@@ -44,6 +45,7 @@ const Home: NextPage = () => {
 
       <main>
         <h1 className="flex justify-center">Elden Ring Checklist</h1>
+        <DarkModeToggle />
         <h2>Quests:</h2>
         {Quests.map((quest) => (
           <CheckboxContainer key={quest.id} list={quest} />
