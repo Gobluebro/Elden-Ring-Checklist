@@ -1,4 +1,3 @@
-import React from "react";
 import { ListType } from "../data/types";
 import Checkbox from "./checkbox";
 

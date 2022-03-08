@@ -1,4 +1,3 @@
-import React from "react";
 import { Requirement } from "../data/types";
 
 interface Props {
