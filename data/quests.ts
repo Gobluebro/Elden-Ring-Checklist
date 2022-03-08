@@ -102,8 +102,73 @@ export const Quests: Array<ListType> = [
   },
   {
     id: 3,
-    name: "Dung Eater",
-    requirements: [],
+    name: "Dung Eater / Age of Despair Ending",
+    requirements: [
+      {
+        id: 1,
+        description: "Talk to Dung Eater at the Roundtable Hold",
+      },
+      {
+        id: 2,
+        description:
+          "Collect the Seedbed Curse near the East Capital Rampart Grace",
+      },
+      {
+        id: 3,
+        description:
+          "Give the Seedbed Curse to Dung Eater at the Roundtable Hold.",
+      },
+      {
+        id: 4,
+        description: "Talk to Dung Eater in his cell.",
+      },
+      {
+        id: 5,
+        description:
+          "A message will appear in Dung Eater's spot in the Roundtable Hold telling you to come to the outer moat.",
+      },
+      {
+        id: 6,
+        description:
+          "Defeat Dung Eater Invader in the outer moat near the Capital Rampart grace.",
+      },
+      {
+        id: 7,
+        description: "Talk to Dung Eater in the Roundtable Hold.",
+      },
+      {
+        id: 8,
+        description:
+          "Collect the Seedbed Curse near the West Capital Rampart grace.",
+      },
+      {
+        id: 9,
+        description: "Collect the Seedbed Curse at the Volcano Manor.",
+      },
+      {
+        id: 10,
+        description:
+          "Collect the first Seedbed Curses near the Prayer Room Grace.",
+      },
+      {
+        id: 11,
+        description:
+          "Collect the second Seedbed Curses near the Prayer Room Grace.",
+      },
+      {
+        id: 12,
+        description: `Talk to Dung Eater in his cell and select the "Use the Seedbed Curse" dialogue.`,
+      },
+      {
+        id: 13,
+        description:
+          "Return to Dung Eater in his cell or save and reload the game and collect his outfit.",
+      },
+      {
+        id: 14,
+        description: `Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue.`,
+      },
+    ],
   },
   {
     id: 4,
