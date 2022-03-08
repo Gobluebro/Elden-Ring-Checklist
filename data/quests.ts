@@ -1,8 +1,15 @@
-export const Quests = [
+import { ListType } from "./types";
+
+export const Quests: Array<ListType> = [
   {
     id: 1,
     name: "Ranni the Witch",
-    requirements: [],
+    requirements: [
+      {
+        id: 1,
+        description: "",
+      },
+    ],
   },
   {
     id: 2,
