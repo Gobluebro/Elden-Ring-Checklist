@@ -116,4 +116,9 @@ export const Quests: Array<ListType> = [
     name: "Millicent",
     requirements: [],
   },
+  {
+    id: 6,
+    name: "Alexander",
+    requirements: [],
+  },
 ];
