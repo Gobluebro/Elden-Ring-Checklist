@@ -20,7 +20,7 @@ const DarkModeToggle = () => {
   }, [darkModeToggle]);
 
   return (
-    <>
+    <div className="flex justify-end">
       <input
         id="darkMode"
         type="checkbox"
@@ -31,7 +31,7 @@ const DarkModeToggle = () => {
       <label htmlFor="darkMode" className="text-4xl select-none cursor-pointer">
         {darkModeToggle ? "🌑" : "🌞"}
       </label>
-    </>
+    </div>
   );
 };
 
