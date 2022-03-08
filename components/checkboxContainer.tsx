@@ -10,7 +10,7 @@ const CheckboxContainer = (props: Props) => {
   const { quest } = props;
 
   return (
-    <fieldset>
+    <fieldset className="border border-solid border-gray-300 p-3">
       <legend>{quest.name}</legend>
       {quest.requirements.map((req) => (
         <Checkbox key={req.id} requirement={req} />
