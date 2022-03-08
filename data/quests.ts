@@ -112,8 +112,93 @@ export const Quests: Array<ListType> = [
   },
   {
     id: 5,
-    name: "Millicent",
-    requirements: [],
+    name: "Gowry / Millicent",
+    requirements: [
+      {
+        id: 1,
+        description: "Talk to Gowry at Gowry's Shack",
+      },
+      {
+        id: 2,
+        description: "Defeat Millicent Invasion (Optional?)",
+      },
+      {
+        id: 3,
+        description:
+          "Defeat Commander O'Neil and get the Unalloyed Gold Needle.",
+      },
+      {
+        id: 4,
+        description: "Take the Unalloyed Gold Needle to Gowry.",
+      },
+      {
+        id: 5,
+        description:
+          "Return to Gowry's Shack again or save and reload the game and talk to Gowry to receive the repaired Unalloyed Gold Needle.",
+      },
+      {
+        id: 6,
+        description: `Talk to Millicent at the Church of the Plague. Select the "Give an Unalloyed Gold Needle" dialogue.`,
+      },
+      {
+        id: 7,
+        description:
+          "Rest at the grace and talk to Millicent again. You will receive the Prosthesis-Wearer Heirloom.",
+      },
+      {
+        id: 8,
+        description: "Talk to Millicent at Gowry's Shack.",
+      },
+      {
+        id: 9,
+        description:
+          "Return to Gowry's Shack again or save and reload the game and talk to Gowry.",
+      },
+      {
+        id: 10,
+        description: "Talk to Millicent near the Erdtree Grazing Hill grace.",
+      },
+      {
+        id: 11,
+        description:
+          "Get the Valkyrie's Prosthesis from a chest at The Shaded Castle.",
+      },
+      {
+        id: 12,
+        description: `Talk to Millicent near the Erdtree Grazing Hill grace and select the "Give the Valkyrie's Prosthesis" dialogue.`,
+      },
+      {
+        id: 13,
+        description: "Defeat Godskin Apostle at the Windmill Village.",
+      },
+      {
+        id: 14,
+        description:
+          "Rest at the Windmill Heights grace and talk to millicent.",
+      },
+      {
+        id: 15,
+        description:
+          "Talk to Millicent at the Ancient Snow Valley Ruins grace.",
+      },
+      {
+        id: 16,
+        description: "Talk to Millicent at the Prayer Room grace.",
+      },
+      {
+        id: 17,
+        description:
+          "Defeat the Rot Worm between the Elphael Inner Wall grace and the Drainage Channnel grace.",
+      },
+      {
+        id: 18,
+        description: "Assist or challenge Millicent.",
+      },
+      {
+        id: 19,
+        description: "Return to Gowry at Gowry's Shack.",
+      },
+    ],
   },
   {
     id: 6,
