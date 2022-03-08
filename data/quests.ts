@@ -73,25 +73,25 @@ export const Quests: Array<ListType> = [
           "Get the Discarded Palace Key by defeating the Baleful Shadow in Nokstella. Make sure to get the Lake of Rot Shoreside grace after.",
       },
       {
-        id: 15,
+        id: 16,
         description:
           "Get the Dark Moon Ring from the chest at the Raya Lucaria Grand Library by using the Discarded Palace Key.",
       },
       {
-        id: 16,
+        id: 17,
         description: "Defeat Astel, Naturalborn of the Void.",
       },
       {
-        id: 17,
+        id: 18,
         description:
           "Put the Dark Moon Ring on Ranni's Finger below the Cathedral of Manus Celes.",
       },
       {
-        id: 18,
+        id: 19,
         description: "Defeat Blaidd outside of Ranni's Rise.",
       },
       {
-        id: 19,
+        id: 20,
         description: "Talk to Iji about Blaidd's death.",
       },
     ],
