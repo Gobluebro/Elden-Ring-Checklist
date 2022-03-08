@@ -64,8 +64,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: 14,
-        description:
-          "Rest at the nearby grace and 'Talk to the miniature Ranni' 3 times.",
+        description: `Rest at the nearby grace and "Talk to the miniature Ranni" 3 times.`,
       },
       {
         id: 15,
