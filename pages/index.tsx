@@ -2,9 +2,14 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import DarkModeToggle from "../components/darkModeToggle";
 import CompleteList from "../components/completeList";
+import { useState } from "react";
 
 const Home: NextPage = () => {
   const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+  const [currentTab, setCurrentTab] = useState<"Quests" | "Achievements">(
+    "Quests"
+  );
 
   return (
     <div className="container mx-auto">
@@ -42,11 +47,27 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#ffffff" />
       </Head>
 
-      <main>
+      <header>
         <h1 className="flex justify-center">Elden Ring Checklist</h1>
+      </header>
+
+      <nav>
+        <div className="flex justify-center">
+          <h3 className="mx-4">
+            <button onClick={() => setCurrentTab("Quests")}>Quests</button>
+          </h3>
+          <h3 className="mx-4">
+            <button onClick={() => setCurrentTab("Achievements")}>
+              Achievements
+            </button>
+          </h3>
+          <h3></h3>
+        </div>
+      </nav>
+
+      <main>
         <DarkModeToggle />
-        <CompleteList listName="Quests" />
-        <CompleteList listName="Achievements" />
+        <CompleteList listName={currentTab} />
       </main>
       <footer className="flex justify-center">
         <span>
