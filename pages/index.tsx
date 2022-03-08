@@ -59,6 +59,7 @@ const Home: NextPage = () => {
         <DarkModeToggle />
         <CompleteList listName={currentTab} />
       </main>
+
       <Footer />
     </div>
   );
