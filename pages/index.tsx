@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   return (
-    <div className="container mx-auto bg-white dark:bg-black">
+    <div className="container mx-auto">
       <Head>
         <title>Elden Ring Checklist</title>
         <meta

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply h-full bg-white dark:bg-black text-black dark:text-white;
+}
