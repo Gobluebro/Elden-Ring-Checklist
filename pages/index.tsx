@@ -4,6 +4,8 @@ import CheckboxContainer from "../components/checkboxContainer";
 import { Quests } from "../data/quests";
 
 const Home: NextPage = () => {
+  const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
   return (
     <div>
       <Head>
@@ -12,7 +14,7 @@ const Home: NextPage = () => {
           name="description"
           content="A place to remember your progression in Elden Ring"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={prefix + "/favicon.ico"} />
       </Head>
 
       <main>

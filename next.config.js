@@ -1,11 +1,8 @@
-const githubPath = "/Elden-Ring-Checklist";
-const isProd = process.env.NODE_ENV === "production";
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: githubPath,
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
   reactStrictMode: true,
-  assetPrefix: isProd ? githubPath : "",
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
 };
 
 module.exports = nextConfig;
