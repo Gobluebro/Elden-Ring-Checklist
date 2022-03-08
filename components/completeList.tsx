@@ -15,7 +15,7 @@ const CompleteList = (props: Props) => {
     <>
       <h2>{listName}:</h2>
       {dataArray.map((item) => (
-        <CheckboxContainer key={item.id} list={item} />
+        <CheckboxContainer key={item.id} list={item} listTypeName={listName} />
       ))}
     </>
   );
