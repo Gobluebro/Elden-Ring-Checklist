@@ -6,7 +6,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      "elden-ring-dark-blue": "#0c2527",
+      "elden-ring-dark-green": "#14302d",
+      "elden-ring-green": "#3a5950",
+      "elden-ring-light-green": "#3a5950",
+      "elden-ring-gold": "#c39e66",
+    },
   },
   plugins: [
     plugin(function ({ addBase, theme }) {
