@@ -11,7 +11,7 @@ const Checkbox = (props: Props) => {
   return (
     <div>
       <input id={"chk" + requirement.id} type="checkbox" />
-      <label htmlFor={"chk" + requirement.id}>requirement.description</label>
+      <label htmlFor={"chk" + requirement.id}>{requirement.description}</label>
     </div>
   );
 };
