@@ -4,6 +4,7 @@ import DarkModeToggle from "../components/darkModeToggle";
 import CompleteList from "../components/completeList";
 import { useState } from "react";
 import TabBar from "../components/tabBar";
+import Footer from "../components/footer";
 
 const Home: NextPage = () => {
   const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
   );
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto flex flex-col min-h-screen">
       <Head>
         <title>Elden Ring Checklist</title>
         <meta
@@ -54,21 +55,11 @@ const Home: NextPage = () => {
 
       <TabBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
-      <main>
+      <main className="flex-1">
         <DarkModeToggle />
         <CompleteList listName={currentTab} />
       </main>
-      <footer className="flex justify-center">
-        <span>
-          Check out the project on{" "}
-          <a
-            className="text-elden-ring-green dark:text-elden-ring-gold"
-            href="https://github.com/Gobluebro/Elden-Ring-Checklist"
-          >
-            Github
-          </a>
-        </span>
-      </footer>
+      <Footer />
     </div>
   );
 };
