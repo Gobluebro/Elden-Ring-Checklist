@@ -401,7 +401,8 @@ export const Quests: Array<ListType> = [
       },
       {
         id: 14,
-        description: "Return to Lusat's body to get the Lusat's clothing set",
+        description:
+          "Return to Lusat's body near the Sellia Hideaway grace to get the Lusat's clothing set",
       },
     ],
   },
