@@ -363,7 +363,8 @@ export const Quests: Array<ListType> = [
       },
       {
         id: 7,
-        description: "Find Lusat and get the Stars of Ruin spell",
+        description:
+          "Find Lusat near the Fort Faroth grace and get the Stars of Ruin spell",
       },
       {
         id: 8,
