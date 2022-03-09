@@ -173,7 +173,69 @@ export const Quests: Array<ListType> = [
   {
     id: 4,
     name: "Volcano Manor Assassinations",
-    requirements: [],
+    requirements: [
+      // {
+      //   id: 1,
+      //   description: "Talk to Tanith at the Volcano Manor grace.",
+      // },
+      // {
+      //   id: 2,
+      //   description:
+      //     "Talk to Bernahl. You will also be able to talk to Rya, Diallos, and Patches if you did their questlines.",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+      // {
+      //   id: 1,
+      //   description: "",
+      // },
+    ],
   },
   {
     id: 5,
@@ -269,5 +331,78 @@ export const Quests: Array<ListType> = [
     id: 6,
     name: "Alexander",
     requirements: [],
+  },
+  {
+    id: 7,
+    name: "Sorceress Sellen",
+    requirements: [
+      {
+        id: 1,
+        description: `Talk to Sellen at the Waypoint Ruins Cellar grace and select the "I want to learn sorcery" dialogue.`,
+      },
+      {
+        id: 2,
+        description: "Find the Academy Scroll and give it to Sellen.",
+      },
+      {
+        id: 3,
+        description: "Find the Royal House Scroll and give it to Sellen.",
+      },
+      {
+        id: 4,
+        description: "Find the Conspectus Scroll and give it to Sellen.",
+      },
+      {
+        id: 5,
+        description:
+          "Get the Comet Azur spell at the Primeval Sorcerer Azur grace.",
+      },
+      {
+        id: 6,
+        description: `Talk to Sellen at the Waypoint Ruins Cellar grace and accept her quest. You will receive the Sellian Sealbreaker key.`,
+      },
+      {
+        id: 7,
+        description: "Find Lusat and get the Stars of Ruin spell",
+      },
+      {
+        id: 8,
+        description:
+          "Talk to Sellen at the Waypoint Ruins Cellar grace about her request and about Lusat's location.",
+      },
+      {
+        id: 9,
+        description:
+          "Talk to Sellen in the Witchbane Ruins where she is shackled. This is near the Fourth Church of Marika grace. You will receive Sellen's Primal Glintstone.",
+      },
+      {
+        id: 10,
+        description: "Talk to Sellen near the Ranni's Rise grace.",
+      },
+      {
+        id: 11,
+        description:
+          "Talk to Radahn's herald after defeating Radahn in the chapel near the Chamber Outside the Plaza grace.",
+      },
+      {
+        id: 12,
+        description:
+          "Talk to Radahn's herald at the Witchbane Ruins where Sellen's dead body is shackled.",
+      },
+      {
+        id: 12,
+        description:
+          "Assist or challenge Sellen near the Raya Lucaria Grand Library grace.",
+      },
+      {
+        id: 13,
+        description:
+          "Return to Azur's body near the Primeval Sorcerer Azur grace to get the Azur's Glintstone clothing set.",
+      },
+      {
+        id: 14,
+        description: "Return to Lusat's body to get the Lusat's clothing set",
+      },
+    ],
   },
 ];
