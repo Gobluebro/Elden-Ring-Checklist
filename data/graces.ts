@@ -558,71 +558,71 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 3,
-        description: "Altus Highway Junction",
-      },
-      {
-        id: 4,
-        description: "Forest-Spanning Greatbridge",
-      },
-      {
-        id: 5,
-        description: "Bower of Bounty",
-      },
-      {
-        id: 6,
-        description: "Windmill Village",
-      },
-      {
-        id: 7,
-        description: "Windmill Heights",
-      },
-      {
-        id: 8,
-        description: "Road of Iniquity Side Path",
-      },
-      {
-        id: 9,
-        description: "Rampartside Path",
-      },
-      {
-        id: 10,
-        description: "Shaded Castle Ramparts",
-      },
-      {
-        id: 11,
-        description: "Shaded Castle Inner Gate",
-      },
-      {
-        id: 12,
-        description: "Castellan's Hall",
-      },
-      {
-        id: 13,
-        description: "Sainted Hero's Grave",
-      },
-      {
-        id: 14,
-        description: "Sage's Cave",
-      },
-      {
-        id: 15,
-        description: "Perfumer's Grotto",
-      },
-      {
-        id: 16,
-        description: "Old Altus Tunnel",
-      },
-      {
-        id: 17,
-        description: "Altus Tunnel",
-      },
-      {
-        id: 2,
         description: "Altus Plateau",
       },
       {
-        id: 3,
-        description: "Lux Ruins",
+        id: 4,
+        description: "Altus Highway Junction",
+      },
+      {
+        id: 5,
+        description: "Forest-Spanning Greatbridge",
+      },
+      {
+        id: 6,
+        description: "Bower of Bounty",
+      },
+      {
+        id: 7,
+        description: "Windmill Village",
+      },
+      {
+        id: 8,
+        description: "Windmill Heights",
+      },
+      {
+        id: 9,
+        description: "Road of Iniquity Side Path",
+      },
+      {
+        id: 10,
+        description: "Rampartside Path",
+      },
+      {
+        id: 11,
+        description: "Shaded Castle Ramparts",
+      },
+      {
+        id: 12,
+        description: "Shaded Castle Inner Gate",
+      },
+      {
+        id: 13,
+        description: "Castellan's Hall",
+      },
+      {
+        id: 14,
+        description: "Unsightly Catacombs",
+      },
+      {
+        id: 15,
+        description: "Sainted Hero's Grave",
+      },
+      {
+        id: 16,
+        description: "Sage's Cave",
+      },
+      {
+        id: 17,
+        description: "Perfumer's Grotto",
+      },
+      {
+        id: 18,
+        description: "Old Altus Tunnel",
+      },
+      {
+        id: 19,
+        description: "Altus Tunnel",
       },
     ],
   },
@@ -677,10 +677,6 @@ export const Graces: Array<ListType> = [
       {
         id: 13,
         description: "Volcano Cave",
-      },
-      {
-        id: 12,
-        description: "Unsightly Catacombs",
       },
     ],
   },
