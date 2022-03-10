@@ -60,9 +60,4 @@ export const Achievements: Array<ListType> = [
   //     name: "",
   //     requirements: [{ id: 1, description: "" },],
   //   },
-  //   {
-  //     id: 6,
-  //     name: "",
-  //     requirements: [{ id: 1, description: "" },],
-  //   },
 ];
