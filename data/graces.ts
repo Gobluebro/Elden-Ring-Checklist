@@ -476,6 +476,10 @@ export const Graces: Array<ListType> = [
         id: 3,
         description: "Grand Lift of Dectus",
       },
+      {
+        id: 4,
+        description: "Church of Inhibition",
+      },
     ],
   },
   {
