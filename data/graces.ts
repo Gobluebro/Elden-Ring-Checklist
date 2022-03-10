@@ -172,7 +172,7 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 7,
-        description: "Isolated Merchant's Shack (Weeping Peninsula)",
+        description: "Isolated Merchant's Shack",
       },
       {
         id: 8,
@@ -729,10 +729,6 @@ export const Graces: Array<ListType> = [
         description: "Divine Tower of West Altus",
       },
       {
-        id: 1,
-        description: "Divine Bridge",
-      },
-      {
         id: 2,
         description: "Fortified Manor, First Floor",
       },
@@ -845,6 +841,10 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 4,
+        description: "Divine Bridge",
+      },
+      {
+        id: 5,
         description: "Elden Throne",
       },
     ],
@@ -987,7 +987,7 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 2,
-        description: "Isolated Merchant's Shack (Dragonbarrow)",
+        description: "Isolated Merchant's Shack",
       },
       {
         id: 3,
@@ -1024,6 +1024,10 @@ export const Graces: Array<ListType> = [
       {
         id: 11,
         description: "Divine Tower of Caelid: Basement",
+      },
+      {
+        id: 12,
+        description: "Isolated Divine Tower",
       },
     ],
   },
