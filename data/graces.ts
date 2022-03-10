@@ -728,39 +728,27 @@ export const Graces: Array<ListType> = [
         id: 10,
         description: "Divine Tower of West Altus",
       },
-      {
-        id: 2,
-        description: "Fortified Manor, First Floor",
-      },
-      {
-        id: 4,
-        description: "West Capital Rampart",
-      },
-      {
-        id: 5,
-        description: "Lower Capital Church",
-      },
-      {
-        id: 6,
-        description: "Avenue Balcony",
-      },
-      {
-        id: 7,
-        description: "Subterranean Shunning-Grounds",
-      },
-
-      {
-        id: 9,
-        description: "East Capital Rampart",
-      },
-      {
-        id: 13,
-        description: "Forbidden Lands",
-      },
-      {
-        id: 14,
-        description: "Capital Outskirts",
-      },
+      // Unsure of what order these are written in the in game map since I progressed to where they disappear..
+      // {
+      //   id: 1,
+      //   description: "East Capital Rampart (Disappears later in the game)",
+      // },
+      // {
+      //   id: 2,
+      //   description: "Fortified Manor, First Floor (Disappears later in the game)",
+      // },
+      // {
+      //   id: 3,
+      //   description: "West Capital Rampart (Disappears later in the game)",
+      // },
+      // {
+      //   id: 4,
+      //   description: "Lower Capital Church (Disappears later in the game)",
+      // },
+      // {
+      //   id: 5,
+      //   description: "Avenue Balcony (Disappears later in the game)",
+      // },
     ],
   },
   {
@@ -1037,7 +1025,23 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Forbidden Lands",
+      },
+      {
+        id: 2,
+        description: "Grand Lift of Rold",
+      },
+      {
+        id: 3,
+        description: "Hidden Path to the Haligtree",
+      },
+      {
+        id: 4,
+        description: "Divine Tower of East Altus: Gate",
+      },
+      {
+        id: 5,
+        description: "Divine Tower of East Altus",
       },
     ],
   },
@@ -1047,95 +1051,43 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "Grand Lift of Rold",
-      },
-      {
-        id: 2,
-        description: "Hidden Path to the Haligtree",
-      },
-      {
-        id: 3,
-        description: "Yelough Anix Tunnel",
-      },
-      {
-        id: 4,
-        description: "Apostate Derelict",
-      },
-      {
-        id: 5,
-        description: "Ordina, Liturgical Town",
-      },
-      {
-        id: 6,
-        description: "Inner Consecrated Snowfield",
-      },
-      {
-        id: 7,
-        description: "Consecrated Snowfield Catacombs",
-      },
-      {
-        id: 8,
         description: "Zamor Ruins",
       },
       {
-        id: 9,
-        description: "Giant-Conquering Hero's Grave",
-      },
-      {
-        id: 10,
-        description: "Giant's Mountaintop Catacombs",
-      },
-      {
-        id: 11,
-        description: "Church of Repose",
-      },
-      {
-        id: 12,
-        description: "Foot of the Forge",
-      },
-      {
-        id: 13,
-        description: "Giants' Gravepost",
-      },
-      {
-        id: 14,
+        id: 2,
         description: "Ancient Snow Valley Ruins",
       },
       {
-        id: 15,
-        description: "Castle Sol Main Gate",
-      },
-      {
-        id: 16,
-        description: "Castle Sol Rooftop",
-      },
-      {
-        id: 17,
-        description: "Castle Sol",
-      },
-      {
-        id: 18,
-        description: "Snow Valley Ruins Outlook",
-      },
-      {
-        id: 19,
+        id: 3,
         description: "Freezing Lake",
       },
       {
-        id: 20,
-        description: "Spiritcaller's Cave",
-      },
-      {
-        id: 21,
-        description: "Whiteridge Road",
-      },
-      {
-        id: 22,
+        id: 4,
         description: "First Church of Marika",
       },
       {
-        id: 23,
-        description: "Forge of the Giant",
+        id: 5,
+        description: "Whiteridge Road",
+      },
+      {
+        id: 6,
+        description: "Snow Valley Ruins Outlook",
+      },
+      {
+        id: 7,
+        description: "Castle Sol Main Gate",
+      },
+      {
+        id: 8,
+        description: "Church of the Eclipse",
+      },
+      {
+        id: 9,
+        description: "Castle Sol Rooftop",
+      },
+      {
+        id: 10,
+        description: "Spiritcaller's Cave",
       },
     ],
   },
@@ -1145,7 +1097,31 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Giants' Gravepost",
+      },
+      {
+        id: 2,
+        description: "Church of Repose",
+      },
+      {
+        id: 3,
+        description: "Foot of the Forge",
+      },
+      {
+        id: 4,
+        description: "Fire Giant",
+      },
+      {
+        id: 5,
+        description: "Forge of the Giants",
+      },
+      {
+        id: 6,
+        description: "Giants' Mountaintop Catacombs",
+      },
+      {
+        id: 7,
+        description: "Giant-Conquering Hero's Grave",
       },
     ],
   },
@@ -1155,7 +1131,31 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Consecrated Snowfield",
+      },
+      {
+        id: 2,
+        description: "Inner Consecrated Snowfield",
+      },
+      {
+        id: 3,
+        description: "Ordina, Liturgical Town",
+      },
+      {
+        id: 4,
+        description: "Apostate Derelict",
+      },
+      {
+        id: 5,
+        description: "Consecrated Snowfield Catacombs",
+      },
+      {
+        id: 6,
+        description: "Cave of the Forlorn",
+      },
+      {
+        id: 7,
+        description: "Yelough Anix Tunnel",
       },
     ],
   },
@@ -1165,7 +1165,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Haligtree Canopy",
+      },
+      {
+        id: 2,
+        description: "Haligtree Town",
+      },
+      {
+        id: 3,
+        description: "Haligtree Town Plaza",
+      },
+      {
+        id: 4,
+        description: "Haligtree Promenade",
       },
     ],
   },
@@ -1175,7 +1187,23 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Prayer Room",
+      },
+      {
+        id: 2,
+        description: "Elphael Inner Wall",
+      },
+      {
+        id: 3,
+        description: "Drainage Channel",
+      },
+      {
+        id: 4,
+        description: "Haligtree Roots",
+      },
+      {
+        id: 5,
+        description: "Malenia, Goddesss of Rot",
       },
     ],
   },
@@ -1185,7 +1213,23 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Ainsel River Well Depths",
+      },
+      {
+        id: 2,
+        description: "Ainsel River Sluice Gate",
+      },
+      {
+        id: 3,
+        description: "Ainsel River Downstream",
+      },
+      {
+        id: 4,
+        description: "Dragonkin Soldier of Nokstella",
+      },
+      {
+        id: 5,
+        description: "Astel, Naturalborn of the Void",
       },
     ],
   },
@@ -1195,7 +1239,15 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Ainsel River Main",
+      },
+      {
+        id: 2,
+        description: "Nokstella, Eternal City",
+      },
+      {
+        id: 3,
+        description: "Nokstella Waterfall Basin",
       },
     ],
   },
@@ -1205,7 +1257,11 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Lake of Rot Shoreside",
+      },
+      {
+        id: 2,
+        description: "Grand Cloister",
       },
     ],
   },
@@ -1215,7 +1271,27 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Nokron, Eternal City",
+      },
+      {
+        id: 2,
+        description: "Mimic Tear",
+      },
+      {
+        id: 3,
+        description: "Ancestral Woods",
+      },
+      {
+        id: 4,
+        description: "Night's Sacred Ground",
+      },
+      {
+        id: 5,
+        description: "Aqueduct-Facing Cliffs",
+      },
+      {
+        id: 6,
+        description: "Great Waterfall Basin",
       },
     ],
   },
@@ -1225,7 +1301,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Siofra River Well Depths",
+      },
+      {
+        id: 2,
+        description: "Siofra River Bank",
+      },
+      {
+        id: 3,
+        description: "Worshippers' Woods",
+      },
+      {
+        id: 4,
+        description: "Below the Well",
       },
     ],
   },
@@ -1235,7 +1323,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Palace Approach Ledge-Road",
+      },
+      {
+        id: 2,
+        description: "Dynasty Mausoleum Entrance",
+      },
+      {
+        id: 3,
+        description: "Dynasty Mausoleum Midpoint",
+      },
+      {
+        id: 4,
+        description: "Cocoon of the Empyrean",
       },
     ],
   },
@@ -1245,7 +1345,23 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Great Waterfall Crest",
+      },
+      {
+        id: 2,
+        description: "Deeproot Depths",
+      },
+      {
+        id: 3,
+        description: "The Nameless Eternal City",
+      },
+      {
+        id: 4,
+        description: "Across the Roots",
+      },
+      {
+        id: 5,
+        description: "Prince of Death's Throne",
       },
     ],
   },
@@ -1255,7 +1371,47 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Crumbling Beast Grave",
+      },
+      {
+        id: 2,
+        description: "Crumbling Beast Grave Depths",
+      },
+      {
+        id: 3,
+        description: "Tempest-Facing Balcony",
+      },
+      {
+        id: 4,
+        description: "Dragon Temple",
+      },
+      {
+        id: 5,
+        description: "Dragon Temple Transept",
+      },
+      {
+        id: 6,
+        description: "Dragon Temple Altar",
+      },
+      {
+        id: 7,
+        description: "Dragon Temple Lift",
+      },
+      {
+        id: 8,
+        description: "Dragon Temple Rooftop",
+      },
+      {
+        id: 9,
+        description: "Beside the Great Bridge",
+      },
+      {
+        id: 10,
+        description: "Dragonlord Placidusax",
+      },
+      {
+        id: 11,
+        description: "Maliketh, the Black Blade",
       },
     ],
   },
