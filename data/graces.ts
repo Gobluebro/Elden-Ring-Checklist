@@ -172,7 +172,7 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 7,
-        description: "Isolated Merchant's Shack",
+        description: "Isolated Merchant's Shack (Weeping Peninsula)",
       },
       {
         id: 8,
@@ -308,23 +308,27 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 13,
-        description: "Eastern Tableland",
+        description: "Jarburg",
       },
       {
         id: 14,
-        description: "Church of Vows",
+        description: "Ranni's Chamber",
       },
       {
         id: 15,
-        description: "Ruined Labyrinth",
+        description: "Eastern Tableland",
       },
       {
         id: 16,
-        description: "Boilprawn Shack",
+        description: "Church of Vows",
       },
       {
         id: 17,
-        description: "Folly on the Lake",
+        description: "Ruined Labyrinth",
+      },
+      {
+        id: 18,
+        description: "Mausoleum Compound",
       },
       {
         id: 18,
@@ -332,107 +336,127 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 19,
-        description: "Village of the Albinaurics",
+        description: "Boilprawn Shack",
       },
       {
         id: 20,
-        description: "Converted Tower",
+        description: "Folly on the Lake",
       },
       {
         id: 21,
-        description: "Revenger's Shack",
+        description: "Village of the Albinaurics",
       },
       {
         id: 22,
-        description: "Temple Quarter",
+        description: "Converted Tower",
       },
       {
         id: 23,
-        description: "Crystalline Woods",
+        description: "Revenger's Shack",
       },
       {
         id: 24,
-        description: "Foot of the Four Belfries",
+        description: "Temple Quarter",
       },
       {
         id: 25,
-        description: "The Four Belfries",
+        description: "Crystalline Woods",
       },
       {
         id: 26,
-        description: "Sorcerer's Isle",
+        description: "Foot of the Four Belfries",
       },
       {
         id: 27,
-        description: "Gate Town North",
+        description: "The Four Belfries",
       },
       {
         id: 28,
-        description: "Northern Liurnia Lake Shore",
+        description: "Sorcerer's Isle",
       },
       {
         id: 29,
-        description: "Road to the Manor",
+        description: "Gate Town North",
       },
       {
         id: 30,
-        description: "Main Caria Manor Gate",
+        description: "Northern Liurnia Lake Shore",
       },
       {
         id: 31,
-        description: "Manor Upper Level",
+        description: "Road to the Manor",
       },
       {
         id: 32,
-        description: "Manor Lower Level",
+        description: "Main Caria Manor Gate",
       },
       {
         id: 33,
-        description: "Royal Moongazing Grounds",
+        description: "Manor Upper Level",
       },
       {
         id: 34,
-        description: "Ranni's Rise",
+        description: "Manor Lower Level",
       },
       {
         id: 35,
-        description: "Behind Caria Manor",
+        description: "Royal Moongazing Grounds",
       },
       {
         id: 36,
-        description: "The Ravine",
+        description: "Ranni's Rise",
       },
       {
         id: 37,
-        description: "Ravine-Veiled Village",
+        description: "Behind Caria Manor",
       },
       {
         id: 38,
-        description: "Road's End Catacombs",
+        description: "The Ravine",
       },
       {
         id: 39,
-        description: "Black Knife Catacombs",
+        description: "Ravine-Veiled Village",
       },
       {
         id: 40,
-        description: "Stillwater Cave",
+        description: "Cliffbottom Catacombs",
       },
       {
         id: 41,
-        description: "Lakeside Crystal Cave",
+        description: "Road's End Catacombs",
       },
       {
         id: 42,
-        description: "Raya Lucaria Crystal Tunnel",
+        description: "Black Knife Catacombs",
       },
       {
         id: 43,
-        description: "Academy Crystal Cave",
+        description: "Stillwater Cave",
       },
       {
         id: 44,
+        description: "Lakeside Crystal Cave",
+      },
+      {
+        id: 45,
+        description: "Academy Crystal Cave",
+      },
+      {
+        id: 46,
+        description: "Raya Lucaria Crystal Tunnel",
+      },
+      {
+        id: 47,
         description: "Study Hall Entrance",
+      },
+      {
+        id: 48,
+        description: "Liurnia Tower Bridge",
+      },
+      {
+        id: 49,
+        description: "Divine Tower of Liurnia",
       },
     ],
   },
@@ -478,7 +502,15 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Moonlight Altar",
+      },
+      {
+        id: 2,
+        description: "Cathedral of Manus Celes",
+      },
+      {
+        id: 3,
+        description: "Altar South",
       },
     ],
   },
@@ -488,7 +520,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Church of the Cuckoo",
+      },
+      {
+        id: 2,
+        description: "Schoolhouse Classroom",
+      },
+      {
+        id: 3,
+        description: "Debate Parlor",
+      },
+      {
+        id: 4,
+        description: "Raya Lucaria Grand Library",
       },
     ],
   },
@@ -498,7 +542,79 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Abandoned Coffin",
+      },
+      {
+        id: 2,
+        description: "Erdtree-Gazing Hill",
+      },
+      {
+        id: 3,
+        description: "Altus Highway Junction",
+      },
+      {
+        id: 4,
+        description: "Forest-Spanning Greatbridge",
+      },
+      {
+        id: 5,
+        description: "Bower of Bounty",
+      },
+      {
+        id: 6,
+        description: "Windmill Village",
+      },
+      {
+        id: 7,
+        description: "Windmill Heights",
+      },
+      {
+        id: 8,
+        description: "Road of Iniquity Side Path",
+      },
+      {
+        id: 9,
+        description: "Shaded Castle Ramparts",
+      },
+      {
+        id: 10,
+        description: "Shaded Castle Inner Gate",
+      },
+      {
+        id: 11,
+        description: "Castellan's Hall",
+      },
+      {
+        id: 12,
+        description: "Sainted Hero's Grave",
+      },
+      {
+        id: 13,
+        description: "Old Altus Tunnel",
+      },
+      {
+        id: 14,
+        description: "Altus Tunnel",
+      },
+      {
+        id: 1,
+        description: "Grand Lift of Dectus",
+      },
+      {
+        id: 2,
+        description: "Altus Plateau",
+      },
+      {
+        id: 3,
+        description: "Lux Ruins",
+      },
+      {
+        id: 19,
+        description: "Rampartside Path",
+      },
+      {
+        id: 20,
+        description: "Perfumer's Grotto",
       },
     ],
   },
@@ -508,7 +624,59 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Bridge of Iniquity",
+      },
+      {
+        id: 2,
+        description: "First Mt. Gelmir Campsite",
+      },
+      {
+        id: 3,
+        description: "Ninth Mt. Gelmir Campsite",
+      },
+      {
+        id: 5,
+        description: "Road of Iniquity",
+      },
+      {
+        id: 6,
+        description: "Seethewater River",
+      },
+      {
+        id: 7,
+        description: "Seethewater Terminus",
+      },
+      {
+        id: 8,
+        description: "Craftsman's Shack",
+      },
+      {
+        id: 9,
+        description: "Primeval Sorcerer Azur",
+      },
+      {
+        id: 10,
+        description: "Wyndham Catacombs",
+      },
+      {
+        id: 11,
+        description: "Gelmir Hero's Grave",
+      },
+      {
+        id: 12,
+        description: "Seethewater Cave",
+      },
+      {
+        id: 12,
+        description: "Unsightly Catacombs",
+      },
+      {
+        id: 14,
+        description: "Subterranean Inquisition Chamber",
+      },
+      {
+        id: 18,
+        description: "Volcano Cave",
       },
     ],
   },
@@ -518,7 +686,80 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Outer Wall Phantom Tree",
+      },
+      {
+        id: 2,
+        description: "Minor Erdtree Church",
+      },
+      {
+        id: 3,
+        description: "Outer Wall Battleground",
+      },
+      {
+        id: 4,
+        description: "Hermit Merchant's Shack",
+      },
+      {
+        id: 5,
+        description: "Capital Rampart",
+      },
+      {
+        id: 6,
+        description: "Auriza Side Tomb",
+      },
+      {
+        id: 7,
+        description: "Auriza Hero's Grave",
+      },
+      {
+        id: 8,
+        description: "Sealed Tunnel",
+      },
+      {
+        id: 9,
+        description: "Divine Tower of West Altus: Gate",
+      },
+      {
+        id: 10,
+        description: "Divine Tower of West Altus",
+      },
+      {
+        id: 1,
+        description: "Divine Bridge",
+      },
+      {
+        id: 2,
+        description: "Fortified Manor, First Floor",
+      },
+      {
+        id: 4,
+        description: "West Capital Rampart",
+      },
+      {
+        id: 5,
+        description: "Lower Capital Church",
+      },
+      {
+        id: 6,
+        description: "Avenue Balcony",
+      },
+      {
+        id: 7,
+        description: "Subterranean Shunning-Grounds",
+      },
+
+      {
+        id: 9,
+        description: "East Capital Rampart",
+      },
+      {
+        id: 13,
+        description: "Forbidden Lands",
+      },
+      {
+        id: 14,
+        description: "Capital Outskirts",
       },
     ],
   },
@@ -528,7 +769,27 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Volcano Manor",
+      },
+      {
+        id: 2,
+        description: "Prison Town Church",
+      },
+      {
+        id: 3,
+        description: "Temple of Eiglay",
+      },
+      {
+        id: 4,
+        description: "Guest Hall",
+      },
+      {
+        id: 5,
+        description: "Audience Pathway",
+      },
+      {
+        id: 6,
+        description: "Rykard, Lord of Blasphemy",
       },
     ],
   },
@@ -538,7 +799,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Underground Roadside",
+      },
+      {
+        id: 2,
+        description: "Forsaken Depths",
+      },
+      {
+        id: 3,
+        description: "Leyndell Catacombs",
+      },
+      {
+        id: 4,
+        description: "Cathedral of the Forsaken",
       },
     ],
   },
@@ -548,7 +821,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Leyndell, Capital of Ash",
+      },
+      {
+        id: 2,
+        description: "Erdtree Sanctuary",
+      },
+      {
+        id: 3,
+        description: "Queen's Bedchamber",
+      },
+      {
+        id: 4,
+        description: "Elden Throne",
       },
     ],
   },
@@ -558,7 +843,103 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Smoldering Church",
+      },
+      {
+        id: 2,
+        description: "Rotview Balcony",
+      },
+      {
+        id: 3,
+        description: "Caelem Ruins",
+      },
+      {
+        id: 4,
+        description: "Fort Gael North",
+      },
+      {
+        id: 5,
+        description: "Smoldering Wall",
+      },
+      {
+        id: 6,
+        description: "Caelid Highway South",
+      },
+      {
+        id: 7,
+        description: "Cathedral of Dragon Communion",
+      },
+      {
+        id: 8,
+        description: "Southern Aeonia Swamp Bank",
+      },
+      {
+        id: 9,
+        description: "Sellia Backstreets",
+      },
+      {
+        id: 10,
+        description: "Sellia Under-Stair",
+      },
+      {
+        id: 11,
+        description: "Chair-Crypt of Sellia",
+      },
+      {
+        id: 12,
+        description: "Church of the Plague",
+      },
+      {
+        id: 13,
+        description: "Deep Siofra Well",
+      },
+      {
+        id: 14,
+        description: "Impassable Greatbridge",
+      },
+      {
+        id: 15,
+        description: "Chamber Outside the Plaza",
+      },
+      {
+        id: 16,
+        description: "Redmane Castle Plaza",
+      },
+      {
+        id: 17,
+        description: "Starscourge Radahn",
+      },
+      {
+        id: 18,
+        description: "Minor Erdtree Catacombs",
+      },
+      {
+        id: 19,
+        description: "Caelid Catacombs",
+      },
+      {
+        id: 20,
+        description: "War-Dead Catacombs",
+      },
+      {
+        id: 21,
+        description: "Abandoned Cave",
+      },
+      {
+        id: 22,
+        description: "Gaol Cave",
+      },
+      {
+        id: 23,
+        description: "Gael Tunnel",
+      },
+      {
+        id: 24,
+        description: "Rear Gael Tunnel Entrance",
+      },
+      {
+        id: 25,
+        description: "Sellia Crystal Tunnel",
       },
     ],
   },
@@ -568,7 +949,19 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Aeonia Swamp Shore",
+      },
+      {
+        id: 2,
+        description: "Astray from Caelid Highway North",
+      },
+      {
+        id: 3,
+        description: "Heart of Aeonia",
+      },
+      {
+        id: 4,
+        description: "Inner Aeonia",
       },
     ],
   },
@@ -578,7 +971,47 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Dragonbarrow West",
+      },
+      {
+        id: 2,
+        description: "Isolated Merchant's Shack (Dragonbarrow)",
+      },
+      {
+        id: 3,
+        description: "Fort Faroth",
+      },
+      {
+        id: 4,
+        description: "Dragonbarrow Fork",
+      },
+      {
+        id: 5,
+        description: "Lenne's Rise",
+      },
+      {
+        id: 6,
+        description: "Farum Greatbridge",
+      },
+      {
+        id: 7,
+        description: "Bestial Sanctum",
+      },
+      {
+        id: 8,
+        description: "Sellia Hideaway",
+      },
+      {
+        id: 9,
+        description: "Dragonbarrow Cave",
+      },
+      {
+        id: 10,
+        description: "Divine Tower of Caelid: Center",
+      },
+      {
+        id: 11,
+        description: "Divine Tower of Caelid: Basement",
       },
     ],
   },
@@ -598,7 +1031,95 @@ export const Graces: Array<ListType> = [
     requirements: [
       {
         id: 1,
-        description: "",
+        description: "Grand Lift of Rold",
+      },
+      {
+        id: 2,
+        description: "Hidden Path to the Haligtree",
+      },
+      {
+        id: 3,
+        description: "Yelough Anix Tunnel",
+      },
+      {
+        id: 4,
+        description: "Apostate Derelict",
+      },
+      {
+        id: 5,
+        description: "Ordina, Liturgical Town",
+      },
+      {
+        id: 6,
+        description: "Inner Consecrated Snowfield",
+      },
+      {
+        id: 7,
+        description: "Consecrated Snowfield Catacombs",
+      },
+      {
+        id: 8,
+        description: "Zamor Ruins",
+      },
+      {
+        id: 9,
+        description: "Giant-Conquering Hero's Grave",
+      },
+      {
+        id: 10,
+        description: "Giant's Mountaintop Catacombs",
+      },
+      {
+        id: 11,
+        description: "Church of Repose",
+      },
+      {
+        id: 12,
+        description: "Foot of the Forge",
+      },
+      {
+        id: 13,
+        description: "Giants' Gravepost",
+      },
+      {
+        id: 14,
+        description: "Ancient Snow Valley Ruins",
+      },
+      {
+        id: 15,
+        description: "Castle Sol Main Gate",
+      },
+      {
+        id: 16,
+        description: "Castle Sol Rooftop",
+      },
+      {
+        id: 17,
+        description: "Castle Sol",
+      },
+      {
+        id: 18,
+        description: "Snow Valley Ruins Outlook",
+      },
+      {
+        id: 19,
+        description: "Freezing Lake",
+      },
+      {
+        id: 20,
+        description: "Spiritcaller's Cave",
+      },
+      {
+        id: 21,
+        description: "Whiteridge Road",
+      },
+      {
+        id: 22,
+        description: "First Church of Marika",
+      },
+      {
+        id: 23,
+        description: "Forge of the Giant",
       },
     ],
   },
