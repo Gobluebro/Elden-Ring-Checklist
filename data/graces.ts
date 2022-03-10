@@ -598,15 +598,15 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 13,
-        description: "Old Altus Tunnel",
+        description: "Sage's Cave",
       },
       {
         id: 14,
-        description: "Altus Tunnel",
+        description: "Old Altus Tunnel",
       },
       {
-        id: 1,
-        description: "Grand Lift of Dectus",
+        id: 15,
+        description: "Altus Tunnel",
       },
       {
         id: 2,
@@ -797,6 +797,14 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 6,
+        description: "Abductor Virgin",
+      },
+      {
+        id: 7,
+        description: "Subterranean Inquisition Chamber",
+      },
+      {
+        id: 8,
         description: "Rykard, Lord of Blasphemy",
       },
     ],
