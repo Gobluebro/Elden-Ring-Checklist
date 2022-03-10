@@ -478,6 +478,10 @@ export const Graces: Array<ListType> = [
       },
       {
         id: 4,
+        description: "Frenzied Flame Village Outskirts",
+      },
+      {
+        id: 5,
         description: "Church of Inhibition",
       },
     ],
