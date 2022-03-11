@@ -187,54 +187,6 @@ export const Quests: Array<ListType> = [
       //   id: 1,
       //   description: "",
       // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
-      // {
-      //   id: 1,
-      //   description: "",
-      // },
     ],
   },
   {
@@ -391,17 +343,17 @@ export const Quests: Array<ListType> = [
           "Talk to Radahn's herald at the Witchbane Ruins where Sellen's dead body is shackled.",
       },
       {
-        id: 12,
+        id: 13,
         description:
           "Assist or challenge Sellen near the Raya Lucaria Grand Library grace.",
       },
       {
-        id: 13,
+        id: 14,
         description:
           "Return to Azur's body near the Primeval Sorcerer Azur grace to get the Azur's Glintstone clothing set.",
       },
       {
-        id: 14,
+        id: 15,
         description:
           "Return to Lusat's body near the Sellia Hideaway grace to get the Lusat's clothing set",
       },
