@@ -29,7 +29,10 @@ const Home: NextPage = () => {
       <TabBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
       <main className="flex-1">
-        <DarkModeToggle />
+        <div className="flex justify-between items-center leading-none my-4">
+          <h2>{TabNames[currentTab]}:</h2>
+          <DarkModeToggle />
+        </div>
         <CompleteList listName={currentTab} />
       </main>
 

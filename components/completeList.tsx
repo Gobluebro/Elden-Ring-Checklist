@@ -22,7 +22,6 @@ const CompleteList = (props: Props) => {
 
   return (
     <>
-      <h2>{TabNames[listName]}:</h2>
       {dataArray.map((item) => (
         <CheckboxContainer key={item.id} list={item} listTypeName={listName} />
       ))}
