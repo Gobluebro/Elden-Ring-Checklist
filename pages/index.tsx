@@ -5,7 +5,7 @@ import CompleteList from "../components/completeList";
 import { useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
-import Favicons from "../components/favicons";
+import Favicons from "../components/metaAndIcons";
 import { TabNames } from "../data/types";
 
 const Home: NextPage = () => {
