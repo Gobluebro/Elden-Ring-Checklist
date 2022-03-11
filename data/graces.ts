@@ -331,131 +331,131 @@ export const Graces: Array<ListType> = [
         description: "Mausoleum Compound",
       },
       {
-        id: 18,
+        id: 19,
         description: "Slumbering Wolf's Shack",
       },
       {
-        id: 19,
+        id: 20,
         description: "Boilprawn Shack",
       },
       {
-        id: 20,
+        id: 21,
         description: "Folly on the Lake",
       },
       {
-        id: 21,
+        id: 22,
         description: "Village of the Albinaurics",
       },
       {
-        id: 22,
+        id: 23,
         description: "Converted Tower",
       },
       {
-        id: 23,
+        id: 24,
         description: "Revenger's Shack",
       },
       {
-        id: 24,
+        id: 25,
         description: "Temple Quarter",
       },
       {
-        id: 25,
+        id: 26,
         description: "Crystalline Woods",
       },
       {
-        id: 26,
+        id: 27,
         description: "Foot of the Four Belfries",
       },
       {
-        id: 27,
+        id: 28,
         description: "The Four Belfries",
       },
       {
-        id: 28,
+        id: 29,
         description: "Sorcerer's Isle",
       },
       {
-        id: 29,
+        id: 30,
         description: "Gate Town North",
       },
       {
-        id: 30,
+        id: 31,
         description: "Northern Liurnia Lake Shore",
       },
       {
-        id: 31,
+        id: 32,
         description: "Road to the Manor",
       },
       {
-        id: 32,
+        id: 33,
         description: "Main Caria Manor Gate",
       },
       {
-        id: 33,
+        id: 34,
         description: "Manor Upper Level",
       },
       {
-        id: 34,
+        id: 35,
         description: "Manor Lower Level",
       },
       {
-        id: 35,
+        id: 36,
         description: "Royal Moongazing Grounds",
       },
       {
-        id: 36,
+        id: 37,
         description: "Ranni's Rise",
       },
       {
-        id: 37,
+        id: 38,
         description: "Behind Caria Manor",
       },
       {
-        id: 38,
+        id: 39,
         description: "The Ravine",
       },
       {
-        id: 39,
+        id: 40,
         description: "Ravine-Veiled Village",
       },
       {
-        id: 40,
+        id: 41,
         description: "Cliffbottom Catacombs",
       },
       {
-        id: 41,
+        id: 42,
         description: "Road's End Catacombs",
       },
       {
-        id: 42,
+        id: 43,
         description: "Black Knife Catacombs",
       },
       {
-        id: 43,
+        id: 44,
         description: "Stillwater Cave",
       },
       {
-        id: 44,
+        id: 45,
         description: "Lakeside Crystal Cave",
       },
       {
-        id: 45,
+        id: 46,
         description: "Academy Crystal Cave",
       },
       {
-        id: 46,
+        id: 47,
         description: "Raya Lucaria Crystal Tunnel",
       },
       {
-        id: 47,
+        id: 48,
         description: "Study Hall Entrance",
       },
       {
-        id: 48,
+        id: 49,
         description: "Liurnia Tower Bridge",
       },
       {
-        id: 49,
+        id: 50,
         description: "Divine Tower of Liurnia",
       },
     ],
