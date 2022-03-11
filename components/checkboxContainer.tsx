@@ -25,13 +25,15 @@ const CheckboxContainer = (props: Props) => {
     if (checkStorage) {
       const storageArray: boolean[] = JSON.parse(checkStorage);
       setCheckedState(storageArray);
-
       if (storageArray.every((value) => value === true)) {
         setIsAllTrue(true);
+      } else {
+        setIsAllTrue(false);
       }
     } else {
       const storageArray = new Array(list.requirements.length).fill(false);
       setCheckedState(storageArray);
+      setIsAllTrue(false);
 
       const storageString = JSON.stringify(storageArray);
       localStorage.setItem(storageKeyName, storageString);
