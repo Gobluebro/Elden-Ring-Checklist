@@ -26,8 +26,38 @@ const Favicons = () => {
         href={prefix + "/safari-pinned-tab.svg"}
         color="#5bbad5"
       />
+      <meta
+        name="description"
+        content="A place to remember your progression in Elden Ring"
+      />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
+      {/* https://ogp.me/ */}
+      <meta property="og:title" content="Elden Ring Checklist" />
+      <meta
+        property="og:description"
+        content="A place to remember your progression in Elden Ring"
+      />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:url"
+        content="https://gobluebro.github.io/Elden-Ring-Checklist/"
+      />
+      <meta
+        property="og:image"
+        content={prefix + "/android-chrome-256x256.png"}
+      />
+      {/* https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary */}
+      <meta name="twitter:title" content="Elden Ring Checklist" />
+      <meta
+        name="twitter:description"
+        content="A place to remember your progression in Elden Ring"
+      />
+      <meta
+        name="twitter:image"
+        content={prefix + "/android-chrome-256x256.png"}
+      />
+      <meta name="twitter:card" content="summary" />
     </>
   );
 };

@@ -5,7 +5,7 @@ import CompleteList from "../components/completeList";
 import { useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
-import Favicons from "../components/metaAndIcons";
+import MetaAndIcons from "../components/metaAndIcons";
 import { TabNames } from "../data/types";
 
 const Home: NextPage = () => {
@@ -15,11 +15,7 @@ const Home: NextPage = () => {
     <div className="container mx-auto flex flex-col min-h-screen">
       <Head>
         <title>Elden Ring Checklist</title>
-        <meta
-          name="description"
-          content="A place to remember your progression in Elden Ring"
-        />
-        <Favicons />
+        <MetaAndIcons />
       </Head>
 
       <header className="mb-2">
