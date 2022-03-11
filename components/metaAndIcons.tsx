@@ -45,7 +45,7 @@ const Favicons = () => {
       />
       <meta
         property="og:image"
-        content={prefix + "/android-chrome-256x256.png"}
+        content="https://gobluebro.github.io/Elden-Ring-Checklist/android-chrome-256x256.png"
       />
       {/* https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary */}
       <meta name="twitter:title" content="Elden Ring Checklist" />
@@ -55,7 +55,7 @@ const Favicons = () => {
       />
       <meta
         name="twitter:image"
-        content={prefix + "/android-chrome-256x256.png"}
+        content="https://gobluebro.github.io/Elden-Ring-Checklist/android-chrome-256x256.png"
       />
       <meta name="twitter:card" content="summary" />
     </>
