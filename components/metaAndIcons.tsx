@@ -31,7 +31,7 @@ const Favicons = () => {
         content="A place to remember your progression in Elden Ring"
       />
       <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#c39e66" />
       {/* https://ogp.me/ */}
       <meta property="og:title" content="Elden Ring Checklist" />
       <meta
