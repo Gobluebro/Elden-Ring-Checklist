@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { ListType } from "../data/types";
+import { ListType, TabNames } from "../data/types";
 
 interface Props {
   list: ListType;
-  listTypeName: string;
+  listTypeName: TabNames;
 }
 
 const CheckboxContainer = (props: Props) => {
@@ -14,7 +14,7 @@ const CheckboxContainer = (props: Props) => {
   );
 
   // replace spaces with underscores just because it seemed more appropriate for a localstorage item.
-  const storageKeyName = `checklist_${listTypeName}_${list.name
+  const storageKeyName = `checklist_${TabNames[listTypeName]}_${list.name
     .split(" ")
     .join("_")}_${list.id}`;
 

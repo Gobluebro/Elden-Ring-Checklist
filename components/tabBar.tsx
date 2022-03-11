@@ -1,8 +1,9 @@
 import { Dispatch, SetStateAction } from "react";
+import { TabNames } from "../data/types";
 
 interface Props {
-  currentTab: string;
-  setCurrentTab: Dispatch<SetStateAction<"Quests" | "Achievements">>;
+  currentTab: TabNames;
+  setCurrentTab: Dispatch<SetStateAction<TabNames>>;
 }
 
 const TabBar = (props: Props) => {
@@ -19,20 +20,35 @@ const TabBar = (props: Props) => {
         <div className="flex border-b-2 dark:border-zinc-700">
           <h3
             className={`${
-              currentTab === "Quests" ? focusedTabStyles : unfocusedTabStyles
+              currentTab === TabNames.Quests
+                ? focusedTabStyles
+                : unfocusedTabStyles
             } px-2 mr-4`}
           >
-            <button onClick={() => setCurrentTab("Quests")}>Quests</button>
+            <button onClick={() => setCurrentTab(TabNames.Quests)}>
+              Quests
+            </button>
           </h3>
           <h3
             className={`${
-              currentTab === "Achievements"
+              currentTab === TabNames.Achievements
                 ? focusedTabStyles
                 : unfocusedTabStyles
             } px-2 ml-4`}
           >
-            <button onClick={() => setCurrentTab("Achievements")}>
+            <button onClick={() => setCurrentTab(TabNames.Achievements)}>
               Achievements
+            </button>
+          </h3>
+          <h3
+            className={`${
+              currentTab === TabNames.Graces
+                ? focusedTabStyles
+                : unfocusedTabStyles
+            } px-2 ml-4`}
+          >
+            <button onClick={() => setCurrentTab(TabNames.Graces)}>
+              Graces
             </button>
           </h3>
         </div>

@@ -1,19 +1,28 @@
 import { Achievements } from "../data/achievements";
+import { Graces } from "../data/graces";
 import { Quests } from "../data/quests";
+import { ListType, TabNames } from "../data/types";
 import CheckboxContainer from "./checkboxContainer";
 
 interface Props {
-  listName: "Quests" | "Achievements";
+  listName: TabNames;
 }
 
 const CompleteList = (props: Props) => {
   const { listName } = props;
 
-  const dataArray = listName === "Quests" ? Quests : Achievements;
+  let dataArray: Array<ListType> = [];
+  if (listName === TabNames.Quests) {
+    dataArray = Quests;
+  } else if (listName === TabNames.Achievements) {
+    dataArray = Achievements;
+  } else if (listName === TabNames.Graces) {
+    dataArray = Graces;
+  }
 
   return (
     <>
-      <h2>{listName}:</h2>
+      <h2>{TabNames[listName]}:</h2>
       {dataArray.map((item) => (
         <CheckboxContainer key={item.id} list={item} listTypeName={listName} />
       ))}

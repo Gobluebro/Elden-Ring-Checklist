@@ -6,11 +6,10 @@ import { useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import Favicons from "../components/favicons";
+import { TabNames } from "../data/types";
 
 const Home: NextPage = () => {
-  const [currentTab, setCurrentTab] = useState<"Quests" | "Achievements">(
-    "Quests"
-  );
+  const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);
 
   return (
     <div className="container mx-auto flex flex-col min-h-screen">

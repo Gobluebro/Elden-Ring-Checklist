@@ -8,3 +8,9 @@ export interface Requirement {
   id: number;
   description: string;
 }
+
+export enum TabNames {
+  Quests,
+  Achievements,
+  Graces,
+}
