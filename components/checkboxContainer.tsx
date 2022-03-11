@@ -12,6 +12,7 @@ const CheckboxContainer = (props: Props) => {
   const [checkedState, setCheckedState] = useState<boolean[]>(
     new Array(list.requirements.length).fill(false)
   );
+  const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
 
   // replace spaces with underscores just because it seemed more appropriate for a localstorage item.
   const storageKeyName = `checklist_${TabNames[listTypeName]}_${list.name
@@ -34,11 +35,25 @@ const CheckboxContainer = (props: Props) => {
   }, [list.requirements.length, storageKeyName]);
 
   const toggleAllCheckboxes = () => {
+    setIsAllTrue(!isAllTrue);
+
+    let storageString = "";
+
     if (checkedState.every((value) => value === true)) {
-      setCheckedState(new Array(list.requirements.length).fill(false));
+      const allFalseArray = new Array(list.requirements.length).fill(false);
+
+      storageString = JSON.stringify(allFalseArray);
+
+      setCheckedState(allFalseArray);
     } else {
-      setCheckedState(new Array(list.requirements.length).fill(true));
+      const allTrueArray = new Array(list.requirements.length).fill(true);
+
+      storageString = JSON.stringify(allTrueArray);
+
+      setCheckedState(allTrueArray);
     }
+
+    localStorage.setItem(storageKeyName, storageString);
   };
 
   const handleOnChange = (position: number) => {
@@ -50,11 +65,24 @@ const CheckboxContainer = (props: Props) => {
 
     const storageString = JSON.stringify(updatedCheckedState);
     localStorage.setItem(storageKeyName, storageString);
+
+    if (updatedCheckedState.every((value) => value === true)) {
+      setIsAllTrue(true);
+    } else {
+      setIsAllTrue(false);
+    }
   };
 
   return (
     <fieldset className="border border-solid border-gray-300 p-3">
-      <legend>{list.name}</legend>
+      <legend>
+        <input
+          type="checkbox"
+          checked={isAllTrue}
+          onChange={() => toggleAllCheckboxes()}
+        />
+        <label className="ml-2">{list.name}</label>
+      </legend>
       {list.requirements.map(({ id, description }, index) => (
         <div key={id}>
           <input
