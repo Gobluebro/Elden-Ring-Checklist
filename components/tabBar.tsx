@@ -10,9 +10,9 @@ const TabBar = (props: Props) => {
   const { currentTab, setCurrentTab } = props;
 
   const focusedTabStyles =
-    "border rounded-t-lg dark:bg-zinc-700 dark:border-zinc-700";
+    "border rounded-t-lg bg-zinc-50 border-zinc-50 dark:bg-zinc-700 dark:border-zinc-700";
 
-  const unfocusedTabStyles = "dark:text-zinc-400";
+  const unfocusedTabStyles = "text-zinc-400 dark:text-zinc-400";
 
   return (
     <nav>
