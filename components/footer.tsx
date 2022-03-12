@@ -4,7 +4,7 @@ const Footer = () => {
       <span>
         Check out the project on{" "}
         <a
-          className="text-elden-ring-green dark:text-elden-ring-gold"
+          className="text-elden-ring-green dark:text-elden-ring-gold font-bold hover:underline"
           href="https://github.com/Gobluebro/Elden-Ring-Checklist"
         >
           Github
