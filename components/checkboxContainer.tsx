@@ -18,6 +18,7 @@ const CheckboxContainer = (props: Props) => {
   );
 
   useEffect(() => {
+    // short hand version of checking if every value is true.
     setIsAllTrue(checkedState.every(Boolean));
   }, [checkedState]);
 
