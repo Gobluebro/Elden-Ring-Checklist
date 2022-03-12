@@ -1,23 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 const DarkModeToggle = () => {
-  const [darkModeToggle, setDarkModeToggle] = useState<boolean>(false);
-
-  // localStorage is only available after the page has loaded on the client and the window object has been defined
-  // useEffect runs only on the client side so it will be available
-  useEffect(() => {
-    setDarkModeToggle(localStorage.getItem("theme") === "dark");
-  }, []);
+  const [isDarkMode, setIsDarkMode] = useLocalStorage("dark", false);
 
   useEffect(() => {
-    if (darkModeToggle) {
-      localStorage.setItem("theme", "dark");
+    if (isDarkMode) {
       document.documentElement.classList.add("dark");
     } else {
-      localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");
     }
-  }, [darkModeToggle]);
+  }, [isDarkMode]);
 
   return (
     <>
@@ -25,11 +18,11 @@ const DarkModeToggle = () => {
         id="darkMode"
         type="checkbox"
         className="hidden"
-        onChange={() => setDarkModeToggle(!darkModeToggle)}
-        checked={darkModeToggle}
+        onChange={() => setIsDarkMode(!isDarkMode)}
+        checked={isDarkMode}
       ></input>
       <label htmlFor="darkMode" className="text-4xl select-none cursor-pointer">
-        {darkModeToggle ? "🌑" : "🌞"}
+        {isDarkMode ? "🌑" : "🌞"}
       </label>
     </>
   );
