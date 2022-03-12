@@ -1,11 +1,11 @@
 export interface ListType {
-  id: number;
+  id: string;
   name: string;
   requirements: Array<Requirement>;
 }
 
 export interface Requirement {
-  id: number;
+  id: string;
   description: string;
 }
 
