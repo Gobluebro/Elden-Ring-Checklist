@@ -1,103 +1,90 @@
 import { useEffect, useState } from "react";
-import { ListType, TabNames } from "../data/types";
+import { ListType } from "../data/types";
 
 interface Props {
   list: ListType;
-  listTypeName: TabNames;
 }
 
-const CheckboxContainer = (props: Props) => {
-  const { list, listTypeName } = props;
+const useLocalStorage = (keyName: string, defaultValue: any[]) => {
+  const [storedValue, setStoredValue] = useState(() => {
+    try {
+      const value = localStorage.getItem(keyName);
 
-  const [checkedState, setCheckedState] = useState<boolean[]>(
-    new Array(list.requirements.length).fill(false)
-  );
+      if (value) {
+        return JSON.parse(value);
+      } else {
+        localStorage.setItem(keyName, JSON.stringify(defaultValue));
+        return defaultValue;
+      }
+    } catch (err) {
+      return defaultValue;
+    }
+  });
+
+  const setValue = (newValue: any[]) => {
+    try {
+      localStorage.setItem(keyName, JSON.stringify(newValue));
+    } catch (err) {}
+    setStoredValue(newValue);
+  };
+
+  return [storedValue, setValue];
+};
+
+const CheckboxContainer = (props: Props) => {
+  const { list } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
 
-  // replace spaces with underscores just because it seemed more appropriate for a localstorage item.
-  const storageKeyName = `checklist_${TabNames[listTypeName]}_${list.name
-    .split(" ")
-    .join("_")}_${list.id}`;
+  const storageKeyName = `checklist_${list.id}`;
+
+  const [checkedState, setCheckedState] = useLocalStorage(
+    storageKeyName,
+    new Array(list.requirements.length).fill(false)
+  );
 
   useEffect(() => {
-    const checkStorage = localStorage.getItem(storageKeyName);
-
-    if (checkStorage) {
-      const storageArray: boolean[] = JSON.parse(checkStorage);
-      setCheckedState(storageArray);
-      if (storageArray.every((value) => value === true)) {
-        setIsAllTrue(true);
-      } else {
-        setIsAllTrue(false);
-      }
-    } else {
-      const storageArray = new Array(list.requirements.length).fill(false);
-      setCheckedState(storageArray);
-      setIsAllTrue(false);
-
-      const storageString = JSON.stringify(storageArray);
-      localStorage.setItem(storageKeyName, storageString);
-    }
-  }, [list.requirements.length, storageKeyName]);
+    setIsAllTrue(checkedState.every(Boolean));
+  }, [checkedState]);
 
   const toggleAllCheckboxes = () => {
-    setIsAllTrue(!isAllTrue);
-
-    let storageString = "";
-
-    if (checkedState.every((value) => value === true)) {
-      const allFalseArray = new Array(list.requirements.length).fill(false);
-
-      storageString = JSON.stringify(allFalseArray);
-
-      setCheckedState(allFalseArray);
-    } else {
-      const allTrueArray = new Array(list.requirements.length).fill(true);
-
-      storageString = JSON.stringify(allTrueArray);
-
-      setCheckedState(allTrueArray);
-    }
-
-    localStorage.setItem(storageKeyName, storageString);
+    // if they are all true, flip them all to be false.
+    setCheckedState(
+      new Array(list.requirements.length).fill(
+        !checkedState.every((value: boolean) => value === true)
+      )
+    );
   };
 
   const handleOnChange = (position: number) => {
-    const updatedCheckedState = checkedState.map((item, index) =>
-      index === position ? !item : item
+    const updatedCheckedState = checkedState.map(
+      (item: boolean, index: number) => (index === position ? !item : item)
     );
 
     setCheckedState(updatedCheckedState);
-
-    const storageString = JSON.stringify(updatedCheckedState);
-    localStorage.setItem(storageKeyName, storageString);
-
-    if (updatedCheckedState.every((value) => value === true)) {
-      setIsAllTrue(true);
-    } else {
-      setIsAllTrue(false);
-    }
   };
 
   return (
     <fieldset className="border border-solid border-gray-300 p-3">
       <legend>
         <input
+          id={list.id}
           type="checkbox"
           checked={isAllTrue}
           onChange={() => toggleAllCheckboxes()}
         />
-        <label className="ml-2">{list.name}</label>
+        <label htmlFor={list.id} className="ml-2">
+          {list.name}
+        </label>
       </legend>
       {list.requirements.map(({ id, description }, index) => (
         <div key={id}>
           <input
-            id={`chk_${list.name}_${id}`}
+            id={id}
             type="checkbox"
             checked={checkedState[index] || false}
             onChange={() => handleOnChange(index)}
           />
-          <label className="ml-2" htmlFor={`chk_${list.name}_${id}`}>
+          <label className="ml-2" htmlFor={id}>
             {description}
           </label>
         </div>

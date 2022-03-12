@@ -23,7 +23,7 @@ const CompleteList = (props: Props) => {
   return (
     <>
       {dataArray.map((item) => (
-        <CheckboxContainer key={item.id} list={item} listTypeName={listName} />
+        <CheckboxContainer key={item.id} list={item} />
       ))}
     </>
   );
