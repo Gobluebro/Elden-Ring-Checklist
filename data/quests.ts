@@ -97,11 +97,6 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
-    id: "40dee595-d30d-4cec-be50-ce1dd7c3a625",
-    name: "Roundtable",
-    requirements: [],
-  },
-  {
     id: "87a4def0-48b9-4b9d-ad78-38ea169b1ad1",
     name: "Dung Eater / Age of Despair Ending",
     requirements: [
@@ -171,25 +166,6 @@ export const Quests: Array<ListType> = [
         description:
           'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue.',
       },
-    ],
-  },
-  {
-    id: "739611be-441a-48cf-a1d5-3597fa9196fc",
-    name: "Volcano Manor Assassinations",
-    requirements: [
-      // {
-      //   id: "b0dc1ab7-1564-4409-b0a5-7e93ad9f7a34",
-      //   description: "Talk to Tanith at the Volcano Manor grace.",
-      // },
-      // {
-      //   id: "9752859c-752f-4592-852d-40fb6c690634",
-      //   description:
-      //     "Talk to Bernahl. You will also be able to talk to Rya, Diallos, and Patches if you did their questlines.",
-      // },
-      // {
-      //   id: "890c711c-d6e8-499d-8545-309ee4d8b732",
-      //   description: "",
-      // },
     ],
   },
   {
@@ -285,11 +261,6 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
-    id: "ecdeb0c0-b56d-4a95-af9f-cbfe5ae6b52c",
-    name: "Alexander",
-    requirements: [],
-  },
-  {
     id: "92e082f1-8051-45a4-b200-29312b8d127c",
     name: "Sorceress Sellen",
     requirements: [
@@ -366,4 +337,33 @@ export const Quests: Array<ListType> = [
       },
     ],
   },
+  // {
+  //   id: "40dee595-d30d-4cec-be50-ce1dd7c3a625",
+  //   name: "Roundtable",
+  //   requirements: [],
+  // },
+  // {
+  //   id: "ecdeb0c0-b56d-4a95-af9f-cbfe5ae6b52c",
+  //   name: "Alexander",
+  //   requirements: [],
+  // },
+  // {
+  //   id: "739611be-441a-48cf-a1d5-3597fa9196fc",
+  //   name: "Volcano Manor Assassinations",
+  //   requirements: [
+  //     // {
+  //     //   id: "b0dc1ab7-1564-4409-b0a5-7e93ad9f7a34",
+  //     //   description: "Talk to Tanith at the Volcano Manor grace.",
+  //     // },
+  //     // {
+  //     //   id: "9752859c-752f-4592-852d-40fb6c690634",
+  //     //   description:
+  //     //     "Talk to Bernahl. You will also be able to talk to Rya, Diallos, and Patches if you did their questlines.",
+  //     // },
+  //     // {
+  //     //   id: "890c711c-d6e8-499d-8545-309ee4d8b732",
+  //     //   description: "",
+  //     // },
+  //   ],
+  // },
 ];
