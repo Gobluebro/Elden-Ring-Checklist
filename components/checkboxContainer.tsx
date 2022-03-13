@@ -12,31 +12,41 @@ const CheckboxContainer = (props: Props) => {
 
   const storageKeyName = `checklist_${list.id}`;
 
+  // add all ids and default checked values into a single object key/value pair.
+  const defaultValuesHash = list.requirements.reduce(
+    (object, item) => ({ ...object, [item.id]: false }),
+    {}
+  );
+
   const [checkedState, setCheckedState] = useLocalStorage(
     storageKeyName,
-    new Array(list.requirements.length).fill(false)
+    defaultValuesHash
   );
 
   useEffect(() => {
+    const booleanArray: boolean[] = Object.values(checkedState);
+
     // short hand version of checking if every value is true.
-    setIsAllTrue(checkedState.every(Boolean));
+    setIsAllTrue(booleanArray.every(Boolean));
   }, [checkedState]);
 
   const toggleAllCheckboxes = () => {
-    // if they are all true, flip them all to be false.
-    setCheckedState(
-      new Array(list.requirements.length).fill(
-        !checkedState.every((value: boolean) => value === true)
-      )
+    const booleanArray: boolean[] = Object.values(checkedState);
+
+    // if they are all true, get back false to assign to every id.
+    const toggleBoolean = !booleanArray.every(Boolean);
+
+    // just recreate the single object with all values set to the toggleBoolean.
+    const flippedCheckedHash = list.requirements.reduce(
+      (object, item) => ({ ...object, [item.id]: toggleBoolean }),
+      {}
     );
+
+    setCheckedState(flippedCheckedHash);
   };
 
-  const handleOnChange = (position: number) => {
-    const updatedCheckedState = checkedState.map(
-      (item: boolean, index: number) => (index === position ? !item : item)
-    );
-
-    setCheckedState(updatedCheckedState);
+  const handleOnChange = (id: string) => {
+    setCheckedState(...checkedState, !checkedState[id]);
   };
 
   return (
@@ -45,26 +55,29 @@ const CheckboxContainer = (props: Props) => {
         <input
           id={list.id}
           type="checkbox"
-          checked={isAllTrue}
+          checked={!!isAllTrue}
           onChange={() => toggleAllCheckboxes()}
+          className="scale-150"
         />
-        <label htmlFor={list.id} className="ml-2">
+        <label htmlFor={list.id} className="ml-3 font-bold text-lg">
           {list.name}
         </label>
       </legend>
-      {list.requirements.map(({ id, description }, index) => (
-        <div key={id}>
-          <input
-            id={id}
-            type="checkbox"
-            checked={checkedState[index] || false}
-            onChange={() => handleOnChange(index)}
-          />
-          <label className="ml-2" htmlFor={id}>
-            {description}
-          </label>
-        </div>
-      ))}
+      {checkedState &&
+        list.requirements.map(({ id, description }) => (
+          <div key={id}>
+            <input
+              id={id}
+              type="checkbox"
+              checked={!!checkedState[id]}
+              onChange={() => handleOnChange(id)}
+              className="scale-110"
+            />
+            <label className="ml-2" htmlFor={id}>
+              {description}
+            </label>
+          </div>
+        ))}
     </fieldset>
   );
 };
