@@ -73,7 +73,7 @@ const CheckboxContainer = (props: Props) => {
               type="checkbox"
               checked={!!isAllTrue}
               onChange={() => toggleAllCheckboxes()}
-              className="rounded text-elden-ring-dark-blue"
+              className="rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50"
             />
             <label htmlFor={list.id} className="ml-3 text-elden-ring-green-0">
               {list.name}
@@ -83,7 +83,7 @@ const CheckboxContainer = (props: Props) => {
             className="flex flex-1 items-center justify-end cursor-pointer"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="mr-4">
+            <span className="mr-4 text-elden-ring-green-0">
               {numberOfCompletedEntries}/{totalEntries}
             </span>
             <ToggleButtonIcon isOpen={isOpen} />
