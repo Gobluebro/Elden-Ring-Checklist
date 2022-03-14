@@ -84,7 +84,9 @@ const CheckboxContainer = (props: Props) => {
             </label>
             {list.imageUrl && (
               <div className="flex items-center ml-2">
-                <Image
+                {/* not compatible with next export and therefore github pages. */}
+                {/* eslint-disable-next-line @next/next/no-img-element*/}
+                <img
                   src={list.imageUrl}
                   alt={list.imageAlt}
                   width={30}

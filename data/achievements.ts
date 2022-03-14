@@ -1,14 +1,11 @@
 import { ListType } from "./types";
-import ashes from "../public/achievements/ashes_30x30.jpg";
-import talismans from "../public/achievements/talismans_30x30.jpg";
-import sorcAndIncan from "../public/achievements/sorceries_and_incantations_30x30.jpg";
-import armaments from "../public/achievements/armaments_30x30.jpg";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export const Achievements: Array<ListType> = [
   {
     id: "d62c2c4c-cc27-469b-87d2-0f1d96f915b0",
     name: "Legendary Ashen Remains",
-    imageUrl: ashes,
+    imageUrl: prefix + "/achievements/ashes_30x30.jpg",
     imageAlt: "Legendary Ashen Remains Achievement",
     requirements: [
       {
@@ -40,7 +37,7 @@ export const Achievements: Array<ListType> = [
   {
     id: "1eed9ac3-6ca8-4c38-88d0-e0e8b441678c",
     name: "Legendary Talismans",
-    imageUrl: talismans,
+    imageUrl: prefix + "/achievements/talismans_30x30.jpg",
     imageAlt: "Legendary Talismans Achievement",
     requirements: [
       {
@@ -80,7 +77,7 @@ export const Achievements: Array<ListType> = [
   {
     id: "ae1cc1fe-67c6-4630-9a6d-469e4311e25e",
     name: "Legendary Sorceries and Incantations",
-    imageUrl: sorcAndIncan,
+    imageUrl: prefix + "/achievements/sorceries_and_incantations_30x30.jpg",
     imageAlt: "Legendary Sorceries and Incantations Achievement",
     requirements: [
       {
@@ -116,7 +113,7 @@ export const Achievements: Array<ListType> = [
   {
     id: "d92078bb-2544-45f9-aabf-3be911f65f32",
     name: "Legendary Armaments",
-    imageUrl: armaments,
+    imageUrl: prefix + "/achievements/armaments_30x30.jpg",
     imageAlt: "Legendary Armaments Achievement",
     requirements: [
       {
