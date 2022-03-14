@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
-    <img src="public/apple-touch-icon.png" alt="Logo" width="80" height="80">
+    <img src="public/android-chrome-256x256.png" alt="Logo" width="256" height="256">
   </a>
 
 <h3 align="center">Elden Ring Checklist</h3>
