@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ListType } from "../data/types";
 import { useLocalStorage } from "../hooks/useLocalStorage";
+import cloneDeep from "lodash.clonedeep";
 
 interface Props {
   list: ListType;
@@ -46,7 +47,11 @@ const CheckboxContainer = (props: Props) => {
   };
 
   const handleOnChange = (id: string) => {
-    setCheckedState(...checkedState, !checkedState[id]);
+    const newCheckData = cloneDeep(checkedState);
+
+    newCheckData[id] = !newCheckData[id];
+
+    setCheckedState(newCheckData);
   };
 
   return (
