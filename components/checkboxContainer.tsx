@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ListType } from "../data/types";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import cloneDeep from "lodash.clonedeep";
+import ToggleButtonIcon from "./toggleButtonIcon";
 
 interface Props {
   list: ListType;
@@ -10,6 +11,9 @@ interface Props {
 const CheckboxContainer = (props: Props) => {
   const { list } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
+    useState<number>(0);
 
   const storageKeyName = `checklist_${list.id}`;
 
@@ -19,6 +23,8 @@ const CheckboxContainer = (props: Props) => {
     {}
   );
 
+  const totalEntries = Object.keys(defaultValuesHash).length;
+
   const [checkedState, setCheckedState] = useLocalStorage(
     storageKeyName,
     defaultValuesHash
@@ -26,6 +32,9 @@ const CheckboxContainer = (props: Props) => {
 
   useEffect(() => {
     const booleanArray: boolean[] = Object.values(checkedState);
+
+    // keep every true value and count it.
+    setNumberOfCompletedEntries(booleanArray.filter(Boolean).length);
 
     // short hand version of checking if every value is true.
     setIsAllTrue(booleanArray.every(Boolean));
@@ -55,34 +64,51 @@ const CheckboxContainer = (props: Props) => {
   };
 
   return (
-    <fieldset className="border border-solid border-gray-300 p-3">
-      <legend>
-        <input
-          id={list.id}
-          type="checkbox"
-          checked={!!isAllTrue}
-          onChange={() => toggleAllCheckboxes()}
-          className="scale-150"
-        />
-        <label htmlFor={list.id} className="ml-3 font-bold text-lg">
-          {list.name}
-        </label>
-      </legend>
-      {checkedState &&
-        list.requirements.map(({ id, description }) => (
-          <div key={id}>
+    <fieldset className="my-4">
+      <legend className="border-2 border-solid rounded-t border-elden-ring-green-1000 bg-elden-ring-green-800 p-2 w-full">
+        <div className="flex justify-between">
+          <div className="flex items-center">
             <input
-              id={id}
+              id={list.id}
               type="checkbox"
-              checked={!!checkedState[id]}
-              onChange={() => handleOnChange(id)}
-              className="scale-110"
+              checked={!!isAllTrue}
+              onChange={() => toggleAllCheckboxes()}
+              className="rounded text-elden-ring-dark-blue"
             />
-            <label className="ml-2" htmlFor={id}>
-              {description}
+            <label htmlFor={list.id} className="ml-3 text-elden-ring-green-0">
+              {list.name}
             </label>
           </div>
-        ))}
+          <div
+            className="flex flex-1 items-center justify-end cursor-pointer"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <span className="mr-4">
+              {numberOfCompletedEntries}/{totalEntries}
+            </span>
+            <ToggleButtonIcon isOpen={isOpen} />
+          </div>
+        </div>
+      </legend>
+      {isOpen && (
+        <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-1000 bg-elden-ring-green-100">
+          {checkedState &&
+            list.requirements.map(({ id, description }) => (
+              <div key={id}>
+                <input
+                  id={id}
+                  type="checkbox"
+                  checked={!!checkedState[id]}
+                  onChange={() => handleOnChange(id)}
+                  className="rounded text-elden-ring-dark-blue"
+                />
+                <label className="ml-2 text-black" htmlFor={id}>
+                  {description}
+                </label>
+              </div>
+            ))}
+        </div>
+      )}
     </fieldset>
   );
 };
