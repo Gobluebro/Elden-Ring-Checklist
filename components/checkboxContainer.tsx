@@ -66,9 +66,9 @@ const CheckboxContainer = (props: Props) => {
 
   return (
     <fieldset className="my-4">
-      <legend className="border-2 border-solid rounded-t border-elden-ring-green-1000 bg-elden-ring-green-800 p-2 w-full">
+      <legend className="border-2 border-solid rounded-t border-elden-ring-green-1000 bg-elden-ring-green-800 w-full">
         <div className="flex justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center p-2">
             <input
               id={list.id}
               type="checkbox"
@@ -97,7 +97,7 @@ const CheckboxContainer = (props: Props) => {
             )}
           </div>
           <div
-            className="flex flex-1 items-center justify-end cursor-pointer"
+            className="flex flex-1 items-center justify-end cursor-pointer p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
             <span className="mr-4 text-elden-ring-green-0">
