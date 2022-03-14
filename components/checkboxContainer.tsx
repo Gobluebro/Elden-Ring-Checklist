@@ -89,6 +89,7 @@ const CheckboxContainer = (props: Props) => {
                 <img
                   src={list.imageUrl}
                   alt={list.imageAlt}
+                  title={list.imageAlt}
                   width={30}
                   height={30}
                 />
