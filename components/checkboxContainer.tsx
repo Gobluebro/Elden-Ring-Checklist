@@ -3,6 +3,7 @@ import { ListType } from "../data/types";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import cloneDeep from "lodash.clonedeep";
 import ToggleButtonIcon from "./toggleButtonIcon";
+import Image from "next/image";
 
 interface Props {
   list: ListType;
@@ -75,9 +76,22 @@ const CheckboxContainer = (props: Props) => {
               onChange={() => toggleAllCheckboxes()}
               className="rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50"
             />
-            <label htmlFor={list.id} className="ml-3 text-elden-ring-green-0">
+            <label
+              htmlFor={list.id}
+              className="ml-3 text-elden-ring-green-0 leading-none"
+            >
               {list.name}
             </label>
+            {list.imageUrl && (
+              <div className="flex items-center ml-2">
+                <Image
+                  src={list.imageUrl}
+                  alt={list.imageAlt}
+                  width={30}
+                  height={30}
+                />
+              </div>
+            )}
           </div>
           <div
             className="flex flex-1 items-center justify-end cursor-pointer"

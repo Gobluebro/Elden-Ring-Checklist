@@ -1,6 +1,8 @@
 export interface ListType {
   id: string;
   name: string;
+  imageUrl?: StaticImageData;
+  imageAlt?: string;
   requirements: Array<Requirement>;
 }
 
