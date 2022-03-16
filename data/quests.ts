@@ -98,7 +98,7 @@ export const Quests: Array<ListType> = [
   },
   {
     id: "87a4def0-48b9-4b9d-ad78-38ea169b1ad1",
-    name: "Dung Eater / Age of Despair Ending",
+    name: "Dung Eater / Blessing of Despair Ending",
     requirements: [
       {
         id: "77ae3b59-142d-40a9-b366-bd1887623231",
@@ -170,7 +170,7 @@ export const Quests: Array<ListType> = [
   },
   {
     id: "454972b3-6194-4eae-9f7e-3abaee7c96e7",
-    name: "Gowry / Millicent",
+    name: "Gowry + Millicent",
     requirements: [
       {
         id: "3812e34e-b1aa-450b-ab43-90f8b0179d6c",
@@ -196,8 +196,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "48c780eb-858a-483c-81ec-a5a6f377ea8e",
-        description:
-          'Talk to Millicent at the Church of the Plague. Select the "Give an Unalloyed Gold Needle" dialogue option.',
+        description: `Talk to Millicent at the Church of the Plague. Select the "Give an Unalloyed Gold Needle" dialogue option.`,
       },
       {
         id: "311f42c6-e1fd-4528-a19e-a6efc859f4e7",
@@ -224,8 +223,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "2c31fbdc-8378-4ac3-9d92-af8036b6a462",
-        description:
-          'Talk to Millicent near the Erdtree Grazing Hill grace and select the "Give the Valkyrie\'s Prosthesis" dialogue option.',
+        description: `Talk to Millicent near the Erdtree Grazing Hill grace and select the "Give the Valkyrie's Prosthesis" dialogue option.`,
       },
       {
         id: "9d0c36bb-87c0-47db-95b6-6ede16a0306a",
@@ -266,8 +264,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "2ab188e3-bde1-4ef0-a370-a6c8200962e2",
-        description:
-          'Talk to Sellen at the Waypoint Ruins Cellar grace and select the "I want to learn sorcery" dialogue option.',
+        description: `Talk to Sellen at the Waypoint Ruins Cellar grace and select the "I want to learn sorcery" dialogue option.`,
       },
       {
         id: "616ed6af-b9f3-4221-a0a6-6794fb05fdf2",
@@ -435,12 +432,12 @@ export const Quests: Array<ListType> = [
   // },
   // {
   //   id: "ecdeb0c0-b56d-4a95-af9f-cbfe5ae6b52c",
-  //   name: "Alexander",
+  //   name: "Iron Fist Alexander",
   //   requirements: [],
   // },
   // {
   //   id: "739611be-441a-48cf-a1d5-3597fa9196fc",
-  //   name: "Volcano Manor Assassinations",
+  //   name: "Volcano Manor",
   //   requirements: [
   //     // {
   //     //   id: "b0dc1ab7-1564-4409-b0a5-7e93ad9f7a34",
