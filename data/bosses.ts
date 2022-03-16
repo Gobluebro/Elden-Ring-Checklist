@@ -1,29 +1,4 @@
 import { ListType } from "./types";
-[
-  "Battlemage Hugues",
-  "Bell Bearing Hunter",
-  "Black Blade Kindred (Caelid)",
-  "Cemetery Shade",
-  "Cleanrot Knight",
-  "Commander O'Neil",
-  "Death Rite Bird",
-  "Decaying Ekzykes",
-  "Elder Dragon Greyoll",
-  "Erdtree Avatar (Caelid)",
-  "Erdtree Burial Watchdog (Minor Erd)",
-  "Fallingstar Beast",
-  "Flying Dragon Greyll",
-  " Frenzied Duelist",
-  "Godskin Apostle",
-  "Mad Pumpkin Heads",
-  "Magma Wyrm",
-  "Night's Cavalry",
-  "Nox Swordstress & Nox Priest",
-  "Putrid Avatar",
-  "Putrid Tree Spirit",
-  "Putrid Crystallian Trio",
-  "Starscourge Radahn",
-];
 
 export const Bosses: Array<ListType> = [
   {
