@@ -154,7 +154,7 @@ export const Quests: Array<ListType> = [
       {
         id: "31dea69f-2d2b-447f-88f2-faa4409b69e1",
         description:
-          'Talk to Dung Eater in his cell and select the "Use the Seedbed Curse" dialogue.',
+          'Talk to Dung Eater in his cell and select the "Use the Seedbed Curse" dialogue option.',
       },
       {
         id: "8b3260ab-fac1-4688-86f2-6cb0b29d7742",
@@ -164,7 +164,7 @@ export const Quests: Array<ListType> = [
       {
         id: "d3745216-125d-4a68-a78d-f69f5823e8cc",
         description:
-          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue.',
+          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue option.',
       },
     ],
   },
@@ -197,7 +197,7 @@ export const Quests: Array<ListType> = [
       {
         id: "48c780eb-858a-483c-81ec-a5a6f377ea8e",
         description:
-          'Talk to Millicent at the Church of the Plague. Select the "Give an Unalloyed Gold Needle" dialogue.',
+          'Talk to Millicent at the Church of the Plague. Select the "Give an Unalloyed Gold Needle" dialogue option.',
       },
       {
         id: "311f42c6-e1fd-4528-a19e-a6efc859f4e7",
@@ -225,7 +225,7 @@ export const Quests: Array<ListType> = [
       {
         id: "2c31fbdc-8378-4ac3-9d92-af8036b6a462",
         description:
-          'Talk to Millicent near the Erdtree Grazing Hill grace and select the "Give the Valkyrie\'s Prosthesis" dialogue.',
+          'Talk to Millicent near the Erdtree Grazing Hill grace and select the "Give the Valkyrie\'s Prosthesis" dialogue option.',
       },
       {
         id: "9d0c36bb-87c0-47db-95b6-6ede16a0306a",
@@ -267,7 +267,7 @@ export const Quests: Array<ListType> = [
       {
         id: "2ab188e3-bde1-4ef0-a370-a6c8200962e2",
         description:
-          'Talk to Sellen at the Waypoint Ruins Cellar grace and select the "I want to learn sorcery" dialogue.',
+          'Talk to Sellen at the Waypoint Ruins Cellar grace and select the "I want to learn sorcery" dialogue option.',
       },
       {
         id: "616ed6af-b9f3-4221-a0a6-6794fb05fdf2",
@@ -334,6 +334,97 @@ export const Quests: Array<ListType> = [
         id: "763fc9ac-1f5b-4554-8d4b-62472353a6d8",
         description:
           "Return to Lusat's body near the Sellia Hideaway grace to get the Lusat's clothing set",
+      },
+    ],
+  },
+  {
+    id: "98054154-2e6e-4095-a4bf-ee0f071ece9e",
+    name: "Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending",
+    requirements: [
+      {
+        id: "98a2abed-c094-40f2-b058-5200d7b102d3",
+        description: "Talk to Irina south of the Bridge of Sacrifice.",
+      },
+      {
+        id: "097b6af4-dd9a-45a6-9463-42f171070a19",
+        description: "Take Irina's letter to her father Edgar in Castle Morne.",
+      },
+      {
+        id: "2ef06f76-df0b-4f1e-806a-6314d63d2998",
+        description: "Defeat Leonine Misbegotten.",
+      },
+      {
+        id: "779b7d1b-d73a-47bf-8ea2-5489951c0f6d",
+        description: "Talk with Edgar.",
+      },
+      {
+        id: "0a805ace-f6a7-44ce-9d1e-eaca5aff8c75",
+        description: "Go back to Irina and talk with Edgar.",
+      },
+      {
+        id: "86bea27e-e906-4e62-b60f-d3c664fdddb2",
+        description: "Get the first Shabriri Grape from Godrick's throne room.",
+      },
+      {
+        id: "6460323a-e809-4fd5-8e81-b0f5575fa71d",
+        description:
+          "Talk to Hyetta near the Lake-Facing Cliffs grace and donate a Shabriri grape to her.",
+      },
+      {
+        id: "7b99e1a3-56bc-4097-8c5a-239332a165f0",
+        description:
+          "Get the second Shabriri Grape from the Purified Ruins near the Liurnia Highway North grace.",
+      },
+      {
+        id: "3c7fb9a9-57ab-4d86-a3e5-2da93d97c9b2",
+        description:
+          "Defeat Edgar the Revenger at the Revenger's Shack and receive the third Shabriri Grape.",
+      },
+      {
+        id: "fcf87da5-9b20-4644-accd-73b630f03df5",
+        description: `Donate your third Shabriri Grape to Hyetta near the Gate Town Bridge. Select the "They're human eyes" dialogue option."`,
+      },
+      {
+        id: "79e4eec6-db3a-47d1-8fa0-1d659bc71344",
+        description: "Talk to Hyetta again so that she apologizes.",
+      },
+      {
+        id: "2be6da83-9878-4170-bd4b-67c47a692baa",
+        description: "Rest at the grace and then talk to Hyetta once more.",
+      },
+      {
+        id: "8a57b4f7-c5be-49e3-ab5d-561b86e82bb3",
+        description:
+          "Defeat the Festering Fingerprint Vyke at the Churhc of Inhibition and receive the Fingerprint Grape.",
+      },
+      {
+        id: "c540d9e3-15b0-442b-b685-a34e82b9db39",
+        description:
+          "Donate the Fingerprint Grape to Hyetta at the Bellum Church.",
+      },
+      {
+        id: "8e06cead-4675-48fe-8495-39a0bb37cb28",
+        description:
+          "Defeat Mohg, the Omen and attack the alter behind the chest.",
+      },
+      {
+        id: "80fdceaf-4285-4d8f-8c0c-0b941124937a",
+        description: "Once you have finished jumping down, talk to Hyetta.",
+      },
+      {
+        id: "076e6e04-4a83-4696-84e5-0202fdffd63d",
+        description:
+          "Take off your clothes and open the door to the three fingers.",
+      },
+      {
+        id: "1bb499f9-7d93-4518-9870-ddd5e46c4bf4",
+        description:
+          "Talk with Hyetta until she dies. Pick up the Frenzied Flame Seal",
+      },
+      {
+        id: "2662179f-44f6-44d2-a930-2c64e25d1f58",
+        description:
+          "Defeat the final boss and become the Lord of Frenzied Flame.",
       },
     ],
   },
