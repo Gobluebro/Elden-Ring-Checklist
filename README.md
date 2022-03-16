@@ -141,6 +141,8 @@ Use this space to show useful examples of how a project can be used. Additional 
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [ ] Graces
   - [ ] Missing Lyndell graces that go away later in the game.
+- [ ] Bosses?
+- [ ] Weapons?
 
 See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
 
