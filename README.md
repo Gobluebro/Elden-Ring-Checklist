@@ -136,6 +136,7 @@ Use this space to show useful examples of how a project can be used. Additional 
   - [ ] Brother Corhyn + Goldmask / Age of Order Ending
   - [ ] Iron Fist Alexander
   - [ ] Seluvis
+  - [ ] Patches
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [ ] Graces
