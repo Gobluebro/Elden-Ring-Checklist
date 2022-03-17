@@ -339,4 +339,300 @@ export const Bosses: Array<ListType> = [
       },
     ],
   },
+  {
+    id: "963d9b77-1431-4299-aa4d-c2be3e3779c2",
+    name: "Mt. Gelmir",
+    requirements: [
+      {
+        id: "5ed58ef7-9e28-466c-9694-ab2cc85d91cc",
+        description: "Abductor Virgins",
+      },
+      {
+        id: "7496a839-9873-49d3-a3b9-8422699a2c91",
+        description: "Demi-Human Queen Margot",
+      },
+      {
+        id: "6f524d4d-e1f0-49d6-a752-239734e4b732",
+        description: "Demi-Human Queen Maggie",
+      },
+      {
+        id: "13341143-9543-4d3b-9e61-3b0230b5382a",
+        description: "Erdtree Burial Watchdog (Wyndham)",
+      },
+      {
+        id: "5ad3e1ee-25a4-4a35-8636-3c02c0c38b47",
+        description: "Full-Grown Fallingstar Beast",
+      },
+      {
+        id: "0b68934c-cbe4-4d29-bd85-6816ad23feab",
+        description: "Godskin Noble",
+      },
+      {
+        id: "24a830f3-4aec-4107-a40d-2f0727a82ad1",
+        description: "Kindred of Rot",
+      },
+      {
+        id: "ed4562de-6a01-4b9d-8928-25e546083d90",
+        description: "Perfumer Tricia",
+      },
+      {
+        id: "7139dcde-e49c-428d-ad79-3ded2cd517d3",
+        description: "Ulcerated Tree Spirit",
+      },
+      {
+        id: "f6e00c41-2463-4fd5-b2d8-0a13498f5d85",
+        description: "Ancient Dragon Lansseax",
+      },
+      {
+        id: "521dfe59-7f39-4660-9f94-ef7d9b5aff15",
+        description: "God-Devouring Serpent",
+      },
+      {
+        id: "40856839-0e53-417f-a712-e3e57dd65599",
+        description: "Rykard, Lord of Blasphemy",
+      },
+      {
+        id: "85be955c-e727-4f3c-a87b-950ffb026cf4",
+        description: "Red Wolf of the Champion",
+      },
+      {
+        id: "c5ab9638-8ce0-4b18-8f5b-fb2c1259f087",
+        description: "Tibia Mariner",
+      },
+    ],
+  },
+  {
+    id: "ce42653b-feb9-40b7-b5ca-02867a8e1e29",
+    name: "Altus Plateau",
+    requirements: [
+      {
+        id: "d144f3a0-10c0-4376-a017-e2f81bea0b8a",
+        description: "Ancient Hero of Zamor",
+      },
+      {
+        id: "75b0b9fc-24ab-4495-8d92-4687307c572e",
+        description: "Black Knife Assassin (Sage's Cave)",
+      },
+      {
+        id: "14ddc95d-672e-40c3-be2f-58c04db2a4e2",
+        description: "Black Knife Assassin (Sainted Hero's Grave)",
+      },
+      {
+        id: "63dc695e-ead2-4de3-89cb-ed2eef890d0a",
+        description: "Crystalian Spear & Crystalian Ringblade",
+      },
+      {
+        id: "881ca612-6bc5-47d0-828a-8a6d3fb38103",
+        description: "Demi-Human Queen Gilika",
+      },
+      {
+        id: "75f7e9e3-a736-47e1-9359-7194455c9818",
+        description: "Elemer of the Briar",
+      },
+      {
+        id: "db391a3e-8bba-40d0-85e2-0a9e77133670",
+        description: "Erdtree Avatar",
+      },
+      {
+        id: "fc75a03b-16f1-4a05-98e6-3cb6a081e504",
+        description: "Godefroy The Grafted",
+      },
+      {
+        id: "643c054c-20ed-46db-b249-6bcc309ddf17",
+        description: "Godskin Apostle",
+      },
+      {
+        id: "1142490f-c7a0-49e5-9216-a250871aca07",
+        description: "Necromancer Garris",
+      },
+      {
+        id: "3481920d-e493-4661-b199-fb7caf4019ed",
+        description: "Stonedigger Troll",
+      },
+      {
+        id: "a17a72e7-a7db-4a4f-b1a3-75c2af3748ae",
+        description: "Tree Sentinel Duo",
+      },
+      { id: "7b7bbc30-264d-4cf3-b17c-5fdd1b265099", description: "Wormface" },
+    ],
+  },
+  {
+    id: "205c75ca-6148-4ba9-95f7-d6c757426e1d",
+    name: "Mountaintops of the Giants",
+    requirements: [
+      {
+        id: "9382e1f4-8b8c-46d3-8d71-8efef91e6784",
+        description: "Ancient Hero of Zamor",
+      },
+      {
+        id: "edd134d3-9f67-4ea4-a557-59de48195c41",
+        description: "Black Blade Kindred",
+      },
+      {
+        id: "0ab51977-d76e-4dcc-9797-7ee01f15eff2",
+        description: "Borealis the Freezing Fog",
+      },
+      {
+        id: "fc1e46d9-f824-4a2d-a13b-4eeb71c90616",
+        description: "Commander Niall",
+      },
+      {
+        id: "8433c8a0-fd57-4c64-92fd-f02557362e22",
+        description: "Death Rite Bird",
+      },
+      { id: "e81fbfe1-8459-4729-b5d4-228e65f0bab7", description: "Fire Giant" },
+      {
+        id: "6df67fa4-804f-4377-843d-104f6c31a253",
+        description: "Godskin Apostle & Godskin Noble",
+      },
+      {
+        id: "fd9d28c2-70b0-43e1-a89b-f36d2dc7fc66",
+        description: "Great Wrym Theodorix",
+      },
+      {
+        id: "8318f331-3b9e-4bda-a2c0-4341307a0d64",
+        description: "Misbegotten Crusader",
+      },
+      {
+        id: "400f12d2-d248-4d7c-bf6b-cfff5723c7fa",
+        description: "Roundtable Knight Vyke",
+      },
+    ],
+  },
+  {
+    id: "cc3996f5-7040-4eb1-8b53-04a6ed591265",
+    name: "Leyndell, Royal Capital",
+    requirements: [
+      {
+        id: "94e5993b-3879-4dcc-9bca-4ebeec8d0b13",
+        description: "Bell Bearing Hunter",
+      },
+      {
+        id: "05f4049b-8496-4674-9261-0ce3b0f5de5c",
+        description: "Crucible Knight",
+      },
+      {
+        id: "eff1772b-81b1-42b9-bdd3-e4c19e7f3080",
+        description: "Crucible Knight Ordovis",
+      },
+      {
+        id: "f63ec75c-ef34-4410-966d-38d9a9efc47d",
+        description: "Divine Bridge Golem",
+      },
+      {
+        id: "9554d993-1934-4652-b0ab-a7e806aafa18",
+        description: "Draconic Tree Sentinel",
+      },
+      {
+        id: "2f773876-b4c9-474e-a28c-8d6b1038094e",
+        description: "Esgar, Priest of Blood",
+      },
+      { id: "c2b4ca1a-0785-4cd5-a6ba-fe599fc1757a", description: "Fell Twins" },
+      {
+        id: "971d8b38-5a45-4873-9cf2-aaa4ea8df099",
+        description: "Godfrey, First Elden Lord (Golden Shade)",
+      },
+      {
+        id: "dd1a6cd6-3936-42b9-a982-7e017c45ce06",
+        description: "Godfrey, First Elden Lord (Hoarah Loux)",
+      },
+      {
+        id: "170d7bdd-ea21-43ea-b2c1-0ed48b0f3fe0",
+        description: "Morgott, the Omen King",
+      },
+      {
+        id: "3b15ae90-87bc-4725-9229-6ccb8fb78cfe",
+        description: "Sit Gideon Ofnir, the All-Knowing ",
+      },
+      {
+        id: "6f07aa0d-153b-4394-a755-85fbc7c194b9",
+        description: "Mohg, The Omen",
+      },
+      { id: "4b2b7dec-9909-4f9e-9bfd-f670b2cecdb8", description: "Onyx Lord" },
+    ],
+  },
+  {
+    id: "19c7cce4-9379-4ef9-ad8c-12fc4676ea5e",
+    name: "Ainsel River",
+    requirements: [
+      {
+        id: "4da0f8b0-872f-4edb-a776-7b77b596425a",
+        description: "Dragonkin Soldier of Nokstella",
+      },
+    ],
+  },
+  {
+    id: "bddb6d56-1bd4-4f95-8ef9-1d4a4f067311",
+    name: "Forbidden Lands",
+    requirements: [
+      {
+        id: "e935d562-bf77-49db-b203-47a4f423b842",
+        description: "Blackblade Kindred",
+      },
+      {
+        id: "86e9c576-8426-430d-b86e-80962b9674ea",
+        description: "Night's Cavalry",
+      },
+    ],
+  },
+  {
+    id: "f6a2b85d-6877-412a-bcf2-92b9095dcb96",
+    name: "Nokron, Eternal City",
+    requirements: [
+      {
+        id: "eed93798-45cd-4fcf-94cf-22bbc6b98c69",
+        description: "Mimic Tear",
+      },
+      {
+        id: "2c12daa4-4eb5-44a1-a819-ef8e319e5798",
+        description: "Regal Ancestor Spirit",
+      },
+      {
+        id: "48f91246-0d2b-4294-a142-9f5d618272e5",
+        description: "Valiant Gargoyle & Valiant Gargoyle (Twinblade)",
+      },
+    ],
+  },
+  {
+    id: "c60ea216-a70c-4ff0-a068-114df0cc1ae3",
+    name: "Deeproot Depths",
+    requirements: [
+      {
+        id: "4dbc1ae4-3912-4fe1-87bc-3c3eb197095c",
+        description: "Crucible Knight Siluria",
+      },
+      {
+        id: "33187d00-e6ab-46eb-af32-1a126df9318f",
+        description: "Fia's Champions",
+      },
+      {
+        id: "01574477-2b99-4283-b123-47360db9d688",
+        description: "Lichdragon Fortissax",
+      },
+      {
+        id: "9d9e2d63-5e35-4fff-bdbb-3d99138bc121",
+        description: "Erdtree Avatar",
+      },
+    ],
+  },
+  {
+    id: "72b6f685-07ba-4874-bb8c-0c20054679aa",
+    name: "Elden Throne",
+    requirements: [
+      {
+        id: "fa01f600-89dc-4139-8944-986ebb743ee4",
+        description: "Radagon of the Golden Order & Elden Beast",
+      },
+    ],
+  },
+  // {
+  //   id: "",
+  //   name: "",
+  //   requirements: [
+  //     {
+  //       id: "",
+  //       description: "",
+  //     },
+  //   ],
+  // },
 ];
