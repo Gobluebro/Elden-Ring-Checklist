@@ -692,8 +692,130 @@ export const Graces: Array<ListType> = [
     ],
   },
   {
+    id: "45238aec-20e0-478d-b514-51c452dda1b3",
+    name: "Volcano Manor",
+    requirements: [
+      {
+        id: "698cb036-147e-4579-bb1f-d73034e9ee3d",
+        description: "Volcano Manor",
+      },
+      {
+        id: "cf3c8b4f-1bc1-4d45-9e26-25edd274cb32",
+        description: "Prison Town Church",
+      },
+      {
+        id: "9df9e6fc-db45-4e5a-899e-5a862c767834",
+        description: "Temple of Eiglay",
+      },
+      {
+        id: "b0e8e9cd-3725-4095-9def-f8bd6f290565",
+        description: "Guest Hall",
+      },
+      {
+        id: "ad02dd40-77d1-4c38-b814-b250afae071c",
+        description: "Audience Pathway",
+      },
+      {
+        id: "c8fba99c-389a-46a8-9351-735169dfb5eb",
+        description: "Abductor Virgin",
+      },
+      {
+        id: "7c5c164b-56a0-4456-b35e-bc5eb82b7cfa",
+        description: "Subterranean Inquisition Chamber",
+      },
+      {
+        id: "4e427806-cdf0-4ce3-9f93-64ab7bedb4e9",
+        description: "Rykard, Lord of Blasphemy",
+      },
+    ],
+  },
+  {
+    id: "c2f7478c-4cfa-4bf3-899a-e60d8b333f3e",
+    name: "Captial Outskirts (Early Game)",
+    requirements: [
+      {
+        id: "91cf49a6-3957-4da3-a21d-e75b1115aa8e",
+        description: "Outer Wall Phantom Tree",
+      },
+      {
+        id: "251f68a5-5ad9-43a3-b72a-3a406255a2fb",
+        description: "Minor Erdtree Church",
+      },
+      {
+        id: "a83774a6-09f2-401a-aa7c-13cf91d31855",
+        description: "Outer wall Battleground",
+      },
+      {
+        id: "7bc749d8-5bb2-4278-98a0-8eef2382ca6c",
+        description: "Capital Rampart",
+      },
+      {
+        id: "6648b517-e650-4043-931e-cc6c6e719070",
+        description: "Auriza Side Tomb",
+      },
+      {
+        id: "0ffae805-ac8b-4ea5-8a5b-482bbdca304e",
+        description: "Auriza Hero's Grave",
+      },
+      {
+        id: "85c1ef55-3a06-43f1-a4ea-b477ed07cfa1",
+        description: "Sealed Tunnel",
+      },
+      {
+        id: "a4899dc5-06e0-4f7f-9abd-1981df20feff",
+        description: "Divine Tower of West Altus: Gate",
+      },
+      {
+        id: "b19c9d14-2a03-4f8f-85e6-bf7ba34f1cda",
+        description: "Divine Tower of West Altus",
+      },
+    ],
+  },
+  {
+    id: "08b52d4b-9b90-480e-a49b-6c387856d617",
+    name: "Leyndell, Royal Capital (Early Game)",
+    requirements: [
+      {
+        id: "8744d29e-c728-4b58-bbb6-1ac88dddb2d2",
+        description: "Erdtree Sanctuary",
+      },
+      {
+        id: "a8ea5914-25f7-4fbd-ba4a-32b06ac70cfd",
+        description: "East Capital Rampart",
+      },
+      {
+        id: "712b6945-1099-4d20-9050-cfdba1b09377",
+        description: "Lower Capital Church",
+      },
+      {
+        id: "1920bea3-ebc2-4117-8ebb-ccee167026ca",
+        description: "Avenue Balcony",
+      },
+      {
+        id: "7e596c53-fbed-44f3-9aa8-14a9a7f039bd",
+        description: "West Capital Rampart",
+      },
+      {
+        id: "a024fe53-a263-4b95-a074-3411173c7429",
+        description: "Queen's Bedchamber",
+      },
+      {
+        id: "d8e7554b-4c17-44fb-9c47-17c5046eba85",
+        description: "Fortified Manor, First Floor",
+      },
+      {
+        id: "d58e6c93-d937-447e-86ba-0095e80adb75",
+        description: "Divine Bridge",
+      },
+      {
+        id: "f6b48c08-d83f-4028-8791-008e56062ec8",
+        description: "Elden Throne",
+      },
+    ],
+  },
+  {
     id: "4af9f491-3ded-462e-b445-6a65c92d95d7",
-    name: "Leyndell, Royal Capital",
+    name: "Leyndell, Royal Capital (Late Game)",
     requirements: [
       {
         id: "7b5467dc-46ec-4e53-a66f-83b1e7377f2b",
@@ -738,44 +860,6 @@ export const Graces: Array<ListType> = [
     ],
   },
   {
-    id: "45238aec-20e0-478d-b514-51c452dda1b3",
-    name: "Volcano Manor",
-    requirements: [
-      {
-        id: "698cb036-147e-4579-bb1f-d73034e9ee3d",
-        description: "Volcano Manor",
-      },
-      {
-        id: "cf3c8b4f-1bc1-4d45-9e26-25edd274cb32",
-        description: "Prison Town Church",
-      },
-      {
-        id: "9df9e6fc-db45-4e5a-899e-5a862c767834",
-        description: "Temple of Eiglay",
-      },
-      {
-        id: "b0e8e9cd-3725-4095-9def-f8bd6f290565",
-        description: "Guest Hall",
-      },
-      {
-        id: "ad02dd40-77d1-4c38-b814-b250afae071c",
-        description: "Audience Pathway",
-      },
-      {
-        id: "c8fba99c-389a-46a8-9351-735169dfb5eb",
-        description: "Abductor Virgin",
-      },
-      {
-        id: "7c5c164b-56a0-4456-b35e-bc5eb82b7cfa",
-        description: "Subterranean Inquisition Chamber",
-      },
-      {
-        id: "4e427806-cdf0-4ce3-9f93-64ab7bedb4e9",
-        description: "Rykard, Lord of Blasphemy",
-      },
-    ],
-  },
-  {
     id: "fa9fb3b7-877b-4a14-a3f1-43e90813e7e8",
     name: "Subterranean Shunning-Grounds",
     requirements: [
@@ -790,6 +874,10 @@ export const Graces: Array<ListType> = [
       {
         id: "02fbb09b-8acf-4090-9c29-6264a0f43866",
         description: "Leyndell Catacombs",
+      },
+      {
+        id: "1c7b1511-46b1-4a62-9d27-5824d79afd38",
+        description: "Frenzied Flame Proscription",
       },
       {
         id: "b0a5c3a4-1ef5-4197-a13f-a17f8279ee2f",
