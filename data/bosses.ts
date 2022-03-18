@@ -299,7 +299,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "fb7631ad-745a-4a83-8c54-949f086c3ee4",
-        description: " Frenzied Duelist",
+        description: "Frenzied Duelist",
       },
       {
         id: "9a947577-a0d7-4de1-94e5-3e4842c513f9",
@@ -612,6 +612,108 @@ export const Bosses: Array<ListType> = [
       {
         id: "9d9e2d63-5e35-4fff-bdbb-3d99138bc121",
         description: "Erdtree Avatar",
+      },
+    ],
+  },
+  {
+    id: "36cbe704-2869-4e76-aa5f-139235f95d5c",
+    name: "Siofra River",
+    requirements: [
+      {
+        id: "7d486a5d-c539-4a35-9693-565ca634421f",
+        description: "Ancestor Spirit",
+      },
+      {
+        id: "888674db-1ec3-4734-8d97-120313007647",
+        description: "Dragonkin Soldier",
+      },
+    ],
+  },
+  {
+    id: "22cdc475-62c0-42e9-b8ef-51f9fc30afed",
+    name: "Mohgwyn Palace",
+    requirements: [
+      {
+        id: "5b8f4ad4-c810-4f74-8f6a-b8a4acafe8c8",
+        description: "Mohg, Lord of Blood",
+      },
+    ],
+  },
+  {
+    id: "b3d5eb38-4b1b-4d79-b695-35639e6fec2c",
+    name: "Crumbling Farum Azula",
+    requirements: [
+      {
+        id: "84c77ffc-9724-466f-8857-c22bb361c506",
+        description: "Dragonlord Placidusax",
+      },
+      {
+        id: "5b5ac8e6-558e-4387-8722-5b8690aec5be",
+        description: "Godskin Duo",
+      },
+      {
+        id: "d19476b8-05e0-4642-b6f5-3bc015e62824",
+        description: "Maliketh, the Black Blade",
+      },
+      {
+        id: "b2fc219a-f352-4ae6-b96f-185d6c48fae5",
+        description: "Crucible Knight",
+      },
+      {
+        id: "f33e287d-8f17-4fe3-81e0-ac18fdf97613",
+        description: "Draconic Tree Sentinel",
+      },
+    ],
+  },
+  {
+    id: "821cd32a-9d60-47f8-baa7-0000b87d1cb8",
+    name: "Lake of Rot",
+    requirements: [
+      {
+        id: "fcb9a6a8-650b-4cd4-84ae-54b18069b06a",
+        description: "Astel, Naturalborn of the Void",
+      },
+      {
+        id: "0c965098-eea6-42a2-980c-9082409d5244",
+        description: "Dragonkin Soldier",
+      },
+    ],
+  },
+  {
+    id: "01406b1a-7b67-4e76-a841-a659863b0fab",
+    name: "Consecrated Snowfield",
+    requirements: [
+      {
+        id: "53a63ecb-d950-444f-90a0-e529aaaf72b8",
+        description: "Astel, Stars of Darkness",
+      },
+      {
+        id: "134e4383-c0df-4274-b561-3349e88b0806",
+        description: "Crusader Misbegotten",
+      },
+      {
+        id: "02f040c7-4b3a-4839-9b3a-043ab4241f9d",
+        description: "Death Rite Bird",
+      },
+      {
+        id: "91de7557-dad0-42df-a680-ee1aa80e8b42",
+        description: "Great Wyrm Theodorix",
+      },
+      {
+        id: "10826650-b9c0-4ac7-a9b0-cbe9b0f496e6",
+        description: "Misbegotten Crusader",
+      },
+      {
+        id: "b9eacc56-e102-40c7-bc61-c8cf9f56a2d9",
+        description: "Night's Cavalry",
+      },
+      {
+        id: "c6b8dd77-006c-4bc4-824b-2d7f0388517e",
+        description: "Putrid Avatar",
+      },
+      {
+        id: "980d40bf-fa07-432a-b4d7-a95e1a85fdee",
+        description: "Stray Mimic Tear",
       },
     ],
   },
