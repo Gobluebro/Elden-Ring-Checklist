@@ -1418,6 +1418,10 @@ export const Graces: Array<ListType> = [
     name: "Deeproot Depths",
     requirements: [
       {
+        id: "3041cb70-06c8-4fa5-a96d-027e54aeb4ff",
+        description: "Root-Facing Cliffs",
+      },
+      {
         id: "3176bef3-eb74-4ed2-b3ef-d475d1f6e8a6",
         description: "Great Waterfall Crest",
       },
