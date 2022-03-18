@@ -122,11 +122,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 ## Roadmap
 
 - [ ] Quests
-  - [X] Dung Eater / Blessing of Despair Ending
-  - [X] Ranni the Witch / Age of the Stars Ending
-  - [X] Gowry / Millicent
-  - [X] Sorceress Sellen
-  - [X] Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending
+  - [x] Dung Eater / Blessing of Despair Ending
+  - [x] Ranni the Witch / Age of the Stars Ending
+  - [x] Gowry / Millicent
+  - [x] Sorceress Sellen
+  - [x] Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending
   - [ ] Fia / Age of Duskborn ending
   - [ ] Volcano Manor
   - [ ] Roderika
@@ -139,8 +139,8 @@ Use this space to show useful examples of how a project can be used. Additional 
   - [ ] Patches
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
-- [ ] Graces
-  - [ ] Missing Lyndell graces that go away later in the game.
+- [x] Graces
+  - [ ] Need a double check once all graces are confirmed found.
 - [ ] Bosses?
 - [ ] Weapons?
 
