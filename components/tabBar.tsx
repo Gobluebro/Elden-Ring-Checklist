@@ -14,6 +14,8 @@ const TabBar = (props: Props) => {
 
   const unfocusedTabStyles = "text-zinc-400";
 
+  //TODO: just use a loop to display these by each enum.
+
   return (
     <nav>
       <div className="flex justify-center">
@@ -49,6 +51,17 @@ const TabBar = (props: Props) => {
           >
             <button onClick={() => setCurrentTab(TabNames.Graces)}>
               Graces
+            </button>
+          </h3>
+          <h3
+            className={`${
+              currentTab === TabNames.Bosses
+                ? focusedTabStyles
+                : unfocusedTabStyles
+            } px-2 ml-4`}
+          >
+            <button onClick={() => setCurrentTab(TabNames.Bosses)}>
+              Bosses
             </button>
           </h3>
         </div>

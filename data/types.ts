@@ -15,4 +15,5 @@ export enum TabNames {
   Quests,
   Achievements,
   Graces,
+  Bosses,
 }
