@@ -71,8 +71,8 @@
 ## About The Project
 
 <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
-    <img src="public/README/2022-03-14 06_13_36-Elden Ring Checklist-screenshot.png" alt="Website Screenshot" title="Website Screenshot">
-  </a>
+  <img src="public/README/2022-03-14 06_13_36-Elden Ring Checklist-screenshot.png" alt="Website Screenshot" title="Website Screenshot">
+</a>
 
 ### Built With
 
