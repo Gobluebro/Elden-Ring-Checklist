@@ -2,6 +2,51 @@ import { ListType } from "./types";
 
 export const Quests: Array<ListType> = [
   {
+    id: "5bcdbf66-3270-4af8-9c76-2d6e646d20cb",
+    name: "Roderika (Spirit-Tuner)",
+    requirements: [
+      {
+        id: "e92cafa4-53d7-4437-bd5e-204509437a5d",
+        description: "Talk to Roderika at the Stormhill Shack grace.",
+      },
+      {
+        id: "34a13bf4-8d2e-4994-a538-8683cd9ad8b8",
+        description: "Get the Chrysalids' Memento in Stormveil Castle.",
+      },
+      {
+        id: "7728b8f4-523d-4f25-acc4-81c6e6417c74",
+        description:
+          "Give the Chrysalids' Memento to Roderika at the Stormhill Shack grace.",
+      },
+      {
+        id: "8c2f98ae-6920-4591-b333-e751654d4599",
+        description: "Talk to Roderika at the Roundtable Hold grace.",
+      },
+      {
+        id: "d3017b33-feb2-497c-b3aa-959c5ab24aaa",
+        description: "Talk Hewg about Roderika at the Roundtable Hold grace.",
+      },
+      {
+        id: "9d56441a-99fd-47ff-ac33-d207b870d4b6",
+        description: `Talk Roderika again and select the "Tell her what the blacksmith said" dialogue option.`,
+      },
+      {
+        id: "a6379139-f751-49da-a39f-b69d438152fc",
+        description: `Talk Hewg about Roderika again. Select the "It's what she wants" dialogue option.`,
+      },
+      {
+        id: "f58558ed-627a-4b10-9465-2b1ee0b70e0f",
+        description:
+          "Travel to the Roundtable Hold grace again and she will be your spirit tuner.",
+      },
+      {
+        id: "f08ac60a-361b-49cd-bb90-4694c0f3380c",
+        description:
+          "Return the location that you got the Chrysalids' Memento and you will receive the Crimson Hood.",
+      },
+    ],
+  },
+  {
     id: "92e082f1-8051-45a4-b200-29312b8d127c",
     name: "Sorceress Sellen",
     requirements: [
@@ -487,11 +532,6 @@ export const Quests: Array<ListType> = [
       },
     ],
   },
-  // {
-  //   id: "40dee595-d30d-4cec-be50-ce1dd7c3a625",
-  //   name: "Roundtable",
-  //   requirements: [],
-  // },
   // {
   //   id: "ecdeb0c0-b56d-4a95-af9f-cbfe5ae6b52c",
   //   name: "Iron Fist Alexander",

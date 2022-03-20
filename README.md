@@ -129,7 +129,7 @@ Run locally with:
   - [x] Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending
   - [ ] Fia / Age of Duskborn ending
   - [ ] Volcano Manor
-  - [ ] Roderika
+  - [x] Roderika
   - [ ] Boc the Seamster
   - [ ] Thops
   - [ ] Gurranq, Beast Clergyman
