@@ -143,6 +143,7 @@ Run locally with:
   - [ ] Need a double check once all graces are confirmed found.
 - [x] Bosses
 - [ ] Weapons?
+- [ ] Spirits / Puppets?
 
 See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
 
