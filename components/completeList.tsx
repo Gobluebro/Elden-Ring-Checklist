@@ -2,7 +2,7 @@ import { Achievements } from "../data/achievements";
 import { Bosses } from "../data/bosses";
 import { Graces } from "../data/graces";
 import { Quests } from "../data/quests";
-import { ListType, TabNames } from "../data/types";
+import { TabNames } from "../data/types";
 import CheckboxContainer from "./checkboxContainer";
 
 interface Props {
@@ -12,18 +12,14 @@ interface Props {
 const CompleteList = (props: Props) => {
   const { listName } = props;
 
-  let dataArray: Array<ListType> = [];
+  const lists = {
+    [TabNames.Quests]: Quests,
+    [TabNames.Achievements]: Achievements,
+    [TabNames.Graces]: Graces,
+    [TabNames.Bosses]: Bosses,
+  };
 
-  //TODO: possibly make these enums and arrays into a key value pair and then just their data back based on the key enum?
-  if (listName === TabNames.Quests) {
-    dataArray = Quests;
-  } else if (listName === TabNames.Achievements) {
-    dataArray = Achievements;
-  } else if (listName === TabNames.Graces) {
-    dataArray = Graces;
-  } else if (listName === TabNames.Bosses) {
-    dataArray = Bosses;
-  }
+  const dataArray = lists[listName];
 
   return (
     <>
