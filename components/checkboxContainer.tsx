@@ -3,7 +3,6 @@ import { ListType } from "../data/types";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import cloneDeep from "lodash.clonedeep";
 import ToggleButtonIcon from "./toggleButtonIcon";
-import Image from "next/image";
 
 interface Props {
   list: ListType;
