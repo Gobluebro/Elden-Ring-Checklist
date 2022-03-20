@@ -437,7 +437,7 @@ export const Quests: Array<ListType> = [
       {
         id: "8a57b4f7-c5be-49e3-ab5d-561b86e82bb3",
         description:
-          "Defeat the Festering Fingerprint Vyke at the Churhc of Inhibition and receive the Fingerprint Grape.",
+          "Defeat the Festering Fingerprint Vyke at the Church of Inhibition and receive the Fingerprint Grape.",
       },
       {
         id: "c540d9e3-15b0-442b-b685-a34e82b9db39",
