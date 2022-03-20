@@ -415,7 +415,7 @@ export const Quests: Array<ListType> = [
       {
         id: "7b99e1a3-56bc-4097-8c5a-239332a165f0",
         description:
-          "Get the second Shabriri Grape from the Purified Ruins near the Liurnia Highway North grace.",
+          "Get the second Shabriri Grape from the Purified Ruins near the Liurnia Highway North grace. Talk to Hyetta nearby and donate a Shabriri grape to her.",
       },
       {
         id: "3c7fb9a9-57ab-4d86-a3e5-2da93d97c9b2",
