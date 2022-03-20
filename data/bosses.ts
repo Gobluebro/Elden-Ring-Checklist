@@ -193,7 +193,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "58414ef1-3ddc-4de9-b9e4-f4406e3e1ad8",
-        description: "Erdtree Burial Watchdog",
+        description: "Erdtree Burial Watchdog (Cliffbottom Catacombs)",
       },
       {
         id: "4eb0be15-4127-48eb-bc72-9747d26baa89",
@@ -299,7 +299,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "3f91f4a0-2849-451e-b5ef-26e3bdbe981e",
-        description: "Erdtree Burial Watchdog",
+        description: "Erdtree Burial Watchdog (Minor Erdtree Catacombs)",
       },
       {
         id: "18943d19-10e3-462d-89ff-3bd32ab0b17d",
