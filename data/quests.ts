@@ -451,7 +451,8 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "80fdceaf-4285-4d8f-8c0c-0b941124937a",
-        description: "Once you have finished jumping down, talk to Hyetta.",
+        description:
+          "Once you have finished jumping down, talk to Hyetta near the Frenzied Flame Proscription grace.",
       },
       {
         id: "076e6e04-4a83-4696-84e5-0202fdffd63d",
