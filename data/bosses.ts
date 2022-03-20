@@ -35,7 +35,11 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "b7f6e298-7c24-417b-a69a-ce02ee241b0a",
-        description: "Death Bird",
+        description: "Death Bird (Limgrave)",
+      },
+      {
+        id: "ba175778-66f6-43db-a2df-37d3c0f56db1",
+        description: "Death Bird (Weeping Peninsula)",
       },
       {
         id: "0642b0a6-9f3c-42a1-9b62-1b31bbc7db8b",
@@ -47,11 +51,11 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "b092b7ff-f4a4-4580-a491-66e8d5497768",
-        description: "Erdtree Burial Watchdog (Stormfoot)",
+        description: "Erdtree Burial Watchdog (Stormfoot Catacombs)",
       },
       {
         id: "6661ea64-18aa-42f1-b26e-a8f30436171e",
-        description: "Erdtree Burial Watchdog (Impaler)",
+        description: "Erdtree Burial Watchdog (Impaler Catacombs)",
       },
       {
         id: "53a48aff-a381-4c6e-8153-c4108fa2ccfa",
@@ -177,7 +181,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "19f4ceb0-05f3-4fb9-b6af-e55aafa87ef3",
-        description: "Death Bird",
+        description: "Death Rite Bird",
       },
       {
         id: "ebc76672-6e71-48f8-8873-118597ce07ef",
@@ -250,6 +254,10 @@ export const Bosses: Array<ListType> = [
         description: "Battlemage Hugues",
       },
       {
+        id: "3ea318b9-17f9-4997-a58c-dac8dc9774e9",
+        description: "Beastman of Farum Azula",
+      },
+      {
         id: "69692edc-8f0d-4b36-9e8f-620be77e1d26",
         description: "Bell Bearing Hunter",
       },
@@ -268,6 +276,10 @@ export const Bosses: Array<ListType> = [
       {
         id: "6a4d583a-7ca8-48ce-90b8-339abfcab3d8",
         description: "Commander O'Neil",
+      },
+      {
+        id: "cac3de02-b7d4-4ce2-ae30-2ab36d090b19",
+        description: "Crucible Knight & Misbegotten Warrior",
       },
       {
         id: "3692d230-1d92-4112-91a1-4c71b244dc06",
@@ -340,68 +352,6 @@ export const Bosses: Array<ListType> = [
     ],
   },
   {
-    id: "963d9b77-1431-4299-aa4d-c2be3e3779c2",
-    name: "Mt. Gelmir",
-    requirements: [
-      {
-        id: "5ed58ef7-9e28-466c-9694-ab2cc85d91cc",
-        description: "Abductor Virgins",
-      },
-      {
-        id: "7496a839-9873-49d3-a3b9-8422699a2c91",
-        description: "Demi-Human Queen Margot",
-      },
-      {
-        id: "6f524d4d-e1f0-49d6-a752-239734e4b732",
-        description: "Demi-Human Queen Maggie",
-      },
-      {
-        id: "13341143-9543-4d3b-9e61-3b0230b5382a",
-        description: "Erdtree Burial Watchdog (Wyndham)",
-      },
-      {
-        id: "5ad3e1ee-25a4-4a35-8636-3c02c0c38b47",
-        description: "Full-Grown Fallingstar Beast",
-      },
-      {
-        id: "0b68934c-cbe4-4d29-bd85-6816ad23feab",
-        description: "Godskin Noble",
-      },
-      {
-        id: "24a830f3-4aec-4107-a40d-2f0727a82ad1",
-        description: "Kindred of Rot",
-      },
-      {
-        id: "ed4562de-6a01-4b9d-8928-25e546083d90",
-        description: "Perfumer Tricia",
-      },
-      {
-        id: "7139dcde-e49c-428d-ad79-3ded2cd517d3",
-        description: "Ulcerated Tree Spirit",
-      },
-      {
-        id: "f6e00c41-2463-4fd5-b2d8-0a13498f5d85",
-        description: "Ancient Dragon Lansseax",
-      },
-      {
-        id: "521dfe59-7f39-4660-9f94-ef7d9b5aff15",
-        description: "God-Devouring Serpent",
-      },
-      {
-        id: "40856839-0e53-417f-a712-e3e57dd65599",
-        description: "Rykard, Lord of Blasphemy",
-      },
-      {
-        id: "85be955c-e727-4f3c-a87b-950ffb026cf4",
-        description: "Red Wolf of the Champion",
-      },
-      {
-        id: "c5ab9638-8ce0-4b18-8f5b-fb2c1259f087",
-        description: "Tibia Mariner",
-      },
-    ],
-  },
-  {
     id: "ce42653b-feb9-40b7-b5ca-02867a8e1e29",
     name: "Altus Plateau",
     requirements: [
@@ -426,12 +376,16 @@ export const Bosses: Array<ListType> = [
         description: "Demi-Human Queen Gilika",
       },
       {
+        id: "2e72d82d-e1f0-45b8-a450-a55ce91e543e",
+        description: "Draconic Tree Sentinel",
+      },
+      {
         id: "75f7e9e3-a736-47e1-9359-7194455c9818",
         description: "Elemer of the Briar",
       },
       {
-        id: "db391a3e-8bba-40d0-85e2-0a9e77133670",
-        description: "Erdtree Avatar",
+        id: "7077e5b1-e2a6-49b8-9624-561fff2e546b",
+        description: "Fallingstar Beast",
       },
       {
         id: "fc75a03b-16f1-4a05-98e6-3cb6a081e504",
@@ -442,12 +396,24 @@ export const Bosses: Array<ListType> = [
         description: "Godskin Apostle",
       },
       {
+        id: "4a25e000-0691-431d-a044-dec510a90cbf",
+        description: "Grave Warden Duelist",
+      },
+      {
         id: "1142490f-c7a0-49e5-9216-a250871aca07",
         description: "Necromancer Garris",
       },
       {
+        id: "f539a46a-658b-4732-87e2-baebb65c43af",
+        description: "Sanguine Noble",
+      },
+      {
         id: "3481920d-e493-4661-b199-fb7caf4019ed",
         description: "Stonedigger Troll",
+      },
+      {
+        id: "348d7d3a-47e5-4f5f-a19d-91d4417b72ca",
+        description: "Tibia Mariner",
       },
       {
         id: "a17a72e7-a7db-4a4f-b1a3-75c2af3748ae",
@@ -457,45 +423,60 @@ export const Bosses: Array<ListType> = [
     ],
   },
   {
-    id: "205c75ca-6148-4ba9-95f7-d6c757426e1d",
-    name: "Mountaintops of the Giants",
+    id: "963d9b77-1431-4299-aa4d-c2be3e3779c2",
+    name: "Mt. Gelmir",
     requirements: [
       {
-        id: "9382e1f4-8b8c-46d3-8d71-8efef91e6784",
-        description: "Ancient Hero of Zamor",
+        id: "5ed58ef7-9e28-466c-9694-ab2cc85d91cc",
+        description: "Abductor Virgins",
       },
       {
-        id: "edd134d3-9f67-4ea4-a557-59de48195c41",
-        description: "Black Blade Kindred",
+        id: "7496a839-9873-49d3-a3b9-8422699a2c91",
+        description: "Demi-Human Queen Margot",
       },
       {
-        id: "0ab51977-d76e-4dcc-9797-7ee01f15eff2",
-        description: "Borealis the Freezing Fog",
+        id: "6f524d4d-e1f0-49d6-a752-239734e4b732",
+        description: "Demi-Human Queen Maggie",
       },
       {
-        id: "fc1e46d9-f824-4a2d-a13b-4eeb71c90616",
-        description: "Commander Niall",
+        id: "13341143-9543-4d3b-9e61-3b0230b5382a",
+        description: "Erdtree Burial Watchdog (Wyndham Catacombs)",
       },
       {
-        id: "8433c8a0-fd57-4c64-92fd-f02557362e22",
-        description: "Death Rite Bird",
-      },
-      { id: "e81fbfe1-8459-4729-b5d4-228e65f0bab7", description: "Fire Giant" },
-      {
-        id: "6df67fa4-804f-4377-843d-104f6c31a253",
-        description: "Godskin Apostle & Godskin Noble",
+        id: "5ad3e1ee-25a4-4a35-8636-3c02c0c38b47",
+        description: "Full-Grown Fallingstar Beast",
       },
       {
-        id: "fd9d28c2-70b0-43e1-a89b-f36d2dc7fc66",
-        description: "Great Wrym Theodorix",
+        id: "0b68934c-cbe4-4d29-bd85-6816ad23feab",
+        description: "Godskin Noble",
       },
       {
-        id: "8318f331-3b9e-4bda-a2c0-4341307a0d64",
-        description: "Misbegotten Crusader",
+        id: "24a830f3-4aec-4107-a40d-2f0727a82ad1",
+        description: "Kindred of Rot",
       },
       {
-        id: "400f12d2-d248-4d7c-bf6b-cfff5723c7fa",
-        description: "Roundtable Knight Vyke",
+        id: "ca26cdba-7264-45c0-9d87-2f983785f194",
+        description: "Magma Wyrm",
+      },
+      {
+        id: "ed4562de-6a01-4b9d-8928-25e546083d90",
+        description: "Perfumer Tricia & Misbegotten Warrior",
+      },
+      {
+        id: "7139dcde-e49c-428d-ad79-3ded2cd517d3",
+        description: "Ulcerated Tree Spirit",
+      },
+      {
+        id: "f6e00c41-2463-4fd5-b2d8-0a13498f5d85",
+        description: "Ancient Dragon Lansseax",
+      },
+      {
+        id: "521dfe59-7f39-4660-9f94-ef7d9b5aff15",
+        description: "God-Devouring Serpent / Rykard, Lord of Blasphemy",
+      },
+      {
+        id: "85be955c-e727-4f3c-a87b-950ffb026cf4",
+        description: "Red Wolf of the Champion",
       },
     ],
   },
@@ -509,19 +490,15 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "05f4049b-8496-4674-9261-0ce3b0f5de5c",
-        description: "Crucible Knight",
-      },
-      {
-        id: "eff1772b-81b1-42b9-bdd3-e4c19e7f3080",
-        description: "Crucible Knight Ordovis",
+        description: "Crucible Knight & Crucible Knight Ordovis",
       },
       {
         id: "f63ec75c-ef34-4410-966d-38d9a9efc47d",
         description: "Divine Bridge Golem",
       },
       {
-        id: "9554d993-1934-4652-b0ab-a7e806aafa18",
-        description: "Draconic Tree Sentinel",
+        id: "db391a3e-8bba-40d0-85e2-0a9e77133670",
+        description: "Erdtree Avatar",
       },
       {
         id: "2f773876-b4c9-474e-a28c-8d6b1038094e",
@@ -531,10 +508,6 @@ export const Bosses: Array<ListType> = [
       {
         id: "971d8b38-5a45-4873-9cf2-aaa4ea8df099",
         description: "Godfrey, First Elden Lord (Golden Shade)",
-      },
-      {
-        id: "dd1a6cd6-3936-42b9-a982-7e017c45ce06",
-        description: "Godfrey, First Elden Lord (Hoarah Loux)",
       },
       {
         id: "170d7bdd-ea21-43ea-b2c1-0ed48b0f3fe0",
@@ -552,12 +525,111 @@ export const Bosses: Array<ListType> = [
     ],
   },
   {
+    id: "205c75ca-6148-4ba9-95f7-d6c757426e1d",
+    name: "Mountaintops of the Giants",
+    requirements: [
+      {
+        id: "9382e1f4-8b8c-46d3-8d71-8efef91e6784",
+        description: "Ancient Hero of Zamor",
+      },
+      {
+        id: "71549d38-39cd-4a75-98c7-a65c613ce95c",
+        description: "Astel, Stars of Darkness",
+      },
+      {
+        id: "edd134d3-9f67-4ea4-a557-59de48195c41",
+        description: "Black Blade Kindred",
+      },
+      {
+        id: "0ab51977-d76e-4dcc-9797-7ee01f15eff2",
+        description: "Borealis the Freezing Fog",
+      },
+      {
+        id: "fc1e46d9-f824-4a2d-a13b-4eeb71c90616",
+        description: "Commander Niall",
+      },
+      {
+        id: "8433c8a0-fd57-4c64-92fd-f02557362e22",
+        description: "Death Rite Bird (Central Mountaintops of the Giants)",
+      },
+      {
+        id: "d3cb926d-296f-4fbf-8597-09c30bab9b99",
+        description: "Death Rite Bird (West Mountaintops of the Giants)",
+      },
+      {
+        id: "fe6d1322-c2a2-40c6-89c8-9377320285fe",
+        description: "Erdtree Avatar",
+      },
+      { id: "e81fbfe1-8459-4729-b5d4-228e65f0bab7", description: "Fire Giant" },
+      {
+        id: "6df67fa4-804f-4377-843d-104f6c31a253",
+        description: "Godskin Apostle & Godskin Noble",
+      },
+      {
+        id: "fd9d28c2-70b0-43e1-a89b-f36d2dc7fc66",
+        description: "Great Wrym Theodorix",
+      },
+      {
+        id: "8318f331-3b9e-4bda-a2c0-4341307a0d64",
+        description: "Misbegotten Crusader",
+      },
+      {
+        id: "923ce895-5952-432c-82d4-dd14655a969e",
+        description: "Tibia Mariner",
+      },
+      {
+        id: "379ecc9d-ce69-43a7-8e08-01f9e0e99140",
+        description: "Ulcerated Tree Spirit",
+      },
+      {
+        id: "400f12d2-d248-4d7c-bf6b-cfff5723c7fa",
+        description: "Festering Fingerprint Vyke",
+      },
+    ],
+  },
+  {
+    id: "36cbe704-2869-4e76-aa5f-139235f95d5c",
+    name: "Siofra River",
+    requirements: [
+      {
+        id: "7d486a5d-c539-4a35-9693-565ca634421f",
+        description: "Ancestor Spirit",
+      },
+      {
+        id: "888674db-1ec3-4734-8d97-120313007647",
+        description: "Dragonkin Soldier",
+      },
+      {
+        id: "5b8f4ad4-c810-4f74-8f6a-b8a4acafe8c8",
+        description: "Mohg, Lord of Blood",
+      },
+    ],
+  },
+  {
     id: "19c7cce4-9379-4ef9-ad8c-12fc4676ea5e",
     name: "Ainsel River",
     requirements: [
       {
         id: "4da0f8b0-872f-4edb-a776-7b77b596425a",
         description: "Dragonkin Soldier of Nokstella",
+      },
+    ],
+  },
+  {
+    id: "b3d5eb38-4b1b-4d79-b695-35639e6fec2c",
+    name: "Crumbling Farum Azula",
+    requirements: [
+      {
+        id: "d19476b8-05e0-4642-b6f5-3bc015e62824",
+        description: "Beast Clergyman / Maliketh, the Black Blade",
+      },
+      {
+        id: "84c77ffc-9724-466f-8857-c22bb361c506",
+        description: "Dragonlord Placidusax",
+      },
+      {
+        id: "5b5ac8e6-558e-4387-8722-5b8690aec5be",
+        description: "Godskin Duo",
       },
     ],
   },
@@ -609,60 +681,6 @@ export const Bosses: Array<ListType> = [
         id: "01574477-2b99-4283-b123-47360db9d688",
         description: "Lichdragon Fortissax",
       },
-      {
-        id: "9d9e2d63-5e35-4fff-bdbb-3d99138bc121",
-        description: "Erdtree Avatar",
-      },
-    ],
-  },
-  {
-    id: "36cbe704-2869-4e76-aa5f-139235f95d5c",
-    name: "Siofra River",
-    requirements: [
-      {
-        id: "7d486a5d-c539-4a35-9693-565ca634421f",
-        description: "Ancestor Spirit",
-      },
-      {
-        id: "888674db-1ec3-4734-8d97-120313007647",
-        description: "Dragonkin Soldier",
-      },
-    ],
-  },
-  {
-    id: "22cdc475-62c0-42e9-b8ef-51f9fc30afed",
-    name: "Mohgwyn Palace",
-    requirements: [
-      {
-        id: "5b8f4ad4-c810-4f74-8f6a-b8a4acafe8c8",
-        description: "Mohg, Lord of Blood",
-      },
-    ],
-  },
-  {
-    id: "b3d5eb38-4b1b-4d79-b695-35639e6fec2c",
-    name: "Crumbling Farum Azula",
-    requirements: [
-      {
-        id: "84c77ffc-9724-466f-8857-c22bb361c506",
-        description: "Dragonlord Placidusax",
-      },
-      {
-        id: "5b5ac8e6-558e-4387-8722-5b8690aec5be",
-        description: "Godskin Duo",
-      },
-      {
-        id: "d19476b8-05e0-4642-b6f5-3bc015e62824",
-        description: "Maliketh, the Black Blade",
-      },
-      {
-        id: "b2fc219a-f352-4ae6-b96f-185d6c48fae5",
-        description: "Crucible Knight",
-      },
-      {
-        id: "f33e287d-8f17-4fe3-81e0-ac18fdf97613",
-        description: "Draconic Tree Sentinel",
-      },
     ],
   },
   {
@@ -684,20 +702,16 @@ export const Bosses: Array<ListType> = [
     name: "Consecrated Snowfield",
     requirements: [
       {
-        id: "53a63ecb-d950-444f-90a0-e529aaaf72b8",
-        description: "Astel, Stars of Darkness",
-      },
-      {
-        id: "134e4383-c0df-4274-b561-3349e88b0806",
-        description: "Crusader Misbegotten",
-      },
-      {
         id: "02f040c7-4b3a-4839-9b3a-043ab4241f9d",
         description: "Death Rite Bird",
       },
       {
-        id: "91de7557-dad0-42df-a680-ee1aa80e8b42",
-        description: "Great Wyrm Theodorix",
+        id: "a9c4471c-7566-4a64-a6d7-019478f19fb9",
+        description: "Loretta, Knight of the Haligtree",
+      },
+      {
+        id: "ee260df2-4333-4b96-ad03-87f56194f773",
+        description: "Malenia, Blade of Miquella",
       },
       {
         id: "10826650-b9c0-4ac7-a9b0-cbe9b0f496e6",
@@ -705,15 +719,33 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "b9eacc56-e102-40c7-bc61-c8cf9f56a2d9",
-        description: "Night's Cavalry",
+        description: "Night's Cavalry (Duo)",
       },
       {
         id: "c6b8dd77-006c-4bc4-824b-2d7f0388517e",
         description: "Putrid Avatar",
       },
       {
+        id: "84ad49f4-3a62-4a0b-8d0f-2af3e62404a1",
+        description: "Putrid Grave Warden Duelist",
+      },
+      {
         id: "980d40bf-fa07-432a-b4d7-a95e1a85fdee",
         description: "Stray Mimic Tear",
+      },
+    ],
+  },
+  {
+    id: "20b5bf56-7ff9-46fd-b6d0-6612e763acb2",
+    name: "Leyndell, Capital of Ash",
+    requirements: [
+      {
+        id: "dd1a6cd6-3936-42b9-a982-7e017c45ce06",
+        description: "Godfrey, First Elden Lord (Hoarah Loux)",
+      },
+      {
+        id: "615d756d-52b9-4b6c-9be3-0ee2d63ad7f4",
+        description: "Sir Gideon Ofnir, the All-Knowing ",
       },
     ],
   },
@@ -723,18 +755,8 @@ export const Bosses: Array<ListType> = [
     requirements: [
       {
         id: "fa01f600-89dc-4139-8944-986ebb743ee4",
-        description: "Radagon of the Golden Order & Elden Beast",
+        description: "Radagon of the Golden Order / Elden Beast",
       },
     ],
   },
-  // {
-  //   id: "",
-  //   name: "",
-  //   requirements: [
-  //     {
-  //       id: "",
-  //       description: "",
-  //     },
-  //   ],
-  // },
 ];
