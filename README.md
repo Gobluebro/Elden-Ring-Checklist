@@ -141,7 +141,7 @@ Use this space to show useful examples of how a project can be used. Additional 
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces
   - [ ] Need a double check once all graces are confirmed found.
-- [ ] Bosses?
+- [x] Bosses
 - [ ] Weapons?
 
 See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
