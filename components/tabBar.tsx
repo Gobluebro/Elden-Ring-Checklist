@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from "react";
 import { TabNames } from "../data/types";
+import Tab from "./tab";
 
 interface Props {
   currentTab: TabNames;
@@ -9,62 +10,33 @@ interface Props {
 const TabBar = (props: Props) => {
   const { currentTab, setCurrentTab } = props;
 
-  const focusedTabStyles =
-    "border rounded-t-lg bg-zinc-50 border-zinc-50 dark:bg-zinc-700 dark:border-zinc-700";
+  // add all tabs in the TabNames Enum
+  let tabsHtml: JSX.Element[] = [];
 
-  const unfocusedTabStyles = "text-zinc-400";
+  // all of this feels hacky but at least it will update each time a new tab is added or removed
+  for (const tabString in TabNames) {
+    // this comes back first as the enum number and then the string name value which is what we want.
+    if (!isNaN(Number(tabString))) {
+      continue;
+    }
+    // converting back into enum.
+    const backToTabNameEnum: TabNames =
+      TabNames[tabString as keyof typeof TabNames];
 
-  //TODO: just use a loop to display these by each enum.
+    tabsHtml.push(
+      <Tab
+        key={backToTabNameEnum}
+        tab={backToTabNameEnum}
+        setCurrentTab={setCurrentTab}
+        isFocused={currentTab === backToTabNameEnum}
+      />
+    );
+  }
 
   return (
     <nav>
       <div className="flex justify-center">
-        <div className="flex border-b-2 dark:border-zinc-700">
-          <h3
-            className={`${
-              currentTab === TabNames.Quests
-                ? focusedTabStyles
-                : unfocusedTabStyles
-            } px-2 mr-4`}
-          >
-            <button onClick={() => setCurrentTab(TabNames.Quests)}>
-              Quests
-            </button>
-          </h3>
-          <h3
-            className={`${
-              currentTab === TabNames.Achievements
-                ? focusedTabStyles
-                : unfocusedTabStyles
-            } px-2 ml-4`}
-          >
-            <button onClick={() => setCurrentTab(TabNames.Achievements)}>
-              Achievements
-            </button>
-          </h3>
-          <h3
-            className={`${
-              currentTab === TabNames.Graces
-                ? focusedTabStyles
-                : unfocusedTabStyles
-            } px-2 ml-4`}
-          >
-            <button onClick={() => setCurrentTab(TabNames.Graces)}>
-              Graces
-            </button>
-          </h3>
-          <h3
-            className={`${
-              currentTab === TabNames.Bosses
-                ? focusedTabStyles
-                : unfocusedTabStyles
-            } px-2 ml-4`}
-          >
-            <button onClick={() => setCurrentTab(TabNames.Bosses)}>
-              Bosses
-            </button>
-          </h3>
-        </div>
+        <div className="flex border-b-2 dark:border-zinc-700">{tabsHtml}</div>
       </div>
     </nav>
   );
