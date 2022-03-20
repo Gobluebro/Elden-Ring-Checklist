@@ -133,7 +133,7 @@ Run locally with:
   - [ ] Boc the Seamster
   - [ ] Thops
   - [ ] Gurranq, Beast Clergyman
-  - [ ] Brother Corhyn + Goldmask / Age of Order Ending
+  - [x] Brother Corhyn + Goldmask / Age of Order Ending
   - [ ] Iron Fist Alexander
   - [ ] Seluvis
   - [ ] Patches
