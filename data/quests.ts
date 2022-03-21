@@ -100,7 +100,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "To Be Determined ...",
+        description: "Talk to Nepheli at the Stormveil Castle throne room.",
       },
     ],
   },
