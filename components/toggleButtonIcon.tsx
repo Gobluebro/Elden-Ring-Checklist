@@ -16,8 +16,9 @@ const ToggleButtonIcon = (props: Props) => {
       <IconCircleX
         size={36} // set custom `width` and `height`
         color="#c39e66" // set `stroke` color
-        stroke={3} // set `stroke-width`
-        strokeLinejoin="miter" // override other SVG props
+        stroke={2} // set `stroke-width`
+        role="img"
+        aria-label="close list"
       />
     );
   } else {
@@ -25,8 +26,9 @@ const ToggleButtonIcon = (props: Props) => {
       <IconCirclePlus
         size={36} // set custom `width` and `height`
         color="#c39e66" // set `stroke` color
-        stroke={3} // set `stroke-width`
-        strokeLinejoin="miter" // override other SVG props
+        stroke={2} // set `stroke-width`
+        role="img"
+        aria-label="open list"
       />
     );
   }
