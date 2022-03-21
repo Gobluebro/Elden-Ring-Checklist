@@ -4,5 +4,5 @@
 
 html,
 body {
-  @apply bg-zinc-100 dark:bg-zinc-900 text-black dark:text-white;
+  @apply bg-zinc-100 dark:bg-neutral-800 text-black dark:text-white;
 }

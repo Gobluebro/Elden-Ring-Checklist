@@ -8,6 +8,9 @@ interface Props {
   list: ListType;
 }
 
+const checkboxInputStyles =
+  "rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50";
+
 const CheckboxContainer = (props: Props) => {
   const { list } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
@@ -73,7 +76,7 @@ const CheckboxContainer = (props: Props) => {
               type="checkbox"
               checked={!!isAllTrue}
               onChange={() => toggleAllCheckboxes()}
-              className="rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50"
+              className={checkboxInputStyles}
             />
             <label
               htmlFor={list.id}
@@ -91,6 +94,7 @@ const CheckboxContainer = (props: Props) => {
                   title={list.imageAlt}
                   width={30}
                   height={30}
+                  role="img"
                 />
               </div>
             )}
@@ -99,7 +103,7 @@ const CheckboxContainer = (props: Props) => {
             className="flex flex-1 items-center justify-end cursor-pointer p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="mr-4 text-elden-ring-green-0">
+            <span className="mr-4 text-elden-ring-green-0 select-none">
               {numberOfCompletedEntries}/{totalEntries}
             </span>
             <button>
@@ -109,7 +113,7 @@ const CheckboxContainer = (props: Props) => {
         </div>
       </legend>
       {isOpen && (
-        <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-1000 bg-elden-ring-green-100">
+        <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-1000 bg-elden-ring-green-100 dark:bg-neutral-700">
           {checkedState &&
             list.requirements.map(({ id, description }) => (
               <div key={id}>
@@ -118,9 +122,9 @@ const CheckboxContainer = (props: Props) => {
                   type="checkbox"
                   checked={!!checkedState[id]}
                   onChange={() => handleOnChange(id)}
-                  className="rounded text-elden-ring-dark-blue"
+                  className={checkboxInputStyles}
                 />
-                <label className="ml-2 text-black" htmlFor={id}>
+                <label className="ml-2 text-black dark:text-white" htmlFor={id}>
                   {description}
                 </label>
               </div>
