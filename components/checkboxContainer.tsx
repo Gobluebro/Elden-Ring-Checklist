@@ -102,7 +102,9 @@ const CheckboxContainer = (props: Props) => {
             <span className="mr-4 text-elden-ring-green-0">
               {numberOfCompletedEntries}/{totalEntries}
             </span>
-            <ToggleButtonIcon isOpen={isOpen} />
+            <button>
+              <ToggleButtonIcon isOpen={isOpen} />
+            </button>
           </div>
         </div>
       </legend>
