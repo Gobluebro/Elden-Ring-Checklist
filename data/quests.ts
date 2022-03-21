@@ -56,7 +56,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "",
-        description: "Meet Nepheli Loux in Stormveil Castle, nearby the Secluded Corridoor site of grace.",
+        description: "Meet Nepheli Loux in Stormveil Castle near the troll guarding Godrick's encounter.",
       },
       {
         id: "",
