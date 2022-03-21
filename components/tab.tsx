@@ -19,7 +19,7 @@ const Tab = (props: Props) => {
     <button
       className={`${
         isFocused ? focusedTabStyles : unfocusedTabStyles
-      } px-2 text-lg md:text-4xl`}
+      } px-2 md:px-4 text-lg md:text-4xl`}
       onClick={() => setCurrentTab(tab)}
     >
       {TabNames[tab]}

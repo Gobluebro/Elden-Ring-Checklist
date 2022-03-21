@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);
 
   return (
-    <div className="container mx-auto flex flex-col min-h-screen">
+    <div className="container flex flex-col min-h-screen mx-auto">
       <Head>
         <title>Elden Ring Checklist</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -27,9 +27,9 @@ const Home: NextPage = () => {
 
       <TabBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
-      <main className="flex-1">
+      <main className="flex-1 mx-2 md:m-0">
         <div className="flex justify-between items-center leading-none my-4">
-          <h2>{TabNames[currentTab]}:</h2>
+          <h2 className="text-lg md:text-4xl">{TabNames[currentTab]}:</h2>
           <DarkModeToggle />
         </div>
         <CompleteList listName={currentTab} />
