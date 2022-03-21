@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <MetaAndIcons />
       </Head>
 
-      <header className="mb-2">
+      <header className="mb-8">
         <h1 className="flex justify-center text-2xl md:text-5xl">
           Elden Ring Checklist
         </h1>
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       <TabBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
       <main className="flex-1 mx-2 md:m-0">
-        <div className="flex justify-between items-center leading-none my-4">
+        <div className="flex justify-between items-center leading-none mb-2 mt-1 ">
           <h2 className="text-lg md:text-4xl">{TabNames[currentTab]}:</h2>
           <DarkModeToggle />
         </div>
