@@ -52,7 +52,7 @@ export const Quests: Array<ListType> = [
   },
   {
     id: "",
-    name: "Nepheli Loux (Incomplete)",
+    name: "Nepheli Loux",
     requirements: [
       {
         id: "",
