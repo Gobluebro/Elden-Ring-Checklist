@@ -30,7 +30,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "",
-        description: "Talk to Kenneth in West Limgrave near Third Church of Marika site of grace.",
+        description: "Talk to Kenneth on top of a fallen structure in between the Mistwood Outskirts grace and the Third Church of Marika grace.",
       },
       {
         id: "",
