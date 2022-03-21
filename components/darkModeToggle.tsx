@@ -14,16 +14,13 @@ const DarkModeToggle = () => {
 
   return (
     <>
-      <input
+      <button
         id="darkMode"
-        type="checkbox"
-        className="hidden"
-        onChange={() => setIsDarkMode(!isDarkMode)}
-        checked={isDarkMode}
-      ></input>
-      <label htmlFor="darkMode" className="text-4xl select-none cursor-pointer">
+        className="text-4xl"
+        onClick={() => setIsDarkMode(!isDarkMode)}
+      >
         {isDarkMode ? "🌑" : "🌞"}
-      </label>
+      </button>
     </>
   );
 };
