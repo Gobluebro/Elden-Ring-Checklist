@@ -26,7 +26,7 @@ export const Quests: Array<ListType> = [
   */
   {
     id: "",
-    name: "Kenneth Haight (Incomplete)",
+    name: "Kenneth Haight",
     requirements: [
       {
         id: "",
