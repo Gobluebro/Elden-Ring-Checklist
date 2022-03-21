@@ -46,7 +46,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "To Be Determined ...",
+        description: "Once you have completed Nepheli's questline, talk to Kenneth at the Stormveil Castle throne room.",
       },
     ],
   },
