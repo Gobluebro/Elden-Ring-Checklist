@@ -16,13 +16,14 @@ const Tab = (props: Props) => {
   const unfocusedTabStyles = "text-zinc-400";
 
   return (
-    <h3
+    <button
       className={`${
         isFocused ? focusedTabStyles : unfocusedTabStyles
-      } px-2 mr-4`}
+      } px-2 text-lg md:text-4xl`}
+      onClick={() => setCurrentTab(tab)}
     >
-      <button onClick={() => setCurrentTab(tab)}>{TabNames[tab]}</button>
-    </h3>
+      {TabNames[tab]}
+    </button>
   );
 };
 

@@ -31,14 +31,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    plugin(function ({ addBase, theme }) {
-      addBase({
-        h1: { fontSize: theme("fontSize.6xl") },
-        h2: { fontSize: theme("fontSize.5xl") },
-        h3: { fontSize: theme("fontSize.4xl") },
-      });
-    }),
-    require("@tailwindcss/forms"),
-  ],
+  plugins: [require("@tailwindcss/forms")],
 };

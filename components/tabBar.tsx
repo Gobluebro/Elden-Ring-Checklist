@@ -36,7 +36,9 @@ const TabBar = (props: Props) => {
   return (
     <nav>
       <div className="flex justify-center">
-        <div className="flex border-b-2 dark:border-zinc-700">{tabsHtml}</div>
+        <div className="flex border-b-2 dark:border-zinc-700 sm:overflow-x-auto md:overflow-hidden">
+          {tabsHtml}
+        </div>
       </div>
     </nav>
   );
