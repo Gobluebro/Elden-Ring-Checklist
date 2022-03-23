@@ -92,7 +92,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "Explore the Church of Anticipation, and find Stormhawk Ashes.",
+        description: "Explore the Church of Anticipation, and find the Stormhawk King.",
       },
       {
         id: "",
