@@ -38,7 +38,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "Talk to Kenneth at his first location. Receive a reward.",
+        description: "Talk to Kenneth at his first location until he asks you to enter his service. Select the "Pledge service" dialogue option.",
       },
       {
         id: "",
