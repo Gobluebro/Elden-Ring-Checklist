@@ -1,6 +1,109 @@
 import { ListType } from "./types";
 
 export const Quests: Array<ListType> = [
+  /* TEMPLATE     
+  {
+    // Can be left blank to be filled later
+    id: "",
+
+    // Name of the NPC/ending
+    name: "",
+
+    requirements: [
+      {
+        // Can be left blank to be filled later
+        id: "",
+
+        // Short sentence in brief describing necessary actions with few details
+        // Acceptable details:
+        // - Nearby Site of Grace, or Map Section
+        // - Necessary bosses and items
+        // - Dialog options
+        description: ""
+      },
+    ]
+  },
+  */
+  {
+    id: "",
+    name: "Kenneth Haight",
+    requirements: [
+      {
+        id: "",
+        description: "Talk to Kenneth on top of a fallen structure in between the Mistwood Outskirts grace and the Third Church of Marika grace.",
+      },
+      {
+        id: "",
+        description: "Clear out enemies in Fort Haight in West Limgrave.",
+      },
+      {
+        id: "",
+        description: "Talk to Kenneth at his first location until he asks you to enter his service. Select the "Pledge service" dialogue option.",
+      },
+      {
+        id: "",
+        description: "Talk to Kenneth at Fort Haight.",
+      },
+      {
+        id: "",
+        description: "Once you have completed Nepheli's questline, talk to Kenneth at the Stormveil Castle throne room.",
+      },
+    ],
+  },
+  {
+    id: "",
+    name: "Nepheli Loux",
+    requirements: [
+      {
+        id: "",
+        description: "Meet Nepheli Loux in Stormveil Castle near the troll guarding Godrick's encounter.",
+      },
+      {
+        id: "",
+        description: "Defeat Godrick the Grafted.",
+      },
+      {
+        id: "",
+        description: "Talk to Nepheli at Roundtable Hold grace. Receive the Arsenal Talisman.",
+      },
+      {
+        id: "",
+        description: "(Optional) Talk to Seluvis and receive a Potion for Nepheli. Requires Ranni's quest.",
+      },
+      {
+        id: "",
+        description: "Meet Nepheli under the bridge at the Village of the Albinaurics.",
+      },
+      {
+        id: "",
+        description: "Defeat Omenkiller at the Village.",
+      },
+      {
+        id: "",
+        description: "Talk to Nepheli at the Roundtable Hold grace.",
+      },
+      {
+        id: "",
+        description: "Visit the Four Belfries in West Liurnia, and teleport to the Precipice of Anticipation (Requires 1 Imbued Stonesword Key).",
+      },
+      {
+        id: "",
+        description: "Defeat the Grafted Scion.",
+      },
+      {
+        id: "",
+        description: "Explore the Church of Anticipation, and find the Stormhawk King.",
+      },
+      {
+        id: "",
+        description: "(Choice) Give Nepheli the Potion from Seluvis or the Ashes (at Roundtable Hold).",
+      },
+      {
+        id: "",
+        description: "Talk to Nepheli at the Stormveil Castle throne room.",
+      },
+    ],
+  },
   {
     id: "5bcdbf66-3270-4af8-9c76-2d6e646d20cb",
     name: "Roderika (Spirit-Tuner)",
