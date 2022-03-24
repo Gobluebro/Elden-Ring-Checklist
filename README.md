@@ -137,6 +137,8 @@ Run locally with:
   - [ ] Iron Fist Alexander
   - [ ] Seluvis
   - [ ] Patches
+  - [x] Kenneth Haight
+  - [x] Nepheli Loux
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces
