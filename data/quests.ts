@@ -102,6 +102,8 @@ export const Quests: Array<ListType> = [
         description:
           "Explore the Church of Anticipation, and find the Stormhawk King.",
       },
+      // TODO: add notes to as optional paramenter to lists.
+      // TODO: add note saying to not give the potion to Nepheli.
       // {
       //   id: "ca869a5e-4d1d-4a1a-b5be-a3d06075ced5",
       //   description:
