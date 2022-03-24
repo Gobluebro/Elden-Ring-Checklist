@@ -9,6 +9,7 @@ export interface ListType {
 export interface Requirement {
   id: string;
   description: string;
+  url?: string;
 }
 
 export enum TabNames {
