@@ -68,7 +68,7 @@ const CheckboxContainer = (props: Props) => {
 
   return (
     <fieldset className="my-4">
-      <legend className="border-2 border-solid rounded-t border-elden-ring-green-1000 bg-elden-ring-green-800 w-full">
+      <legend className="border-2 border-solid rounded-t border-elden-ring-green-500 dark:border-elden-ring-green-1000 bg-elden-ring-green-200 dark:bg-elden-ring-green-800 w-full">
         <div className="flex justify-between">
           <div className="flex items-center p-2">
             <input
@@ -80,7 +80,7 @@ const CheckboxContainer = (props: Props) => {
             />
             <label
               htmlFor={list.id}
-              className="ml-3 text-elden-ring-green-0 leading-none"
+              className="ml-3 text-elden-ring-green-800 dark:text-elden-ring-green-0 leading-none"
             >
               {list.name}
             </label>
@@ -103,7 +103,7 @@ const CheckboxContainer = (props: Props) => {
             className="flex flex-1 items-center justify-end cursor-pointer p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="mr-4 text-elden-ring-green-0 select-none">
+            <span className="mr-4 text-elden-ring-green-800 dark:text-elden-ring-green-0 select-none">
               {numberOfCompletedEntries}/{totalEntries}
             </span>
             <button>
@@ -113,7 +113,7 @@ const CheckboxContainer = (props: Props) => {
         </div>
       </legend>
       {isOpen && (
-        <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-1000 bg-elden-ring-green-100 dark:bg-neutral-700">
+        <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-500 dark:border-elden-ring-green-1000 bg-white dark:bg-neutral-700">
           {checkedState &&
             list.requirements.map(({ id, description, url }) => (
               <div key={id}>
