@@ -84,7 +84,7 @@ const CheckboxContainer = (props: Props) => {
             />
             <label
               htmlFor={list.id}
-              className="ml-3 text-elden-ring-green-800 dark:text-elden-ring-green-0 leading-none"
+              className="ml-3 text-elden-ring-green-1000 dark:text-elden-ring-green-0 leading-none"
             >
               {list.name}
             </label>
@@ -107,7 +107,7 @@ const CheckboxContainer = (props: Props) => {
             className="flex flex-1 items-center justify-end cursor-pointer p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="mr-4 text-elden-ring-green-800 dark:text-elden-ring-green-0 select-none">
+            <span className="mr-4 text-elden-ring-green-1000 dark:text-elden-ring-green-0 select-none">
               {numberOfCompletedEntries}/{totalEntries}
             </span>
             <button>
