@@ -68,7 +68,11 @@ const CheckboxContainer = (props: Props) => {
 
   return (
     <fieldset className="my-4">
-      <legend className="border-2 border-solid rounded-t border-elden-ring-green-500 dark:border-elden-ring-green-1000 bg-elden-ring-green-200 dark:bg-elden-ring-green-800 w-full">
+      <legend
+        className={`border-2 border-solid ${
+          isOpen ? "rounded-t" : "rounded"
+        } border-elden-ring-green-500 dark:border-elden-ring-green-1000 bg-elden-ring-green-200 dark:bg-elden-ring-green-800 w-full`}
+      >
         <div className="flex justify-between">
           <div className="flex items-center p-2">
             <input
