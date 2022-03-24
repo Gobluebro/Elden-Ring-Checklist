@@ -64,7 +64,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "Visit Roundtable Hold and talk to Nepheli. Receive the Arsenal Talisman.",
+        description: "Talk to Nepheli at Roundtable Hold grace. Receive the Arsenal Talisman.",
       },
       {
         id: "",
@@ -72,7 +72,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "Meet Nepheli at the Village of the Albinaurics.",
+        description: "Meet Nepheli under the bridge at the Village of the Albinaurics.",
       },
       {
         id: "",
@@ -80,7 +80,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "",
-        description: "Visit Roundtable Hold and talk to Nepheli.",
+        description: "Talk to Nepheli at the Roundtable Hold grace.",
       },
       {
         id: "",
