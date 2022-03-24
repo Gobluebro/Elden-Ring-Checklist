@@ -115,7 +115,7 @@ const CheckboxContainer = (props: Props) => {
       {isOpen && (
         <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-1000 bg-elden-ring-green-100 dark:bg-neutral-700">
           {checkedState &&
-            list.requirements.map(({ id, description }) => (
+            list.requirements.map(({ id, description, url }) => (
               <div key={id}>
                 <input
                   id={id}
@@ -125,7 +125,18 @@ const CheckboxContainer = (props: Props) => {
                   className={checkboxInputStyles}
                 />
                 <label className="ml-2 text-black dark:text-white" htmlFor={id}>
-                  {description}
+                  {url ? (
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline dark:text-elden-ring-green-150"
+                    >
+                      {description}
+                    </a>
+                  ) : (
+                    description
+                  )}
                 </label>
               </div>
             ))}
