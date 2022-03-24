@@ -25,81 +25,90 @@ export const Quests: Array<ListType> = [
   },
   */
   {
-    id: "",
+    id: "9731bfcb-bbde-4064-ac66-a28fa769f1ca",
     name: "Kenneth Haight",
     requirements: [
       {
-        id: "",
-        description: "Talk to Kenneth on top of a fallen structure in between the Mistwood Outskirts grace and the Third Church of Marika grace.",
+        id: "fa323288-a38a-4538-99f6-eabfbcfa6b2e",
+        description:
+          "Talk to Kenneth on top of a fallen structure in between the Mistwood Outskirts grace and the Third Church of Marika grace.",
       },
       {
-        id: "",
+        id: "f63af61a-9518-46e3-b729-55a8629a16db",
         description: "Clear out enemies in Fort Haight in West Limgrave.",
       },
       {
-        id: "",
-        description: "Talk to Kenneth at his first location until he asks you to enter his service. Select the "Pledge service" dialogue option.",
+        id: "64664736-fcbc-4f57-99f9-f0c594b31146",
+        description: `Talk to Kenneth at his first location until he asks you to enter his service. Select the "Pledge service" dialogue option.`,
       },
       {
-        id: "",
+        id: "fd4d006f-6d1b-490f-9f89-36e35d745bfa",
         description: "Talk to Kenneth at Fort Haight.",
       },
       {
-        id: "",
-        description: "Once you have completed Nepheli's questline, talk to Kenneth at the Stormveil Castle throne room.",
+        id: "988eb290-0852-4abc-8f62-34ad43bf5841",
+        description:
+          "Once you have completed Nepheli's questline, talk to Kenneth at the Stormveil Castle throne room.",
       },
     ],
   },
   {
-    id: "",
+    id: "3c574a2d-a2fe-44dd-9255-fd801b6bc9f9",
     name: "Nepheli Loux",
     requirements: [
       {
-        id: "",
-        description: "Meet Nepheli Loux in Stormveil Castle near the troll guarding Godrick's encounter.",
+        id: "5237d6c8-786d-4cf4-9523-68214804005d",
+        description:
+          "Meet Nepheli Loux in Stormveil Castle near the troll guarding Godrick's encounter.",
       },
       {
-        id: "",
+        id: "0b092d4c-ad94-4aa2-ae1e-6ea7678d7fec",
         description: "Defeat Godrick the Grafted.",
       },
       {
-        id: "",
-        description: "Talk to Nepheli at Roundtable Hold grace. Receive the Arsenal Talisman.",
+        id: "b730544e-45bc-4662-b231-b4686bfb2c8f",
+        description:
+          "Talk to Nepheli at Roundtable Hold grace. Receive the Arsenal Talisman.",
       },
       {
-        id: "",
-        description: "(Optional) Talk to Seluvis and receive a Potion for Nepheli. Requires Ranni's quest.",
+        id: "98922708-bec7-4ad4-9eb8-6aca1d32ef64",
+        description:
+          "(Optional) Talk to Seluvis and receive a Potion for Nepheli. Requires Ranni's quest.",
       },
       {
-        id: "",
-        description: "Meet Nepheli under the bridge at the Village of the Albinaurics.",
+        id: "97fc37cf-4bfb-409b-8847-273cf81f6d05",
+        description:
+          "Meet Nepheli under the bridge at the Village of the Albinaurics.",
       },
       {
-        id: "",
+        id: "f2aa0dad-6659-4747-ae60-344f2e65096e",
         description: "Defeat Omenkiller at the Village.",
       },
       {
-        id: "",
+        id: "0fbf9cc1-ddc0-4b06-bd3e-401f9251833c",
         description: "Talk to Nepheli at the Roundtable Hold grace.",
       },
       {
-        id: "",
-        description: "Visit the Four Belfries in West Liurnia, and teleport to the Precipice of Anticipation (Requires 1 Imbued Stonesword Key).",
+        id: "dd587b56-b82d-418d-aba8-ce61d7bc415f",
+        description:
+          "Visit the Four Belfries in West Liurnia, and teleport to the Precipice of Anticipation (Requires 1 Imbued Stonesword Key).",
       },
       {
-        id: "",
+        id: "5ca88bbe-f725-4bf4-be37-6b3811f301f6",
         description: "Defeat the Grafted Scion.",
       },
       {
-        id: "",
-        description: "Explore the Church of Anticipation, and find the Stormhawk King.",
+        id: "d1f8fe5e-5738-44ae-bc3a-22abb6dbf287",
+        description:
+          "Explore the Church of Anticipation, and find the Stormhawk King.",
       },
+      // {
+      //   id: "ca869a5e-4d1d-4a1a-b5be-a3d06075ced5",
+      //   description:
+      //     "(Choice) Give Nepheli the Potion from Seluvis or the Ashes (at Roundtable Hold).",
+      // },
       {
-        id: "",
-        description: "(Choice) Give Nepheli the Potion from Seluvis or the Ashes (at Roundtable Hold).",
-      },
-      {
-        id: "",
+        id: "a92b8990-e658-494a-982c-76165380ac63",
         description: "Talk to Nepheli at the Stormveil Castle throne room.",
       },
     ],
