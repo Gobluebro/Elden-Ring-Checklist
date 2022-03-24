@@ -1,4 +1,4 @@
-import { IconCirclePlus, IconCircleX } from "@tabler/icons";
+import { IconChevronDown, IconChevronLeft } from "@tabler/icons";
 
 interface Props {
   isOpen: boolean;
@@ -13,20 +13,20 @@ const ToggleButtonIcon = (props: Props) => {
 
   if (isOpen) {
     icon = (
-      <IconCircleX
+      <IconChevronLeft
         size={36} // set custom `width` and `height`
         color="#c39e66" // set `stroke` color
-        stroke={2} // set `stroke-width`
+        stroke={4} // set `stroke-width`
         role="img"
         aria-label="close list"
       />
     );
   } else {
     icon = (
-      <IconCirclePlus
+      <IconChevronDown
         size={36} // set custom `width` and `height`
         color="#c39e66" // set `stroke` color
-        stroke={2} // set `stroke-width`
+        stroke={4} // set `stroke-width`
         role="img"
         aria-label="open list"
       />
