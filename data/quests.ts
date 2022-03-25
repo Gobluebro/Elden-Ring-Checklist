@@ -25,6 +25,39 @@ export const Quests: Array<ListType> = [
   },
   */
   {
+    id: "75870d4b-4606-4012-b933-39e571cdb22d",
+    name: "Blaidd",
+    // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.
+    requirements: [
+      {
+        id: "6eb3b171-9a14-43f0-a434-7de8633cf748",
+        description: "Go to the Mistwood Ruins and listen for a wolf howl.",
+      },
+      {
+        id: "9ee425bb-e98f-4917-99ff-b212247bab4a",
+        description: `Talk to Merchant Kalé "About the howling in Mistwood" at the Church of Elleh grace. You will receive the Finger Snap gesture.`,
+      },
+      {
+        id: "64325ac7-8ca9-44bb-8cdf-f6f9dad9de26",
+        description:
+          "Go back to the Mistwood Ruins and use the Finger Snap gesture. Once Blaidd has jumped down, talk to him.",
+      },
+      {
+        id: "0bbdee7e-b298-4055-a6da-15eae4f7417b",
+        description:
+          "Enter the Forlorn Hound Evergaol and summon Blaidd. Defeat Bloodhound Knight Darriwil.",
+      },
+      {
+        id: "54ae9277-0f1b-433d-ad12-85cb55f9f1fc",
+        description: "Talk to Blaidd and exhaust his dialogue.",
+      },
+      {
+        id: "4293c04f-e9fe-4a05-bd7e-938dd61cc36e",
+        description: `Talk to Smithing Master Iji and exhaust his dialogue you are able to select "Blaidd sent me". You may now purchase the Carian Filigreed Crest talisman.`,
+      },
+    ],
+  },
+  {
     id: "9731bfcb-bbde-4064-ac66-a28fa769f1ca",
     name: "Kenneth Haight",
     requirements: [
