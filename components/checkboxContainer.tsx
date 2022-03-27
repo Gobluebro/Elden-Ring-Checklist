@@ -14,7 +14,7 @@ const checkboxInputStyles =
 const CheckboxContainer = (props: Props) => {
   const { list } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(true);
   const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
     useState<number>(0);
 
@@ -116,36 +116,38 @@ const CheckboxContainer = (props: Props) => {
           </div>
         </div>
       </legend>
-      {isOpen && (
-        <div className="px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-500 dark:border-elden-ring-green-1000 bg-white dark:bg-neutral-700">
-          {checkedState &&
-            list.requirements.map(({ id, description, url }) => (
-              <div key={id}>
-                <input
-                  id={id}
-                  type="checkbox"
-                  checked={!!checkedState[id]}
-                  onChange={() => handleOnChange(id)}
-                  className={checkboxInputStyles}
-                />
-                <label className="ml-2 text-black dark:text-white" htmlFor={id}>
-                  {url ? (
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline dark:text-elden-ring-green-150"
-                    >
-                      {description}
-                    </a>
-                  ) : (
-                    description
-                  )}
-                </label>
-              </div>
-            ))}
-        </div>
-      )}
+      <div
+        className={`px-2 pb-2 border-x-2 border-b-2 border-solid rounded-b border-elden-ring-green-500 dark:border-elden-ring-green-1000 bg-white dark:bg-neutral-700 ${
+          isOpen ? "block" : "hidden"
+        }`}
+      >
+        {checkedState &&
+          list.requirements.map(({ id, description, url }) => (
+            <div key={id}>
+              <input
+                id={id}
+                type="checkbox"
+                checked={!!checkedState[id]}
+                onChange={() => handleOnChange(id)}
+                className={checkboxInputStyles}
+              />
+              <label className="ml-2 text-black dark:text-white" htmlFor={id}>
+                {url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline dark:text-elden-ring-green-150"
+                  >
+                    {description}
+                  </a>
+                ) : (
+                  description
+                )}
+              </label>
+            </div>
+          ))}
+      </div>
     </fieldset>
   );
 };
