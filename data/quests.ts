@@ -347,7 +347,7 @@ export const Quests: Array<ListType> = [
       {
         id: "f2c70662-3c07-4bc6-8408-2f86102709e1",
         description:
-          "Defeat the Rot Worm between the Elphael Inner Wall grace and the Drainage Channnel grace.",
+          "Defeat the Ulcerated Tree Spirit between the Elphael Inner Wall grace and the Drainage Channnel grace.",
       },
       {
         id: "1d01e0d5-6856-418d-85c2-f4cbc8f8f62b",
