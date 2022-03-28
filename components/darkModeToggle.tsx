@@ -1,14 +1,18 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useLocalStorage("dark", false);
+  // used for fixing hydration issue.
+  const [buttonEmoji, setButtonEmoji] = useState<string>("🌞");
 
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
+      setButtonEmoji("🌑");
     } else {
       document.documentElement.classList.remove("dark");
+      setButtonEmoji("🌞");
     }
   }, [isDarkMode]);
 
@@ -19,7 +23,7 @@ const DarkModeToggle = () => {
         className="text-4xl"
         onClick={() => setIsDarkMode(!isDarkMode)}
       >
-        {isDarkMode ? "🌑" : "🌞"}
+        {buttonEmoji}
       </button>
     </>
   );
