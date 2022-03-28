@@ -121,32 +121,31 @@ const CheckboxContainer = (props: Props) => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        {checkedState &&
-          list.requirements.map(({ id, description, url }) => (
-            <div key={id}>
-              <input
-                id={id}
-                type="checkbox"
-                checked={!!checkedState[id]}
-                onChange={() => handleOnChange(id)}
-                className={checkboxInputStyles}
-              />
-              <label className="ml-2 text-black dark:text-white" htmlFor={id}>
-                {url ? (
-                  <a
-                    href={url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="underline dark:text-elden-ring-green-150"
-                  >
-                    {description}
-                  </a>
-                ) : (
-                  description
-                )}
-              </label>
-            </div>
-          ))}
+        {list.requirements.map(({ id, description, url }) => (
+          <div key={id}>
+            <input
+              id={id}
+              type="checkbox"
+              checked={!!checkedState[id]}
+              onChange={() => handleOnChange(id)}
+              className={checkboxInputStyles}
+            />
+            <label className="ml-2 text-black dark:text-white" htmlFor={id}>
+              {url ? (
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline dark:text-elden-ring-green-150"
+                >
+                  {description}
+                </a>
+              ) : (
+                description
+              )}
+            </label>
+          </div>
+        ))}
       </div>
     </fieldset>
   );
