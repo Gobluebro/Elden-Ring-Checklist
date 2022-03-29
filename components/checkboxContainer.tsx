@@ -6,13 +6,14 @@ import ToggleButtonIcon from "./toggleButtonIcon";
 
 interface Props {
   list: ListType;
+  showCompleted: boolean;
 }
 
 const checkboxInputStyles =
   "rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50";
 
 const CheckboxContainer = (props: Props) => {
-  const { list } = props;
+  const { list, showCompleted } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
   const [isOpen, setIsOpen] = useState<boolean>(true);
   const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
@@ -67,7 +68,9 @@ const CheckboxContainer = (props: Props) => {
   };
 
   return (
-    <fieldset className="my-4">
+    <fieldset
+      className={`my-4 ${isAllTrue && !showCompleted ? "hidden" : "block"}`}
+    >
       <legend
         className={`border-2 border-solid ${
           isOpen ? "rounded-t" : "rounded"
@@ -122,7 +125,10 @@ const CheckboxContainer = (props: Props) => {
         }`}
       >
         {list.requirements.map(({ id, description, url }) => (
-          <div key={id}>
+          <div
+            key={id}
+            className={!showCompleted && checkedState[id] ? "hidden" : "block"}
+          >
             <input
               id={id}
               type="checkbox"

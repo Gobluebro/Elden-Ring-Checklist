@@ -7,10 +7,11 @@ import CheckboxContainer from "./checkboxContainer";
 
 interface Props {
   listName: TabNames;
+  showCompleted: boolean;
 }
 
 const CompleteList = (props: Props) => {
-  const { listName } = props;
+  const { listName, showCompleted } = props;
 
   const lists = {
     [TabNames.Quests]: Quests,
@@ -24,7 +25,11 @@ const CompleteList = (props: Props) => {
   return (
     <>
       {dataArray.map((item) => (
-        <CheckboxContainer key={item.id} list={item} />
+        <CheckboxContainer
+          key={item.id}
+          list={item}
+          showCompleted={showCompleted}
+        />
       ))}
     </>
   );

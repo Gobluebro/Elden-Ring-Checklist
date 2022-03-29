@@ -7,9 +7,11 @@ import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import MetaAndIcons from "../components/metaAndIcons";
 import { TabNames } from "../data/types";
+import CompletedFilterButton from "../components/completedFilterButton";
 
 const Home: NextPage = () => {
   const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);
+  const [showCompleted, setShowCompleted] = useState<boolean>(true);
 
   return (
     <div className="container flex flex-col min-h-screen mx-auto">
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
         <MetaAndIcons />
       </Head>
 
-      <header className="mb-8">
+      <header className="mb-4">
         <h1 className="flex justify-center text-2xl md:text-5xl">
           Elden Ring Checklist
         </h1>
@@ -27,12 +29,15 @@ const Home: NextPage = () => {
 
       <TabBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
-      <main className="flex-1 mx-2 md:m-0">
-        <div className="flex justify-between items-center leading-none mb-2 mt-1 ">
-          <h2 className="text-lg md:text-4xl">{TabNames[currentTab]}:</h2>
+      <main className="flex-1 mx-2 mt-4">
+        <div className="flex justify-between items-center leading-none mt-1">
+          <CompletedFilterButton
+            showCompleted={showCompleted}
+            setShowCompleted={setShowCompleted}
+          />
           <DarkModeToggle />
         </div>
-        <CompleteList listName={currentTab} />
+        <CompleteList listName={currentTab} showCompleted={showCompleted} />
       </main>
 
       <Footer />
