@@ -6,8 +6,3 @@ html,
 body {
   @apply bg-zinc-100 dark:bg-neutral-800 text-black dark:text-white;
 }
-
-input:checked ~ .dot {
-  transform: translateX(100%);
-  @apply bg-purple-900;
-}

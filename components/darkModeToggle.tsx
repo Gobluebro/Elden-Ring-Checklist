@@ -29,7 +29,7 @@ const DarkModeToggle = () => {
 
           <div className="block w-14 h-8 border-2 border-neutral-800 dark:border-zinc-100 rounded-full"></div>
 
-          <div className="dot absolute left-1 top-1 bg-yellow-100 w-6 h-6 rounded-full transition">
+          <div className="dot absolute left-1 top-1 w-6 h-6 rounded-full bg-yellow-100 dark:bg-purple-900 transition dark:translate-x-full">
             <IconMoonStars
               size={30}
               stroke={2}
