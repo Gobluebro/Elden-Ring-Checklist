@@ -53,7 +53,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "4293c04f-e9fe-4a05-bd7e-938dd61cc36e",
-        description: `Talk to Smithing Master Iji and exhaust his dialogue you are able to select "Blaidd sent me". You may now purchase the Carian Filigreed Crest talisman.`,
+        description: `Talk to Smithing Master Iji and exhaust his dialogue until you are able to select "Blaidd sent me". You may now purchase the Carian Filigreed Crest talisman.`,
       },
     ],
   },
