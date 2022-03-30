@@ -155,7 +155,7 @@ See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) 
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## Issues and Contributing
 
 Contributions are greatly appreciated.
 
