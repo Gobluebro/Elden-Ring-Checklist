@@ -6,7 +6,7 @@ import { useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import MetaAndIcons from "../components/metaAndIcons";
-import { TabNames } from "../data/types";
+import { TabNames } from "../data/";
 import CompletedFilterButton from "../components/completedFilterButton";
 
 const Home: NextPage = () => {

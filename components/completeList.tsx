@@ -1,8 +1,4 @@
-import { Achievements } from "../data/achievements";
-import { Bosses } from "../data/bosses";
-import { Graces } from "../data/graces";
-import { Quests } from "../data/quests";
-import { TabNames } from "../data/types";
+import { Achievements, Bosses, Graces, Quests, TabNames } from "../data/";
 import CheckboxContainer from "./checkboxContainer";
 
 interface Props {

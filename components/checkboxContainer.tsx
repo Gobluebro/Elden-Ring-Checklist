@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ListType } from "../data/types";
+import { ListType } from "../data/";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import cloneDeep from "lodash.clonedeep";
 import ToggleButtonIcon from "./toggleButtonIcon";

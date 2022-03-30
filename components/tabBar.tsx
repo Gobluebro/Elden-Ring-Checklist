@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import { TabNames } from "../data/types";
+import { TabNames } from "../data/";
 import Tab from "./tab";
 
 interface Props {
