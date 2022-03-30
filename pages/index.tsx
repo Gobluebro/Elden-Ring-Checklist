@@ -1,17 +1,14 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import DarkModeToggle from "../components/darkModeToggle";
 import CompleteList from "../components/completeList";
 import { useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import MetaAndIcons from "../components/metaAndIcons";
 import { TabNames } from "../data/";
-import CompletedFilterButton from "../components/completedFilterButton";
 
 const Home: NextPage = () => {
   const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);
-  const [showCompleted, setShowCompleted] = useState<boolean>(true);
 
   return (
     <div className="container flex flex-col min-h-screen mx-auto">
@@ -30,14 +27,7 @@ const Home: NextPage = () => {
       <TabBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
       <main className="flex-1 mx-2 mt-4">
-        <div className="flex justify-between items-center leading-none mt-1">
-          <CompletedFilterButton
-            showCompleted={showCompleted}
-            setShowCompleted={setShowCompleted}
-          />
-          <DarkModeToggle />
-        </div>
-        <CompleteList listName={currentTab} showCompleted={showCompleted} />
+        <CompleteList listName={currentTab} />
       </main>
 
       <Footer />
