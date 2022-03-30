@@ -74,6 +74,8 @@
   <img src="public/README/2022-03-14 06_13_36-Elden Ring Checklist-screenshot.png" alt="Website Screenshot" title="Website Screenshot">
 </a>
 
+This project is meant to allow you to explore the game on your own pace. There are many different ways you can play the game. I'm certainly not going to tell you how to play it. If you wish to keep track and complete as much as possible through your playthrough, I hope that this website can help with that.
+
 ### Built With
 
 - [Next.js](https://nextjs.org/)
@@ -157,7 +159,7 @@ See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) 
 
 Contributions are greatly appreciated.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Please check out the [CONTRIBUTING.md](https://github.com/Gobluebro/Elden-Ring-Checklist/blob/main/CONTRIBUTING.md) file for more detailed information on how to contribute.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -165,7 +167,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Gobluebro/Elden-Ring-Checklist/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -176,6 +178,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [Github Pages](https://pages.github.com/)
+- [Contributing.md Template](https://github.com/necolas/issue-guidelines)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -185,4 +188,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/Gobluebro/Elden-Ring-Checklist.svg?style=for-the-badge
 [issues-url]: https://github.com/Gobluebro/Elden-Ring-Checklist/issues
 [license-shield]: https://img.shields.io/github/license/Gobluebro/Elden-Ring-Checklist.svg?style=for-the-badge
-[license-url]: https://github.com/Gobluebro/Elden-Ring-Checklist/blob/master/LICENSE.txt
+[license-url]: https://github.com/Gobluebro/Elden-Ring-Checklist/blob/main/LICENSE
