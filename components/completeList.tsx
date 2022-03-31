@@ -12,7 +12,7 @@ interface Props {
 const CompleteList = (props: Props) => {
   const { listName } = props;
 
-  const [closeAll, setCloseAll] = useState<boolean>(false);
+  const [isAllOpen, setIsAllOpen] = useState<boolean>(false);
   const [showCompleted, setShowCompleted] = useState<boolean>(true);
 
   const lists = {
@@ -34,8 +34,8 @@ const CompleteList = (props: Props) => {
           />
           <div className="ml-4">
             <ToggleAllAccordions
-              closeAll={closeAll}
-              setCloseAll={setCloseAll}
+              isAllOpen={isAllOpen}
+              setIsAllOpen={setIsAllOpen}
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ const CompleteList = (props: Props) => {
           key={item.id}
           list={item}
           showCompleted={showCompleted}
-          closeAll={closeAll}
+          isAllOpen={isAllOpen}
         />
       ))}
     </>

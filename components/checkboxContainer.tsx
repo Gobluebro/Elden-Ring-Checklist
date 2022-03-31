@@ -7,14 +7,14 @@ import ToggleButtonIcon from "./toggleButtonIcon";
 interface Props {
   list: ListType;
   showCompleted: boolean;
-  closeAll: boolean;
+  isAllOpen: boolean;
 }
 
 const checkboxInputStyles =
   "rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50";
 
 const CheckboxContainer = (props: Props) => {
-  const { list, showCompleted, closeAll } = props;
+  const { list, showCompleted, isAllOpen } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
@@ -36,8 +36,8 @@ const CheckboxContainer = (props: Props) => {
   );
 
   useEffect(() => {
-    setIsOpen(closeAll);
-  }, [closeAll]);
+    setIsOpen(isAllOpen);
+  }, [isAllOpen]);
 
   useEffect(() => {
     const booleanArray: boolean[] = Object.values(checkedState);
