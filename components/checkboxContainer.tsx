@@ -16,7 +16,7 @@ const checkboxInputStyles =
 const CheckboxContainer = (props: Props) => {
   const { list, showCompleted, closeAll } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
     useState<number>(0);
 
