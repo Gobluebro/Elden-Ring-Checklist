@@ -122,7 +122,12 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "f6e9b196-fca8-449f-88f5-8f22df66f9ec",
-        description: "Night's Cavalry",
+        description: "Night's Cavalry (Limgrave)",
+        url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+      },
+      {
+        id: "1a552998-ea8d-472d-8eb3-ef9081d96b9f",
+        description: "Night's Cavalry (Weeping Peninsula)",
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
       {
