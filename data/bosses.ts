@@ -428,7 +428,7 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
       {
-        id: "468bc882-7a3a-4b3a-895c-e65c7c3ffc03",
+        id: "89dfdacd-1e90-48fa-a481-bae2885ac8d8",
         description: "Night's Cavalry (Dragonbarrow East)",
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
