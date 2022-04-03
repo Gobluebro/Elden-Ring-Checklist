@@ -278,7 +278,12 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "165c520f-8c79-4936-a284-141efff498c0",
-        description: "Night's Cavalry",
+        description: "Night's Cavalry (Liurnia North)",
+        url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+      },
+      {
+        id: "ae9c69fc-3f6a-4660-897f-e71e2ce45c0e",
+        description: "Night's Cavalry (Liurnia South)",
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
       {
@@ -419,7 +424,12 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "468bc882-7a3a-4b3a-895c-e65c7c3ffc03",
-        description: "Night's Cavalry",
+        description: "Night's Cavalry (Caelid Highway South)",
+        url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+      },
+      {
+        id: "468bc882-7a3a-4b3a-895c-e65c7c3ffc03",
+        description: "Night's Cavalry (Dragonbarrow East)",
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
       {
@@ -512,6 +522,11 @@ export const Bosses: Array<ListType> = [
         id: "1142490f-c7a0-49e5-9216-a250871aca07",
         description: "Necromancer Garris",
         url: "https://eldenring.wiki.fextralife.com/Necromancer+Garris",
+      },
+      {
+        id: "6b6bb734-e41d-43ea-aafd-c1fb89a13a01",
+        description: "Night's Cavalry (Altus Plateau)",
+        url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
       {
         id: "f539a46a-658b-4732-87e2-baebb65c43af",
@@ -812,7 +827,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "86e9c576-8426-430d-b86e-80962b9674ea",
-        description: "Night's Cavalry",
+        description: "Night's Cavalry (Forbidden Lands)",
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
     ],
