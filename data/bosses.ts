@@ -439,7 +439,12 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "fa9e4845-23a1-4ef2-a0f5-7d187f12b828",
-        description: "Putrid Avatar",
+        description: "Putrid Avatar (West Caelid)",
+        url: "https://eldenring.wiki.fextralife.com/Putrid+Avatar",
+      },
+      {
+        id: "561ae53e-efa2-455d-b73f-d047b88ff3df",
+        description: "Putrid Avatar (East Caelid)",
         url: "https://eldenring.wiki.fextralife.com/Putrid+Avatar",
       },
       {
@@ -921,7 +926,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "c6b8dd77-006c-4bc4-824b-2d7f0388517e",
-        description: "Putrid Avatar",
+        description: "Putrid Avatar (Consecrated Snowfield)",
         url: "https://eldenring.wiki.fextralife.com/Putrid+Avatar",
       },
       {
