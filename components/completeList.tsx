@@ -32,12 +32,6 @@ const CompleteList = (props: Props) => {
     setAccordionState(defaultValuesHash);
   }, [dataArray]);
 
-  // make this all open stuff like how you did the checkedStates.
-  // use one object with IDS for keys
-  // and values being false or true.
-  // then just reuse the logic for flipping the values.
-  // then name the open/close button to toggle or something better.
-
   return (
     <>
       <div className="flex justify-between items-center leading-none mt-1">
