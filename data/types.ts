@@ -18,3 +18,7 @@ export enum TabNames {
   Graces,
   Bosses,
 }
+
+export interface KeyBooleanValuePair {
+  [key: string]: boolean;
+}

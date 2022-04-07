@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { ListType } from "../data/";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { KeyBooleanValuePair, ListType } from "../data/";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import cloneDeep from "lodash.clonedeep";
 import ToggleButtonIcon from "./toggleButtonIcon";
@@ -7,18 +7,20 @@ import ToggleButtonIcon from "./toggleButtonIcon";
 interface Props {
   list: ListType;
   showCompleted: boolean;
-  isAllOpen: boolean;
+  accordionState: KeyBooleanValuePair;
+  setAccordionState: Dispatch<SetStateAction<Object>>;
 }
 
 const checkboxInputStyles =
   "rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50";
 
 const CheckboxContainer = (props: Props) => {
-  const { list, showCompleted, isAllOpen } = props;
+  const { list, showCompleted, accordionState, setAccordionState } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
-  const [isOpen, setIsOpen] = useState<boolean>(false);
   const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
     useState<number>(0);
+
+  const isOpen = accordionState[list.id];
 
   const storageKeyName = `checklist_${list.id}`;
 
@@ -34,10 +36,6 @@ const CheckboxContainer = (props: Props) => {
     storageKeyName,
     defaultValuesHash
   );
-
-  useEffect(() => {
-    setIsOpen(isAllOpen);
-  }, [isAllOpen]);
 
   useEffect(() => {
     const booleanArray: boolean[] = Object.values(checkedState);
@@ -62,6 +60,14 @@ const CheckboxContainer = (props: Props) => {
     );
 
     setCheckedState(flippedCheckedHash);
+  };
+
+  const handleAccordionChange = (key: string) => {
+    const newAccordionState = cloneDeep(accordionState);
+
+    newAccordionState[key] = !newAccordionState[key];
+
+    setAccordionState(newAccordionState);
   };
 
   const handleOnChange = (id: string) => {
@@ -113,7 +119,7 @@ const CheckboxContainer = (props: Props) => {
           </div>
           <div
             className="flex flex-1 items-center justify-end cursor-pointer p-2"
-            onClick={() => setIsOpen(!isOpen)}
+            onClick={() => handleAccordionChange(list.id)}
           >
             <span className="mr-4 text-elden-ring-green-1000 dark:text-elden-ring-green-0 select-none">
               {numberOfCompletedEntries}/{totalEntries}

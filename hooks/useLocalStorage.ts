@@ -26,7 +26,6 @@ export const useLocalStorage = (keyName: string, defaultValue: any) => {
               JSON.stringify(combinedWithNewEntries)
             );
 
-            console.log({ combinedWithNewEntries });
             return combinedWithNewEntries;
           } else if (Object.keys(defaultValue) < Object.keys(storageValue)) {
             // move the values of the storageValue into the defaultValue.
@@ -38,7 +37,6 @@ export const useLocalStorage = (keyName: string, defaultValue: any) => {
             });
             localStorage.setItem(keyName, JSON.stringify(defaultValue));
 
-            console.log({ defaultValue });
             return defaultValue;
           }
         } else {

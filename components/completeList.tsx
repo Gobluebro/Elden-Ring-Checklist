@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Achievements, Bosses, Graces, Quests, TabNames } from "../data/";
 import CheckboxContainer from "./checkboxContainer";
 import ToggleAllAccordions from "./toggleAllAccordions";
@@ -12,8 +12,8 @@ interface Props {
 const CompleteList = (props: Props) => {
   const { listName } = props;
 
-  const [isAllOpen, setIsAllOpen] = useState<boolean>(false);
   const [showCompleted, setShowCompleted] = useState<boolean>(true);
+  const [accordionState, setAccordionState] = useState({});
 
   const lists = {
     [TabNames.Quests]: Quests,
@@ -23,6 +23,20 @@ const CompleteList = (props: Props) => {
   };
 
   const dataArray = lists[listName];
+
+  useEffect(() => {
+    const defaultValuesHash = dataArray.reduce(
+      (object, item) => ({ ...object, [item.id]: false }),
+      {}
+    );
+    setAccordionState(defaultValuesHash);
+  }, [dataArray]);
+
+  // make this all open stuff like how you did the checkedStates.
+  // use one object with IDS for keys
+  // and values being false or true.
+  // then just reuse the logic for flipping the values.
+  // then name the open/close button to toggle or something better.
 
   return (
     <>
@@ -34,8 +48,8 @@ const CompleteList = (props: Props) => {
           />
           <div className="ml-4">
             <ToggleAllAccordions
-              isAllOpen={isAllOpen}
-              setIsAllOpen={setIsAllOpen}
+              accordionState={accordionState}
+              setAccordionState={setAccordionState}
             />
           </div>
         </div>
@@ -46,7 +60,8 @@ const CompleteList = (props: Props) => {
           key={item.id}
           list={item}
           showCompleted={showCompleted}
-          isAllOpen={isAllOpen}
+          accordionState={accordionState}
+          setAccordionState={setAccordionState}
         />
       ))}
     </>

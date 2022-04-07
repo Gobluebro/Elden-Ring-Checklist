@@ -1,20 +1,42 @@
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import cloneDeep from "lodash.clonedeep";
+import { KeyBooleanValuePair } from "../data";
 
 interface Props {
-  isAllOpen: boolean;
-  setIsAllOpen: Dispatch<SetStateAction<boolean>>;
+  accordionState: KeyBooleanValuePair;
+  setAccordionState: Dispatch<SetStateAction<Object>>;
 }
 
 const ToggleAllAccordions = (props: Props) => {
-  const { isAllOpen, setIsAllOpen } = props;
+  const { accordionState, setAccordionState } = props;
+  const [buttonName, setButtonName] = useState<string>("Open All");
+
+  const toggleAll = () => {
+    const booleanArray: boolean[] = Object.values(accordionState);
+
+    const isAllOpen = booleanArray.every(Boolean);
+
+    const newAccordionState = cloneDeep(accordionState);
+
+    Object.keys(newAccordionState).forEach((key: string) => {
+      newAccordionState[key] = !isAllOpen;
+    });
+    setAccordionState(newAccordionState);
+  };
+
+  useEffect(() => {
+    const booleanArray: boolean[] = Object.values(accordionState);
+    const isAllOpen = booleanArray.every(Boolean);
+
+    isAllOpen ? setButtonName("Close All") : setButtonName("Open All");
+  }, [accordionState]);
 
   return (
     <button
       className="rounded-full bg-elden-ring-green-100 dark:bg-elden-ring-green-600 p-3"
-      onClick={() => setIsAllOpen(!isAllOpen)}
+      onClick={() => toggleAll()}
     >
-      <span className={isAllOpen ? "block" : "hidden"}>Close All</span>
-      <span className={isAllOpen ? "hidden" : "block"}>Open All</span>
+      <span>{buttonName}</span>
     </button>
   );
 };
