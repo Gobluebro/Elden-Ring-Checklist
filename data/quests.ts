@@ -133,9 +133,9 @@ export const Quests: Array<ListType> = [
       {
         id: "d1f8fe5e-5738-44ae-bc3a-22abb6dbf287",
         description:
-          "Explore the Church of Anticipation, and find the Stormhawk King.",
+          "Explore the Church of Anticipation, and find The Stormhawk King.",
       },
-      // TODO: add notes to as optional paramenter to lists.
+      // TODO: add notes to as optional parameter to lists.
       // TODO: add note saying to not give the potion to Nepheli.
       // {
       //   id: "ca869a5e-4d1d-4a1a-b5be-a3d06075ced5",
@@ -347,7 +347,7 @@ export const Quests: Array<ListType> = [
       {
         id: "f2c70662-3c07-4bc6-8408-2f86102709e1",
         description:
-          "Defeat the Ulcerated Tree Spirit between the Elphael Inner Wall grace and the Drainage Channnel grace.",
+          "Defeat the Ulcerated Tree Spirit between the Elphael Inner Wall grace and the Drainage Channel grace.",
       },
       {
         id: "1d01e0d5-6856-418d-85c2-f4cbc8f8f62b",
@@ -409,7 +409,7 @@ export const Quests: Array<ListType> = [
       {
         id: "414cfaf2-f60c-4d22-acaa-176b01aae842",
         description:
-          "Get the cursemark of death from the Divine Tower of Liurnia.",
+          "Get the Cursemark of Death from the Divine Tower of Liurnia.",
       },
       {
         id: "53067c65-0e84-494f-aafa-60bf6b4d1108",
@@ -633,7 +633,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "c40d1235-4ecc-4279-93a6-09d39e640776",
-        description: `Talk to Brother Corhyn near the Altus Plateua fragment. Talk "About the noble goldmask"`,
+        description: `Talk to Brother Corhyn near the Altus Plateau map fragment. Talk "About the noble goldmask"`,
       },
       {
         id: "4b09fc8d-abd3-4ce7-a1c5-c13bc6923c29",
@@ -641,7 +641,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "f25f7590-ca9c-4f8b-967a-517a041b5fca",
-        description: `Go back to Brother Corhyn near the Altus Plateua fragment and "Tell the noble Goldmask's whereabouts"`,
+        description: `Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask's whereabouts"`,
       },
       {
         id: "e59a5d41-7c4a-461e-a642-5653461df6ec",
@@ -658,7 +658,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "1fcf3bc3-0513-4808-8e3b-e24085dc4862",
-        description: `Perform the Law of Regression incanation in front of the statue near the in game message that says "Regression alone reveals secrets." Read the new message that appears`,
+        description: `Perform the Law of Regression incantation in front of the statue near the in game message that says "Regression alone reveals secrets." Read the new message that appears`,
       },
       {
         id: "977609ab-1035-4c7a-a2e6-b5087c57f909",
