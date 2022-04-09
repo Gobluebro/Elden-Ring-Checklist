@@ -454,7 +454,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "54672242-59e6-4b68-90be-08e212d48a0c",
-        description: "Putrid Crystallian Trio",
+        description: "Putrid Crystalian Trio",
         url: "https://eldenring.wiki.fextralife.com/Crystalians",
       },
       {
@@ -743,7 +743,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "fd9d28c2-70b0-43e1-a89b-f36d2dc7fc66",
-        description: "Great Wrym Theodorix",
+        description: "Great Wyrm Theodorix",
         url: "https://eldenring.wiki.fextralife.com/Great+Wyrm+Theodorix",
       },
       {
@@ -870,7 +870,7 @@ export const Bosses: Array<ListType> = [
       {
         id: "33187d00-e6ab-46eb-af32-1a126df9318f",
         description: "Fia's Champions",
-        url: "https://eldenring.wiki.fextralife.com/Fia's+champions",
+        url: "https://eldenring.wiki.fextralife.com/Fia's+Champions",
       },
       {
         id: "01574477-2b99-4283-b123-47360db9d688",

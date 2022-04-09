@@ -1277,7 +1277,7 @@ export const Graces: Array<ListType> = [
       },
       {
         id: "40afedbb-d5aa-42ef-99ad-9a98d363f4bc",
-        description: "Malenia, Goddesss of Rot",
+        description: "Malenia, Goddess of Rot",
       },
     ],
   },

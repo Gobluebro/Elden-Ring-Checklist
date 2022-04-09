@@ -672,7 +672,7 @@ export const Quests: Array<ListType> = [
       {
         id: "fc397cad-1720-45fa-9693-1d5a834a7d42",
         description:
-          "Receive the mending rune from Goldmask near the arena in Lyndell, Capital of Ash.",
+          "Receive the mending rune from Goldmask near the arena in Leyndell, Capital of Ash.",
       },
       {
         id: "2c3255de-4c4e-40d4-99bb-98fbfce2f3c1",
