@@ -3,17 +3,11 @@ import { ListType } from "./types";
 export const Quests: Array<ListType> = [
   /* TEMPLATE     
   {
-    // Can be left blank to be filled later
-    id: "",
-
-    // Name of the NPC/ending
-    name: "",
-
+    id: "", // Can be left blank to be filled later
+    name: "", // Name of the NPC/ending
     requirements: [
       {
-        // Can be left blank to be filled later
-        id: "",
-
+        id: "", // Can be left blank to be filled later
         // Short sentence in brief describing necessary actions with few details
         // Acceptable details:
         // - Nearby Site of Grace, or Map Section
@@ -24,6 +18,67 @@ export const Quests: Array<ListType> = [
     ]
   },
   */
+  {
+    id: "1f28d880-77dd-487c-a056-60b6fbf6df20",
+    name: "White Faced Varré",
+    requirements: [
+      {
+        id: "b049cb65-103b-4811-b218-1bd13ffdd9e5",
+        description: "Talk to Varré near The First Step grace.",
+      },
+      {
+        id: "110084c1-17d9-47b6-9d68-c18d3d9cf919",
+        description: "Defeat Margit, The Fell Omen.",
+      },
+      {
+        id: "6609a0e2-ffbf-4fce-a037-07c34324315b",
+        description: "Gain access to the Roundtable Hold.",
+      },
+      {
+        id: "05cdc691-f29a-4425-977c-efa190d5a58a",
+        description:
+          "Talk to him at the Rose Church in Liurnia of the Lakes until you receive the Festering Bloody Finger.",
+      },
+      {
+        id: "ba4a2aad-af54-4b99-b2ca-b0822e4baabc",
+        description: "Use the Festering Bloody Finger three times.",
+      },
+      {
+        id: "ebc0c68e-f8ca-4ee9-b601-98407c0a23fd",
+        description: `Talk to Varré again at the Rose Church. Select the "Anoint me" dialogue option.`,
+      },
+      {
+        id: "556ed60d-fbfa-4e2d-821f-2c27aa1807df",
+        description:
+          "Interact with a dead maidan at the Church of Inhibition or the Chapel of Anticipation.",
+      },
+      {
+        id: "e736a54e-de8d-4c3a-a5ec-773f856de291",
+        description:
+          "Talk to Varré again at the Rose Church. Receive the Pureblood Knight's Medal.",
+      },
+      {
+        id: "8175719c-3399-4458-b7d9-4672ba16ff74",
+        description:
+          "Use the Pureblood Knight's Medal to teleport to Mohgwyn Palace.",
+      },
+      {
+        id: "47c91057-b5c3-4de9-a29d-21fc55d2e96d",
+        description:
+          "Defeat the Nameless White Mask invader twice in the swamp area of Mohgwyn Palace.",
+      },
+      {
+        id: "2f9915fc-b6db-4b5f-98fe-db9eaf445e16",
+        description:
+          "Invade White Mask Varré's world near the Dynasty Mausoleum Midpoint grace.",
+      },
+      {
+        id: "7bcf1573-ede1-41ed-be2d-15a39cd87249",
+        description:
+          "Talk to Varré who is crawling on the ground until he dies.",
+      },
+    ],
+  },
   {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
