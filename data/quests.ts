@@ -20,7 +20,7 @@ export const Quests: Array<ListType> = [
   */
   {
     id: "1f28d880-77dd-487c-a056-60b6fbf6df20",
-    name: "White Faced Varré",
+    name: "White Mask Varré",
     requirements: [
       {
         id: "b049cb65-103b-4811-b218-1bd13ffdd9e5",
