@@ -346,12 +346,12 @@ export const Graces: Array<ListType> = [
         description: "Slumbering Wolf's Shack",
       },
       {
-        id: "073caf37-a5c8-42b1-9bd2-b74bd12d3991",
-        description: "Fallen Ruins of the Lake", // TODO: move to correct location once found in game
-      },
-      {
         id: "72bc716e-7c62-49a3-8911-c3e0f972a5db",
         description: "Boilprawn Shack",
+      },
+      {
+        id: "073caf37-a5c8-42b1-9bd2-b74bd12d3991",
+        description: "Fallen Ruins of the Lake",
       },
       {
         id: "78097f3d-9eb1-40c3-b064-dc1dcd83efed",
