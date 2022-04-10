@@ -79,9 +79,13 @@ export const Quests: Array<ListType> = [
         description: "Talk to Kenneth at Fort Haight.",
       },
       {
+        id: "61b02aa4-4c15-4f31-b996-1705e75f02f3",
+        description: "Defeat Morgott, The Omen King.",
+      },
+      {
         id: "988eb290-0852-4abc-8f62-34ad43bf5841",
         description:
-          "Once you have completed Nepheli's questline, talk to Kenneth at the Stormveil Castle throne room.",
+          "Once you have completed Nepheli's questline, talk to Kenneth at the Stormveil Castle throne room near the Godrick the Grafted grace.",
       },
     ],
   },
@@ -135,6 +139,10 @@ export const Quests: Array<ListType> = [
         description:
           "Explore the Church of Anticipation, and find The Stormhawk King.",
       },
+      {
+        id: "8e0bf773-1f5f-403e-81f3-9fbafd012075",
+        description: "Defeat Morgott, The Omen King.",
+      },
       // TODO: add notes to as optional parameter to lists.
       // TODO: add note saying to not give the potion to Nepheli.
       // {
@@ -144,7 +152,8 @@ export const Quests: Array<ListType> = [
       // },
       {
         id: "a92b8990-e658-494a-982c-76165380ac63",
-        description: "Talk to Nepheli at the Stormveil Castle throne room.",
+        description:
+          "Talk to Nepheli at the Stormveil Castle throne room near the Godrick the Grafted grace.",
       },
     ],
   },
