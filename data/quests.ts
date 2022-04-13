@@ -122,7 +122,7 @@ export const Quests: Array<ListType> = [
       {
         id: "b0bf18e5-2b08-4261-9239-6013d9c84606",
         description:
-          "Receive the Ronin's Set by defeating Shabriri or accepting the frenzied flame from the Three Fingers and going back to Zamor Ruins grace.",
+          "Receive the Ronin's Set by defeating Shabriri or by accepting the frenzied flame from the Three Fingers and going back to Zamor Ruins grace.",
       },
     ],
   },
