@@ -134,20 +134,29 @@ Run locally with:
   - [x] Gowry / Millicent
   - [x] Sorceress Sellen
   - [x] Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending
-  - [ ] Fia / Age of Duskborn ending
-  - [ ] Volcano Manor
-  - [x] Roderika
-  - [ ] Boc the Seamster
-  - [ ] Thops
-  - [ ] Gurranq, Beast Clergyman
-  - [x] Brother Corhyn + Goldmask / Age of Order Ending
-  - [ ] Iron Fist Alexander
-  - [ ] Seluvis
-  - [ ] Patches
   - [x] Kenneth Haight
   - [x] Nepheli Loux
   - [x] White Mask Varré
   - [x] Bloody Finger Hunter Yura
+  - [x] Roderika
+  - [x] Brother Corhyn + Goldmask / Age of Order Ending
+  - [ ] Patches
+  - [ ] Boc the Seamster
+  - [ ] Iron Fist Alexander
+  - [ ] Knight Bernahl
+  - [ ] Fia / Age of Duskborn ending
+  - [ ] D, Hunter of the Dead
+  - [ ] Gurranq, Beast Clergyman
+  - [ ] Diallos Hoslow
+  - [ ] Ensha
+  - [ ] Sorcerer Rogier
+  - [ ] Thops
+  - [ ] Latenna
+  - [ ] Rya
+  - [ ] Blackguard Big Boggart
+  - [ ] Jar-Bairn
+  - [ ] Seluvis
+  - [ ] Tanith
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces
