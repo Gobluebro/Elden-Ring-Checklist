@@ -147,6 +147,7 @@ Run locally with:
   - [x] Kenneth Haight
   - [x] Nepheli Loux
   - [x] White Mask Varré
+  - [x] Bloody Finger Hunter Yura
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces

@@ -80,6 +80,53 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "7e02c667-b3fe-4250-8ec9-aa2932332be6",
+    name: "Bloody Finger Hunter Yura",
+    requirements: [
+      {
+        id: "b88c9d9c-f7a6-4687-87b9-cdb09329878a",
+        description:
+          "Talk to Yura under a broken bridge near the Agheel Lake South grace.",
+      },
+      {
+        id: "730aef5f-7253-49f2-835f-1cdfbdc6779b",
+        description: "Defeat Flying Dragon Agheel in Agheel Lake.",
+      },
+      {
+        id: "33f30975-d865-4dad-aa5e-459c97287b43",
+        description: "Talk to Yura again under the broken bridge.",
+      },
+      {
+        id: "10752ce8-a6c1-48a0-9ee6-5bb971bf12e5",
+        description: "Defeat Bloody Finger Nerijus near Murkwater cave.",
+      },
+      {
+        id: "e5c448e3-bb98-403f-a7c4-90c55c0bf801",
+        description: "Talk to Yura north of Murkwater cave.",
+      },
+      {
+        id: "58e8774c-4fb2-43c8-89ed-ff1c747f7f12",
+        description:
+          "Assist Yura in defeating Bloody Finger Ravenmount Assassin north of the Main Academy Gate grace.",
+      },
+      {
+        id: "2b52c8d6-8cde-4eca-9260-7c7e1419c7c6",
+        description:
+          "Talk to Yura at the Second Church of Marika and receive the Nagakiba. Defeat Eleonora, Violet Bloody Finger.",
+      },
+      {
+        id: "1cf9776b-4d22-42dd-b257-681b75fbb98c",
+        description:
+          "Talk to Yura who is now Shabriri at the Zamor Ruins grace.",
+      },
+      {
+        id: "b0bf18e5-2b08-4261-9239-6013d9c84606",
+        description:
+          "Receive the Ronin's Set by defeating Shabriri or accepting the frenzied flame from the Three Fingers and going back to Zamor Ruins grace.",
+      },
+    ],
+  },
+  {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
     // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.
