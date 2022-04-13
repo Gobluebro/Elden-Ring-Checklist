@@ -151,7 +151,7 @@ Run locally with:
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces
-  - [ ] Need a double check once all graces are confirmed found.
+  - [ ] Need a double check on all graces.
 - [x] Bosses
 - [ ] Weapons?
 - [ ] Spirits / Puppets?
