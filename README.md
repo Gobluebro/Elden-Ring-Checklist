@@ -104,6 +104,11 @@ This project is meant to allow you to explore the game on your own pace. There a
    ```sh
    npm install
    ```
+3. Optional VSCode Extensions
+
+   - [Insert GUID](https://marketplace.visualstudio.com/items?itemName=heaths.vscode-guid) for adding GUIDs to ids.
+
+   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to spell check your commits. The `.vscode` workspace folder has been committed to ignore Elden Ring related words.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
