@@ -390,6 +390,10 @@ export const Graces: Array<ListType> = [
         description: "Sorcerer's Isle",
       },
       {
+        id: "7c135fe3-1b2f-47ad-bd87-608eadf629ec",
+        description: "East Gate Bridge Trestle",
+      },
+      {
         id: "c5042647-81d4-4cc4-b1a1-8b96719fc07e",
         description: "Gate Town North",
       },
