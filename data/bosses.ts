@@ -182,11 +182,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Adan,+Thief+of+Fire",
       },
       {
-        id: "b08f4c29-6b2a-40a9-8369-8ff4aea3ef2a",
-        description: "Alabaster Lord",
-        url: "https://eldenring.wiki.fextralife.com/Alabaster+Lord",
-      },
-      {
         id: "8538dca5-70e6-409f-8e5e-ed52e07d62fc",
         description: "Alecto, Black Knife Ringleader",
         url: "https://eldenring.wiki.fextralife.com/Alecto,+Black+Knife+Ringleader",
@@ -290,6 +285,11 @@ export const Bosses: Array<ListType> = [
         id: "0fe483c8-c471-442f-91da-86ab3b0f7181",
         description: "Omenkiller",
         url: "https://eldenring.wiki.fextralife.com/Omenkiller",
+      },
+      {
+        id: "b08f4c29-6b2a-40a9-8369-8ff4aea3ef2a",
+        description: "Onyx Lord",
+        url: "https://eldenring.wiki.fextralife.com/Onyx+Lord",
       },
       {
         id: "40992ac5-c3af-4590-8d3d-0a1fd22b1417",
