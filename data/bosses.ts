@@ -383,11 +383,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Elder+Dragon+Greyoll",
       },
       {
-        id: "eff22d2f-bbdd-43a4-b17f-eee6d3f245e9",
-        description: "Erdtree Avatar",
-        url: "https://eldenring.wiki.fextralife.com/Erdtree+Avatar",
-      },
-      {
         id: "3f91f4a0-2849-451e-b5ef-26e3bdbe981e",
         description: "Erdtree Burial Watchdog (Minor Erdtree Catacombs)",
         url: "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog",
