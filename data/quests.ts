@@ -127,6 +127,115 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "5120d756-d7d5-4827-8142-1ad8cedf94fc",
+    name: "Patches",
+    requirements: [
+      {
+        id: "96490ccb-66c9-42b6-a651-bca6a80fce42",
+        description: "Fight Patches until he surrenders in Murkwater Cave",
+      },
+      {
+        id: "8d1f86ac-2c71-4c4f-9346-b78a07747a43",
+        description: `Talk to Patches after the fight and select the "Forgive and forget" dialogue option.`,
+      },
+      {
+        id: "4de0e9d0-62c3-4e7c-9895-5b1fb46e4534",
+        description:
+          "Reload the area and buy 2000 runes worth of items from Patches.", // optional
+      },
+      {
+        id: "789f6de9-a2b8-421f-95f8-8a5de5bdb428",
+        description:
+          "Talk to Patches about his chest and then go open his chest.",
+      },
+      {
+        id: "322a82f9-fcd5-4f38-bb73-be87ce701f1a",
+        description: "Return to Patches and talk to him again.",
+      },
+      {
+        id: "e2ea8e49-d81a-426e-bedb-25880c45cf18",
+        description: "Talk to Patches at the Scenic Isle grace.",
+      },
+      {
+        id: "f4678a05-ac9a-4ce3-bd4f-25161ee26ace",
+        description:
+          "Die to an Iron Virgin at the bottom of the water wheel in Raya Lucaria.",
+      },
+      {
+        id: "4fe7df58-1151-40ab-a0d9-b17b9266ae9f",
+        description:
+          "Escape to the Volcano Manor and talk to Patches again at the Scenic Isle grace.",
+      },
+      {
+        id: "3c68f038-88dd-4c8a-a7fb-3c70c25a7b78",
+        description:
+          "Talk to Patches west of the First Mt. Gelmir Campsite grace.",
+      },
+      {
+        id: "8bc1e31d-0126-4929-8a8c-735cd16aabd6",
+        description:
+          "Follow the rainbow stones until the cutscene with Patches happens.",
+      },
+      {
+        id: "df8cd53a-7f31-4245-a8d6-ed98d1f7b4e1",
+        description: "Talk to Patches again in Mt. Gelmir.",
+      },
+      {
+        id: "1d628f60-81c5-43f5-a258-6b6aa1e655c3",
+        description:
+          "Talk to Patches, at the Volcano Manor grace, after joining Volcano Manor.",
+      },
+      {
+        id: "b5926821-85b1-41ed-a8a9-97c54991a26e",
+        description:
+          "Talk to Patches again after completing one assassination request.",
+      },
+      {
+        id: "2944671b-5651-4384-95d2-d64395b17f3d",
+        description:
+          "Invade Great Horned Tragoth and receive the Bull-Goat Set.",
+      },
+      {
+        id: "852d5c76-d2aa-40ad-a12c-41834a9e9b03",
+        description: "Talk to Patches again at the Volcano Manor grace.",
+      },
+      {
+        id: "98f973fb-624d-47ae-90d5-da9238ac728a",
+        description:
+          "Reload the area and talk to Patches again and receive the Magma Whip Candlestick.",
+      },
+      {
+        id: "3fe52bff-a2b9-445e-bf10-4ba85776331f",
+        description: "Defeat Rykard, Lord of Blasphemy.",
+      },
+      {
+        id: "71af77a8-94cd-4caf-942b-c4f5a678b6d1",
+        description:
+          "Talk to Patches again and he will leave the Volcano Manor.",
+      },
+      {
+        id: "da696fb4-ae3f-4a72-9a6e-dbfdf9769537",
+        description:
+          "Talk to Patches in the Shaded Castle near the Castellan's Hall grace.",
+      },
+      {
+        id: "f63a4849-c272-4a31-b360-b11314aa89c2",
+        description:
+          "Return to Rykard at his grace and give the Dancer's Castanets to Tanith.",
+      },
+      {
+        id: "b373c2d4-9b91-4a25-a00e-81f626ab3339",
+        description:
+          "Fight Patches until he surrenders again in Murkwater Cave.",
+      },
+      {
+        id: "8b6771c2-ae55-43aa-95d2-051018f1b224",
+        description:
+          "Reload the area and you will able to purchase from him again.",
+      },
+    ],
+  },
+  {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
     // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.
