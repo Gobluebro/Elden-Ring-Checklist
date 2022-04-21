@@ -140,7 +140,7 @@ Run locally with:
   - [x] Bloody Finger Hunter Yura
   - [x] Roderika
   - [x] Brother Corhyn + Goldmask / Age of Order Ending
-  - [ ] Patches
+  - [x] Patches
   - [ ] Boc the Seamster
   - [ ] Iron Fist Alexander
   - [ ] Knight Bernahl
