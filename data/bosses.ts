@@ -213,12 +213,13 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "001aa3b5-61e4-4c01-94e7-a5c8c3966472",
-        description: "Crystalian Spear & Crystalian Staff",
+        description:
+          "Crystalian (Spear) & Crystalian (Staff) (Academy Crystal Cave)",
         url: "https://eldenring.wiki.fextralife.com/Crystalians",
       },
       {
         id: "f832fc0f-026b-46ac-9ec9-731dd35ed8f0",
-        description: "Crystalian Ringblade",
+        description: "Crystalian (Raya Lucaria Crystal Tunnel)",
         url: "https://eldenring.wiki.fextralife.com/Crystalians",
       },
       {
