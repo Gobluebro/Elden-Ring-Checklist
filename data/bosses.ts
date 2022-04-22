@@ -533,6 +533,12 @@ export const Bosses: Array<ListType> = [
         description: "Omenkiller & Miranda the Blighted Bloom",
         url: "https://eldenring.wiki.fextralife.com/Miranda+the+Blighted+Bloom",
       },
+      {
+        id: "847c6225-7ef6-4cc5-8bab-495c4c6e1aef",
+        description: "Perfumer Tricia & Misbegotten Warrior",
+        url: "https://eldenring.wiki.fextralife.com/Perfumer+Tricia",
+      },
+      {
         id: "f539a46a-658b-4732-87e2-baebb65c43af",
         description: "Sanguine Noble",
         url: "https://eldenring.wiki.fextralife.com/Sanguine+Noble",
