@@ -42,12 +42,12 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "b7f6e298-7c24-417b-a69a-ce02ee241b0a",
-        description: "Death Bird (Limgrave)",
+        description: "Deathbird (Limgrave)",
         url: "https://eldenring.wiki.fextralife.com/Deathbird",
       },
       {
         id: "ba175778-66f6-43db-a2df-37d3c0f56db1",
-        description: "Death Bird (Weeping Peninsula)",
+        description: "Deathbird (Weeping Peninsula)",
         url: "https://eldenring.wiki.fextralife.com/Deathbird",
       },
       {
