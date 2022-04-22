@@ -7,7 +7,7 @@ export const Bosses: Array<ListType> = [
     requirements: [
       {
         id: "66fbe453-878b-4661-9aee-269941290ac0",
-        description: "Ancient Hero of Zamor",
+        description: "Ancient Hero of Zamor (Weeping Evergaol)",
         url: "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor",
       },
       {
@@ -465,7 +465,7 @@ export const Bosses: Array<ListType> = [
     requirements: [
       {
         id: "d144f3a0-10c0-4376-a017-e2f81bea0b8a",
-        description: "Ancient Hero of Zamor",
+        description: "Ancient Hero of Zamor (Sainted Hero's Grave)",
         url: "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor",
       },
       {
@@ -698,7 +698,7 @@ export const Bosses: Array<ListType> = [
     requirements: [
       {
         id: "9382e1f4-8b8c-46d3-8d71-8efef91e6784",
-        description: "Ancient Hero of Zamor",
+        description: "Ancient Hero of Zamor (Giant-Conquering Hero's Grave)",
         url: "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor",
       },
       {
