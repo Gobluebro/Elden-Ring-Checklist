@@ -229,7 +229,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "2dbd7e25-7ee8-41d6-9e5a-c2f556dcc34f",
-        description: "Deathbird",
+        description: "Deathbird (Liurnia of the Lakes)",
         url: "https://eldenring.wiki.fextralife.com/Deathbird",
       },
       {
@@ -625,6 +625,11 @@ export const Bosses: Array<ListType> = [
         id: "05f4049b-8496-4674-9261-0ce3b0f5de5c",
         description: "Crucible Knight & Crucible Knight Ordovis",
         url: "https://eldenring.wiki.fextralife.com/Crucible+Knight+Ordovis",
+      },
+      {
+        id: "343f45ab-7da7-4761-a4bb-c3c284d0b5e6",
+        description: "Deathbird (Capital Outskirts)",
+        url: "https://eldenring.wiki.fextralife.com/Deathbird",
       },
       {
         id: "f63ec75c-ef34-4410-966d-38d9a9efc47d",
