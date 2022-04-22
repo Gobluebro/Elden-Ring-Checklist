@@ -632,9 +632,9 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Divine+Bridge+Golem",
       },
       {
-        id: "db391a3e-8bba-40d0-85e2-0a9e77133670",
-        description: "Erdtree Avatar",
-        url: "https://eldenring.wiki.fextralife.com/Erdtree+Avatar",
+        id: "b0e6494f-cf2c-4cbf-a0ad-aca9a8264b2b",
+        description: "Draconic Tree Sentinel",
+        url: "https://eldenring.wiki.fextralife.com/Draconic+Tree+Sentinel",
       },
       {
         id: "2f773876-b4c9-474e-a28c-8d6b1038094e",
