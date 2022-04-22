@@ -87,7 +87,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "0b351ef8-1104-4d40-ab64-e47304ac7f0a",
-        description: "Grave Warden Duelist",
+        description: "Grave Warden Duelist (Murkwater Catacombs)",
         url: "https://eldenring.wiki.fextralife.com/Grave+Warden+Duelist",
       },
       {
@@ -469,6 +469,11 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor",
       },
       {
+        id: "f6e00c41-2463-4fd5-b2d8-0a13498f5d85",
+        description: "Ancient Dragon Lansseax",
+        url: "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Lansseax",
+      },
+      {
         id: "75b0b9fc-24ab-4495-8d92-4687307c572e",
         description: "Black Knife Assassin (Sage's Cave)",
         url: "https://eldenring.wiki.fextralife.com/Black+Knife+Assassin",
@@ -487,11 +492,6 @@ export const Bosses: Array<ListType> = [
         id: "881ca612-6bc5-47d0-828a-8a6d3fb38103",
         description: "Demi-Human Queen Gilika",
         url: "https://eldenring.wiki.fextralife.com/Demi-Human+Queen+Gilika",
-      },
-      {
-        id: "2e72d82d-e1f0-45b8-a450-a55ce91e543e",
-        description: "Draconic Tree Sentinel",
-        url: "https://eldenring.wiki.fextralife.com/Draconic+Tree+Sentinel",
       },
       {
         id: "75f7e9e3-a736-47e1-9359-7194455c9818",
@@ -514,11 +514,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Godskin+Apostle",
       },
       {
-        id: "4a25e000-0691-431d-a044-dec510a90cbf",
-        description: "Grave Warden Duelist",
-        url: "https://eldenring.wiki.fextralife.com/Grave+Warden+Duelist",
-      },
-      {
         id: "1142490f-c7a0-49e5-9216-a250871aca07",
         description: "Necromancer Garris",
         url: "https://eldenring.wiki.fextralife.com/Necromancer+Garris",
@@ -534,7 +529,7 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Miranda+the+Blighted+Bloom",
       },
       {
-        id: "847c6225-7ef6-4cc5-8bab-495c4c6e1aef",
+        id: "ed4562de-6a01-4b9d-8928-25e546083d90",
         description: "Perfumer Tricia & Misbegotten Warrior",
         url: "https://eldenring.wiki.fextralife.com/Perfumer+Tricia",
       },
@@ -610,19 +605,9 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Magma+Wyrm",
       },
       {
-        id: "ed4562de-6a01-4b9d-8928-25e546083d90",
-        description: "Perfumer Tricia & Misbegotten Warrior",
-        url: "https://eldenring.wiki.fextralife.com/Perfumer+Tricia",
-      },
-      {
         id: "7139dcde-e49c-428d-ad79-3ded2cd517d3",
         description: "Ulcerated Tree Spirit",
         url: "https://eldenring.wiki.fextralife.com/Ulcerated+Tree+Spirit",
-      },
-      {
-        id: "f6e00c41-2463-4fd5-b2d8-0a13498f5d85",
-        description: "Ancient Dragon Lansseax",
-        url: "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Lansseax",
       },
       {
         id: "521dfe59-7f39-4660-9f94-ef7d9b5aff15",
@@ -669,6 +654,11 @@ export const Bosses: Array<ListType> = [
         id: "c2b4ca1a-0785-4cd5-a6ba-fe599fc1757a",
         description: "Fell Twins",
         url: "https://eldenring.wiki.fextralife.com/Fell+Twins",
+      },
+      {
+        id: "4a25e000-0691-431d-a044-dec510a90cbf",
+        description: "Grave Warden Duelist (Auriza Side Tomb)",
+        url: "https://eldenring.wiki.fextralife.com/Grave+Warden+Duelist",
       },
       {
         id: "971d8b38-5a45-4873-9cf2-aaa4ea8df099",
