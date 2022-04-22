@@ -258,11 +258,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Glintstone+Dragon+Smarag",
       },
       {
-        id: "c82804c5-a671-43aa-b533-0cd9da55bca6",
-        description: "Godskin Noble",
-        url: "https://eldenring.wiki.fextralife.com/Godskin+Noble",
-      },
-      {
         id: "0454e11e-4a7c-4fb6-80e5-59d81573ade5",
         description: "Magma Wyrm Makar",
         url: "https://eldenring.wiki.fextralife.com/Magma+Wyrm+Makar",
