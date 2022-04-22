@@ -688,11 +688,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor",
       },
       {
-        id: "71549d38-39cd-4a75-98c7-a65c613ce95c",
-        description: "Astel, Stars of Darkness",
-        url: "https://eldenring.wiki.fextralife.com/Astel,+Stars+of+Darkness",
-      },
-      {
         id: "edd134d3-9f67-4ea4-a557-59de48195c41",
         description: "Black Blade Kindred",
         url: "https://eldenring.wiki.fextralife.com/Black+Blade+Kindred",
@@ -708,13 +703,8 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Commander+Niall",
       },
       {
-        id: "8433c8a0-fd57-4c64-92fd-f02557362e22",
-        description: "Death Rite Bird (Central Mountaintops of the Giants)",
-        url: "https://eldenring.wiki.fextralife.com/Death+Rite+Bird",
-      },
-      {
         id: "d3cb926d-296f-4fbf-8597-09c30bab9b99",
-        description: "Death Rite Bird (West Mountaintops of the Giants)",
+        description: "Death Rite Bird",
         url: "https://eldenring.wiki.fextralife.com/Death+Rite+Bird",
       },
       {
@@ -733,14 +723,9 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Godskin+Apostle+and+Godskin+Noble",
       },
       {
-        id: "fd9d28c2-70b0-43e1-a89b-f36d2dc7fc66",
-        description: "Great Wyrm Theodorix",
-        url: "https://eldenring.wiki.fextralife.com/Great+Wyrm+Theodorix",
-      },
-      {
-        id: "8318f331-3b9e-4bda-a2c0-4341307a0d64",
-        description: "Misbegotten Crusader",
-        url: "https://eldenring.wiki.fextralife.com/Misbegotten+Crusader",
+        id: "400f12d2-d248-4d7c-bf6b-cfff5723c7fa",
+        description: "Roundtable Knight Vyke",
+        url: "https://eldenring.wiki.fextralife.com/Roundtable+Knight+Vyke",
       },
       {
         id: "923ce895-5952-432c-82d4-dd14655a969e",
@@ -751,11 +736,6 @@ export const Bosses: Array<ListType> = [
         id: "379ecc9d-ce69-43a7-8e08-01f9e0e99140",
         description: "Ulcerated Tree Spirit (Giants' Mountaintop Catacombs)",
         url: "https://eldenring.wiki.fextralife.com/Ulcerated+Tree+Spirit",
-      },
-      {
-        id: "400f12d2-d248-4d7c-bf6b-cfff5723c7fa",
-        description: "Festering Fingerprint Vyke",
-        url: "https://eldenring.wiki.fextralife.com/Roundtable+Knight+Vyke",
       },
     ],
   },
@@ -891,9 +871,19 @@ export const Bosses: Array<ListType> = [
     name: "Consecrated Snowfield",
     requirements: [
       {
+        id: "71549d38-39cd-4a75-98c7-a65c613ce95c",
+        description: "Astel, Stars of Darkness",
+        url: "https://eldenring.wiki.fextralife.com/Astel,+Stars+of+Darkness",
+      },
+      {
         id: "02f040c7-4b3a-4839-9b3a-043ab4241f9d",
         description: "Death Rite Bird",
         url: "https://eldenring.wiki.fextralife.com/Death+Rite+Bird",
+      },
+      {
+        id: "fd9d28c2-70b0-43e1-a89b-f36d2dc7fc66",
+        description: "Great Wyrm Theodorix",
+        url: "https://eldenring.wiki.fextralife.com/Great+Wyrm+Theodorix",
       },
       {
         id: "a9c4471c-7566-4a64-a6d7-019478f19fb9",
