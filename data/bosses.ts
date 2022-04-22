@@ -529,6 +529,10 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
       },
       {
+        id: "5a111a25-094c-43a6-91d6-47d3339f5b65",
+        description: "Omenkiller & Miranda the Blighted Bloom",
+        url: "https://eldenring.wiki.fextralife.com/Miranda+the+Blighted+Bloom",
+      },
         id: "f539a46a-658b-4732-87e2-baebb65c43af",
         description: "Sanguine Noble",
         url: "https://eldenring.wiki.fextralife.com/Sanguine+Noble",
