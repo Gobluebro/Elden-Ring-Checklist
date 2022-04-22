@@ -101,11 +101,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Leonine+Misbegotten",
       },
       {
-        id: "1e94b0d3-5f03-4cee-9867-4cb5f5ca27f6",
-        description: "Lion Guardian",
-        url: "https://eldenring.wiki.fextralife.com/Lion+Guardian",
-      },
-      {
         id: "ce9d9e01-1849-4bb4-86a6-dd72ab62a1fd",
         description: "Mad Pumpkin Head",
         url: "https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head",
