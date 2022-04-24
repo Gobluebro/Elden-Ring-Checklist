@@ -751,7 +751,11 @@ export const Graces: Array<ListType> = [
       },
       {
         id: "a83774a6-09f2-401a-aa7c-13cf91d31855",
-        description: "Outer wall Battleground",
+        description: "Outer Wall Battleground",
+      },
+      {
+        id: "2488d5b3-a24a-4879-9fa4-3ec4bc178900",
+        description: "Hermit Merchant's Shack",
       },
       {
         id: "7bc749d8-5bb2-4278-98a0-8eef2382ca6c",
