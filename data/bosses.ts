@@ -688,11 +688,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Ancient+Hero+of+Zamor",
       },
       {
-        id: "edd134d3-9f67-4ea4-a557-59de48195c41",
-        description: "Black Blade Kindred",
-        url: "https://eldenring.wiki.fextralife.com/Black+Blade+Kindred",
-      },
-      {
         id: "0ab51977-d76e-4dcc-9797-7ee01f15eff2",
         description: "Borealis the Freezing Fog",
         url: "https://eldenring.wiki.fextralife.com/Borealis+the+Freezing+Fog",
@@ -798,7 +793,7 @@ export const Bosses: Array<ListType> = [
     requirements: [
       {
         id: "e935d562-bf77-49db-b203-47a4f423b842",
-        description: "Blackblade Kindred",
+        description: "Black Blade Kindred",
         url: "https://eldenring.wiki.fextralife.com/Black+Blade+Kindred",
       },
       {
