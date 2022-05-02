@@ -899,8 +899,12 @@ export const Graces: Array<ListType> = [
   },
   {
     id: "784a5cd3-f15a-48b1-bcb5-ff7f7a05448f",
-    name: "Leyndell Ashen Capital",
+    name: "Leyndell, Ashen Capital",
     requirements: [
+      {
+        id: "59e4c408-fc05-47c5-8f01-3bdbd083b8b2",
+        description: "East Capital Rampart",
+      },
       {
         id: "cf88ef17-2543-473d-bb55-6ee82350a73a",
         description: "Leyndell, Capital of Ash",
