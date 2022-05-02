@@ -928,6 +928,16 @@ export const Graces: Array<ListType> = [
     ],
   },
   {
+    id: "ab08b638-80bd-452a-b972-745e69f1dab5",
+    name: "Stone Platform",
+    requirements: [
+      {
+        id: "b39f7e62-e6a1-4491-9ff2-9729af84703a",
+        description: "Fractured Marika",
+      },
+    ],
+  },
+  {
     id: "1365eed9-a9f0-4cd5-a5df-f7aa3c3d47a3",
     name: "Caelid",
     requirements: [
