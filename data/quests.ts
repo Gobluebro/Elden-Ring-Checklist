@@ -315,6 +315,88 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "a77c63dc-92f1-4d4e-8ff5-db8940ea0d5c",
+    name: "Iron Fist Alexander",
+    requirements: [
+      {
+        id: "8197d868-2c05-4607-b375-21635d88049d",
+        description: "Talk to Alexander southwest of the Saintsbridge grace.",
+      },
+      {
+        id: "26cb514a-de84-4cff-b501-105e4b5697b0",
+        description: "Hit Alexander from behind to get him unstuck.",
+      },
+      {
+        id: "32020bec-cdba-4fa2-ad98-9ded7074c9a0",
+        description: "Talk to Alexander and exhaust his dialogue.",
+      },
+      {
+        id: "824d28ac-7dbb-49d6-90a8-ed2d18733f2d",
+        description: "Talk to Alexander at the end of the Gael Tunnel.",
+      }, //optional
+      {
+        id: "29b5ca22-d823-40c3-88fb-be3151b873e8",
+        description: "Talk to Alexander at the Redmane Castle.",
+      },
+      {
+        id: "7ca93270-fb64-461f-92b7-09c64e6aaa96",
+        description:
+          "Defeat Radahn, optionally summon Alexander to help you fight.",
+      },
+      {
+        id: "a5cc767b-697d-4fcf-891b-7dd6c7043119",
+        description:
+          "Talk to Alexander after the fight and exhaust his dialogue.",
+      },
+      //Liurnia meeting is optional if you go to Mt Gelmir
+      {
+        id: "4d420e8a-1932-42c6-8a6a-310bec4ef468",
+        description: "Craft an Oil Pot or a Roped Oil Pot.",
+      },
+      {
+        id: "5fd524b7-0a2d-474c-94cd-2cb5ad2bddfb",
+        description:
+          "Talk to Alexander south of the Artist's Shack grace in Liurnia of the Lakes.",
+      },
+      {
+        id: "a17d195b-88fb-49eb-bece-0dae95ce18c2",
+        description:
+          "Use Oil Pots on Alexander and hit him to get him unstuck.",
+      },
+      {
+        id: "450211f0-c78f-4641-9367-05682b4597c3",
+        description:
+          "Talk to Alexander after you get him unstuck and exhaust his dialogue.",
+      },
+      {
+        id: "cf86f19b-047d-45d6-b5b6-fbc88ed03b32",
+        description: "Defeat the Magma Wyrm south of Fort Laiedd.",
+      },
+      {
+        id: "31ca7d23-f727-42c6-bd6b-766c9d55826c",
+        description:
+          "Talk to Alexander in the lava field and exhaust his dialogue.",
+      },
+      {
+        id: "38e41399-9074-40d3-95d8-01b5129394f4",
+        description:
+          "Defeat Fire Giant, optionally summon Alexander to help you fight.",
+      },
+      {
+        id: "e434b13f-9780-4431-8637-e1f4b5001a08",
+        description: "Talk to Alexander in Crumbling Farum Azula.",
+      },
+      {
+        id: "898af2d8-90b9-48bc-8112-32484d125679",
+        description: "Defeat Alexander.",
+      },
+      {
+        id: "68ee23ee-a1c6-402f-ae27-3b2a6a2e4010",
+        description: "Talk to Alexander and receive Alexander's Innards.",
+      },
+    ],
+  },
+  {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
     // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.
@@ -979,11 +1061,6 @@ export const Quests: Array<ListType> = [
       },
     ],
   },
-  // {
-  //   id: "ecdeb0c0-b56d-4a95-af9f-cbfe5ae6b52c",
-  //   name: "Iron Fist Alexander",
-  //   requirements: [],
-  // },
   // {
   //   id: "739611be-441a-48cf-a1d5-3597fa9196fc",
   //   name: "Volcano Manor",
