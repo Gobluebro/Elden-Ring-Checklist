@@ -236,6 +236,85 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "dbfd1d2c-f568-434d-a9dd-ec82fc45dea3",
+    name: "Boc the Seamster",
+    requirements: [
+      {
+        id: "ab481de8-72b8-4eec-8dfc-e1963a293e6b",
+        description:
+          "Hit the small tree and talk to Boc south of the Agheel Lake North grace.",
+      },
+      {
+        id: "118b8382-70a0-4407-a69c-85ff1298a236",
+        description: "Talk to Boc in the Coastal Cave in western Limgrave.",
+      },
+      {
+        id: "d44fb6a6-99d7-40cc-8035-fc479608da55",
+        description:
+          "Defeat the Demi-Human Chief (Duo) and receive the Sewing Needle.",
+      },
+      {
+        id: "4c82b4ff-b3a2-44a0-baa8-3ac07c96e65d",
+        description: `Talk to Boc in the Coastal Cave again and select the "Give the Sewing Needle" dialogue option`,
+      },
+      // required: you must talk to him at one of the optional places.
+      {
+        id: "3bd8d18e-7119-44d0-877e-59bbc30e7596",
+        description: "Rest at the Lake-Facing Cliffs grace and talk to Boc.",
+      }, //optional
+      {
+        id: "1f735427-bbee-434c-aa86-b4203b5c27c2",
+        description:
+          "Rest at the East Raya Lucaria Gate grace and talk to Boc.",
+      }, //optional
+      {
+        id: "2c10bace-7112-4238-ae77-3f24c507afa1",
+        description: `Rest at the East Raya Lucaria Gate grace and select the "Talk to Melina" dialogue.`,
+      }, //optional
+      {
+        id: "625d7959-059b-419f-bfbc-cdb54b99e920",
+        description:
+          "Rest at the Altus Highway Junction grace and talk to Boc.",
+      }, //optional
+      {
+        id: "9816aa87-7342-48d2-9fc1-a1d95239989a",
+        description: "Rest at the East Capital Rampart grace and talk to Boc.",
+      }, //optional
+      {
+        id: "291d78fd-345b-4fe7-a15e-ebff7627dfe7",
+        description:
+          "Receive the Gold Sewing Needle from the chest at the Church of Vows.",
+      },
+      {
+        id: "cc199bc2-3959-480d-974b-eafd0a8b5df2",
+        description:
+          "Buy an armor piece from Finger Reader Enia at the Roundtable Hold.",
+      },
+      {
+        id: "61d4cd57-e2a7-49f1-b7a0-0947819bf4e1",
+        description:
+          "Give the Gold Sewing Needle to Boc at any of the previous places you talked to him at.",
+      },
+      {
+        id: "8e17d343-40e0-493c-b3f4-d3fc5cbd0b46",
+        description: `Talk to Boc and allow him to call you "Lord".`,
+      },
+      {
+        id: "be763a73-15a4-4521-bbe8-058a24f04216",
+        description: `Get the "You're Beautiful" Prattling Pate from Hermit Village.`,
+      },
+      //good ending only here. we love boc
+      {
+        id: "fa616006-b559-45f7-94e5-d6acda6e4828",
+        description: `Use the "You're Beautiful" Prattling Pate in front of Boc.`,
+      },
+      {
+        id: "e466e59e-7d5d-4262-af8f-687e777d6f0d",
+        description: `Talk to Boc and select the "I heard a voice" dialogue.`,
+      },
+    ],
+  },
+  {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
     // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.

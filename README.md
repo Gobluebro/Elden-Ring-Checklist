@@ -141,7 +141,7 @@ Run locally with:
   - [x] Roderika
   - [x] Brother Corhyn + Goldmask / Age of Order Ending
   - [x] Patches
-  - [ ] Boc the Seamster
+  - [x] Boc the Seamster
   - [ ] Iron Fist Alexander
   - [ ] Knight Bernahl
   - [ ] Fia / Age of Duskborn ending
