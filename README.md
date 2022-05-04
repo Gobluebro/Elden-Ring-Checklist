@@ -142,7 +142,7 @@ Run locally with:
   - [x] Brother Corhyn + Goldmask / Age of Order Ending
   - [x] Patches
   - [x] Boc the Seamster
-  - [ ] Iron Fist Alexander
+  - [x] Iron Fist Alexander
   - [ ] Knight Bernahl
   - [ ] Fia / Age of Duskborn ending
   - [ ] D, Hunter of the Dead
