@@ -397,6 +397,62 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "2b7a7880-41e5-4a42-aa9f-4f80bc59eb65",
+    name: "Knight/Recusant Bernahl",
+    requirements: [
+      {
+        id: "b6945128-636d-4cee-81e3-f06d6e082b57",
+        description: "Talk to Bernahl at the Warmaster's Shack grace.",
+      }, //optional
+      {
+        id: "19a9a7f3-25c9-42bf-aae5-53624f40dd10",
+        description:
+          "Talk to Recusant Bernahl after joining the Volcano Manor.",
+      },
+      {
+        id: "2e019569-1c39-4bfd-894b-e31249902936",
+        description: "Complete the first Volcano Manor request.",
+      }, //optional
+      {
+        id: "05cd7353-a2a3-47e2-be4e-3bbed1b566ef",
+        description: "Talk to Bernahl in the Volcano Manor.",
+      }, //optional
+      {
+        id: "28448d84-ce33-4619-ad06-a7709a731038",
+        description: "Complete the second Volcano Manor request.",
+      },
+      {
+        id: "e8ab0a15-d49f-42fe-a332-9fb8b47bd2e8",
+        description: "Talk to Bernahl in the Volcano Manor.",
+      },
+      {
+        id: "2359f5db-aab6-49b3-9698-3e284dae42b4",
+        description: "Complete Bernahl's request.",
+      },
+      {
+        id: "69fad4da-517a-4e6a-b35d-d8aebad5d290",
+        description: "Talk to Bernahl in the Volcano Manor.",
+      },
+      {
+        id: "84fea040-5d3a-499f-8d96-5bd127465af7",
+        description: "Defeat Rykard.",
+      },
+      {
+        id: "c4d5f927-fc10-4e21-92df-1017cabd6fba",
+        description: "Talk to Bernahl in the Volcano Manor.",
+      },
+      {
+        id: "becae901-b4bd-428a-8adc-ae8fbbbf6e2c",
+        description: "Summon Bernahl at Godskin Duo.",
+      },
+      {
+        id: "7debf54b-8413-472c-82ef-02002c8d50d7",
+        description:
+          "Defeat Recusant Bernahl (the invader) in Crumbling Farum Azula.",
+      },
+    ],
+  },
+  {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
     // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.
@@ -1061,23 +1117,4 @@ export const Quests: Array<ListType> = [
       },
     ],
   },
-  // {
-  //   id: "739611be-441a-48cf-a1d5-3597fa9196fc",
-  //   name: "Volcano Manor",
-  //   requirements: [
-  //     // {
-  //     //   id: "b0dc1ab7-1564-4409-b0a5-7e93ad9f7a34",
-  //     //   description: "Talk to Tanith at the Volcano Manor grace.",
-  //     // },
-  //     // {
-  //     //   id: "9752859c-752f-4592-852d-40fb6c690634",
-  //     //   description:
-  //     //     "Talk to Bernahl. You will also be able to talk to Rya, Diallos, and Patches if you did their questlines.",
-  //     // },
-  //     // {
-  //     //   id: "890c711c-d6e8-499d-8545-309ee4d8b732",
-  //     //   description: "",
-  //     // },
-  //   ],
-  // },
 ];

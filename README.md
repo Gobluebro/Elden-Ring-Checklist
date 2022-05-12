@@ -143,7 +143,7 @@ Run locally with:
   - [x] Patches
   - [x] Boc the Seamster
   - [x] Iron Fist Alexander
-  - [ ] Knight Bernahl
+  - [x] Knight Bernahl
   - [ ] Fia / Age of Duskborn ending
   - [ ] D, Hunter of the Dead
   - [ ] Gurranq, Beast Clergyman
