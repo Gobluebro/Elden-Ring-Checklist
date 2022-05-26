@@ -144,7 +144,7 @@ Run locally with:
   - [x] Boc the Seamster
   - [x] Iron Fist Alexander
   - [x] Knight Bernahl
-  - [ ] Fia / Age of Duskborn ending
+  - [x] Fia / Age of Duskborn ending
   - [ ] D, Hunter of the Dead
   - [ ] Gurranq, Beast Clergyman
   - [ ] Diallos Hoslow

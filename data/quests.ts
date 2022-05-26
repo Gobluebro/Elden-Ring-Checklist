@@ -797,6 +797,64 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "900d02cb-0685-4a28-951f-318ebdee46d0",
+    name: "Fia / Age of Duskborn Ending",
+    requirements: [
+      {
+        id: "753a3949-1f33-4953-93b9-0ef16e351da4",
+        description: "Rest at a site of grace in Altus Plateau.",
+      },
+      {
+        id: "3d72b66b-98c5-4ee2-838e-28251a186c24",
+        description:
+          "Talk to Fia at the Roundtable Hold until you receive the Weathered Dagger",
+      },
+      {
+        id: "6ba21da1-0acd-4113-941c-3f44d520978d",
+        description: "Give D, Hunter of the Dead the Weathered Dagger",
+      },
+      {
+        id: "3239894a-57f9-484b-8b21-904156c1e2d5",
+        description:
+          "Claim two great runes and then talk to Fia at the Roundtable hold to receive a map of the location of a Black Knifeprint.",
+      }, //optional
+      {
+        id: "7c0c707e-6c22-4556-83d5-ad7dafa2f90d",
+        description:
+          "Talk to her in a newly opened room in the Roundtable hold",
+      },
+      {
+        id: "fa9e90a8-bc0f-4dc0-8fe8-726f333611b3",
+        description: "Give D's twin brother the Twinned Armor set.",
+      }, //optional
+      {
+        id: "7cf4a33d-0ae7-4f54-894c-d87ba8acd580",
+        description: "Defeat Fia's Champions.",
+      },
+      {
+        id: "e4afc57f-69cb-42f2-b1a1-d4ccafbbe849",
+        description: "Rest and talk to Fia multiple times until falls asleep.",
+      },
+      {
+        id: "df1b7f52-a3d0-45d0-a2c6-5b9f5354c70a",
+        description: "Defeat Lichdragon Fortissax.",
+      },
+      {
+        id: "5e98459f-6e25-423c-a450-71c9d5770606",
+        description: "Pick up the Mending Rune of the Death-Prince.",
+      },
+      {
+        id: "7d9e7119-54ef-4a45-baf6-2936e8e6b07a",
+        description:
+          "Rest at the grace multiple times and pick up Fia's and D's brothers armor sets.",
+      },
+      {
+        id: "cb90d59d-9c67-4fb4-988b-87fab462cfdd",
+        description: `Defeat the Boss at the end of the game and select the "Use Mending Rune of the Death-Prince" dialogue option.`,
+      },
+    ],
+  },
+  {
     id: "2abe0f98-8523-47f6-b060-0ca9c275962e",
     name: "Ranni the Witch / Age of the Stars Ending",
     requirements: [
@@ -958,8 +1016,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "d3745216-125d-4a68-a78d-f69f5823e8cc",
-        description:
-          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue option.',
+        description: `Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue option.`,
       },
     ],
   },
