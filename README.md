@@ -160,7 +160,7 @@ Run locally with:
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces
-  - [ ] Need a double check on all graces.
+  - [x] Double checked by [@13xforever](https://github.com/13xforever)
 - [x] Bosses
 - [ ] Weapons?
 - [ ] Spirits / Puppets?
