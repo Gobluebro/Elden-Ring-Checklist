@@ -797,6 +797,50 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "6a2f5b7e-47ba-4b06-b51e-c88b7d93703e",
+    name: "D, Hunter of the Dead",
+    requirements: [
+      {
+        id: "f7e3f8af-c8cc-46a4-83a4-bb07992e76cf",
+        description:
+          "Talk D to the east of Summonwater Village grace or at the Roundtable hold.",
+      },
+      {
+        id: "164a555c-a9fd-4680-ab79-41bf8aa1210c",
+        description: "Defeat Tibia Mariner at Summonwater Village.",
+      },
+      {
+        id: "405f0050-fe45-4b72-852c-fb9031e63027",
+        description: `Talk to D again at either location. Select the "Show Deathroot" and "Accept introduction" dialogue options.`,
+      },
+      {
+        id: "811d3b70-a8e0-4bc9-9f9c-104edf28ebad",
+        description: "Feed Gurranq a Deathroot at Bestial Sanctum",
+      },
+      {
+        id: "def4242a-89f1-4d62-aa4a-9c08b46458a6",
+        description: "Talk to D at the Roundtable Hold.",
+      },
+      {
+        id: "7877282d-863e-4fef-b392-065e733e370d",
+        description: "Talk to Rogier about D at the Roundtable Hold.",
+      },
+      {
+        id: "769bf6e9-469a-42e1-ae2c-12e7ed590552",
+        description: "Reload and talk to Rogier again.",
+      },
+      {
+        id: "c157162b-e1aa-4d11-a835-60d139c486aa",
+        description:
+          "Defeat Black Knife Assassin at Black Knife Catacombs, optionally summon D to help.",
+      },
+      {
+        id: "e4f0ae15-d44d-43cd-aa8e-3277390e7dfd",
+        description: "Follow Fia's questline to further progress.",
+      },
+    ],
+  },
+  {
     id: "900d02cb-0685-4a28-951f-318ebdee46d0",
     name: "Fia / Age of Duskborn Ending",
     requirements: [

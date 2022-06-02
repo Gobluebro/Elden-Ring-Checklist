@@ -145,7 +145,7 @@ Run locally with:
   - [x] Iron Fist Alexander
   - [x] Knight Bernahl
   - [x] Fia / Age of Duskborn ending
-  - [ ] D, Hunter of the Dead
+  - [x] D, Hunter of the Dead
   - [ ] Gurranq, Beast Clergyman
   - [ ] Diallos Hoslow
   - [ ] Ensha
