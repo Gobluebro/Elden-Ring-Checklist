@@ -100,7 +100,18 @@ const CheckboxContainer = (props: Props) => {
               htmlFor={list.id}
               className="ml-3 text-elden-ring-green-1000 dark:text-elden-ring-green-0 leading-none"
             >
-              {list.name}
+              {list.url ? (
+                <a
+                  href={list.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline dark:text-elden-ring-green-150"
+                >
+                  {list.name}
+                </a>
+              ) : (
+                list.name
+              )}
             </label>
             {list.imageUrl && (
               <div className="flex items-center ml-2">
@@ -135,7 +146,7 @@ const CheckboxContainer = (props: Props) => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        {list.requirements.map(({ id, description, url }) => (
+        {list.requirements.map(({ id, description, url, mapLink }) => (
           <div
             key={id}
             className={!showCompleted && checkedState[id] ? "hidden" : "block"}
@@ -153,6 +164,7 @@ const CheckboxContainer = (props: Props) => {
                   href={url}
                   target="_blank"
                   rel="noreferrer"
+                  tabIndex={-1}
                   className="underline dark:text-elden-ring-green-150"
                 >
                   {description}
@@ -161,6 +173,22 @@ const CheckboxContainer = (props: Props) => {
                 description
               )}
             </label>
+            {
+              mapLink ?
+              (
+                <span>
+                  <span> [</span>
+                  <a
+                    href={mapLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    tabIndex={-1}
+                    className="underline dark:text-elden-ring-green-150">
+                      Map Link
+                  </a>
+                  <span>]</span>
+                </span>
+              ) : null }
           </div>
         ))}
       </div>

@@ -21,10 +21,12 @@ export const Quests: Array<ListType> = [
   {
     id: "1f28d880-77dd-487c-a056-60b6fbf6df20",
     name: "White Mask Varré",
+    url: "https://eldenring.wiki.fextralife.com/White+Mask+Varre",
     requirements: [
       {
         id: "b049cb65-103b-4811-b218-1bd13ffdd9e5",
         description: "Talk to Varré near The First Step grace.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=457"
       },
       {
         id: "110084c1-17d9-47b6-9d68-c18d3d9cf919",
@@ -87,6 +89,7 @@ export const Quests: Array<ListType> = [
   {
     id: "7e02c667-b3fe-4250-8ec9-aa2932332be6",
     name: "Bloody Finger Hunter Yura",
+    url: "https://eldenring.wiki.fextralife.com/Bloody+Finger+Hunter+Yura",
     requirements: [
       {
         id: "b88c9d9c-f7a6-4687-87b9-cdb09329878a",
@@ -134,6 +137,7 @@ export const Quests: Array<ListType> = [
   {
     id: "5120d756-d7d5-4827-8142-1ad8cedf94fc",
     name: "Patches",
+    url: "https://eldenring.wiki.fextralife.com/Patches",
     requirements: [
       {
         id: "96490ccb-66c9-42b6-a651-bca6a80fce42",
@@ -243,6 +247,7 @@ export const Quests: Array<ListType> = [
   {
     id: "dbfd1d2c-f568-434d-a9dd-ec82fc45dea3",
     name: "Boc the Seamster",
+    url: "https://eldenring.wiki.fextralife.com/Boc+the+Seamster",
     requirements: [
       {
         id: "ab481de8-72b8-4eec-8dfc-e1963a293e6b",
@@ -322,6 +327,7 @@ export const Quests: Array<ListType> = [
   {
     id: "a77c63dc-92f1-4d4e-8ff5-db8940ea0d5c",
     name: "Iron Fist Alexander",
+    url: "https://eldenring.wiki.fextralife.com/Iron+Fist+Alexander",
     requirements: [
       {
         id: "8197d868-2c05-4607-b375-21635d88049d",
@@ -404,6 +410,7 @@ export const Quests: Array<ListType> = [
   {
     id: "2b7a7880-41e5-4a42-aa9f-4f80bc59eb65",
     name: "Knight/Recusant Bernahl",
+    url: "https://eldenring.wiki.fextralife.com/Knight+Bernahl",
     requirements: [
       {
         id: "b6945128-636d-4cee-81e3-f06d6e082b57",
@@ -460,6 +467,7 @@ export const Quests: Array<ListType> = [
   {
     id: "75870d4b-4606-4012-b933-39e571cdb22d",
     name: "Blaidd",
+    url: "https://eldenring.wiki.fextralife.com/Blaidd",
     // note if you have completed Forlon Hound Evergaol before then Blaidd will be standing outside of it.
     requirements: [
       {
@@ -493,6 +501,7 @@ export const Quests: Array<ListType> = [
   {
     id: "9731bfcb-bbde-4064-ac66-a28fa769f1ca",
     name: "Kenneth Haight",
+    url: "https://eldenring.wiki.fextralife.com/Kenneth+Haight",
     requirements: [
       {
         id: "fa323288-a38a-4538-99f6-eabfbcfa6b2e",
@@ -525,6 +534,7 @@ export const Quests: Array<ListType> = [
   {
     id: "3c574a2d-a2fe-44dd-9255-fd801b6bc9f9",
     name: "Nepheli Loux",
+    url: "https://eldenring.wiki.fextralife.com/Nepheli+Loux",
     requirements: [
       {
         id: "5237d6c8-786d-4cf4-9523-68214804005d",
@@ -593,6 +603,7 @@ export const Quests: Array<ListType> = [
   {
     id: "5bcdbf66-3270-4af8-9c76-2d6e646d20cb",
     name: "Roderika (Spirit-Tuner)",
+    url: "https://eldenring.wiki.fextralife.com/Roderika",
     requirements: [
       {
         id: "e92cafa4-53d7-4437-bd5e-204509437a5d",
@@ -638,6 +649,7 @@ export const Quests: Array<ListType> = [
   {
     id: "92e082f1-8051-45a4-b200-29312b8d127c",
     name: "Sorceress Sellen",
+    url: "https://eldenring.wiki.fextralife.com/Sorceress+Sellen",
     requirements: [
       {
         id: "2ab188e3-bde1-4ef0-a370-a6c8200962e2",
@@ -714,6 +726,7 @@ export const Quests: Array<ListType> = [
   {
     id: "454972b3-6194-4eae-9f7e-3abaee7c96e7",
     name: "Gowry + Millicent",
+    url: "https://eldenring.wiki.fextralife.com/Millicent",
     requirements: [
       {
         id: "3812e34e-b1aa-450b-ab43-90f8b0179d6c",
@@ -804,6 +817,7 @@ export const Quests: Array<ListType> = [
   {
     id: "6a2f5b7e-47ba-4b06-b51e-c88b7d93703e",
     name: "D, Hunter of the Dead",
+    url: "https://eldenring.wiki.fextralife.com/D,+Hunter+of+the+Dead",
     requirements: [
       {
         id: "f7e3f8af-c8cc-46a4-83a4-bb07992e76cf",
@@ -848,6 +862,7 @@ export const Quests: Array<ListType> = [
   {
     id: "900d02cb-0685-4a28-951f-318ebdee46d0",
     name: "Fia / Age of Duskborn Ending",
+    url: "https://eldenring.wiki.fextralife.com/Fia",
     requirements: [
       {
         id: "753a3949-1f33-4953-93b9-0ef16e351da4",
@@ -906,6 +921,7 @@ export const Quests: Array<ListType> = [
   {
     id: "2abe0f98-8523-47f6-b060-0ca9c275962e",
     name: "Ranni the Witch / Age of the Stars Ending",
+    url: "https://eldenring.wiki.fextralife.com/Ranni+the+Witch",
     requirements: [
       {
         id: "91c85542-89b6-4389-995e-9cecc58100d0",
@@ -1001,6 +1017,7 @@ export const Quests: Array<ListType> = [
   {
     id: "87a4def0-48b9-4b9d-ad78-38ea169b1ad1",
     name: "Dung Eater / Blessing of Despair Ending",
+    url: "https://eldenring.wiki.fextralife.com/Dung+Eater",
     requirements: [
       {
         id: "77ae3b59-142d-40a9-b366-bd1887623231",
@@ -1072,6 +1089,7 @@ export const Quests: Array<ListType> = [
   {
     id: "98054154-2e6e-4095-a4bf-ee0f071ece9e",
     name: "Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending",
+    url: "https://eldenring.wiki.fextralife.com/Hyetta",
     requirements: [
       {
         id: "98a2abed-c094-40f2-b058-5200d7b102d3",
@@ -1164,6 +1182,7 @@ export const Quests: Array<ListType> = [
   {
     id: "506e0994-ee99-4509-92f0-09db727e2e8b",
     name: "Brother Corhyn + Goldmask / Age of Order Ending",
+    url: "https://eldenring.wiki.fextralife.com/Brother+Corhyn",
     requirements: [
       {
         id: "a2c22fb5-91d1-444a-8cf4-13880d99b9d7",
@@ -1226,6 +1245,7 @@ export const Quests: Array<ListType> = [
   {
     id: "ff39a7ac-8544-4654-9369-5a2a57a2c7bc",
     name: `Gurranq, Beast Clergyman`,
+    url: "https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman",
     requirements: [
       {
         id: "d22a50ea-45e6-41a0-be2a-e7f8918345a1",
@@ -1280,6 +1300,7 @@ export const Quests: Array<ListType> = [
   {
     id: "beb92cc3-9bd0-4e8f-b982-2473c57c4d37",
     name: "Diallos Hoslow",
+    url: "https://eldenring.wiki.fextralife.com/Diallos",
     requirements: [
       {
         id: "a1af8c12-09f6-4a22-bb15-e1cb0c3f4d49",
@@ -1327,6 +1348,7 @@ export const Quests: Array<ListType> = [
   {
     id: "7283be28-9d16-40ba-b977-39d16df5d32b",
     name: "Ensha",
+    url: "https://eldenring.wiki.fextralife.com/Ensha",
     requirements: [
       {
         id: "f4865803-9b86-443a-9d7e-743bf900b45c",
@@ -1353,6 +1375,7 @@ export const Quests: Array<ListType> = [
   {
     id: "16d5085f-b29c-433d-ba3e-9edfcbd02856",
     name: "Sorcerer Rogier",
+    url: "https://eldenring.wiki.fextralife.com/Sorcerer+Rogier",
     requirements: [
       {
         id: "f9ff2515-7c1a-40ea-9f39-1bef1e83bb3e",
@@ -1411,6 +1434,7 @@ export const Quests: Array<ListType> = [
   {
     id: "8aa800d3-ea19-431a-9aca-3f0e8e4a01f3",
     name: "Thops",
+    url: "https://eldenring.wiki.fextralife.com/Thops",
     requirements: [
       {
         id: "08d426d2-d027-4dec-abd1-d11994971311",
@@ -1434,6 +1458,7 @@ export const Quests: Array<ListType> = [
   {
     id: "a6b3b8f2-33ed-413d-85fd-4bcd60e39478",
     name: "Latenna",
+    url: "https://eldenring.wiki.fextralife.com/Latenna",
     requirements: [
       {
         id: "7d523ab2-46a0-4925-b77c-2a1e6cbbf587",
@@ -1466,6 +1491,7 @@ export const Quests: Array<ListType> = [
   {
     id: "211ce6dd-6250-4c34-aae9-e84787089229",
     name: "Rya",
+    url: "https://eldenring.wiki.fextralife.com/Rya",
     requirements: [
       {
         id: "3b9b7be2-5c63-49ca-802d-ca0aff4990a8",
@@ -1538,6 +1564,7 @@ export const Quests: Array<ListType> = [
   {
     id: "8636dc42-8c23-4e8f-a048-105b35009f28",
     name: "Blackguard Big Boggart",
+    url: "https://eldenring.wiki.fextralife.com/Blackguard+Big+Boggart",
     requirements: [
       {
         id: "67be303a-7760-4073-b2ba-359c62ad19cd",
@@ -1578,6 +1605,7 @@ export const Quests: Array<ListType> = [
   {
     id: "3c614049-2380-48e2-9727-7dbad5e4e703",
     name: "Jar-Bairn",
+    url: "https://eldenring.wiki.fextralife.com/Jar+Bairn",
     requirements: [
       {
         id: "fb0351a4-6905-43d2-8b29-0309d8b759b2",
@@ -1617,6 +1645,7 @@ export const Quests: Array<ListType> = [
   {
     id: "2e3ecd46-fd2b-49b9-98a5-a0ee5f02e743",
     name: "Preceptor Seluvis",
+    url: "https://eldenring.wiki.fextralife.com/Preceptor+Seluvis",
     requirements: [
       {
         id: "d88a5416-f99e-4551-9dfc-71688643547d",
@@ -1703,6 +1732,7 @@ export const Quests: Array<ListType> = [
   {
     id: "3b3bfcf4-8b9c-4e14-9e0f-c078cd88e79c",
     name: "Tanith",
+    url: "https://eldenring.wiki.fextralife.com/Tanith",
     requirements: [
       {
         id: "31eb2092-b9c7-4128-a3da-65e115d33aaa",
