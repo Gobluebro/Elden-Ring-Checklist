@@ -12,7 +12,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "a0bd6291-7b69-4ff1-9f0a-ea1e7db313dc",
-        description: "Beast of Farum Azula",
+        description: "Beastman of Farum Azula",
         url: "https://eldenring.wiki.fextralife.com/Beastman+of+Farum+Azula",
       },
       {
@@ -67,7 +67,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "6661ea64-18aa-42f1-b26e-a8f30436171e",
-        description: "Erdtree Burial Watchdog (Impaler Catacombs)",
+        description: "Erdtree Burial Watchdog (Impaler's Catacombs)",
         url: "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog",
       },
       {
@@ -400,7 +400,7 @@ export const Bosses: Array<ListType> = [
       },
       {
         id: "f9060a52-c138-46c7-917c-28cd6bebd018",
-        description: "Mad Pumpkin Heads",
+        description: "Mad Pumpkin Head (Duo)",
         url: "https://eldenring.wiki.fextralife.com/Mad+Pumpkin+Head",
       },
       {
@@ -517,7 +517,7 @@ export const Bosses: Array<ListType> = [
       {
         id: "5a111a25-094c-43a6-91d6-47d3339f5b65",
         description: "Omenkiller & Miranda the Blighted Bloom",
-        url: "https://eldenring.wiki.fextralife.com/Miranda+the+Blighted+Bloom",
+        url: "https://eldenring.wiki.fextralife.com/Omenkiller+and+Miranda,+the+Blighted+Bloom",
       },
       {
         id: "ed4562de-6a01-4b9d-8928-25e546083d90",
