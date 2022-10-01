@@ -35,13 +35,18 @@ export const Quests: Array<ListType> = [
         description: "Gain access to the Roundtable Hold.",
       },
       {
+        id: "0aa93d5a-f424-4ea9-ae4d-d976dfc25dac",
+        description: "Retrieve the Bravo! Gesture from Varré's former location at The First Step grace (Note: you must do this before talking to Varré at the Rose Church)."
+      },
+      {
         id: "05cdc691-f29a-4425-977c-efa190d5a58a",
         description:
           "Talk to him at the Rose Church in Liurnia of the Lakes until you receive the Festering Bloody Finger.",
       },
       {
         id: "ba4a2aad-af54-4b99-b2ca-b0822e4baabc",
-        description: "Use the Festering Bloody Finger three times.",
+        description: "Use the Festering Bloody Finger three times OR defeat Magnus the Beast Claw.",
+        url: "https://eldenring.wiki.fextralife.com/Magnus+the+Beast+Claw"
       },
       {
         id: "ebc0c68e-f8ca-4ee9-b601-98407c0a23fd",
@@ -50,7 +55,7 @@ export const Quests: Array<ListType> = [
       {
         id: "556ed60d-fbfa-4e2d-821f-2c27aa1807df",
         description:
-          "Interact with a dead maidan at the Church of Inhibition or the Chapel of Anticipation.",
+          "Interact with a dead maiden at the Church of Inhibition or the Chapel of Anticipation.",
       },
       {
         id: "e736a54e-de8d-4c3a-a5ec-773f856de291",
@@ -75,7 +80,7 @@ export const Quests: Array<ListType> = [
       {
         id: "7bcf1573-ede1-41ed-be2d-15a39cd87249",
         description:
-          "Talk to Varré who is crawling on the ground until he dies.",
+          "Talk to Varré, who is crawling on the ground, until he dies.",
       },
     ],
   },
@@ -933,12 +938,12 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "f0f2c1df-5dd3-458e-b919-7d1f7af26196",
-        description: "Get Finger Slayer Blade in Nokron.",
+        description: "Get Fingerslayer Blade in Nokron.",
       },
       {
         id: "05e68320-e745-4472-8fd0-7364c001249c",
         description:
-          "Give the item to Ranni in Ranni's Rise. You will receive the inverted statue",
+          "Give the item to Ranni in Ranni's Rise. You will receive the inverted statue (Note: You will not be able to complete Seluvis's quest after this point).",
       },
       {
         id: "d2a30b83-30d9-4fa5-83f9-9f6c0acbb14a",
@@ -1217,5 +1222,573 @@ export const Quests: Array<ListType> = [
         description: `Defeat the final boss and select the "Use Mending Rune of Perfect Order" dialogue option.`,
       },
     ],
+  },
+  {
+    id: "ff39a7ac-8544-4654-9369-5a2a57a2c7bc",
+    name: `Gurranq, Beast Clergyman`,
+    requirements: [
+      {
+        id: "d22a50ea-45e6-41a0-be2a-e7f8918345a1",
+        description: "(Optional): Defeat the Tibia Mariner in Summonwater Village and return to D at Roundtable Hold for directions to the Bestial Sanctum."
+      },
+      {
+        id: "c70ea8be-63af-47ca-b9b0-1627a75745fe",
+        description: "Talk to Gurranq at Bestial Sanctum."
+      },
+      {
+        id: "42b42ae4-988c-4c1a-b997-b6f4ef6b2ddd",
+        description: "Give one Deathroot to Gurranq for the Clawmark Seal Sacred Seal and Beast Eye Key Item."
+      },
+      {
+        id: "f510560c-6aee-45b7-8eb4-3ea4edfee422",
+        description: "Give a second Deathroot to Gurranq for the Bestial Sling Incantation."
+      },
+      {
+        id: "7b075c18-5c27-466b-910a-d80857cedebd",
+        description: "Give a third Deathroot to Gurranq for the Bestial Vitality Incantation."
+      },
+      {
+        id: "bf466258-2964-4784-b0c9-b4d2ce8a7783",
+        description: "Give a fourth Deathroot to Gurranq for Ash of War: Beast's Roar."
+      },
+      {
+        id: "b519f1e3-531f-41ec-93a7-70e4d7f00087",
+        description: "Gurranq will become hostile. Fight back until he gives up."
+      },
+      {
+        id: "6e96ffcb-8a9a-4661-9b34-969e5237c5a6",
+        description: "Reload the area if necessary, then give a fifth Deathroot to Gurranq for the Beast Claw Incantation."
+      },
+      {
+        id: "9b08d98a-119c-409b-9d13-eebf9da938f2",
+        description: "Give a sixth Deathroot to Gurranq for the Stone of Gurranq Incantation."
+      },
+      {
+        id: "0a00490b-aa1a-4cb2-85cd-1b91c0cc59b1",
+        description: "Give a seventh Deathroot to Gurranq for the Warhammer armament Beastclaw Greathammer."
+      },
+      {
+        id: "c6735e77-00d5-4ad9-8b5b-99be55581b24",
+        description: "Give an eighth Deathroot to Gurranq for the Gurranq's Beast Claw Incantation."
+      },
+      {
+        id: "631d8c94-3060-40b0-acaa-5af4e95aa104",
+        description: "Give Gurranq the ninth and final Deathroot. He will give you an Ancient Dragon Smithing Stone and disappear."
+      }
+    ]
+  },
+  {
+    id: "beb92cc3-9bd0-4e8f-b982-2473c57c4d37",
+    name: "Diallos Hoslow",
+    requirements: [
+      {
+        id: "a1af8c12-09f6-4a22-bb15-e1cb0c3f4d49",
+        description: "Talk to Diallos at the Roundtable Hold."
+      },
+      {
+        id: "208c2d13-35f0-40f6-8777-1bf713ad5d0e",
+        description: "Talk to Diallos in Northern Liurnia near the Academy Gate Town Site of Grace"
+        // TODO: add Map Link capability?
+      },
+      {
+        id: "70026071-f8e4-462b-b5c8-191f17e87286",
+        description: "Exhaust Diallos' dialogue in Roundtable Hold."
+      },
+      {
+        id: "a8f79e5a-e123-4596-9dd4-7b0007c3c965",
+        description: "Talk to Diallos in Volcano Manor."
+      },
+      {
+        id: "363edd14-d283-4b61-9ab6-156528554c92",
+        description: "Complete the first Volcano Manor request and return to talk to Diallos. He'll have new dialogue each time you complete a Volcano Manor request."
+      },
+      {
+        id: "88587a2c-81d4-4802-9c9e-945b22467bd4",
+        description: "Complete the Volcano Manor quest (either successfully or by defeating Rykard, Lord of Blasphemy), then talk to Diallos in Volcano Manor."
+      },
+      {
+        id: "b3b404a5-f42b-44a3-bb1b-668622177563",
+        description: "Locate Diallos in Jarburg and talk to him."
+      },
+      {
+        id: "1aeeaf5b-347f-4adb-bb27-1b8a38cbce05",
+        description: "Progress Jar-Bairn's questline then exhaust both Diallos' and Jar-Bairn's dialogue, reloading the area as needed. Jar-Bairn should mention poachers at the end."
+      },
+      {
+        id: "b3143ed6-428c-4330-b975-ffe665c22b8a",
+        description: "After Jarburg is attacked (it may take waiting for time to pass), exhaust Diallos' and Jar-Bairn's dialogue again. When Diallos asks a question, you can respond with either option."
+      },
+      {
+        id: "6b6e87f3-8d39-4c96-bdae-7ae11d0fd6a2",
+        description: "Reload the area, exhaust Jar-Bairn's dialogue, then reload the area again to find Diallos's Mask, Hoslow's Petal Whip, and a Numen's Rune where Diallos was."
+      }
+    ]
+  },
+  {
+    id: "7283be28-9d16-40ba-b977-39d16df5d32b",
+    name: "Ensha",
+    requirements: [
+      {
+        id: "f4865803-9b86-443a-9d7e-743bf900b45c",
+        description: "Interact with Ensha at Roundtable Hold to obtain the What Do You Want? Gesture."
+      },
+      {
+        id: "61227be7-78e6-4fe1-b09a-e30773697d96",
+        description: "Obtain either half of the Haligtree Secret Medallion (Right or Left)."
+      },
+      {
+        id: "03fa2971-d014-4546-8823-574b44456c1c",
+        description: "Return to Roundtable Hold and Ensha will invade."
+      },
+      {
+        id: "3a02f02b-7c36-4308-b142-621860f8fa05",
+        description: "Obtain Clinging Bone after defeating Ensha and the Royal Remains set from where Ensha was originally standing outside Gideon Ofnir's room."
+      },
+      {
+        id: "2d5da311-6b48-4e85-953a-3168a156f7ac",
+        description: "Talk to Gideon Ofnir and he will apologize for Ensha's behavior."
+      }
+    ]
+  },
+  {
+    id: "16d5085f-b29c-433d-ba3e-9edfcbd02856",
+    name: "Sorcerer Rogier",
+    requirements: [
+      {
+        id: "f9ff2515-7c1a-40ea-9f39-1bef1e83bb3e",
+        description: "Talk to Rogier in Stormveil Castle, by the altar of the Chapel, before defeating Godrick."
+      },
+      {
+        id: "a3a77ba3-1480-4df6-9446-8a467a900293",
+        description: "Talk to Rogier in Roundtable Hold and obtain Rogier's Rapier +8 with Ash of War: Glintblade Phalanx if you talked to him in Stormveil."
+      },
+      {
+        id: "b2cdf80e-a769-419d-a0c7-da59ded7b438",
+        description: "Defeat the Lesser Ulcerated Tree Spirit in Stormveil and view the memory in front of the giant face before climbing up the ladder."
+      },
+      {
+        id: "1790ace6-e10c-4055-bc5d-7b872c3e184a",
+        description: "Return to the Roundtable Hold and talk to Rogier."
+      },
+      {
+        id: "87e32e4e-50ee-42d6-a17a-9196800316a9",
+        description: "(Optional) Interact with Fia and select \"Hold Me\". Exhaust the extra dialogue options to receive Knifeprint Clue."
+      },
+      {
+        id: "4760e7eb-e81c-4046-b1f4-d0560439d6a4",
+        description: "Defeat a Black Knife Assassin in Black Knife Catacombs in Liurnia, behind an illusory wall to obtain Black Knifeprint."
+      },
+      {
+        id: "0c9ee6c6-8551-497c-ae3e-d2860a86eeea",
+        description: "Return the Black Knifeprint to Rogier at Roundtable Hold. Reload the area and talk to Rogier; he'll send you to Ranni."
+      },
+      {
+        id: "68fdff3c-3f73-44f9-8af5-9ac6d48d7002",
+        description: "Talk to Ranni in the Three Sister's area of Liurnia, north of Caria Manor, and she will tell you to leave."
+      },
+      {
+        id: "023f4206-3f97-4a72-ba99-ebb6cd6d68e2",
+        description: "Talk to Rogier again at Roundtable Hold and he suggests you become a vassal of Ranni's."
+      },
+      {
+        id: "b448767f-e657-4371-ae4f-411f1697c4ca",
+        description: "Return to Ranni to begin her questline."
+      },
+      {
+        id: "b1005351-0da4-448c-84da-102380362180",
+        description: "Returning to Rogier and he will tell the player he is beginning to fall asleep."
+      },
+      {
+        id: "0a5f9d28-91e2-49de-9427-bb9ea6d6f8f5",
+        description: "Reload the area and Rogier will now be asleep."
+      },
+      {
+        id: "f68d47be-1b74-44cb-ab6b-ff83a9abbbef",
+        description: "Reload the area a few times, or activate a new Grace, and Rogier will die, leaving Rogier's Bell Bearing, Rogier's Set, and Rogier's Rapier (if you didn't receive it before), as well as Rogier's Letter."
+      }
+    ]
+  },
+  {
+    id: "8aa800d3-ea19-431a-9aca-3f0e8e4a01f3",
+    name: "Thops",
+    requirements: [
+      {
+        id: "08d426d2-d027-4dec-abd1-d11994971311",
+        description: "Talk to Thops at Church of Irith in Liurnia. Donate 10 Runes and exhaust his dialogue."
+      },
+      {
+        id: "e237056b-551b-4019-83e2-2e5fc1ae2c84",
+        description: "Obtain (a second) Academy Glintstone Key hidden within Raya Lucaria, in the chandelier in the Church of the Cuckoo.",
+        url: "https://eldenring.wiki.fextralife.com/Academy+Glintstone+Key"
+      },
+      {
+        id: "cbad4533-57f7-4348-9c00-19a34629c49c",
+        description: "Return to Thops and give him the extra Academy Glintstone Key."
+      },
+      {
+        id: "e70809dc-6c49-490f-b202-d78cbda88063",
+        description: "Find Thops's corpse in a chair outside Schoolhouse Classroom with Thops's Barrier, Academy Glintstone Staff, and Thops's Bell Bearing."
+      }
+    ]
+  },
+  {
+    id: "a6b3b8f2-33ed-413d-85fd-4bcd60e39478",
+    name: "Latenna",
+    requirements: [
+      {
+        id: "7d523ab2-46a0-4925-b77c-2a1e6cbbf587",
+        description: "Find Albus in the Village of the Albinaurics, hiding transformed as a pot near the Depraved Perfumer, close to the Village of the Albinaurics Site of Grace. Obtain the Haligtree Secret Medallion (Right) from him.",
+        url: "https://eldenring.wiki.fextralife.com/Albus"
+      },
+      {
+        id: "c050025a-48cb-4c33-a172-ff1f2781b227",
+        description: "Go through the Lakeside Crystal Cave in Liurnia and defeat the Bloodhound Knight boss. Find the Slumbering Wolf's Shack on the other side."
+      },
+      {
+        id: "e5702e50-e974-4b37-86e6-aa23a6a74f22",
+        description: "Talk to Latenna and she'll ask for the player to escort her to Miquella's Haligtree. Answer yes and she'll give you the Latenna the Albinauric Spirit Ashes."
+      },
+      {
+        id: "88bd4d1c-4531-46bf-b3e9-b77489c77fcc",
+        description: "Continue until the Mountaintop of the Giants and obtain the Haligtree Secret Medallion (Left) in Castle Sol.",
+        url: "https://eldenring.wiki.fextralife.com/Haligtree+Secret+Medallion+(Left)"
+      },
+      {
+        id: "7153c0d0-9156-4d35-a079-0b1d21ca60ef",
+        description: "Return to the Lift of Rold and use both halves of the secret medallion (not the original Rold Medallion) to go to the Consecrated Snowfield."
+      },
+      {
+        id: "34745ba4-3297-4497-9221-888fd33aa08e",
+        description: "Continue through Consecrated Snowfield and arrive at the Apostate Derelict. Interact with the giant Albinauric and Latenna will give you a Somber Ancient Dragon Smithing Stone."
+      }
+    ]
+  },
+  {
+    id: "211ce6dd-6250-4c34-aae9-e84787089229",
+    name: "Rya",
+    requirements: [
+      {
+        id: "3b9b7be2-5c63-49ca-802d-ca0aff4990a8",
+        description: "Find Rya in a pavilion near the Birdseye Telescope, north of Laskyar ruins. Exhaust her dialogue and she'll request you retrieve her necklace."
+      },
+      {
+        id: "9a24d2b5-f878-4609-b74a-c309c7b32c90",
+        description: "Buy Rya's Necklace for 1000 Runes from Blackguard Big Boggart at the Boilprawn Shack nearby.",
+        url: "https://eldenring.wiki.fextralife.com/Blackguard+Big+Boggart"
+      },
+      {
+        id: "0db11de2-fc14-46ba-a96f-14f6b2c59484",
+        description: "Return her necklace at the pavilion and she'll give you Volcano Manor Invitation and clues to both ways to reach Altus Plateau."
+      },
+      {
+        id: "b614b24d-76f3-476b-9893-b485d7d5e41b",
+        description: "Upon reaching Altus Plateau, Rya will be there (in a different location depending on which route you originally took). Talk to her and she'll warp you to Volcano Manor."
+      },
+      {
+        id: "604bfff5-64c2-4085-ac7a-05a5378123d3",
+        description: "Complete the first Volcano Manor request (Old Knight Istvan).",
+        url: "https://eldenring.wiki.fextralife.com/Old+Knight+Istvan"
+      },
+      {
+        id: "77f82c49-5b92-4b94-a483-23f5c4bec8a9",
+        description: "Return to Rya in another room of Volcano Manor, across the hall, in a slightly different form."
+      },
+      {
+        id: "c92edd4d-d319-4b74-a456-2f074b119ac3",
+        description: "Complete the second Volcano Manor request (Rileigh the Idle)."
+      },
+      {
+        id: "610270d1-7e85-4510-b336-d95143c4e1e2",
+        description: "Return to Zorayas and follow her clues; roll into the illusory wall in the same room, then reach the Prison Town Church Site of Grace."
+      },
+      {
+        id: "f1ed00bf-6838-43fb-9199-1d05350921e9",
+        description: "Return to Zorayas and report what you've seen."
+      },
+      {
+        id: "1c2f642d-0dd6-46a3-871b-cd887f1fd395",
+        description: "(Optional) Talk to Tanith and ask about \"Zorayas' Troubles.\""
+      },
+      {
+        id: "6e538d21-b4d0-4b77-b4c4-91467e59b190",
+        description: "Defeat the Godskin Noble boss in Temple of Eiglay and get the Serpent's Amnion."
+      },
+      {
+        id: "eb06c41e-1f68-4a3d-b0bc-3f64b1577467",
+        description: "Give the Serpent's Amnion to Zorayas. She will leave the manor area."
+      },
+      {
+        id: "1c5f316e-b0dc-40e2-8157-f94239c4594b",
+        description: "(Optional) Speak with Tanith and select \"Zorayas Absence\" to obtain the Tonic of Forgetfulness."
+      },
+      {
+        id: "82a61d47-8dd9-4730-9cea-482cf351f2ca",
+        description: "Locate Rya within the Volcano Manor legacy dungeon and speak with her."
+      },
+      {
+        id: "a5c233be-6bb8-465c-adc4-c3df0875a6ad",
+        description: "Now either kill Zorayas, kill Rykard and return to Zorayas, or give Zorayas the Tonic of Forgetfulness."
+      },
+      {
+        id: "df857757-52b1-4263-b908-eda8b2c33ed5",
+        description: "Depending on your choice find Daedicar's Woe and (possibly) Zorayas' Letter either at her location in the legacy dungeon or back in her original location in the manor, possibly after reloading depending on your choice."
+      }
+    ]
+  },
+  {
+    id: "8636dc42-8c23-4e8f-a048-105b35009f28",
+    name: "Blackguard Big Boggart",
+    requirements: [
+      {
+        id: "67be303a-7760-4073-b2ba-359c62ad19cd",
+        description: "Buy Rya's Necklace from Blackguard Big Boggart at the Boilprawn Shack as part of Rya's quest line."
+      },
+      {
+        id: "0c8d0355-dec5-42f6-b6c4-f5576c37c9ee",
+        description: "Purchase at least one Boiled Prawn from Boggart and he'll say he's never met someone with a taste for prawn he couldn't trust."
+      },
+      {
+        id: "33ab554a-6a20-48c5-b69b-7f10630e00be",
+        description: "(Optional) Summon Boggart to fight Magma Wyrm Makar in Ruin-Strewn Precipice between Liurnia and Altus Plateau.",
+        url: "https://eldenring.wiki.fextralife.com/Magma+Wyrm+Makar"
+      },
+      {
+        id: "9b2366dc-6c14-4538-94fd-ec5e9fa6a37b",
+        description: "Boggart will move to the Leyndell moat, south of the Minor Erdtree in the Capital Outskirts. Exhaust his dialogue to receive more information about Dung Eater and optionally purchase Boiled Crab."
+      },
+      {
+        id: "b17d2204-3a9c-464b-b379-6f63f15fb223",
+        description: "Progress Dung Eater's quest to the point he says he will be \"waiting in the outer moat.\"",
+        url: "https://eldenring.wiki.fextralife.com/Dung+Eater"
+      },
+      {
+        id: "63283a45-4589-4043-8b7d-631043820b52",
+        description: "Return to Boggart (or reload the area) and exhaust his dialogue until he says he believes Dung Eater is lurking nearby."
+      },
+      {
+        id: "d919d0b6-7384-40c2-b427-40dac480f6d2",
+        description: "Reload the area and Boggart will be dying. Dung Eater will invade when you interact with Boggart."
+      },
+      {
+        id: "3ea5714d-943f-44a9-b27b-cb37c8637577",
+        description: "After fighting off Dung Eater, loot Boggart's corpse for a Seedbed Curse, Blackguard's Iron Mask, Iron Ball, and Blackguard's Bell Bearing."
+      }
+    ]
+  },
+  {
+    id: "3c614049-2380-48e2-9727-7dbad5e4e703",
+    name: "Jar-Bairn",
+    requirements: [
+      {
+        id: "fb0351a4-6905-43d2-8b29-0309d8b759b2",
+        description: "Reach Jarburg by following a series of grave stones down the eastern cliffs of Liurnia, just south of the Carian Study Hall.",
+        url: "https://eldenring.wiki.fextralife.com/Jarburg"
+      },
+      {
+        id: "b7e45220-1c65-47ae-a6ca-fa69e017585f",
+        description: "(Optional) Interact with Jar-Bairn in Jarburg for some extra dialogue."
+      },
+      {
+        id: "82bb981b-9034-43ed-a3b7-52681a66fe79",
+        description: "Progress Alexander's quest line at least one step."
+      },
+      {
+        id: "bcab5335-85f7-4cd6-ab98-bcc3ef8fb9db",
+        description: "(Optional?) Progress Diallos' quest line."
+      },
+      {
+        id: "e6870a01-abdf-4f77-a148-5a3121afb358",
+        description: "Exhaust Jar-Bairn's dialogue and reload the area multiple times, until Jar-Bairn mentions poachers in the area."
+      },
+      {
+        id: "03d6abc4-a0f5-4410-8916-81f4d104e4e7",
+        description: "Continue to reload the area and exhaust Jar-Bairn's dialogue."
+      },
+      {
+        id: "2257f951-83a8-42c5-ab23-c028da4847b5",
+        description: "Fully complete Alexander's quest line and obtain Alexander's Innards."
+      },
+      {
+        id: "99b9a82e-8912-4b18-8aa2-bd561ab86d80",
+        description: "Give Alexander's Innards to Jar-Bairn, then reload the area. Where Jar-Bairn was sitting, obtain Companion Jar Talisman."
+      }
+    ]
+  },
+  {
+    id: "2e3ecd46-fd2b-49b9-98a5-a0ee5f02e743",
+    name: "Preceptor Seluvis",
+    requirements: [
+      {
+        id: "d88a5416-f99e-4551-9dfc-71688643547d",
+        description: "Progress Ranni's quest line until you talk to her vassals and Seluvis' Rise is unlocked in the Three Sister's region of Liurnia, north of Caria Manor."
+      },
+      {
+        id: "c5593f73-bb06-4b5c-81d7-9b6b90882b2c",
+        description: "Talk to Seluvis in Seluvis's Rise and receive Seluvis's Potion."
+      },
+      {
+        id: "637f6eca-9f40-45f0-ab58-12458487c9ab",
+        description: "Progress Dung Eater's quest until you can give him Seedbed Curses, but give him Seluvis's Potion. Note: This locks you out of Dung Eater's quest line, and the Blessing of Despair ending until a new NG cycle, and cannot be done the same cycle as feeding it to Nepheli Loux."
+      },
+      {
+        id: "9a7ea65b-37ef-4e62-8a90-c75d089c7b22",
+        description: "Feed Seluvis's Potion to Nepheli Loux. Note: This locks you out of Nepheli Loux's quest line until a new NG cycle and cannot be done the same cycle as feeding it to Dung Eater."
+      },
+      {
+        id: "f20fc1e3-c8f4-4d00-972f-abde59daf659",
+        description: "(Optional) Talk to Gideon Ofnir and give Seluvis's Potion to him to dispose of. Note: This locks you out of getting both Dung Eater and Nepheli Loux's Puppets until a new NG cycle."
+      },
+      {
+        id: "9f430f1f-e492-4f0a-b3fc-811d27f8d042",
+        description: "Find Seluvis's secret laboratory in the Three Sister's region of Liurnia, behind an illusory floor."
+      },
+      {
+        id: "8a451186-d5af-4dd7-877e-e7f5d5061306",
+        description: "(Optional?) Inside Seluvis's lab, find another illusory wall with Dung Eater/Nepheli Loux's Puppet behind it."
+      },
+      {
+        id: "fe71ba5b-58a4-4a61-bf0f-93ba3216fb64",
+        description: "Return to Seluvis and ask about his lab. Choose one Puppet to take from Seluvis."
+      },
+      {
+        id: "17d0a22d-c4c4-4d2c-8090-3574b7ddc9d6",
+        description: "Purchase all of Seluvis's Sorceries and a second Puppet."
+      },
+      {
+        id: "34e4b608-86e7-45fe-8124-7c2eb53177f7",
+        description: "Purchase Dung Eater's Puppet if you gave him the potion on this NG cycle."
+      },
+      {
+        id: "1ec168fa-7721-4a26-8fec-c5acdda7ccba",
+        description: "Talking to Seluvis again will give you the option to hear his plot (this step may be buggy, check his page for assistance)."
+      },
+      {
+        id: "32a48279-e85b-476e-b5cb-62d554c4f1ae",
+        description: "(Optional) Purchase Weathered Map from Pidia nearby, with a clue to find the Amber Starlight."
+      },
+      {
+        id: "92942f28-afd7-45b4-a969-5b0dffa528ed",
+        description: "Find the Amber Starlight in Altus Plateau."
+      },
+      {
+        id: "831a99fc-46d9-46f3-bdb2-e6ec387d2b25",
+        description: "Return the Amber Starlight to Seluvis to receive the Magic Scorpion Charm Talisman."
+      },
+      {
+        id: "60ada8a8-1b52-465d-a7ba-3f33babeee7a",
+        description: "Reload the area and receive the Amber Draught from Seluvis."
+      },
+      {
+        id: "3ec4208e-2c7c-46b6-9416-f22669d1791b",
+        description: "(Optional) Administer the Amber Draught to Ranni."
+      },
+      {
+        id: "450f4a10-e26a-4463-bc98-87f237a135d2",
+        description: "(Optional) Receive absolution at the Church of Vows by using a Celestial Dew to continue Ranni's quest line and obtain the Age of Stars ending."
+      },
+      {
+        id: "0959561d-1a01-402e-a664-02dff38b8111",
+        description: "(Optional) Skip angering Ranni and give her the Fingerslayer Blade and she will simply kill Seluvis."
+      },
+      {
+        id: "331ede89-418a-42d2-a0bf-15f5c5165b48",
+        description: "Go to Pidia and loot Nepheli Loux's Puppet from his corpse if you gave her the potion."
+      },
+      {
+        id: "ebb0776a-b44e-4f57-a30f-5953c45aa563",
+        description: "Loot Dolores the Sleeping Arrow Puppet from Pidia if you didn't give Seluvis's Potion to Nepheli Loux."
+      }
+    ]
+  },
+  {
+    id: "3b3bfcf4-8b9c-4e14-9e0f-c078cd88e79c",
+    name: "Tanith",
+    requirements: [
+      {
+        id: "31eb2092-b9c7-4128-a3da-65e115d33aaa",
+        description: "Get to Volcano Manor and talk to Tanith. Answer \"Yes\" when asked to join the family and receive the Drawing-Room Key."
+      },
+      {
+        id: "2cb59cb6-3b89-4cad-aa76-437acf4f8385",
+        description: "Enter a room nearby with the key and find Letter from Volcano Manor (and Recusant Finger) on the long table near Knight Bernahl."
+      },
+      {
+        id: "3d3f2146-ed29-4088-9aed-309abf87a546",
+        description: "Return to Tanith and receive the first Volcano Manor request."
+      },
+      {
+        id: "06fed86d-1d56-4643-a6d4-9169b141c077",
+        description: "Invade and kill Old Knight Istvan in Limgrave.",
+        url: "https://eldenring.wiki.fextralife.com/Old+Knight+Istvan"
+      },
+      {
+        id: "2e0f8a9f-badb-4a4e-880e-2d1de9480d06",
+        description: "Return to Tanith and receive the Magma Shot Incantation."
+      },
+      {
+        id: "ac9bb555-3b98-405a-82f0-dff772f22442",
+        description: "Reload the area and retrieve another Letter from Volcano Manor on the table in the adjoining room."
+      },
+      {
+        id: "f3a6b425-3348-4019-8e44-75a5f0824cb9",
+        description: "Invade and kill Rileigh the Idle in Altus Plateau.",
+        url: "https://eldenring.wiki.fextralife.com/Rileigh+the+Idle"
+      },
+      {
+        id: "72ef23cd-9640-4b30-888e-bb6ad06f4b03",
+        description: "Return to Tanith and receive Serpentbone Blade."
+      },
+      {
+        id: "063560b8-58c9-4a36-bba9-8fbaf0ecb836",
+        description: "Reload the area and retrieve Red Letter in the usual location."
+      },
+      {
+        id: "8873c32c-642e-48ef-8eaa-362080337b4c",
+        description: "Invade and kill Juno Hoslow, Knight of Blood in Mountaintops of the Giants",
+        url: "https://eldenring.wiki.fextralife.com/Juno+Hoslow,+Knight+of+Blood"
+      },
+      {
+        id: "62e56a03-7f89-4def-9384-75aac2f74e5f",
+        description: "Return to Tanith and receive Taker's Cameo."
+      },
+      {
+        id: "6e4388a4-ba17-48b9-948f-7ee9092816f4",
+        description: "Tanith will now offer to take you to the lord of the manor. Ensure all other Volcano Manor quests are done before continuing."
+      },
+      {
+        id: "ec00a7f7-b713-4c37-8c52-c4da6ae55f73",
+        description: "Accept Tanith's offer, or reach the Audience Pathway through the Volcano Manor legacy dungeon."
+      },
+      {
+        id: "02cbeb3b-9faf-4fa6-80d4-0d73227f3b2e",
+        description: "Defeat Rykard, Lord of Blasphemy.",
+        url: "https://eldenring.wiki.fextralife.com/Rykard,+Lord+of+Blasphemy"
+      },
+      {
+        id: "5807b72b-aab4-4fcc-b728-61589be8d778",
+        description: "Speak to Tanith one more time."
+      },
+      {
+        id: "d3fd5438-ae59-4847-9f8e-a58a63997d2f",
+        description: "(Optional) Progress Patches quest line and receive the Dancer's Castanets."
+      },
+      {
+        id: "ba1d15fa-d49c-4bfc-b95a-2f105b66e699",
+        description: "Return to Rykard, Lord of Blasphemy Site of Grace."
+      },
+      {
+        id: "e2488430-054b-47e3-98da-935c70377471",
+        description: "(Optional) Offer the Dancer's Castanets to Tanith. She'll refuse.",
+        url: "https://eldenring.wiki.fextralife.com/Dancer's+Castanets"
+      },
+      {
+        id: "3ef29321-fdc6-416e-b08b-a13d5539ae94",
+        description: "Kill Tanith and loot the Consort's Set."
+      },
+      {
+        id: "e4b0b2fc-7a40-4af3-94b6-1e65db9e3eac",
+        description: "Tanith's Knight will invade. Kill and loot the Knight for Aspect of the Crucible: Breath."
+      }
+    ]
   },
 ];
