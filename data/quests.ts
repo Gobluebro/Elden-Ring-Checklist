@@ -38,7 +38,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "0aa93d5a-f424-4ea9-ae4d-d976dfc25dac",
-        description: "Retrieve the Bravo! Gesture from Varré's former location at The First Step grace (Note: you must do this before talking to Varré at the Rose Church)."
+        description: "Retrieve the Bravo! Gesture near The First Step grace."
       },
       {
         id: "05cdc691-f29a-4425-977c-efa190d5a58a",
@@ -730,11 +730,11 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "3812e34e-b1aa-450b-ab43-90f8b0179d6c",
-        description: "Talk to Gowry at Gowry's Shack",
+        description: "Talk to Gowry at Gowry's Shack.",
       },
       {
         id: "de1f1d01-a0b0-4c0f-b8e8-80163ea1a32d",
-        description: "Defeat Millicent Invasion (Optional?)",
+        description: "(Optional) Defeat Millicent Invasion.",
       },
       {
         id: "2ab12632-be80-490d-8080-aad2da25616e",
@@ -770,7 +770,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "16c07548-c53d-4a26-be8a-ca6b00ce1a96",
-        description: "Talk to Millicent near the Erdtree Grazing Hill grace.",
+        description: "Talk to Millicent near the Erdtree-Gazing Hill grace.",
       },
       {
         id: "68667ffc-64b0-49ec-a858-90f7ef2c952a",
@@ -788,7 +788,7 @@ export const Quests: Array<ListType> = [
       {
         id: "8de9c501-1eef-49fb-8905-3d03156f37a1",
         description:
-          "Rest at the Windmill Heights grace and talk to millicent.",
+          "Rest at the Windmill Heights grace and talk to Millicent.",
       },
       {
         id: "d478f91e-ceb1-4d87-9857-75db0c35111f",
@@ -834,7 +834,8 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "811d3b70-a8e0-4bc9-9f9c-104edf28ebad",
-        description: "Feed Gurranq a Deathroot at Bestial Sanctum",
+        description: "Feed Gurranq a Deathroot at Bestial Sanctum.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "def4242a-89f1-4d62-aa4a-9c08b46458a6",
@@ -885,7 +886,7 @@ export const Quests: Array<ListType> = [
       {
         id: "7c0c707e-6c22-4556-83d5-ad7dafa2f90d",
         description:
-          "Talk to her in a newly opened room in the Roundtable hold",
+          "Talk to her in a newly opened room in the Roundtable Hold.",
       },
       {
         id: "fa9e90a8-bc0f-4dc0-8fe8-726f333611b3",
@@ -959,7 +960,7 @@ export const Quests: Array<ListType> = [
       {
         id: "05e68320-e745-4472-8fd0-7364c001249c",
         description:
-          "Give the item to Ranni in Ranni's Rise. You will receive the inverted statue (Note: You will not be able to complete Seluvis's quest after this point).",
+          "Give the item to Ranni in Ranni's Rise, you will receive the inverted statue (locks out Seluvis's questline for this NG cycle).",
       },
       {
         id: "d2a30b83-30d9-4fa5-83f9-9f6c0acbb14a",
@@ -1132,7 +1133,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "fcf87da5-9b20-4644-accd-73b630f03df5",
-        description: `Donate your third Shabriri Grape to Hyetta near the Gate Town Bridge. Select the "They're human eyes" dialogue option."`,
+        description: `Donate your third Shabriri Grape to Hyetta near the Gate Town Bridge. Select the "They're human eyes" dialogue option.`,
       },
       {
         id: "79e4eec6-db3a-47d1-8fa0-1d659bc71344",
@@ -1249,7 +1250,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "d22a50ea-45e6-41a0-be2a-e7f8918345a1",
-        description: "(Optional): Defeat the Tibia Mariner in Summonwater Village and return to D at Roundtable Hold for directions to the Bestial Sanctum."
+        description: "(Optional) Defeat the Tibia Mariner in Summonwater Village and return to D at Roundtable Hold for directions to the Bestial Sanctum."
       },
       {
         id: "c70ea8be-63af-47ca-b9b0-1627a75745fe",
@@ -1257,19 +1258,23 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "42b42ae4-988c-4c1a-b997-b6f4ef6b2ddd",
-        description: "Give one Deathroot to Gurranq for the Clawmark Seal Sacred Seal and Beast Eye Key Item."
+        description: "Give one Deathroot to Gurranq for the Clawmark Seal Sacred Seal and Beast Eye Key Item.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "f510560c-6aee-45b7-8eb4-3ea4edfee422",
-        description: "Give a second Deathroot to Gurranq for the Bestial Sling Incantation."
+        description: "Give a second Deathroot to Gurranq for the Bestial Sling Incantation.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "7b075c18-5c27-466b-910a-d80857cedebd",
-        description: "Give a third Deathroot to Gurranq for the Bestial Vitality Incantation."
+        description: "Give a third Deathroot to Gurranq for the Bestial Vitality Incantation.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "bf466258-2964-4784-b0c9-b4d2ce8a7783",
-        description: "Give a fourth Deathroot to Gurranq for Ash of War: Beast's Roar."
+        description: "Give a fourth Deathroot to Gurranq for Ash of War: Beast's Roar.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "b519f1e3-531f-41ec-93a7-70e4d7f00087",
@@ -1277,23 +1282,28 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "6e96ffcb-8a9a-4661-9b34-969e5237c5a6",
-        description: "Reload the area if necessary, then give a fifth Deathroot to Gurranq for the Beast Claw Incantation."
+        description: "Reload the area if necessary, then give a fifth Deathroot to Gurranq for the Beast Claw Incantation.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "9b08d98a-119c-409b-9d13-eebf9da938f2",
-        description: "Give a sixth Deathroot to Gurranq for the Stone of Gurranq Incantation."
+        description: "Give a sixth Deathroot to Gurranq for the Stone of Gurranq Incantation.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "0a00490b-aa1a-4cb2-85cd-1b91c0cc59b1",
-        description: "Give a seventh Deathroot to Gurranq for the Warhammer armament Beastclaw Greathammer."
+        description: "Give a seventh Deathroot to Gurranq for the Warhammer armament Beastclaw Greathammer.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "c6735e77-00d5-4ad9-8b5b-99be55581b24",
-        description: "Give an eighth Deathroot to Gurranq for the Gurranq's Beast Claw Incantation."
+        description: "Give an eighth Deathroot to Gurranq for the Gurranq's Beast Claw Incantation.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       },
       {
         id: "631d8c94-3060-40b0-acaa-5af4e95aa104",
-        description: "Give Gurranq the ninth and final Deathroot. He will give you an Ancient Dragon Smithing Stone and disappear."
+        description: "Give Gurranq the ninth and final Deathroot. He will give you an Ancient Dragon Smithing Stone and disappear.",
+        url: "https://eldenring.wiki.fextralife.com/Deathroot"
       }
     ]
   },
@@ -1308,8 +1318,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "208c2d13-35f0-40f6-8777-1bf713ad5d0e",
-        description: "Talk to Diallos in Northern Liurnia near the Academy Gate Town Site of Grace"
-        // TODO: add Map Link capability?
+        description: "Talk to Diallos in Northern Liurnia near the Academy Gate Town Site of Grace."
       },
       {
         id: "70026071-f8e4-462b-b5c8-191f17e87286",
@@ -1352,7 +1361,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "f4865803-9b86-443a-9d7e-743bf900b45c",
-        description: "Interact with Ensha at Roundtable Hold to obtain the What Do You Want? Gesture."
+        description: `Interact with Ensha at Roundtable Hold to obtain the "What Do You Want?" Gesture.`
       },
       {
         id: "61227be7-78e6-4fe1-b09a-e30773697d96",
@@ -1395,7 +1404,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "87e32e4e-50ee-42d6-a17a-9196800316a9",
-        description: "(Optional) Interact with Fia and select \"Hold Me\". Exhaust the extra dialogue options to receive Knifeprint Clue."
+        description: `(Optional) Interact with Fia and select "Hold Me." Exhaust the extra dialogue options to receive Knifeprint Clue.`
       },
       {
         id: "4760e7eb-e81c-4046-b1f4-d0560439d6a4",
@@ -1533,7 +1542,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "1c2f642d-0dd6-46a3-871b-cd887f1fd395",
-        description: "(Optional) Talk to Tanith and ask about \"Zorayas' Troubles.\""
+        description: `(Optional) Talk to Tanith and ask about "Zorayas' Troubles."`
       },
       {
         id: "6e538d21-b4d0-4b77-b4c4-91467e59b190",
@@ -1545,7 +1554,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "1c5f316e-b0dc-40e2-8157-f94239c4594b",
-        description: "(Optional) Speak with Tanith and select \"Zorayas Absence\" to obtain the Tonic of Forgetfulness."
+        description: `(Optional) Speak with Tanith and select "Zorayas Absence" to obtain the Tonic of Forgetfulness.`
       },
       {
         id: "82a61d47-8dd9-4730-9cea-482cf351f2ca",
@@ -1557,7 +1566,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "df857757-52b1-4263-b908-eda8b2c33ed5",
-        description: "Depending on your choice find Daedicar's Woe and (possibly) Zorayas' Letter either at her location in the legacy dungeon or back in her original location in the manor, possibly after reloading depending on your choice."
+        description: "Find Daedicar's Woe and (possibly) Zorayas' Letter, either where she was in legacy dungeon or her original location in the manor (depends on your choices)."
       }
     ]
   },
@@ -1585,7 +1594,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "b17d2204-3a9c-464b-b379-6f63f15fb223",
-        description: "Progress Dung Eater's quest to the point he says he will be \"waiting in the outer moat.\"",
+        description: `Progress Dung Eater's quest to the point he says he will be "waiting in the outer moat."`,
         url: "https://eldenring.wiki.fextralife.com/Dung+Eater"
       },
       {
@@ -1622,7 +1631,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "bcab5335-85f7-4cd6-ab98-bcc3ef8fb9db",
-        description: "(Optional?) Progress Diallos' quest line."
+        description: "Progress Diallos' quest line."
       },
       {
         id: "e6870a01-abdf-4f77-a148-5a3121afb358",
@@ -1657,15 +1666,15 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "637f6eca-9f40-45f0-ab58-12458487c9ab",
-        description: "Progress Dung Eater's quest until you can give him Seedbed Curses, but give him Seluvis's Potion. Note: This locks you out of Dung Eater's quest line, and the Blessing of Despair ending until a new NG cycle, and cannot be done the same cycle as feeding it to Nepheli Loux."
+        description: "Progress Dung Eater's quest until you can give him Seedbed Curses, but give him Seluvis's Potion (locks out Dung Eater's questline/Blessing of Despair ending and Nepheli Loux's Puppet until new NG cycle)."
       },
       {
         id: "9a7ea65b-37ef-4e62-8a90-c75d089c7b22",
-        description: "Feed Seluvis's Potion to Nepheli Loux. Note: This locks you out of Nepheli Loux's quest line until a new NG cycle and cannot be done the same cycle as feeding it to Dung Eater."
+        description: "Feed Seluvis's Potion to Nepheli Loux (locks out Nepheli Loux's questline and Dung Eater's Puppet until new NG cycle)."
       },
       {
         id: "f20fc1e3-c8f4-4d00-972f-abde59daf659",
-        description: "(Optional) Talk to Gideon Ofnir and give Seluvis's Potion to him to dispose of. Note: This locks you out of getting both Dung Eater and Nepheli Loux's Puppets until a new NG cycle."
+        description: "(Optional) Talk to Gideon Ofnir and give Seluvis's Potion to him to dispose of (locks out both Dung Eater's and Nepheli Loux's Puppets until new NG cycle)."
       },
       {
         id: "9f430f1f-e492-4f0a-b3fc-811d27f8d042",
@@ -1673,7 +1682,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "8a451186-d5af-4dd7-877e-e7f5d5061306",
-        description: "(Optional?) Inside Seluvis's lab, find another illusory wall with Dung Eater/Nepheli Loux's Puppet behind it."
+        description: "(Optional) Inside Seluvis's lab, find another illusory wall with Dung Eater's Puppet behind it, if you gave him the potion."
       },
       {
         id: "fe71ba5b-58a4-4a61-bf0f-93ba3216fb64",
@@ -1689,7 +1698,8 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "1ec168fa-7721-4a26-8fec-c5acdda7ccba",
-        description: "Talking to Seluvis again will give you the option to hear his plot (this step may be buggy, check his page for assistance)."
+        description: "Talking to Seluvis again will give you the option to hear his plot (sometimes buggy, check link for help).",
+        url: "https://eldenring.wiki.fextralife.com/Preceptor+Seluvis"
       },
       {
         id: "32a48279-e85b-476e-b5cb-62d554c4f1ae",
@@ -1736,7 +1746,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "31eb2092-b9c7-4128-a3da-65e115d33aaa",
-        description: "Get to Volcano Manor and talk to Tanith. Answer \"Yes\" when asked to join the family and receive the Drawing-Room Key."
+        description: `Get to Volcano Manor and talk to Tanith. Answer "Yes" when asked to join the family and receive the Drawing-Room Key.`
       },
       {
         id: "2cb59cb6-3b89-4cad-aa76-437acf4f8385",
