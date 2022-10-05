@@ -141,7 +141,7 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "96490ccb-66c9-42b6-a651-bca6a80fce42",
-        description: "Fight Patches until he surrenders in Murkwater Cave",
+        description: "Fight Patches until he surrenders in Murkwater Cave.",
       },
       {
         id: "8d1f86ac-2c71-4c4f-9346-b78a07747a43",
@@ -265,7 +265,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "4c82b4ff-b3a2-44a0-baa8-3ac07c96e65d",
-        description: `Talk to Boc in the Coastal Cave again and select the "Give the Sewing Needle" dialogue option`,
+        description: `Talk to Boc in the Coastal Cave again and select the "Give the Sewing Needle" dialogue option.`,
       },
       // required: you must talk to him at one of the optional places.
       {
@@ -307,7 +307,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "8e17d343-40e0-493c-b3f4-d3fc5cbd0b46",
-        description: `Talk to Boc and allow him to call you "Lord".`,
+        description: `Talk to Boc and allow him to call you "Lord."`,
       },
       {
         id: "be763a73-15a4-4521-bbe8-058a24f04216",
@@ -494,7 +494,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "4293c04f-e9fe-4a05-bd7e-938dd61cc36e",
-        description: `Talk to Smithing Master Iji and exhaust his dialogue until you are able to select "Blaidd sent me". You may now purchase the Carian Filigreed Crest talisman.`,
+        description: `Talk to Smithing Master Iji and exhaust his dialogue until you are able to select "Blaidd sent me." You may now purchase the Carian Filigreed Crest talisman.`,
       },
     ],
   },
@@ -680,7 +680,7 @@ export const Quests: Array<ListType> = [
       {
         id: "1b780037-5750-4a4c-a2ba-a43adeeab76d",
         description:
-          "Find Lusat near the Fort Faroth grace and get the Stars of Ruin spell",
+          "Find Lusat near the Fort Faroth grace and get the Stars of Ruin spell.",
       },
       {
         id: "e9846b5d-3f41-47e4-aa12-36d99c40e2af",
@@ -719,7 +719,7 @@ export const Quests: Array<ListType> = [
       {
         id: "763fc9ac-1f5b-4554-8d4b-62472353a6d8",
         description:
-          "Return to Lusat's body near the Sellia Hideaway grace to get the Lusat's clothing set",
+          "Return to Lusat's body near the Sellia Hideaway grace to get the Lusat's clothing set.",
       },
     ],
   },
@@ -872,11 +872,11 @@ export const Quests: Array<ListType> = [
       {
         id: "3d72b66b-98c5-4ee2-838e-28251a186c24",
         description:
-          "Talk to Fia at the Roundtable Hold until you receive the Weathered Dagger",
+          "Talk to Fia at the Roundtable Hold until you receive the Weathered Dagger.",
       },
       {
         id: "6ba21da1-0acd-4113-941c-3f44d520978d",
-        description: "Give D, Hunter of the Dead the Weathered Dagger",
+        description: "Give D, Hunter of the Dead the Weathered Dagger.",
       },
       {
         id: "3239894a-57f9-484b-8b21-904156c1e2d5",
@@ -1022,12 +1022,12 @@ export const Quests: Array<ListType> = [
     requirements: [
       {
         id: "77ae3b59-142d-40a9-b366-bd1887623231",
-        description: "Talk to Dung Eater at the Roundtable Hold",
+        description: "Talk to Dung Eater at the Roundtable Hold.",
       },
       {
         id: "033bf04e-e309-4fb8-abe9-ae3e080a0bab",
         description:
-          "Collect the Seedbed Curse near the East Capital Rampart Grace",
+          "Collect the Seedbed Curse near the East Capital Rampart Grace.",
       },
       {
         id: "ad4de190-085e-415f-a838-c0cd15610edb",
@@ -1171,7 +1171,7 @@ export const Quests: Array<ListType> = [
       {
         id: "1bb499f9-7d93-4518-9870-ddd5e46c4bf4",
         description:
-          "Talk with Hyetta until she dies. Pick up the Frenzied Flame Seal",
+          "Talk with Hyetta until she dies. Pick up the Frenzied Flame Seal.",
       },
       {
         id: "2662179f-44f6-44d2-a930-2c64e25d1f58",
@@ -1196,7 +1196,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "c40d1235-4ecc-4279-93a6-09d39e640776",
-        description: `Talk to Brother Corhyn near the Altus Plateau map fragment. Talk "About the noble goldmask"`,
+        description: `Talk to Brother Corhyn near the Altus Plateau map fragment. Talk "About the noble Goldmask."`,
       },
       {
         id: "4b09fc8d-abd3-4ce7-a1c5-c13bc6923c29",
@@ -1204,11 +1204,11 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "f25f7590-ca9c-4f8b-967a-517a041b5fca",
-        description: `Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask's whereabouts"`,
+        description: `Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask's whereabouts."`,
       },
       {
         id: "e59a5d41-7c4a-461e-a642-5653461df6ec",
-        description: `Go back to the broken bridge and talk to Brother Corhyn "About the noble Goldmask"`,
+        description: `Go back to the broken bridge and talk to Brother Corhyn "About the noble Goldmask."`,
       },
       {
         id: "306050cc-99f3-4739-8e05-1be39d7d7d51",
@@ -1217,11 +1217,11 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "fdbe8c88-81be-4cd0-afd2-cdcb3b51bc93",
-        description: `Give the Golden Order Principia to Brother Corhyn near the arena. Learn the Law of Regression incantation. Talk "About the noble goldmask"`,
+        description: `Give the Golden Order Principia to Brother Corhyn near the arena. Learn the Law of Regression incantation. Talk "About the noble goldmask."`,
       },
       {
         id: "1fcf3bc3-0513-4808-8e3b-e24085dc4862",
-        description: `Perform the Law of Regression incantation in front of the statue near the in game message that says "Regression alone reveals secrets." Read the new message that appears`,
+        description: `Perform the Law of Regression incantation in front of the statue near the in game message that says "Regression alone reveals secrets." Read the new message that appears.`,
       },
       {
         id: "977609ab-1035-4c7a-a2e6-b5087c57f909",
@@ -1784,7 +1784,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "8873c32c-642e-48ef-8eaa-362080337b4c",
-        description: "Invade and kill Juno Hoslow, Knight of Blood in Mountaintops of the Giants",
+        description: "Invade and kill Juno Hoslow, Knight of Blood in Mountaintops of the Giants.",
         url: "https://eldenring.wiki.fextralife.com/Juno+Hoslow,+Knight+of+Blood"
       },
       {
