@@ -1249,8 +1249,18 @@ export const Quests: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman",
     requirements: [
       {
+        id: "d5ffc09a-783a-4140-978b-30ae0ec5b596",
+        description: "Retrieve a Deathroot after defeating the Tibia Mariner at Summonwater Village.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1547&code=mapA"
+      },
+      {
         id: "d22a50ea-45e6-41a0-be2a-e7f8918345a1",
-        description: "(Optional) Defeat the Tibia Mariner in Summonwater Village and return to D at Roundtable Hold for directions to the Bestial Sanctum."
+        description: "(Optional) Talk to D at Roundtable Hold for directions to the Bestial Sanctum."
+      },
+      {
+        id: "f552e06e-e89e-4e15-bb66-25e1d395805c",
+        description: "Take the Waygate D mentions to the Bestial Sanctum.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=802&code=mapA"
       },
       {
         id: "c70ea8be-63af-47ca-b9b0-1627a75745fe",
@@ -1259,51 +1269,82 @@ export const Quests: Array<ListType> = [
       {
         id: "42b42ae4-988c-4c1a-b997-b6f4ef6b2ddd",
         description: "Give one Deathroot to Gurranq for the Clawmark Seal Sacred Seal and Beast Eye Key Item.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "13ae7575-e7ca-4749-9936-2049c063802f",
+        description: "Retrieve a Deathroot inside a chest behind the Black Knife Assassin in the Deathtouched Catacombs.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=855&code=mapA"
       },
       {
         id: "f510560c-6aee-45b7-8eb4-3ea4edfee422",
         description: "Give a second Deathroot to Gurranq for the Bestial Sling Incantation.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "c6b12699-738d-463d-9216-ae76b24aa1f1",
+        description: "Retrieve a Deathroot inside a chest behind the Cemetery Shade in the Black Knife Catacombs.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6807&code=mapA"
       },
       {
         id: "7b075c18-5c27-466b-910a-d80857cedebd",
         description: "Give a third Deathroot to Gurranq for the Bestial Vitality Incantation.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "2189ccf3-d2e5-42ee-a6db-d8449aa42085",
+        description: "Retrieve a Deathroot by defeating the Tibia Mariner at East Liurnia of the Lakes.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2010&code=mapA"
       },
       {
         id: "bf466258-2964-4784-b0c9-b4d2ce8a7783",
         description: "Give a fourth Deathroot to Gurranq for Ash of War: Beast's Roar.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "2b8f890b-8f28-4876-bcc2-93db115ab141",
+        description: "Retrieve a Deathroot by defeating the Tibia Mariner at Wyndham Ruins.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2007&code=mapA"
       },
       {
         id: "b519f1e3-531f-41ec-93a7-70e4d7f00087",
-        description: "Gurranq will become hostile. Fight back until he gives up."
+        description: "Gurranq will be hostile. Fight back until he gives up."
       },
       {
         id: "6e96ffcb-8a9a-4661-9b34-969e5237c5a6",
         description: "Reload the area if necessary, then give a fifth Deathroot to Gurranq for the Beast Claw Incantation.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "3cbcd4f0-46f9-4478-bf5d-93ef4d2fc20b",
+        description: "Retrieve a Deathroot by defeating the Tibia Mariner on a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6808&code=mapA"
       },
       {
         id: "9b08d98a-119c-409b-9d13-eebf9da938f2",
         description: "Give a sixth Deathroot to Gurranq for the Stone of Gurranq Incantation.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "34c389a1-8307-4927-8452-98609c893154",
+        description: "Retrieve a Deathroot inside a chest behind the Red Wolf of the Champion at Gelmir Hero's Grave.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5765&code=mapA"
       },
       {
         id: "0a00490b-aa1a-4cb2-85cd-1b91c0cc59b1",
         description: "Give a seventh Deathroot to Gurranq for the Warhammer armament Beastclaw Greathammer.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "989b70ec-d3f6-47da-94af-df6b57283243",
+        description: "Retrieve a Deathroot inside a chest after defeating the Stray Mimic Tear in the secret catacombs underneath the Hidden Path to the Haligtree.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6359&code=mapA"
       },
       {
         id: "c6735e77-00d5-4ad9-8b5b-99be55581b24",
         description: "Give an eighth Deathroot to Gurranq for the Gurranq's Beast Claw Incantation.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+      },
+      {
+        id: "d0bd1b10-18fe-43d1-928d-facc24178226",
+        description: "Retrieve a Deathroot inside the chest after defeating the Ulcerated Tree Spirit boss inside the Giants' Mountaintop Catacombs.",
+        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6809&code=mapA"
       },
       {
         id: "631d8c94-3060-40b0-acaa-5af4e95aa104",
-        description: "Give Gurranq the ninth and final Deathroot. He will give you an Ancient Dragon Smithing Stone and disappear.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot"
+        description: "Give Gurranq the ninth and final Deathroot. He will give you an Ancient Dragon Smithing Stone and disappear."
       }
     ]
   },
