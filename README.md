@@ -128,7 +128,7 @@ Run locally with:
 
 ## Roadmap
 
-- [ ] Quests
+- [x] Quests
   - [x] Dung Eater / Blessing of Despair Ending
   - [x] Ranni the Witch / Age of the Stars Ending
   - [x] Gowry / Millicent
@@ -146,17 +146,17 @@ Run locally with:
   - [x] Knight Bernahl
   - [x] Fia / Age of Duskborn ending
   - [x] D, Hunter of the Dead
-  - [ ] Gurranq, Beast Clergyman
-  - [ ] Diallos Hoslow
-  - [ ] Ensha
-  - [ ] Sorcerer Rogier
-  - [ ] Thops
-  - [ ] Latenna
-  - [ ] Rya
-  - [ ] Blackguard Big Boggart
-  - [ ] Jar-Bairn
-  - [ ] Seluvis
-  - [ ] Tanith
+  - [x] Gurranq, Beast Clergyman
+  - [x] Diallos Hoslow
+  - [x] Ensha
+  - [x] Sorcerer Rogier
+  - [x] Thops
+  - [x] Latenna
+  - [x] Rya
+  - [x] Blackguard Big Boggart
+  - [x] Jar-Bairn
+  - [x] Seluvis
+  - [x] Tanith
 - [x] Achievements
   - [ ] Not sure if I should include anything else but collectable achievements.
 - [x] Graces
