@@ -632,11 +632,6 @@ export const Bosses: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Deathbird",
       },
       {
-        id: "f63ec75c-ef34-4410-966d-38d9a9efc47d",
-        description: "Divine Bridge Golem",
-        url: "https://eldenring.wiki.fextralife.com/Divine+Bridge+Golem",
-      },
-      {
         id: "b0e6494f-cf2c-4cbf-a0ad-aca9a8264b2b",
         description: "Draconic Tree Sentinel",
         url: "https://eldenring.wiki.fextralife.com/Draconic+Tree+Sentinel",
