@@ -162,6 +162,7 @@ Run locally with:
 - [x] Graces
   - [x] Double checked by [@13xforever](https://github.com/13xforever)
 - [x] Bosses
+- [ ] Gestures
 - [ ] Weapons?
 - [ ] Spirits / Puppets?
 
