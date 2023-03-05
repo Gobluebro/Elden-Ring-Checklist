@@ -233,76 +233,6 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
-    id: "506e0994-ee99-4509-92f0-09db727e2e8b",
-    name: "Brother Corhyn + Goldmask / Age of Order Ending",
-    url: "https://eldenring.wiki.fextralife.com/Brother+Corhyn",
-    requirements: [
-      {
-        id: "a2c22fb5-91d1-444a-8cf4-13880d99b9d7",
-        description: "Talk to Brother Corhyn at the Roundtable Hold grace.",
-      },
-      {
-        id: "7af25090-d2c7-4ecd-a0c8-1067eab6b2d1",
-        description:
-          "Talk to Brother Corhyn at the Roundtable Hold grace after defeating 2 main bosses.",
-      },
-      {
-        id: "c40d1235-4ecc-4279-93a6-09d39e640776",
-        description:
-          'Talk to Brother Corhyn near the Altus Plateau map fragment. Talk "About the noble Goldmask."',
-      },
-      {
-        id: "4b09fc8d-abd3-4ce7-a1c5-c13bc6923c29",
-        description: "Talk to Goldmask on the broken bridge.",
-      },
-      {
-        id: "f25f7590-ca9c-4f8b-967a-517a041b5fca",
-        description:
-          'Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask\'s whereabouts."',
-      },
-      {
-        id: "e59a5d41-7c4a-461e-a642-5653461df6ec",
-        description:
-          'Go back to the broken bridge and talk to Brother Corhyn "About the noble Goldmask."',
-      },
-      {
-        id: "306050cc-99f3-4739-8e05-1be39d7d7d51",
-        description:
-          "Get the Golden Order Principia at the Erdtree Sanctuary grace.",
-      },
-      {
-        id: "fdbe8c88-81be-4cd0-afd2-cdcb3b51bc93",
-        description:
-          'Give the Golden Order Principia to Brother Corhyn near the arena. Learn the Law of Regression incantation. Talk "About the noble goldmask."',
-      },
-      {
-        id: "1fcf3bc3-0513-4808-8e3b-e24085dc4862",
-        description:
-          'Perform the Law of Regression incantation in front of the statue near the in game message that says "Regression alone reveals secrets." Read the new message that appears.',
-      },
-      {
-        id: "977609ab-1035-4c7a-a2e6-b5087c57f909",
-        description:
-          'Go back to the arena and talk to Brother Corhyn and Goldmask. Select the "Tell him that Radagon is Marika" dialogue option. Then talk to Brother Corhyn.',
-      },
-      {
-        id: "327e0145-df64-44a7-95c3-f33e17363e1f",
-        description:
-          "Talk to Brother Corhyn on the bridge southeast of Stargazers' Ruins.",
-      },
-      {
-        id: "fc397cad-1720-45fa-9693-1d5a834a7d42",
-        description:
-          "Receive the mending rune from Goldmask near the arena in Leyndell, Capital of Ash.",
-      },
-      {
-        id: "2c3255de-4c4e-40d4-99bb-98fbfce2f3c1",
-        description:
-          'Defeat the final boss and select the "Use Mending Rune of Perfect Order" dialogue option.',
-      },
-    ],
-  },
-  {
     id: "6a2f5b7e-47ba-4b06-b51e-c88b7d93703e",
     name: "D, Hunter of the Dead",
     url: "https://eldenring.wiki.fextralife.com/D,+Hunter+of+the+Dead",
@@ -403,8 +333,234 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "900d02cb-0685-4a28-951f-318ebdee46d0",
+    name: "Ending: Age of Duskborn (Fia)",
+    url: "https://eldenring.wiki.fextralife.com/Fia",
+    requirements: [
+      {
+        id: "753a3949-1f33-4953-93b9-0ef16e351da4",
+        description: "Rest at a site of grace in Altus Plateau.",
+      },
+      {
+        id: "3d72b66b-98c5-4ee2-838e-28251a186c24",
+        description:
+          "Talk to Fia at the Roundtable Hold until you receive the Weathered Dagger.",
+      },
+      {
+        id: "6ba21da1-0acd-4113-941c-3f44d520978d",
+        description: "Give D, Hunter of the Dead the Weathered Dagger.",
+      },
+      {
+        id: "3239894a-57f9-484b-8b21-904156c1e2d5",
+        description:
+          "Claim two great runes and then talk to Fia at the Roundtable hold to receive a map of the location of a Black Knifeprint.",
+      },
+      {
+        id: "7c0c707e-6c22-4556-83d5-ad7dafa2f90d",
+        description:
+          "Talk to her in a newly opened room in the Roundtable Hold.",
+      },
+      {
+        id: "fa9e90a8-bc0f-4dc0-8fe8-726f333611b3",
+        description: "Give D's twin brother the Twinned Armor set.",
+      },
+      {
+        id: "7cf4a33d-0ae7-4f54-894c-d87ba8acd580",
+        description: "Defeat Fia's Champions.",
+      },
+      {
+        id: "e4afc57f-69cb-42f2-b1a1-d4ccafbbe849",
+        description: "Rest and talk to Fia multiple times until falls asleep.",
+      },
+      {
+        id: "df1b7f52-a3d0-45d0-a2c6-5b9f5354c70a",
+        description: "Defeat Lichdragon Fortissax.",
+      },
+      {
+        id: "5e98459f-6e25-423c-a450-71c9d5770606",
+        description: "Pick up the Mending Rune of the Death-Prince.",
+      },
+      {
+        id: "7d9e7119-54ef-4a45-baf6-2936e8e6b07a",
+        description:
+          "Rest at the grace multiple times and pick up Fia's and D's brothers armor sets.",
+      },
+      {
+        id: "cb90d59d-9c67-4fb4-988b-87fab462cfdd",
+        description:
+          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Death-Prince" dialogue option.',
+      },
+    ],
+  },
+  {
+    id: "506e0994-ee99-4509-92f0-09db727e2e8b",
+    name: "Ending: Age of Order (Brother Corhyn, Goldmask)",
+    url: "https://eldenring.wiki.fextralife.com/Brother+Corhyn",
+    requirements: [
+      {
+        id: "a2c22fb5-91d1-444a-8cf4-13880d99b9d7",
+        description: "Talk to Brother Corhyn at the Roundtable Hold grace.",
+      },
+      {
+        id: "7af25090-d2c7-4ecd-a0c8-1067eab6b2d1",
+        description:
+          "Talk to Brother Corhyn at the Roundtable Hold grace after defeating 2 main bosses.",
+      },
+      {
+        id: "c40d1235-4ecc-4279-93a6-09d39e640776",
+        description:
+          'Talk to Brother Corhyn near the Altus Plateau map fragment. Talk "About the noble Goldmask."',
+      },
+      {
+        id: "4b09fc8d-abd3-4ce7-a1c5-c13bc6923c29",
+        description: "Talk to Goldmask on the broken bridge.",
+      },
+      {
+        id: "f25f7590-ca9c-4f8b-967a-517a041b5fca",
+        description:
+          'Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask\'s whereabouts."',
+      },
+      {
+        id: "e59a5d41-7c4a-461e-a642-5653461df6ec",
+        description:
+          'Go back to the broken bridge and talk to Brother Corhyn "About the noble Goldmask."',
+      },
+      {
+        id: "306050cc-99f3-4739-8e05-1be39d7d7d51",
+        description:
+          "Get the Golden Order Principia at the Erdtree Sanctuary grace.",
+      },
+      {
+        id: "fdbe8c88-81be-4cd0-afd2-cdcb3b51bc93",
+        description:
+          'Give the Golden Order Principia to Brother Corhyn near the arena. Learn the Law of Regression incantation. Talk "About the noble goldmask."',
+      },
+      {
+        id: "1fcf3bc3-0513-4808-8e3b-e24085dc4862",
+        description:
+          'Perform the Law of Regression incantation in front of the statue near the in game message that says "Regression alone reveals secrets." Read the new message that appears.',
+      },
+      {
+        id: "977609ab-1035-4c7a-a2e6-b5087c57f909",
+        description:
+          'Go back to the arena and talk to Brother Corhyn and Goldmask. Select the "Tell him that Radagon is Marika" dialogue option. Then talk to Brother Corhyn.',
+      },
+      {
+        id: "327e0145-df64-44a7-95c3-f33e17363e1f",
+        description:
+          "Talk to Brother Corhyn on the bridge southeast of Stargazers' Ruins.",
+      },
+      {
+        id: "fc397cad-1720-45fa-9693-1d5a834a7d42",
+        description:
+          "Receive the mending rune from Goldmask near the arena in Leyndell, Capital of Ash.",
+      },
+      {
+        id: "2c3255de-4c4e-40d4-99bb-98fbfce2f3c1",
+        description:
+          'Defeat the final boss and select the "Use Mending Rune of Perfect Order" dialogue option.',
+      },
+    ],
+  },
+  {
+    id: "2abe0f98-8523-47f6-b060-0ca9c275962e",
+    name: "Ending: Age of Stars (Ranni the Witch)",
+    url: "https://eldenring.wiki.fextralife.com/Ranni+the+Witch",
+    requirements: [
+      {
+        id: "91c85542-89b6-4389-995e-9cecc58100d0",
+        description: "Talk to Ranni in Ranni's Rise.",
+      },
+      {
+        id: "659de324-b627-4ef4-af2d-19f516645295",
+        description:
+          "Talk to Seluvis, Iji, and Blaidd down the stairs of Ranni's Rise.",
+      },
+      {
+        id: "36bcb894-17f9-4436-af1a-bdf31d1040fe",
+        description: "Talk to Blaidd in the Siofra River.",
+      },
+      {
+        id: "1fe99c6c-23f1-43a2-a16a-c15fa2e84f45",
+        description: "Talk to Seluvis in Seluvis's Rise.",
+      },
+      {
+        id: "93431942-585b-4e2e-8c9c-e0117412d93b",
+        description: "Talk to Sellen at the Waypoint Ruins Cellar grace.",
+      },
+      {
+        id: "8f56bb96-4203-42f3-a44c-82c81a8275fe",
+        description: "Talk to Blaidd in the Siofra River.",
+      },
+      {
+        id: "a4eb3249-0d6e-4f42-91dc-07291b717ee0",
+        description: "Defeat Radahn.",
+      },
+      {
+        id: "f0f2c1df-5dd3-458e-b919-7d1f7af26196",
+        description: "Get Fingerslayer Blade in Nokron.",
+      },
+      {
+        id: "05e68320-e745-4472-8fd0-7364c001249c",
+        description:
+          "Give the item to Ranni in Ranni's Rise, you will receive the inverted statue (locks out Seluvis's questline for this NG cycle).",
+      },
+      {
+        id: "d2a30b83-30d9-4fa5-83f9-9f6c0acbb14a",
+        description:
+          "Take the inverted statue to the study hall entrance grace and place it on the table.",
+      },
+      {
+        id: "414cfaf2-f60c-4d22-acaa-176b01aae842",
+        description:
+          "Get the Cursemark of Death from the Divine Tower of Liurnia.",
+      },
+      {
+        id: "53067c65-0e84-494f-aafa-60bf6b4d1108",
+        description:
+          "Go to Renna's Rise (not Ranni's Rise) and enter the the portal.",
+      },
+      {
+        id: "a5b3a004-8ee0-43e8-9779-3efd9f762bcb",
+        description: "Pick up the Miniature Ranni.",
+      },
+      {
+        id: "af01ffe4-5bf5-48c3-b64a-35ef84e54041",
+        description:
+          'Rest at the nearby grace and "Talk to the miniature Ranni" 3 times.',
+      },
+      {
+        id: "aaa0ab74-c6f0-4e76-abf9-e885a30961be",
+        description:
+          "Get the Discarded Palace Key by defeating the Baleful Shadow in Nokstella. Make sure to get the Lake of Rot Shoreside grace after.",
+      },
+      {
+        id: "ab4c3b70-aa65-4552-9cc5-4cd853030b04",
+        description:
+          "Get the Dark Moon Ring from the chest at the Raya Lucaria Grand Library by using the Discarded Palace Key.",
+      },
+      {
+        id: "62afc7c6-369b-4e58-91c5-5fb724b091b6",
+        description: "Defeat Astel, Naturalborn of the Void.",
+      },
+      {
+        id: "8c891a85-9fc9-4fe5-9d62-11587a30301b",
+        description:
+          "Put the Dark Moon Ring on Ranni's Finger below the Cathedral of Manus Celes.",
+      },
+      {
+        id: "c5d4512c-3dd5-4470-904f-abec927162b1",
+        description: "Defeat Blaidd outside of Ranni's Rise.",
+      },
+      {
+        id: "ee36e71e-9c19-4f67-bf38-f33be07df8e0",
+        description: "Talk to Iji about Blaidd's death.",
+      },
+    ],
+  },
+  {
     id: "87a4def0-48b9-4b9d-ad78-38ea169b1ad1",
-    name: "Dung Eater / Blessing of Despair Ending",
+    name: "Ending: Blessing of Despair (Dung Eater)",
     url: "https://eldenring.wiki.fextralife.com/Dung+Eater",
     requirements: [
       {
@@ -476,6 +632,100 @@ export const Quests: Array<ListType> = [
     ],
   },
   {
+    id: "98054154-2e6e-4095-a4bf-ee0f071ece9e",
+    name: "Ending: Lord of the Frenzied Flame (Irina, Edgar, Hyetta)",
+    url: "https://eldenring.wiki.fextralife.com/Hyetta",
+    requirements: [
+      {
+        id: "98a2abed-c094-40f2-b058-5200d7b102d3",
+        description: "Talk to Irina south of the Bridge of Sacrifice.",
+      },
+      {
+        id: "097b6af4-dd9a-45a6-9463-42f171070a19",
+        description: "Take Irina's letter to her father Edgar in Castle Morne.",
+      },
+      {
+        id: "2ef06f76-df0b-4f1e-806a-6314d63d2998",
+        description: "Defeat Leonine Misbegotten.",
+      },
+      {
+        id: "779b7d1b-d73a-47bf-8ea2-5489951c0f6d",
+        description: "Talk with Edgar.",
+      },
+      {
+        id: "0a805ace-f6a7-44ce-9d1e-eaca5aff8c75",
+        description: "Go back to Irina and talk with Edgar.",
+      },
+      {
+        id: "86bea27e-e906-4e62-b60f-d3c664fdddb2",
+        description: "Get the first Shabriri Grape from Godrick's throne room.",
+      },
+      {
+        id: "6460323a-e809-4fd5-8e81-b0f5575fa71d",
+        description:
+          "Talk to Hyetta near the Lake-Facing Cliffs grace and donate a Shabriri grape to her.",
+      },
+      {
+        id: "7b99e1a3-56bc-4097-8c5a-239332a165f0",
+        description:
+          "Get the second Shabriri Grape from the Purified Ruins near the Liurnia Highway North grace. Talk to Hyetta nearby and donate a Shabriri grape to her.",
+      },
+      {
+        id: "3c7fb9a9-57ab-4d86-a3e5-2da93d97c9b2",
+        description:
+          "Defeat Edgar the Revenger at the Revenger's Shack and receive the third Shabriri Grape.",
+      },
+      {
+        id: "fcf87da5-9b20-4644-accd-73b630f03df5",
+        description:
+          'Donate your third Shabriri Grape to Hyetta near the Gate Town Bridge. Select the "They\'re human eyes" dialogue option.',
+      },
+      {
+        id: "79e4eec6-db3a-47d1-8fa0-1d659bc71344",
+        description: "Talk to Hyetta again so that she apologizes.",
+      },
+      {
+        id: "2be6da83-9878-4170-bd4b-67c47a692baa",
+        description: "Rest at the grace and then talk to Hyetta once more.",
+      },
+      {
+        id: "8a57b4f7-c5be-49e3-ab5d-561b86e82bb3",
+        description:
+          "Defeat the Festering Fingerprint Vyke at the Church of Inhibition and receive the Fingerprint Grape.",
+      },
+      {
+        id: "c540d9e3-15b0-442b-b685-a34e82b9db39",
+        description:
+          "Donate the Fingerprint Grape to Hyetta at the Bellum Church.",
+      },
+      {
+        id: "8e06cead-4675-48fe-8495-39a0bb37cb28",
+        description:
+          "Defeat Mohg, the Omen and attack the alter behind the chest.",
+      },
+      {
+        id: "80fdceaf-4285-4d8f-8c0c-0b941124937a",
+        description:
+          "Once you have finished jumping down, talk to Hyetta near the Frenzied Flame Proscription grace.",
+      },
+      {
+        id: "076e6e04-4a83-4696-84e5-0202fdffd63d",
+        description:
+          "Take off your clothes and open the door to the three fingers.",
+      },
+      {
+        id: "1bb499f9-7d93-4518-9870-ddd5e46c4bf4",
+        description:
+          "Talk with Hyetta until she dies. Pick up the Frenzied Flame Seal.",
+      },
+      {
+        id: "2662179f-44f6-44d2-a930-2c64e25d1f58",
+        description:
+          "Defeat the final boss and become the Lord of Frenzied Flame.",
+      },
+    ],
+  },
+  {
     id: "7283be28-9d16-40ba-b977-39d16df5d32b",
     name: "Ensha",
     url: "https://eldenring.wiki.fextralife.com/Ensha",
@@ -503,66 +753,6 @@ export const Quests: Array<ListType> = [
         id: "2d5da311-6b48-4e85-953a-3168a156f7ac",
         description:
           "Talk to Gideon Ofnir and he will apologize for Ensha's behavior.",
-      },
-    ],
-  },
-  {
-    id: "900d02cb-0685-4a28-951f-318ebdee46d0",
-    name: "Fia / Age of Duskborn Ending",
-    url: "https://eldenring.wiki.fextralife.com/Fia",
-    requirements: [
-      {
-        id: "753a3949-1f33-4953-93b9-0ef16e351da4",
-        description: "Rest at a site of grace in Altus Plateau.",
-      },
-      {
-        id: "3d72b66b-98c5-4ee2-838e-28251a186c24",
-        description:
-          "Talk to Fia at the Roundtable Hold until you receive the Weathered Dagger.",
-      },
-      {
-        id: "6ba21da1-0acd-4113-941c-3f44d520978d",
-        description: "Give D, Hunter of the Dead the Weathered Dagger.",
-      },
-      {
-        id: "3239894a-57f9-484b-8b21-904156c1e2d5",
-        description:
-          "Claim two great runes and then talk to Fia at the Roundtable hold to receive a map of the location of a Black Knifeprint.",
-      },
-      {
-        id: "7c0c707e-6c22-4556-83d5-ad7dafa2f90d",
-        description:
-          "Talk to her in a newly opened room in the Roundtable Hold.",
-      },
-      {
-        id: "fa9e90a8-bc0f-4dc0-8fe8-726f333611b3",
-        description: "Give D's twin brother the Twinned Armor set.",
-      },
-      {
-        id: "7cf4a33d-0ae7-4f54-894c-d87ba8acd580",
-        description: "Defeat Fia's Champions.",
-      },
-      {
-        id: "e4afc57f-69cb-42f2-b1a1-d4ccafbbe849",
-        description: "Rest and talk to Fia multiple times until falls asleep.",
-      },
-      {
-        id: "df1b7f52-a3d0-45d0-a2c6-5b9f5354c70a",
-        description: "Defeat Lichdragon Fortissax.",
-      },
-      {
-        id: "5e98459f-6e25-423c-a450-71c9d5770606",
-        description: "Pick up the Mending Rune of the Death-Prince.",
-      },
-      {
-        id: "7d9e7119-54ef-4a45-baf6-2936e8e6b07a",
-        description:
-          "Rest at the grace multiple times and pick up Fia's and D's brothers armor sets.",
-      },
-      {
-        id: "cb90d59d-9c67-4fb4-988b-87fab462cfdd",
-        description:
-          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Death-Prince" dialogue option.',
       },
     ],
   },
@@ -790,100 +980,6 @@ export const Quests: Array<ListType> = [
         id: "631d8c94-3060-40b0-acaa-5af4e95aa104",
         description:
           "Give Gurranq the ninth and final Deathroot. He will give you an Ancient Dragon Smithing Stone and disappear.",
-      },
-    ],
-  },
-  {
-    id: "98054154-2e6e-4095-a4bf-ee0f071ece9e",
-    name: "Irina + Edgar / Hyetta / Lord of the Frenzied Flame Ending",
-    url: "https://eldenring.wiki.fextralife.com/Hyetta",
-    requirements: [
-      {
-        id: "98a2abed-c094-40f2-b058-5200d7b102d3",
-        description: "Talk to Irina south of the Bridge of Sacrifice.",
-      },
-      {
-        id: "097b6af4-dd9a-45a6-9463-42f171070a19",
-        description: "Take Irina's letter to her father Edgar in Castle Morne.",
-      },
-      {
-        id: "2ef06f76-df0b-4f1e-806a-6314d63d2998",
-        description: "Defeat Leonine Misbegotten.",
-      },
-      {
-        id: "779b7d1b-d73a-47bf-8ea2-5489951c0f6d",
-        description: "Talk with Edgar.",
-      },
-      {
-        id: "0a805ace-f6a7-44ce-9d1e-eaca5aff8c75",
-        description: "Go back to Irina and talk with Edgar.",
-      },
-      {
-        id: "86bea27e-e906-4e62-b60f-d3c664fdddb2",
-        description: "Get the first Shabriri Grape from Godrick's throne room.",
-      },
-      {
-        id: "6460323a-e809-4fd5-8e81-b0f5575fa71d",
-        description:
-          "Talk to Hyetta near the Lake-Facing Cliffs grace and donate a Shabriri grape to her.",
-      },
-      {
-        id: "7b99e1a3-56bc-4097-8c5a-239332a165f0",
-        description:
-          "Get the second Shabriri Grape from the Purified Ruins near the Liurnia Highway North grace. Talk to Hyetta nearby and donate a Shabriri grape to her.",
-      },
-      {
-        id: "3c7fb9a9-57ab-4d86-a3e5-2da93d97c9b2",
-        description:
-          "Defeat Edgar the Revenger at the Revenger's Shack and receive the third Shabriri Grape.",
-      },
-      {
-        id: "fcf87da5-9b20-4644-accd-73b630f03df5",
-        description:
-          'Donate your third Shabriri Grape to Hyetta near the Gate Town Bridge. Select the "They\'re human eyes" dialogue option.',
-      },
-      {
-        id: "79e4eec6-db3a-47d1-8fa0-1d659bc71344",
-        description: "Talk to Hyetta again so that she apologizes.",
-      },
-      {
-        id: "2be6da83-9878-4170-bd4b-67c47a692baa",
-        description: "Rest at the grace and then talk to Hyetta once more.",
-      },
-      {
-        id: "8a57b4f7-c5be-49e3-ab5d-561b86e82bb3",
-        description:
-          "Defeat the Festering Fingerprint Vyke at the Church of Inhibition and receive the Fingerprint Grape.",
-      },
-      {
-        id: "c540d9e3-15b0-442b-b685-a34e82b9db39",
-        description:
-          "Donate the Fingerprint Grape to Hyetta at the Bellum Church.",
-      },
-      {
-        id: "8e06cead-4675-48fe-8495-39a0bb37cb28",
-        description:
-          "Defeat Mohg, the Omen and attack the alter behind the chest.",
-      },
-      {
-        id: "80fdceaf-4285-4d8f-8c0c-0b941124937a",
-        description:
-          "Once you have finished jumping down, talk to Hyetta near the Frenzied Flame Proscription grace.",
-      },
-      {
-        id: "076e6e04-4a83-4696-84e5-0202fdffd63d",
-        description:
-          "Take off your clothes and open the door to the three fingers.",
-      },
-      {
-        id: "1bb499f9-7d93-4518-9870-ddd5e46c4bf4",
-        description:
-          "Talk with Hyetta until she dies. Pick up the Frenzied Flame Seal.",
-      },
-      {
-        id: "2662179f-44f6-44d2-a930-2c64e25d1f58",
-        description:
-          "Defeat the final boss and become the Lord of Frenzied Flame.",
       },
     ],
   },
@@ -1420,102 +1516,6 @@ export const Quests: Array<ListType> = [
         id: "ebb0776a-b44e-4f57-a30f-5953c45aa563",
         description:
           "Loot Dolores the Sleeping Arrow Puppet from Pidia if you didn't give Seluvis's Potion to Nepheli Loux.",
-      },
-    ],
-  },
-  {
-    id: "2abe0f98-8523-47f6-b060-0ca9c275962e",
-    name: "Ranni the Witch / Age of the Stars Ending",
-    url: "https://eldenring.wiki.fextralife.com/Ranni+the+Witch",
-    requirements: [
-      {
-        id: "91c85542-89b6-4389-995e-9cecc58100d0",
-        description: "Talk to Ranni in Ranni's Rise.",
-      },
-      {
-        id: "659de324-b627-4ef4-af2d-19f516645295",
-        description:
-          "Talk to Seluvis, Iji, and Blaidd down the stairs of Ranni's Rise.",
-      },
-      {
-        id: "36bcb894-17f9-4436-af1a-bdf31d1040fe",
-        description: "Talk to Blaidd in the Siofra River.",
-      },
-      {
-        id: "1fe99c6c-23f1-43a2-a16a-c15fa2e84f45",
-        description: "Talk to Seluvis in Seluvis's Rise.",
-      },
-      {
-        id: "93431942-585b-4e2e-8c9c-e0117412d93b",
-        description: "Talk to Sellen at the Waypoint Ruins Cellar grace.",
-      },
-      {
-        id: "8f56bb96-4203-42f3-a44c-82c81a8275fe",
-        description: "Talk to Blaidd in the Siofra River.",
-      },
-      {
-        id: "a4eb3249-0d6e-4f42-91dc-07291b717ee0",
-        description: "Defeat Radahn.",
-      },
-      {
-        id: "f0f2c1df-5dd3-458e-b919-7d1f7af26196",
-        description: "Get Fingerslayer Blade in Nokron.",
-      },
-      {
-        id: "05e68320-e745-4472-8fd0-7364c001249c",
-        description:
-          "Give the item to Ranni in Ranni's Rise, you will receive the inverted statue (locks out Seluvis's questline for this NG cycle).",
-      },
-      {
-        id: "d2a30b83-30d9-4fa5-83f9-9f6c0acbb14a",
-        description:
-          "Take the inverted statue to the study hall entrance grace and place it on the table.",
-      },
-      {
-        id: "414cfaf2-f60c-4d22-acaa-176b01aae842",
-        description:
-          "Get the Cursemark of Death from the Divine Tower of Liurnia.",
-      },
-      {
-        id: "53067c65-0e84-494f-aafa-60bf6b4d1108",
-        description:
-          "Go to Renna's Rise (not Ranni's Rise) and enter the the portal.",
-      },
-      {
-        id: "a5b3a004-8ee0-43e8-9779-3efd9f762bcb",
-        description: "Pick up the Miniature Ranni.",
-      },
-      {
-        id: "af01ffe4-5bf5-48c3-b64a-35ef84e54041",
-        description:
-          'Rest at the nearby grace and "Talk to the miniature Ranni" 3 times.',
-      },
-      {
-        id: "aaa0ab74-c6f0-4e76-abf9-e885a30961be",
-        description:
-          "Get the Discarded Palace Key by defeating the Baleful Shadow in Nokstella. Make sure to get the Lake of Rot Shoreside grace after.",
-      },
-      {
-        id: "ab4c3b70-aa65-4552-9cc5-4cd853030b04",
-        description:
-          "Get the Dark Moon Ring from the chest at the Raya Lucaria Grand Library by using the Discarded Palace Key.",
-      },
-      {
-        id: "62afc7c6-369b-4e58-91c5-5fb724b091b6",
-        description: "Defeat Astel, Naturalborn of the Void.",
-      },
-      {
-        id: "8c891a85-9fc9-4fe5-9d62-11587a30301b",
-        description:
-          "Put the Dark Moon Ring on Ranni's Finger below the Cathedral of Manus Celes.",
-      },
-      {
-        id: "c5d4512c-3dd5-4470-904f-abec927162b1",
-        description: "Defeat Blaidd outside of Ranni's Rise.",
-      },
-      {
-        id: "ee36e71e-9c19-4f67-bf38-f33be07df8e0",
-        description: "Talk to Iji about Blaidd's death.",
       },
     ],
   },
