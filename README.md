@@ -162,10 +162,11 @@ Run locally with:
 - [x] Graces
   - [x] Double checked by [@13xforever](https://github.com/13xforever)
 - [x] Bosses
-- [ ] Gestures
-- [ ] Search Bar
+- [x] Gestures
+  - [ ] Add more information in the URL?
 - [ ] Weapons?
 - [ ] Spirits / Puppets?
+- [ ] Search Bar
 
 See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
 

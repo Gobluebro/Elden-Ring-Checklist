@@ -1,5 +1,12 @@
 import { useEffect, useState } from "react";
-import { Achievements, Bosses, Graces, Quests, TabNames } from "../data/";
+import {
+  Achievements,
+  Bosses,
+  Graces,
+  Miscellaneous,
+  Quests,
+  TabNames,
+} from "../data/";
 import CheckboxContainer from "./checkboxContainer";
 import ToggleAllAccordions from "./toggleAllAccordions";
 import DarkModeToggle from "../components/darkModeToggle";
@@ -20,6 +27,7 @@ const CompleteList = (props: Props) => {
     [TabNames.Achievements]: Achievements,
     [TabNames.Graces]: Graces,
     [TabNames.Bosses]: Bosses,
+    [TabNames.Misc]: Miscellaneous,
   };
 
   const dataArray = lists[listName];

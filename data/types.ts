@@ -19,6 +19,7 @@ export enum TabNames {
   Achievements,
   Graces,
   Bosses,
+  Misc,
 }
 
 export interface KeyBooleanValuePair {
