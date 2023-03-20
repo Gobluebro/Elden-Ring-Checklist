@@ -41,6 +41,11 @@ export const Miscellaneous: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
+        id: "9ece691c-c214-49bd-84ac-72a3dba28b73",
+        description: "Casual Greeting",
+        url: "https://eldenring.wiki.fextralife.com/Gestures",
+      },
+      {
         id: "8f86b3f0-b884-4780-be51-7cefa98d65bb",
         description: "Bravo!",
         url: "https://eldenring.wiki.fextralife.com/Gestures",
