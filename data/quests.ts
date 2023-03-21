@@ -1735,18 +1735,6 @@ export const Quests: Array<ListType> = [
           'Talk to Sellen at the Waypoint Ruins Cellar grace and select the "I want to learn sorcery" dialogue option.',
       },
       {
-        id: "616ed6af-b9f3-4221-a0a6-6794fb05fdf2",
-        description: "Find the Academy Scroll and give it to Sellen.",
-      },
-      {
-        id: "e7d4f697-0b29-42df-8c91-a4d6f6cdb013",
-        description: "Find the Royal House Scroll and give it to Sellen.",
-      },
-      {
-        id: "14765659-9b09-469c-90a5-db063881894f",
-        description: "Find the Conspectus Scroll and give it to Sellen.",
-      },
-      {
         id: "c5a10978-9a21-4ff9-b694-5870ada89448",
         description:
           "Get the Comet Azur spell at the Primeval Sorcerer Azur grace.",
