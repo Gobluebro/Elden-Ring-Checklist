@@ -1781,7 +1781,7 @@ export const Quests: Array<ListType> = [
       {
         id: "4ea19246-09c3-4ce4-87d9-39019d398c2b",
         description:
-          "After defeating either Sellen or Witch-Hunter Jerren, you will now be allowed to collect their respective rewards.",
+          "After defeating either Sellen or Witch-Hunter Jerren, collect their respective rewards.",
       },
     ],
   },
