@@ -1741,8 +1741,7 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "9f1f9f36-b74d-4b06-8eaf-b01ca661da0c",
-        description:
-          "Talk to Sellen at the Waypoint Ruins Cellar grace and accept her quest. You will receive the Sellian Sealbreaker key.",
+        description: `Talk to Sellen at the Waypoint Ruins Cellar grace and select the "Let us journey together" dialogue option. You will receive the Sellian Sealbreaker key.`,
       },
       {
         id: "1b780037-5750-4a4c-a2ba-a43adeeab76d",
@@ -1766,12 +1765,12 @@ export const Quests: Array<ListType> = [
       {
         id: "b8fd1fc9-a2a3-4251-8829-5486c1092b10",
         description:
-          "Talk to Radahn's herald after defeating Radahn in the chapel near the Chamber Outside the Plaza grace.",
+          "Talk to Witch-Hunter Jerren after defeating Radahn in the chapel near the Chamber Outside the Plaza grace.",
       },
       {
         id: "76ca7b65-8630-4ca7-ab42-0b60f7b7b26f",
         description:
-          "Talk to Radahn's herald at the Witchbane Ruins where Sellen's dead body is shackled.",
+          "Talk to Witch-Hunter Jerren at the Witchbane Ruins where Sellen's dead body is shackled.",
       },
       {
         id: "065bb415-b30b-42ae-9a81-09aed46b4732",
