@@ -1760,7 +1760,8 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "84a4d926-1cc5-46f3-a176-9699af034b8d",
-        description: "Talk to Sellen near the Ranni's Rise grace.",
+        description:
+          "Transplant Sellen's primal glintstone in the puppet in Seluvis's Secret Puppet Room near the Ranni's Rise grace.",
       },
       {
         id: "b8fd1fc9-a2a3-4251-8829-5486c1092b10",
