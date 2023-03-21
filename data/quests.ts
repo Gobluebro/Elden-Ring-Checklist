@@ -1756,7 +1756,7 @@ export const Quests: Array<ListType> = [
       {
         id: "092a68fc-f94b-4bcc-83b7-b32fdf95f60e",
         description:
-          "Talk to Sellen in the Witchbane Ruins where she is shackled. This is near the Fourth Church of Marika grace. You will receive Sellen's Primal Glintstone.",
+          "Talk to Sellen in the Witchbane Ruins where she is shackled. You will receive Sellen's Primal Glintstone.",
       },
       {
         id: "84a4d926-1cc5-46f3-a176-9699af034b8d",
@@ -1778,14 +1778,9 @@ export const Quests: Array<ListType> = [
           "Assist or challenge Sellen near the Raya Lucaria Grand Library grace.",
       },
       {
-        id: "7001d187-4ca7-4aac-ba11-b9afe17e7759",
+        id: "4ea19246-09c3-4ce4-87d9-39019d398c2b",
         description:
-          "Return to Azur's body near the Primeval Sorcerer Azur grace to get the Azur's Glintstone clothing set.",
-      },
-      {
-        id: "763fc9ac-1f5b-4554-8d4b-62472353a6d8",
-        description:
-          "Return to Lusat's body near the Sellia Hideaway grace to get the Lusat's clothing set.",
+          "After defeating either Sellen or Witch-Hunter Jerren, you will now be allowed to collect their respective rewards.",
       },
     ],
   },
