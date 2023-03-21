@@ -1747,7 +1747,7 @@ export const Quests: Array<ListType> = [
       {
         id: "1b780037-5750-4a4c-a2ba-a43adeeab76d",
         description:
-          "Find Lusat near the Fort Faroth grace and get the Stars of Ruin spell.",
+          "Find Lusat in the Sellia Hideaway and get the Stars of Ruin spell.",
       },
       {
         id: "e9846b5d-3f41-47e4-aa12-36d99c40e2af",
