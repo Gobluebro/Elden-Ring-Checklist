@@ -3,41 +3,11 @@ import { ListType } from "./types";
 export const Miscellaneous: Array<ListType> = [
   {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
-    name: "Gestures",
+    name: "Gestures", // not counting automatically received gestures
     requirements: [
-      {
-        id: "beed0c30-4fc7-4390-9504-9c8a9023ded2",
-        description: "Point Forwards",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "c728803b-a889-4b3d-b181-479e5734f288",
-        description: "Point Upwards",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "4e31b9b1-8739-47fa-9531-9bc14bca911e",
-        description: "Point Downwards",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "a0590b0f-6feb-41a6-8af8-13cca1568e3a",
-        description: "Wait!",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
       {
         id: "b8fb8b2a-9240-4e59-923e-e95ab208fb5a",
         description: "Calm Down!",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "0323df81-f580-41a1-9caa-796ee9024cbb",
-        description: "Wave",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "d364b9bc-fbdb-41fa-bb23-129b9a78732c",
-        description: "Beckon",
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
@@ -51,18 +21,8 @@ export const Miscellaneous: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
-        id: "b9ae9e08-37e3-4f28-aa9f-ca95a60096ee",
-        description: "Warm Welcome",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
         id: "aed47a2c-40a6-42e2-ab44-61dbafb55bee",
         description: "Strength!",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "bdcfbceb-7b78-4a38-88bb-8337d482d565",
-        description: "Jump for Joy",
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
@@ -86,18 +46,8 @@ export const Miscellaneous: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
-        id: "552cc83f-2b4e-4f4f-9eb7-dadf3ff3010f",
-        description: "Rallying Cry",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
         id: "defe98bf-073a-43b3-8e3a-a54b0d3221fe",
         description: "Heartening Cry",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "789da109-0a8b-4472-bfdd-88e44ca56930",
-        description: "Bow",
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
@@ -211,18 +161,8 @@ export const Miscellaneous: Array<ListType> = [
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
-        id: "6406aa00-55a1-45d6-911a-7dfea5dbf4fa",
-        description: "Rest",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
         id: "e2d9fff5-cfef-41e8-bf19-bd82d99eb206",
         description: "Sitting Sideways",
-        url: "https://eldenring.wiki.fextralife.com/Gestures",
-      },
-      {
-        id: "8e9250c3-2e93-4352-b1c4-74c90325381a",
-        description: "Dejection",
         url: "https://eldenring.wiki.fextralife.com/Gestures",
       },
       {
