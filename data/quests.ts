@@ -1400,7 +1400,7 @@ export const Quests: Array<ListType> = [
       {
         id: "f63a4849-c272-4a31-b360-b11314aa89c2",
         description:
-          "Return to Rykard at his grace and give the Dancer's Castanets to Tanith.",
+          "(Optional) Return to Rykard at his grace and give the Dancer's Castanets to Tanith.",
       },
       {
         id: "b373c2d4-9b91-4a25-a00e-81f626ab3339",
