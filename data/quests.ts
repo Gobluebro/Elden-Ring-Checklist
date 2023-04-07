@@ -205,7 +205,7 @@ export const Quests: Array<ListType> = [
       {
         id: "cc199bc2-3959-480d-974b-eafd0a8b5df2",
         description:
-          "Buy an armor piece from Finger Reader Enia at the Roundtable Hold.",
+          "Buy an alterable boss armor piece from Finger Reader Enia at the Roundtable Hold.",
       },
       {
         id: "61d4cd57-e2a7-49f1-b7a0-0947819bf4e1",
@@ -214,17 +214,16 @@ export const Quests: Array<ListType> = [
       },
       {
         id: "8e17d343-40e0-493c-b3f4-d3fc5cbd0b46",
-        description: 'Talk to Boc and allow him to call you "Lord."',
+        description:
+          "Talk to Boc but do not give him the larval tear unless you are going for the bad ending.",
       },
       {
         id: "be763a73-15a4-4521-bbe8-058a24f04216",
-        description:
-          'Get the "You\'re Beautiful" Prattling Pate from Hermit Village.',
+        description: `Get the "You're Beautiful" Prattling Pate from Hermit Village.`,
       },
       {
         id: "fa616006-b559-45f7-94e5-d6acda6e4828",
-        description:
-          'Use the "You\'re Beautiful" Prattling Pate in front of Boc.',
+        description: `Use the "You're Beautiful" Prattling Pate in front of Boc.`,
       },
       {
         id: "e466e59e-7d5d-4262-af8f-687e777d6f0d",
