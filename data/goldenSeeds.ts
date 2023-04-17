@@ -191,6 +191,30 @@ export const GoldenSeeds: Array<ListType> = [
         id: "dc3e4df4-fe4f-4ea2-8e0d-746081586a5b",
         name: "Mountaintops of the Giants",
         requirements: [
+            {
+                id: "0661fbce-198f-4018-97d7-9e3c49179f52",
+                description: "Minor Erdtree: Found in the valley to the northwest of the tree"
+            },
+            {
+                id: "e3245f15-a951-4eae-ba72-362b4f327ab2",
+                description: "Flame Peak: Found before a frozen giant"
+            },
+            {
+                id: "935017bf-ecc7-49db-af2d-7c3436f0b50f",
+                description: "Forbidden Lands: Found on the main path to the Grand Lift of Rold"
+            },
+            {
+                id: "5475d2c0-bf02-4060-8ea4-0d28d4946677",
+                description: "Ordina Liturgical Town: Found to the southwest of the town"
+            },
+            {
+                id: "407828df-890b-4865-86ed-f011e0d46147",
+                description: "Giant's Mountaintop Catacombs: Defeat the Ulcerated Tree Spirit"
+            },
+            {
+                id: "0e77e63e-a03a-4f13-9841-7b32f5be51c1",
+                description: "Concecrated Snowfield: Found to the northeast of the grace of the same name"
+            }
         ]
     },    
     {
@@ -223,4 +247,10 @@ export const GoldenSeeds: Array<ListType> = [
         requirements: [
         ]
     },
+    {
+        id: "9803a8a5-fd48-4afa-8ffb-c808bd6b003d",
+        name: "Miquella's Haligtree",
+        requirements: [
+        ]
+    }
 ]
