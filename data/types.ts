@@ -20,6 +20,7 @@ export enum TabNames {
   Graces,
   Bosses,
   Misc,
+  "Golden Seeds"
 }
 
 export interface KeyBooleanValuePair {

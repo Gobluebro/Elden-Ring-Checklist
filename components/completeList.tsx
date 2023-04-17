@@ -6,6 +6,7 @@ import {
   Miscellaneous,
   Quests,
   TabNames,
+  GoldenSeeds,
 } from "../data/";
 import CheckboxContainer from "./checkboxContainer";
 import ToggleAllAccordions from "./toggleAllAccordions";
@@ -28,6 +29,7 @@ const CompleteList = (props: Props) => {
     [TabNames.Graces]: Graces,
     [TabNames.Bosses]: Bosses,
     [TabNames.Misc]: Miscellaneous,
+    [TabNames["Golden Seeds"]]: GoldenSeeds
   };
 
   const dataArray = lists[listName];
