@@ -153,12 +153,38 @@ export const GoldenSeeds: Array<ListType> = [
         id: "3b14396c-507d-4182-aa57-90808069c3fc",
         name: "Altus Plateau",
         requirements: [
+            {
+                id: "8c288a8d-abbc-4317-950b-b2887a8486ad",
+                description: "Seethewater River: Found exiting the channel to the north"
+            },
+            {
+                id: "9eb45cf2-1cf4-47e4-9ffc-b6025f81c644",
+                description: "Windmill Village: Found to the southeast of this location"
+            },
+            {
+                id: "56046c30-78fc-40e3-ac92-d15bd537aee6",
+                description: "Altus Highway Junction: Found on the road to the north"
+            }
+            ,
+            {
+                id: "d3376f71-b79d-4796-907c-8901e4325d4c",
+                description: "Minor Erdtree: To the northwest of the tree"
+            }
+            ,
+            {
+                id: "a95a9019-647e-4387-80ae-c99c7dc488c8",
+                description: "Erdtree-Gazing Hill: North of the Lux Ruins"
+            }
         ]
     },    
     {
         id: "2e05af3c-bb6e-441b-a7c9-3a1f2e66df94",
         name: "Lake of Rot",
         requirements: [
+            {
+                id: "a95a9019-647e-4387-80ae-c99c7dc488c8",
+                description: "Grand Cloister: Defeat the Lesser Ulcerated Tree Spirit near the rotten waterfall at the bottom of the area"
+            }
         ]
     },    
     {
