@@ -38,7 +38,7 @@ export const GoldenSeeds: Array<ListType> = [
             {
                 id: "f7b3df16-341a-4fe7-b1b0-ac8f2a76d7fe",
                 description: "Fringefolk Hero's Grave: Defeat the Ulcerated Tree Spirit"
-            },
+            }
         ]
     },
     {
@@ -105,12 +105,48 @@ export const GoldenSeeds: Array<ListType> = [
         id: "fcdd8975-6cd9-49d7-8327-764949122ccf",
         name: "Leyndell, Royal Capital",
         requirements: [
+            {
+                id: "949e932f-18db-4640-a0fc-d67c6d2bcd2a",
+                description: "Capital Outskirts: Two are found inside the western gate"
+            },
+            {
+                id: "5677cb95-2358-4de1-946b-e531f1ef10bc",
+                description: "Capital Outskirts: Another two are found in the northwestern section of the outskirts"
+            },
+            {
+                id: "fb721bb0-8078-46dc-a04e-90a5d48eb449",
+                description: "Capital Outskirts: Defeat the Lesser Ulcerated Tree Spirit in the western section of the outskirts"
+            },
+            {
+                id: "fa1648e4-d319-498d-93b8-da29537bfa62",
+                description: "Avenue Balcony: Defeat the Lesser Ulcerated Tree Spirit north of this site of grace"
+            },
+            {
+                id: "2f13b2dc-65f7-43ff-b969-e3c184e14ecb",
+                description: "West Capital Rampart: To the southeast fo this grace, guarded by a gargoyle"
+            }
         ]
     },   
     {
         id: "7b1476ac-1bea-40c3-99d8-2247cffaead6",
         name: "Caelid",
         requirements: [
+            {
+                id: "6c2816d9-e6d5-41d4-9036-66fc65cfb762",
+                description: "Beastial Sanctum: On the path leading to the sanctum"
+            },
+            {
+                id: "18d179df-7299-434e-ad9a-f814e216ff4a",
+                description: "Sellia, Town of Sorcery: In the northern section of town"
+            },
+            {
+                id: "7515c05e-bcc7-4d44-acef-78a9bc58ee5e",
+                description: "On the road to Redmane Castle, south of where the road splits"
+            },
+            {
+                id: "36795bc0-a551-471d-9bbf-c18a2a6165fb",
+                description: "War-Dead Catacombs: Defeat the Putrid Tree Spirit"
+            }
         ]
     },    
     {
