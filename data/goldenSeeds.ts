@@ -85,12 +85,20 @@ export const GoldenSeeds: Array<ListType> = [
         id: "3711b191-0a6f-4e37-87be-115300f7197f",
         name: "Nokstella, Eternal City",
         requirements: [
+            {
+                id: "100c4c3c-a115-4f9e-9391-31074d242a5a",
+                description: "After acquiring Moon of Nokstella, exit the temple south and take the elevator"
+            }
         ]
     },
     {
         id: "ce544ec8-c10e-49fb-b583-0f86264f4432",
         name: "Siofra River",
         requirements: [
+            {
+                id: "d8867ee8-1312-48fd-b309-ea5619ca4d17",
+                description: "Worshipper's Woods: to the north and slightly west of this grace- across the bridge"
+            }
         ]
     },    
     {
