@@ -44,6 +44,31 @@ export const GoldenSeeds: Array<ListType> = [
                 description: "Liftside Chamber: Defeat the Lesser Ulcerated Tree Spirit in the hidden underground area."
             }
         ]
-    }
-
+    },
+    {
+        id: "b2c4ae2f-6e8c-4265-9783-b02c3a8c588b",
+        name: "Liurnia of the Lakes",
+        requirements: [
+            {
+                id: "75bc7276-be24-43af-a221-6c47ac16796b",
+                description: "Academy Gate Town: Northwest of the broken bridge leading to the acedemy proper"
+            },
+            {
+                id: "fd83f744-dc4f-43b5-a341-a757031988b6",
+                description: "Raya Lucaria Academy: West of the Academy's courtyard"
+            },
+            {
+                id: "cb6ea1b0-b0a3-4e91-a8b0-3857f4233c8b",
+                description: "Caria Manor: In the manor's upper level"
+            },
+            {
+                id: "35a42e27-0f42-4681-9aea-61a21473ea6c",
+                description: "Main Academy Gate: At the end of the broken brdige to the north"
+            },
+            {
+                id: "4575bb54-91e9-415a-ad76-d3285898a996",
+                description: "Ravine-Veiled Village: To the southwest of this grace"
+            }
+        ]
+    },
 ]
