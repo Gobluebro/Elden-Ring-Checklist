@@ -81,4 +81,76 @@ export const GoldenSeeds: Array<ListType> = [
             }
         ]
     },
+    {
+        id: "3711b191-0a6f-4e37-87be-115300f7197f",
+        name: "Nokstella, Eternal City",
+        requirements: [
+        ]
+    },
+    {
+        id: "ce544ec8-c10e-49fb-b583-0f86264f4432",
+        name: "Siofra River",
+        requirements: [
+        ]
+    },    
+    {
+        id: "fcdd8975-6cd9-49d7-8327-764949122ccf",
+        name: "Leyndell, Royal Capital",
+        requirements: [
+        ]
+    },   
+    {
+        id: "7b1476ac-1bea-40c3-99d8-2247cffaead6",
+        name: "Caelid",
+        requirements: [
+        ]
+    },    
+    {
+        id: "3b14396c-507d-4182-aa57-90808069c3fc",
+        name: "Altus Plateau",
+        requirements: [
+        ]
+    },    
+    {
+        id: "2e05af3c-bb6e-441b-a7c9-3a1f2e66df94",
+        name: "Lake of Rot",
+        requirements: [
+        ]
+    },    
+    {
+        id: "dc3e4df4-fe4f-4ea2-8e0d-746081586a5b",
+        name: "Mountaintops of the Giants",
+        requirements: [
+        ]
+    },    
+    {
+        id: "29e413c8-e404-427b-b6ca-a4945da898a9",
+        name: "Crumbling Farum Azula",
+        requirements: [
+        ]
+    },    
+    {
+        id: "8702a865-a121-49ef-a462-74cd1f42039a",
+        name: "Mt. Gelmir",
+        requirements: [
+        ]
+    },    
+    {
+        id: "bed69648-666a-40e9-be00-2be8161a5042",
+        name: "Elphael, Brace of the Haligtree",
+        requirements: [
+        ]
+    },   
+    {
+        id: "ed550336-3f26-4d3c-a834-9c8ed522b457",
+        name: "Mohgwyn Palace",
+        requirements: [
+        ]
+    },    
+    {
+        id: "2f767d2d-d8d1-4613-9756-4c94451f72e6",
+        name: "Ainsel River",
+        requirements: [
+        ]
+    },
 ]
