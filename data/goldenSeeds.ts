@@ -221,18 +221,34 @@ export const GoldenSeeds: Array<ListType> = [
         id: "29e413c8-e404-427b-b6ca-a4945da898a9",
         name: "Crumbling Farum Azula",
         requirements: [
+            {
+                id: "fbc67b51-7626-4555-88e3-2fecd2205a42",
+                description: "Dragon Temple: Found in the upper area, south of the fountain plaza"
+            },
+            {
+                id: "a89db59b-9e54-4d97-bec0-c277606bb103",
+                description: "Dragon Temple Rooftop: To the southeast of this grace, amongst several sets of pillars"
+            }
         ]
     },    
     {
         id: "8702a865-a121-49ef-a462-74cd1f42039a",
         name: "Mt. Gelmir",
         requirements: [
+            {
+                id: "90166dd7-7500-4324-8bd5-2b5cf90870ff",
+                description: "Ninth Mt. Gelmir Campsite: Found to the west of this grace"
+            }
         ]
     },    
     {
         id: "bed69648-666a-40e9-be00-2be8161a5042",
         name: "Elphael, Brace of the Haligtree",
         requirements: [
+            {
+                id: "603c30d7-9e17-4c56-9496-e2ef986f247a",
+                description: "Defeat the Ulcerated Tree Spirit found in the second lake of rot"
+            }
         ]
     },   
     {
