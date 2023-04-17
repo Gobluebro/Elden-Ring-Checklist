@@ -30,6 +30,20 @@ export const GoldenSeeds: Array<ListType> = [
                 description: "Fringefolk Hero's Grave: Defeat the Ulcerated Tree Spirit"
             },
         ]
+    },
+    {
+        id: "bcd85c73-35c2-42dc-a5d6-e12e074647e7",
+        name: "Stormveil Castle",
+        requirements: [
+            {
+                id: "792e32be-886a-4d9b-8037-b786fdebc270",
+                description: "Secluded Cell: In the room where the player meets Nepheli"
+            },
+            {
+                id: "c85e4539-9400-47a7-ba64-297da641a5cb",
+                description: "Liftside Chamber: Defeat the Lesser Ulcerated Tree Spirit in the hidden underground area."
+            }
+        ]
     }
 
 ]
