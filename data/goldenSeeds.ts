@@ -255,18 +255,14 @@ export const GoldenSeeds: Array<ListType> = [
         id: "ed550336-3f26-4d3c-a834-9c8ed522b457",
         name: "Mohgwyn Palace",
         requirements: [
-        ]
-    },    
-    {
-        id: "2f767d2d-d8d1-4613-9756-4c94451f72e6",
-        name: "Ainsel River",
-        requirements: [
-        ]
-    },
-    {
-        id: "9803a8a5-fd48-4afa-8ffb-c808bd6b003d",
-        name: "Miquella's Haligtree",
-        requirements: [
+            {
+                id: "9c3e3dbe-be2b-4890-acbf-06b66cdcaafe",
+                description: "Blood Lake: On a central island in the south portion of the blood lake (Mutually exclusive with the seed below unless both are looted before reloading the area)"
+            },
+            {
+                id: "d9b79de6-b5f3-493d-bd74-5b13f7dc7e5a",
+                description: "Dynasty Museum Midpoint: On the rocks behind the Sanguine Noble (Mutually exclusive with the seed above unless both are looted before reloading the area)"
+            }
         ]
     }
 ]
