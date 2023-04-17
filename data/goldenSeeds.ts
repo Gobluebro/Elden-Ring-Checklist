@@ -2,6 +2,16 @@ import { ListType } from "./types";
 
 export const GoldenSeeds: Array<ListType> = [
     {
+        id: "f706904c-d313-4551-b346-d1e72afd04fa",
+        name: "Character Creation",
+        requirements: [
+            {
+                id: "6fdb9041-88be-43ed-8789-a08e4eb72934",
+                description: "One can be chosen as a keepsake. There are more than enough seeds to max out the flask and there are not enough missable ones to prevent the player from doing so, should the player wish to choose a different keepsake."
+            }
+        ]
+    },
+    {
         id: "91bf1b6f-4012-4e62-abe0-c9ff1b9aea9d",
         name: "Limgrave",
         requirements: [
