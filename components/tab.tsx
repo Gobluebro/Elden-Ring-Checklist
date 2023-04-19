@@ -1,14 +1,14 @@
 import { Dispatch, SetStateAction } from "react";
-import { TabNames } from "../data/";
+import { TabData, TabNames } from "../data/";
 
 interface Props {
-  tab: TabNames;
+  tabData: TabData;
   setCurrentTab: Dispatch<SetStateAction<TabNames>>;
   isFocused: boolean;
 }
 
 const Tab = (props: Props) => {
-  const { tab, setCurrentTab, isFocused } = props;
+  const { tabData, setCurrentTab, isFocused } = props;
 
   const focusedTabStyles =
     "border rounded-t-lg border-transparent bg-zinc-50 dark:bg-zinc-700";
@@ -21,9 +21,9 @@ const Tab = (props: Props) => {
         className={`${
           isFocused ? focusedTabStyles : unfocusedTabStyles
         } px-2 md:px-4 text-lg md:text-4xl dark:focus-visible:outline dark:focus-visible:outline-1 dark:focus-visible:outline-white dark:focus-visible:outline-offset-[-1px]`}
-        onClick={() => setCurrentTab(tab)}
+        onClick={() => setCurrentTab(tabData.enum)}
       >
-        {TabNames[tab]}
+        {tabData.name}
       </button>
     </div>
   );
