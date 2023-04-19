@@ -1,7 +1,7 @@
 import { ListType } from "./types";
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
-export const Achievements: Array<ListType> = [
+export const AchievementsList: Array<ListType> = [
   {
     id: "d62c2c4c-cc27-469b-87d2-0f1d96f915b0",
     name: "Legendary Ashen Remains",

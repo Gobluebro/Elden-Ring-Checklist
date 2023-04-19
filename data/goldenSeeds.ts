@@ -1,6 +1,6 @@
 import { ListType } from "./types";
 
-export const GoldenSeeds: Array<ListType> = [
+export const GoldenSeedsList: Array<ListType> = [
   {
     id: "f706904c-d313-4551-b346-d1e72afd04fa",
     name: "Character Creation",

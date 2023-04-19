@@ -1,6 +1,6 @@
 import { ListType } from "./types";
 
-export const Quests: Array<ListType> = [
+export const QuestsList: Array<ListType> = [
   /* TEMPLATE     
   {
     id: "", // Can be left blank to be filled later
