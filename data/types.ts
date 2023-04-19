@@ -14,15 +14,6 @@ export interface Requirement {
   mapLink?: string;
 }
 
-export enum TabNames {
-  Quests,
-  Achievements,
-  Graces,
-  Bosses,
-  "Golden Seeds",
-  Misc,
-}
-
 export interface KeyBooleanValuePair {
   [key: string]: boolean;
 }

@@ -5,3 +5,4 @@ export * from "./miscellaneous";
 export * from "./quests";
 export * from "./goldenSeeds";
 export * from "./types";
+export * from "./tabs";
