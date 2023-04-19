@@ -19,8 +19,8 @@ export enum TabNames {
   Achievements,
   Graces,
   Bosses,
+  "Golden Seeds",
   Misc,
-  "Golden Seeds"
 }
 
 export interface KeyBooleanValuePair {

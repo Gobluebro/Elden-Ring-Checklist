@@ -28,8 +28,8 @@ const CompleteList = (props: Props) => {
     [TabNames.Achievements]: Achievements,
     [TabNames.Graces]: Graces,
     [TabNames.Bosses]: Bosses,
+    [TabNames["Golden Seeds"]]: GoldenSeeds,
     [TabNames.Misc]: Miscellaneous,
-    [TabNames["Golden Seeds"]]: GoldenSeeds
   };
 
   const dataArray = lists[listName];
