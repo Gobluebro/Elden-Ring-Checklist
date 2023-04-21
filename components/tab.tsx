@@ -20,7 +20,7 @@ const Tab = (props: Props) => {
       <button
         className={`${
           isFocused ? focusedTabStyles : unfocusedTabStyles
-        } px-2 md:px-4 text-lg md:text-4xl dark:focus-visible:outline dark:focus-visible:outline-1 dark:focus-visible:outline-white dark:focus-visible:outline-offset-[-1px]`}
+        } px-2 md:px-4 text-lg xl:text-4xl lg:text-2xl dark:focus-visible:outline dark:focus-visible:outline-1 dark:focus-visible:outline-white dark:focus-visible:outline-offset-[-1px]`}
         onClick={() => setCurrentTab(tabData.enum)}
       >
         {tabData.name}
