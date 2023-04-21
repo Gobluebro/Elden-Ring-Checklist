@@ -7,11 +7,10 @@ export const GoldenSeedsList: Array<ListType> = [
     requirements: [
       {
         id: "6fdb9041-88be-43ed-8789-a08e4eb72934",
-        description:
-          "One can be chosen as a keepsake. There are more than enough seeds to max out the flask and there are not enough missable ones to prevent the player from doing so, should the player wish to choose a different keepsake.",
+        description: "Optional: Select as a Keepsake",
       },
     ],
-  },
+  }, // note: 30 seeds = max amount per play-through.
   {
     id: "91bf1b6f-4012-4e62-abe0-c9ff1b9aea9d",
     name: "Limgrave",
@@ -32,13 +31,13 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "1a29d16b-0045-4b0e-ac0e-be89f01491e6",
         description:
-          "Weeping Peninsula: Under a phantom tree on a ridge along the road to Castle Morne",
+          "Weeping Peninsula: On a ridge along the road to Castle Morne under a phantom tree",
       },
       {
         id: "6895be25-269c-4616-b3cd-770e9a506a69",
         description:
-          "Dropped from Kenneth Haight when killed (Missable once Kenneth moves to the Stormveil Throne Room as he cannot be killed there. There are more than enough Golden Seeds to skip this one if players aren't inclined to kill NPCs)",
-      },
+          "Optional: Dropped from Kenneth Haight when killed (You will ruin multiple questlines by doing this.)",
+      }, // note: Missable once Kenneth moves to the Stormveil Throne Room as he cannot be killed there.
       {
         id: "f7b3df16-341a-4fe7-b1b0-ac8f2a76d7fe",
         description:
@@ -69,7 +68,7 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "75bc7276-be24-43af-a221-6c47ac16796b",
         description:
-          "Academy Gate Town: Northwest of the broken bridge leading to the academy proper",
+          "Academy Gate Town: Northwest of the broken bridge leading to the Academy's southern gate",
       },
       {
         id: "fd83f744-dc4f-43b5-a341-a757031988b6",
@@ -77,16 +76,18 @@ export const GoldenSeedsList: Array<ListType> = [
       },
       {
         id: "cb6ea1b0-b0a3-4e91-a8b0-3857f4233c8b",
-        description: "Caria Manor: In the manor's upper level",
+        description:
+          "Caria Manor: In the manor's upper level under a phantom tree ",
       },
       {
         id: "35a42e27-0f42-4681-9aea-61a21473ea6c",
         description:
-          "Main Academy Gate: At the end of the broken bridge to the north",
+          "Main Academy Gate: At the end of the broken bridge to the north under a phantom tree",
       },
       {
         id: "4575bb54-91e9-415a-ad76-d3285898a996",
-        description: "Ravine-Veiled Village: To the southwest of this grace",
+        description:
+          "Ravine-Veiled Village: To the southwest of this grace under a phantom tree",
       },
     ],
   },
@@ -108,7 +109,7 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "d8867ee8-1312-48fd-b309-ea5619ca4d17",
         description:
-          "Worshipper's Woods: to the north and slightly west of this grace- across the bridge",
+          "Worshipper's Woods: To the north and slightly west of this grace, across the bridge",
       },
     ],
   },
@@ -118,17 +119,18 @@ export const GoldenSeedsList: Array<ListType> = [
     requirements: [
       {
         id: "949e932f-18db-4640-a0fc-d67c6d2bcd2a",
-        description: "Capital Outskirts: Two are found inside the western gate",
+        description:
+          "Outer Wall Phantom Tree: Two are found inside the western gate under a phantom tree ",
       },
       {
         id: "5677cb95-2358-4de1-946b-e531f1ef10bc",
         description:
-          "Capital Outskirts: Another two are found in the northwestern section of the outskirts",
+          "Capital Outskirts: Two are found in the northwestern section of the outskirts under a phantom tree",
       },
       {
         id: "fb721bb0-8078-46dc-a04e-90a5d48eb449",
         description:
-          "Capital Outskirts: Defeat the Lesser Ulcerated Tree Spirit in the western section of the outskirts",
+          "Outer Wall Phantom Tree: Defeat the Lesser Ulcerated Tree Spirit south of this grace",
       },
       {
         id: "fa1648e4-d319-498d-93b8-da29537bfa62",
@@ -138,7 +140,7 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "2f13b2dc-65f7-43ff-b969-e3c184e14ecb",
         description:
-          "West Capital Rampart: To the southeast fo this grace, guarded by a gargoyle",
+          "West Capital Rampart: To the southeast of this grace, guarded by a gargoyle",
       },
     ],
   },
@@ -152,7 +154,8 @@ export const GoldenSeedsList: Array<ListType> = [
       },
       {
         id: "18d179df-7299-434e-ad9a-f814e216ff4a",
-        description: "Sellia, Town of Sorcery: In the northern section of town",
+        description:
+          "Sellia, Town of Sorcery: In the northern section of town under a phantom tree",
       },
       {
         id: "7515c05e-bcc7-4d44-acef-78a9bc58ee5e",
@@ -172,16 +175,17 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "8c288a8d-abbc-4317-950b-b2887a8486ad",
         description:
-          "Seethewater River: Found exiting the channel to the north",
+          "Seethewater River: Found exiting the channel to the north of this location under a phantom tree",
       },
       {
         id: "9eb45cf2-1cf4-47e4-9ffc-b6025f81c644",
         description:
-          "Windmill Village: Found to the southeast of this location",
+          "Windmill Village: Found to the southeast of this location under a phantom tree",
       },
       {
         id: "56046c30-78fc-40e3-ac92-d15bd537aee6",
-        description: "Altus Highway Junction: Found on the road to the north",
+        description:
+          "Altus Highway Junction: Found on the road to the north of this site of grace",
       },
       {
         id: "d3376f71-b79d-4796-907c-8901e4325d4c",
@@ -189,7 +193,8 @@ export const GoldenSeedsList: Array<ListType> = [
       },
       {
         id: "a95a9019-647e-4387-80ae-c99c7dc488c8",
-        description: "Erdtree-Gazing Hill: North of the Lux Ruins",
+        description:
+          "Erdtree-Gazing Hill: North of the Lux Ruins under a phantom tree",
       },
     ],
   },
@@ -200,7 +205,7 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "a95a9019-647e-4387-80ae-c99c7dc488c8",
         description:
-          "Grand Cloister: Defeat the Lesser Ulcerated Tree Spirit near the rotten waterfall at the bottom of the area",
+          "Grand Cloister: Defeat the Ulcerated Tree Spirit near the rotten waterfall at the bottom of the area",
       },
     ],
   },
@@ -211,7 +216,7 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "0661fbce-198f-4018-97d7-9e3c49179f52",
         description:
-          "Minor Erdtree: Found in the valley to the northwest of the tree",
+          "Minor Erdtree: Found in the valley to the northwest of this location under a phantom tree",
       },
       {
         id: "e3245f15-a951-4eae-ba72-362b4f327ab2",
@@ -220,12 +225,12 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "935017bf-ecc7-49db-af2d-7c3436f0b50f",
         description:
-          "Forbidden Lands: Found on the main path to the Grand Lift of Rold",
+          "Forbidden Lands: Found on the main path to the Grand Lift of Rold under a phantom tree",
       },
       {
         id: "5475d2c0-bf02-4060-8ea4-0d28d4946677",
         description:
-          "Ordina Liturgical Town: Found to the southwest of the town",
+          "Ordina Liturgical Town: Found to the southwest of the town under a phantom tree",
       },
       {
         id: "407828df-890b-4865-86ed-f011e0d46147",
@@ -246,12 +251,12 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "fbc67b51-7626-4555-88e3-2fecd2205a42",
         description:
-          "Dragon Temple: Found in the upper area, south of the fountain plaza",
+          "Dragon Temple: Found in the upper area, south of the fountain plaza under a phantom tree",
       },
       {
         id: "a89db59b-9e54-4d97-bec0-c277606bb103",
         description:
-          "Dragon Temple Rooftop: To the southeast of this grace, amongst several sets of pillars",
+          "Dragon Temple Rooftop: To the southeast of this grace, amongst several sets of pillars under a phantom tree",
       },
     ],
   },
@@ -262,7 +267,7 @@ export const GoldenSeedsList: Array<ListType> = [
       {
         id: "90166dd7-7500-4324-8bd5-2b5cf90870ff",
         description:
-          "Ninth Mt. Gelmir Campsite: Found to the west of this grace",
+          "Ninth Mt. Gelmir Campsite: Found to the west of this grace under a phantom tree",
       },
     ],
   },
