@@ -1,12 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  Achievements,
-  Bosses,
-  Graces,
-  Miscellaneous,
-  Quests,
-  TabNames,
-} from "../data/";
+import { ListType, TabDataArray, TabNames } from "../data/";
 import CheckboxContainer from "./checkboxContainer";
 import ToggleAllAccordions from "./toggleAllAccordions";
 import DarkModeToggle from "../components/darkModeToggle";
@@ -22,23 +15,21 @@ const CompleteList = (props: Props) => {
   const [showCompleted, setShowCompleted] = useState<boolean>(true);
   const [accordionState, setAccordionState] = useState({});
 
-  const lists = {
-    [TabNames.Quests]: Quests,
-    [TabNames.Achievements]: Achievements,
-    [TabNames.Graces]: Graces,
-    [TabNames.Bosses]: Bosses,
-    [TabNames.Misc]: Miscellaneous,
-  };
+  const currentTabListData = TabDataArray.find(
+    (tab) => tab.enum === listName
+  )?.listData;
 
-  const dataArray = lists[listName];
-
+  // this helps make sure open all / close all functionality works properly.
+  // it's making sure that everything is closed once the tab changes.
   useEffect(() => {
-    const defaultValuesHash = dataArray.reduce(
+    const defaultValuesHash = currentTabListData?.reduce(
       (object, item) => ({ ...object, [item.id]: false }),
       {}
     );
-    setAccordionState(defaultValuesHash);
-  }, [dataArray]);
+    if (defaultValuesHash) {
+      setAccordionState(defaultValuesHash);
+    }
+  }, [currentTabListData]);
 
   return (
     <>
@@ -57,7 +48,7 @@ const CompleteList = (props: Props) => {
         </div>
         <DarkModeToggle />
       </div>
-      {dataArray.map((item) => (
+      {currentTabListData?.map((item) => (
         <CheckboxContainer
           key={item.id}
           list={item}

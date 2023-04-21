@@ -1,6 +1,6 @@
 import { ListType } from "./types";
 
-export const Miscellaneous: Array<ListType> = [
+export const MiscellaneousList: Array<ListType> = [
   {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
     name: "Gestures", // not counting automatically received gestures

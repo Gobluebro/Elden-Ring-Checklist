@@ -1,6 +1,6 @@
 import { ListType } from "./types";
 
-export const Bosses: Array<ListType> = [
+export const BossesList: Array<ListType> = [
   {
     id: "6578f21c-b712-4dda-bbb4-969fab04193b",
     name: "Limgrave",

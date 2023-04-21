@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import { TabNames } from "../data/";
+import { TabDataArray, TabNames } from "../data/";
 import Tab from "./tab";
 
 interface Props {
@@ -10,28 +10,16 @@ interface Props {
 const TabBar = (props: Props) => {
   const { currentTab, setCurrentTab } = props;
 
-  // add all tabs in the TabNames Enum
-  let tabsHtml: JSX.Element[] = [];
-
-  // all of this feels hacky but at least it will update each time a new tab is added or removed
-  for (const tabString in TabNames) {
-    // this comes back first as the enum number and then the string name value which is what we want.
-    if (!isNaN(Number(tabString))) {
-      continue;
-    }
-    // converting back into enum.
-    const backToTabNameEnum: TabNames =
-      TabNames[tabString as keyof typeof TabNames];
-
-    tabsHtml.push(
+  const tabsHtml = TabDataArray.map((tab) => {
+    return (
       <Tab
-        key={backToTabNameEnum}
-        tab={backToTabNameEnum}
+        key={tab.id}
+        tabData={tab}
         setCurrentTab={setCurrentTab}
-        isFocused={currentTab === backToTabNameEnum}
+        isFocused={currentTab === tab.enum}
       />
     );
-  }
+  });
 
   return (
     <nav>
