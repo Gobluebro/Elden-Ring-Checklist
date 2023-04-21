@@ -164,6 +164,8 @@ Run locally with:
 - [x] Bosses
 - [x] Gestures
   - [ ] Add more information in the URL?
+- [x] Golden Seeds
+  - Added by [@RDoll](https://github.com/RDoll-Repo)
 - [ ] Weapons?
 - [ ] Spirits / Puppets?
 - [ ] Search Bar
