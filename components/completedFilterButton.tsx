@@ -1,4 +1,4 @@
-import { IconEye, IconEyeOff } from "@tabler/icons";
+import { IconEye, IconEyeOff } from "@tabler/icons-react";
 import { Dispatch, SetStateAction } from "react";
 
 interface Props {

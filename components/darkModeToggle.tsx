@@ -1,4 +1,4 @@
-import { IconMoonStars, IconSun } from "@tabler/icons";
+import { IconMoonStars, IconSun } from "@tabler/icons-react";
 import { useEffect } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 

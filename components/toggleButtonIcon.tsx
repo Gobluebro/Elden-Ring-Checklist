@@ -1,4 +1,4 @@
-import { IconChevronDown, IconChevronLeft } from "@tabler/icons";
+import { IconChevronDown, IconChevronLeft } from "@tabler/icons-react";
 
 interface Props {
   isOpen: boolean;
