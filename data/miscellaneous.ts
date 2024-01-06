@@ -182,4 +182,40 @@ export const MiscellaneousList: Array<ListType> = [
       },
     ],
   },
+  {
+    id: '4cc71681-af5e-49d0-a86d-3fe59782bb7e',
+    name: 'Whetblades',
+    requirements: [
+      {
+        id: 'cda3a154-7924-431f-94c7-fba14b403b9b',
+        description: 'Whetstone Knife (Gatefront Ruins)',
+        url: 'https://eldenring.wiki.fextralife.com/Whetstone+Knife',
+      },
+      {
+        id: '0954d6fc-1b67-479d-9c10-5e0fc9ca12f6',
+        description: 'Iron Whetblade (Stormveil Castle)',
+        url: 'https://eldenring.wiki.fextralife.com/Iron+Whetblade',
+      },
+      {
+        id: 'a8ab3b24-45b0-4045-82b9-e9c0f102a2fd',
+        description: 'Glintstone Whetblade (Raya Lucaria Academy)',
+        url: 'https://eldenring.wiki.fextralife.com/Glintstone+Whetblade',
+      },
+      {
+        id: '5b98aace-0c7f-4544-b62d-a911552a337f',
+        description: 'Red-hot Whetblade (Redmane Castle)',
+        url: 'https://eldenring.wiki.fextralife.com/Red-Hot+Whetblade',
+      },
+      {
+        id: '72a8e4f7-6331-4b52-bd97-491be6e4033a',
+        description: 'Sanctified Whetblade (Fortified Manor, Leyndell)',
+        url: 'https://eldenring.wiki.fextralife.com/Sanctified+Whetblade',
+      },
+      {
+        id: '1adc93c0-7042-4147-ab2c-3af282696b74',
+        description: 'Black Whetblade (Nokron, Eternal City)',
+        url: 'https://eldenring.wiki.fextralife.com/Black+Whetblade',
+      },
+    ],
+  },
 ];
