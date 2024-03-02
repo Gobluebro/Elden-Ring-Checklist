@@ -166,7 +166,7 @@ Run locally with:
   - [ ] Add more information in the URL?
 - [x] Golden Seeds
   - Added by [@RDoll](https://github.com/RDoll-Repo)
-- [ ] Weapons?
+- [x] Weapons
 - [ ] Spirits / Puppets?
 - [ ] Search Bar
 
