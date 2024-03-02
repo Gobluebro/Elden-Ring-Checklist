@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import cloneDeep from "lodash.clonedeep";
-import { KeyBooleanValuePair } from "../data";
+import { KeyBooleanValuePair } from "../data/lists";
 
 interface Props {
   accordionState: KeyBooleanValuePair;
