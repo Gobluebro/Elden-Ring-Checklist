@@ -6,6 +6,7 @@ import {
   QuestsList,
   GoldenSeedsList,
   ListType,
+  WeaponsList,
 } from "./lists";
 
 export enum TabNames {
@@ -15,6 +16,7 @@ export enum TabNames {
   Bosses,
   GoldenSeeds,
   Miscellaneous,
+  Weapons,
 }
 
 export interface TabData {
@@ -57,6 +59,12 @@ export const TabDataArray: TabData[] = [
   },
   {
     id: 6,
+    name: "Weapons",
+    enum: TabNames.Weapons,
+    listData: WeaponsList,
+  },
+  {
+    id: 7,
     name: "Misc",
     enum: TabNames.Miscellaneous,
     listData: MiscellaneousList,
