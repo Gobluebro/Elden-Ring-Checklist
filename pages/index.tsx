@@ -5,7 +5,7 @@ import { useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import MetaAndIcons from "../components/metaAndIcons";
-import { TabNames } from "../data/";
+import { TabNames } from "../data/tabs";
 
 const Home: NextPage = () => {
   const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);

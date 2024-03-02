@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { TabDataArray, TabNames } from "../data/";
+import { TabDataArray, TabNames } from "../data/tabs";
 import CheckboxContainer from "./checkboxContainer";
 import ToggleAllAccordions from "./toggleAllAccordions";
 import DarkModeToggle from "../components/darkModeToggle";

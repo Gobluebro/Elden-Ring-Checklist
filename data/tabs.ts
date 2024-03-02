@@ -6,7 +6,7 @@ import {
   QuestsList,
   GoldenSeedsList,
   ListType,
-} from "../data/";
+} from "./lists";
 
 export enum TabNames {
   Quests,

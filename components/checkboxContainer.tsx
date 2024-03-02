@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { KeyBooleanValuePair, ListType } from "../data/";
+import { KeyBooleanValuePair, ListType } from "../data/lists";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import cloneDeep from "lodash.clonedeep";
 import ToggleButtonIcon from "./toggleButtonIcon";
@@ -173,22 +173,21 @@ const CheckboxContainer = (props: Props) => {
                 description
               )}
             </label>
-            {
-              mapLink ?
-              (
-                <span>
-                  <span> [</span>
-                  <a
-                    href={mapLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    tabIndex={-1}
-                    className="underline dark:text-elden-ring-green-150">
-                      Map Link
-                  </a>
-                  <span>]</span>
-                </span>
-              ) : null }
+            {mapLink ? (
+              <span>
+                <span> [</span>
+                <a
+                  href={mapLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  tabIndex={-1}
+                  className="underline dark:text-elden-ring-green-150"
+                >
+                  Map Link
+                </a>
+                <span>]</span>
+              </span>
+            ) : null}
           </div>
         ))}
       </div>

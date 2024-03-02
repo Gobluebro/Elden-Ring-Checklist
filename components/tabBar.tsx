@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import { TabDataArray, TabNames } from "../data/";
+import { TabDataArray, TabNames } from "../data/tabs";
 import Tab from "./tab";
 
 interface Props {

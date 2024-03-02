@@ -4,5 +4,6 @@ export * from "./graces";
 export * from "./miscellaneous";
 export * from "./quests";
 export * from "./goldenSeeds";
-export * from "./types";
-export * from "./tabs";
+export * from "./weapons";
+
+export type { ListType, Requirement, KeyBooleanValuePair } from "./types";
