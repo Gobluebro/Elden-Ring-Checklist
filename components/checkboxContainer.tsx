@@ -146,7 +146,7 @@ const CheckboxContainer = (props: Props) => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        {list.requirements.map(({ id, description, url, mapLink }) => (
+        {list.requirements.map(({ id, description }) => (
           <div
             key={id}
             className={!showCompleted && checkedState[id] ? "hidden" : "block"}
@@ -158,36 +158,11 @@ const CheckboxContainer = (props: Props) => {
               onChange={() => handleOnChange(id)}
               className={checkboxInputStyles}
             />
-            <label className="ml-2 text-black dark:text-white" htmlFor={id}>
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noreferrer"
-                  tabIndex={-1}
-                  className="underline dark:text-elden-ring-green-150"
-                >
-                  {description}
-                </a>
-              ) : (
-                description
-              )}
-            </label>
-            {mapLink ? (
-              <span>
-                <span> [</span>
-                <a
-                  href={mapLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  tabIndex={-1}
-                  className="underline dark:text-elden-ring-green-150"
-                >
-                  Map Link
-                </a>
-                <span>]</span>
-              </span>
-            ) : null}
+            <label
+              className="ml-2 text-blackdark:text-white"
+              htmlFor="{id}"
+              dangerouslySetInnerHTML={{ __html: description }}
+            />
           </div>
         ))}
       </div>

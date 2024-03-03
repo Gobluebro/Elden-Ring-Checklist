@@ -1,4 +1,5 @@
 import { ListType } from "./types";
+import { rawHTMLLink } from "./listHelper";
 
 export const QuestsList: Array<ListType> = [
   /* TEMPLATE     
@@ -36,8 +37,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "33ab554a-6a20-48c5-b69b-7f10630e00be",
         description:
-          "(Optional) Summon Boggart to fight Magma Wyrm Makar in Ruin-Strewn Precipice between Liurnia and Altus Plateau.",
-        url: "https://eldenring.wiki.fextralife.com/Magma+Wyrm+Makar",
+          "(Optional) Summon Boggart to fight " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Magma+Wyrm+Makar",
+            "Magma Wyrm Makar"
+          ) +
+          " in Ruin-Strewn Precipice between Liurnia and Altus Plateau.",
       },
       {
         id: "9b2366dc-6c14-4538-94fd-ec5e9fa6a37b",
@@ -47,8 +52,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "b17d2204-3a9c-464b-b379-6f63f15fb223",
         description:
-          'Progress Dung Eater\'s quest to the point he says he will be "waiting in the outer moat."',
-        url: "https://eldenring.wiki.fextralife.com/Dung+Eater",
+          "Progress " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Dung+Eater",
+            "Dung Eater's"
+          ) +
+          ` quest to the point he says he will be "waiting in the outer moat."`,
       },
       {
         id: "63283a45-4589-4043-8b7d-631043820b52",
@@ -252,8 +261,13 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "811d3b70-a8e0-4bc9-9f9c-104edf28ebad",
-        description: "Feed Gurranq a Deathroot at Bestial Sanctum.",
-        url: "https://eldenring.wiki.fextralife.com/Deathroot",
+        description:
+          "Feed Gurranq a " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Deathroot",
+            "Deathroot"
+          ) +
+          " at Bestial Sanctum.",
       },
       {
         id: "def4242a-89f1-4d62-aa4a-9c08b46458a6",
@@ -856,9 +870,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "d5ffc09a-783a-4140-978b-30ae0ec5b596",
         description:
-          "Retrieve a Deathroot after defeating the Tibia Mariner at Summonwater Village.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1547&code=mapA",
+          "Retrieve a Deathroot after defeating the " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1547&code=mapA",
+            "Tibia Mariner at Summonwater Village."
+          ),
       },
       {
         id: "d22a50ea-45e6-41a0-be2a-e7f8918345a1",
@@ -867,9 +883,13 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "f552e06e-e89e-4e15-bb66-25e1d395805c",
-        description: "Take the Waygate D mentions to the Bestial Sanctum.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=802&code=mapA",
+        description:
+          "Take the " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=802&code=mapA",
+            "Waygate"
+          ) +
+          " D mentions to the Bestial Sanctum.",
       },
       {
         id: "c70ea8be-63af-47ca-b9b0-1627a75745fe",
@@ -883,9 +903,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "13ae7575-e7ca-4749-9936-2049c063802f",
         description:
-          "Retrieve a Deathroot inside a chest behind the Black Knife Assassin in the Deathtouched Catacombs.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=855&code=mapA",
+          "Retrieve a Deathroot inside a chest behind the Black Knife Assassin in the " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=855&code=mapA",
+            "Deathtouched Catacombs."
+          ),
       },
       {
         id: "f510560c-6aee-45b7-8eb4-3ea4edfee422",
@@ -895,9 +917,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "c6b12699-738d-463d-9216-ae76b24aa1f1",
         description:
-          "Retrieve a Deathroot inside a chest behind the Cemetery Shade in the Black Knife Catacombs.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6807&code=mapA",
+          "Retrieve a Deathroot inside a chest behind the Cemetery Shade in the" +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6807&code=mapA",
+            "Black Knife Catacombs."
+          ),
       },
       {
         id: "7b075c18-5c27-466b-910a-d80857cedebd",
@@ -907,9 +931,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "2189ccf3-d2e5-42ee-a6db-d8449aa42085",
         description:
-          "Retrieve a Deathroot by defeating the Tibia Mariner at East Liurnia of the Lakes.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2010&code=mapA",
+          "Retrieve a Deathroot by defeating the Tibia Mariner at " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2010&code=mapA",
+            "East Liurnia of the Lakes."
+          ),
       },
       {
         id: "bf466258-2964-4784-b0c9-b4d2ce8a7783",
@@ -919,9 +945,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "2b8f890b-8f28-4876-bcc2-93db115ab141",
         description:
-          "Retrieve a Deathroot by defeating the Tibia Mariner at Wyndham Ruins.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2007&code=mapA",
+          "Retrieve a Deathroot by defeating the Tibia Mariner at " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2007&code=mapA",
+            "Wyndham Ruins."
+          ),
       },
       {
         id: "b519f1e3-531f-41ec-93a7-70e4d7f00087",
@@ -935,9 +963,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "3cbcd4f0-46f9-4478-bf5d-93ef4d2fc20b",
         description:
-          "Retrieve a Deathroot by defeating the Tibia Mariner on a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6808&code=mapA",
+          "Retrieve a Deathroot by defeating the Tibia Mariner on " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6808&code=mapA",
+            "a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook."
+          ),
       },
       {
         id: "9b08d98a-119c-409b-9d13-eebf9da938f2",
@@ -947,9 +977,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "34c389a1-8307-4927-8452-98609c893154",
         description:
-          "Retrieve a Deathroot inside a chest behind the Red Wolf of the Champion at Gelmir Hero's Grave.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5765&code=mapA",
+          "Retrieve a Deathroot inside a chest behind the " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5765&code=mapA",
+            "Red Wolf of the Champion at Gelmir Hero's Grave."
+          ),
       },
       {
         id: "0a00490b-aa1a-4cb2-85cd-1b91c0cc59b1",
@@ -959,9 +991,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "989b70ec-d3f6-47da-94af-df6b57283243",
         description:
-          "Retrieve a Deathroot inside a chest after defeating the Stray Mimic Tear in the secret catacombs underneath the Hidden Path to the Haligtree.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6359&code=mapA",
+          "Retrieve a Deathroot inside a chest after defeating the Stray Mimic Tear in " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6359&code=mapA",
+            "the secret catacombs underneath the Hidden Path to the Haligtree."
+          ),
       },
       {
         id: "c6735e77-00d5-4ad9-8b5b-99be55581b24",
@@ -971,9 +1005,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "d0bd1b10-18fe-43d1-928d-facc24178226",
         description:
-          "Retrieve a Deathroot inside the chest after defeating the Ulcerated Tree Spirit boss inside the Giants' Mountaintop Catacombs.",
-        mapLink:
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6809&code=mapA",
+          "Retrieve a Deathroot inside the chest after defeating the Ulcerated Tree Spirit boss inside " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6809&code=mapA",
+            "the Giants' Mountaintop Catacombs."
+          ),
       },
       {
         id: "631d8c94-3060-40b0-acaa-5af4e95aa104",
@@ -1072,8 +1108,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "fb0351a4-6905-43d2-8b29-0309d8b759b2",
         description:
-          "Reach Jarburg by following a series of grave stones down the eastern cliffs of Liurnia, just south of the Carian Study Hall.",
-        url: "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Reach " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Jarburg",
+            "Jarburg"
+          ) +
+          " by following a series of grave stones down the eastern cliffs of Liurnia, just south of the Carian Study Hall.",
       },
       {
         id: "b7e45220-1c65-47ae-a6ca-fa69e017585f",
@@ -1209,8 +1249,9 @@ export const QuestsList: Array<ListType> = [
       {
         id: "7d523ab2-46a0-4925-b77c-2a1e6cbbf587",
         description:
-          "Find Albus in the Village of the Albinaurics, hiding transformed as a pot near the Depraved Perfumer, close to the Village of the Albinaurics Site of Grace. Obtain the Haligtree Secret Medallion (Right) from him.",
-        url: "https://eldenring.wiki.fextralife.com/Albus",
+          "Find " +
+          rawHTMLLink("https://eldenring.wiki.fextralife.com/Albus", "Albus") +
+          " in the Village of the Albinaurics, hiding transformed as a pot near the Depraved Perfumer, close to the Village of the Albinaurics Site of Grace. Obtain the Haligtree Secret Medallion (Right) from him.",
       },
       {
         id: "c050025a-48cb-4c33-a172-ff1f2781b227",
@@ -1225,8 +1266,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "88bd4d1c-4531-46bf-b3e9-b77489c77fcc",
         description:
-          "Continue until the Mountaintop of the Giants and obtain the Haligtree Secret Medallion (Left) in Castle Sol.",
-        url: "https://eldenring.wiki.fextralife.com/Haligtree+Secret+Medallion+(Left)",
+          "Continue until the Mountaintop of the Giants and obtain the " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Haligtree+Secret+Medallion+(Left)",
+            "Haligtree Secret Medallion (Left)"
+          ) +
+          " in Castle Sol.",
       },
       {
         id: "7153c0d0-9156-4d35-a079-0b1d21ca60ef",
@@ -1470,8 +1515,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "1ec168fa-7721-4a26-8fec-c5acdda7ccba",
         description:
-          "Talking to Seluvis again will give you the option to hear his plot (sometimes buggy, check link for help).",
-        url: "https://eldenring.wiki.fextralife.com/Preceptor+Seluvis",
+          "Talking to " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Preceptor+Seluvis",
+            "Seluvis"
+          ) +
+          " again will give you the option to hear his plot.",
       },
       {
         id: "32a48279-e85b-476e-b5cb-62d554c4f1ae",
@@ -1579,8 +1628,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "9a24d2b5-f878-4609-b74a-c309c7b32c90",
         description:
-          "Buy Rya's Necklace for 1000 Runes from Blackguard Big Boggart at the Boilprawn Shack nearby.",
-        url: "https://eldenring.wiki.fextralife.com/Blackguard+Big+Boggart",
+          "Buy Rya's Necklace for 1000 Runes from " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Blackguard+Big+Boggart",
+            "Blackguard Big Boggart"
+          ) +
+          " at the Boilprawn Shack nearby.",
       },
       {
         id: "0db11de2-fc14-46ba-a96f-14f6b2c59484",
@@ -1595,8 +1648,11 @@ export const QuestsList: Array<ListType> = [
       {
         id: "604bfff5-64c2-4085-ac7a-05a5378123d3",
         description:
-          "Complete the first Volcano Manor request (Old Knight Istvan).",
-        url: "https://eldenring.wiki.fextralife.com/Old+Knight+Istvan",
+          "Complete the first Volcano Manor request " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Old+Knight+Istvan",
+            "(Old Knight Istvan)."
+          ),
       },
       {
         id: "77f82c49-5b92-4b94-a483-23f5c4bec8a9",
@@ -1806,8 +1862,13 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "06fed86d-1d56-4643-a6d4-9169b141c077",
-        description: "Invade and kill Old Knight Istvan in Limgrave.",
-        url: "https://eldenring.wiki.fextralife.com/Old+Knight+Istvan",
+        description:
+          "Invade and kill " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Old+Knight+Istvan",
+            "Old Knight Istvan"
+          ) +
+          " in Limgrave.",
       },
       {
         id: "2e0f8a9f-badb-4a4e-880e-2d1de9480d06",
@@ -1820,8 +1881,13 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "f3a6b425-3348-4019-8e44-75a5f0824cb9",
-        description: "Invade and kill Rileigh the Idle in Altus Plateau.",
-        url: "https://eldenring.wiki.fextralife.com/Rileigh+the+Idle",
+        description:
+          "Invade and kill " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Rileigh+the+Idle",
+            "Rileigh the Idle"
+          ) +
+          " in Altus Plateau.",
       },
       {
         id: "72ef23cd-9640-4b30-888e-bb6ad06f4b03",
@@ -1835,8 +1901,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "8873c32c-642e-48ef-8eaa-362080337b4c",
         description:
-          "Invade and kill Juno Hoslow, Knight of Blood in Mountaintops of the Giants.",
-        url: "https://eldenring.wiki.fextralife.com/Juno+Hoslow,+Knight+of+Blood",
+          "Invade and kill " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Juno+Hoslow,+Knight+of+Blood",
+            "Juno Hoslow, Knight of Blood"
+          ) +
+          " in Mountaintops of the Giants.",
       },
       {
         id: "62e56a03-7f89-4def-9384-75aac2f74e5f",
@@ -1854,8 +1924,12 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "02cbeb3b-9faf-4fa6-80d4-0d73227f3b2e",
-        description: "Defeat Rykard, Lord of Blasphemy.",
-        url: "https://eldenring.wiki.fextralife.com/Rykard,+Lord+of+Blasphemy",
+        description:
+          "Defeat " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Rykard,+Lord+of+Blasphemy",
+            "Rykard, Lord of Blasphemy."
+          ),
       },
       {
         id: "5807b72b-aab4-4fcc-b728-61589be8d778",
@@ -1873,8 +1947,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "e2488430-054b-47e3-98da-935c70377471",
         description:
-          "(Optional) Offer the Dancer's Castanets to Tanith. She'll refuse.",
-        url: "https://eldenring.wiki.fextralife.com/Dancer's+Castanets",
+          "(Optional) Offer the " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Dancer's+Castanets",
+            "Dancer's Castanets"
+          ) +
+          " to Tanith. She'll refuse.",
       },
       {
         id: "3ef29321-fdc6-416e-b08b-a13d5539ae94",
@@ -1900,8 +1978,12 @@ export const QuestsList: Array<ListType> = [
       {
         id: "e237056b-551b-4019-83e2-2e5fc1ae2c84",
         description:
-          "Obtain (a second) Academy Glintstone Key hidden within Raya Lucaria, in the chandelier in the Church of the Cuckoo.",
-        url: "https://eldenring.wiki.fextralife.com/Academy+Glintstone+Key",
+          "Obtain (a second) " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Academy+Glintstone+Key",
+            "Academy Glintstone Key"
+          ) +
+          " hidden within Raya Lucaria, in the chandelier in the Church of the Cuckoo.",
       },
       {
         id: "cbad4533-57f7-4348-9c00-19a34629c49c",
@@ -1922,8 +2004,12 @@ export const QuestsList: Array<ListType> = [
     requirements: [
       {
         id: "b049cb65-103b-4811-b218-1bd13ffdd9e5",
-        description: "Talk to Varré near The First Step grace.",
-        mapLink: "https://eldenring.wiki.fextralife.com/Interactive+Map?id=457",
+        description:
+          "Talk to Varré near " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3&code=mapA",
+            "The First Step grace."
+          ),
       },
       {
         id: "110084c1-17d9-47b6-9d68-c18d3d9cf919",
@@ -1945,8 +2031,15 @@ export const QuestsList: Array<ListType> = [
       {
         id: "ba4a2aad-af54-4b99-b2ca-b0822e4baabc",
         description:
-          "Use the Festering Bloody Finger three times OR defeat Magnus the Beast Claw.",
-        url: "https://eldenring.wiki.fextralife.com/Magnus+the+Beast+Claw",
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Festering+Bloody+Finger",
+            "Use the Festering Bloody Finger three times"
+          ) +
+          " OR " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Magnus+the+Beast+Claw",
+            "defeat Magnus the Beast Claw."
+          ),
       },
       {
         id: "ebc0c68e-f8ca-4ee9-b601-98407c0a23fd",

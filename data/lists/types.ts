@@ -9,9 +9,7 @@ export interface ListType {
 
 export interface Requirement {
   id: string;
-  description: string;
-  url?: string;
-  mapLink?: string;
+  description: string; // rawHTML
 }
 
 export interface KeyBooleanValuePair {
