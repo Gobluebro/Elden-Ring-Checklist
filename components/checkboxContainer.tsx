@@ -155,11 +155,13 @@ const CheckboxContainer = (props: Props) => {
         {list.requirements.map(({ id, description, isDLC }) => (
           <div
             key={id}
-            className={
-              (!!isDLC && !showDLC) || (!showCompleted && checkedState[id])
-                ? "hidden"
-                : "block"
-            }
+            className={`py-1
+              ${
+                (!!isDLC && !showDLC) || (!showCompleted && checkedState[id])
+                  ? "hidden"
+                  : "block"
+              }
+            `}
           >
             <input
               id={id}
