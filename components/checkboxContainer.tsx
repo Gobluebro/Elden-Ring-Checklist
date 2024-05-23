@@ -160,7 +160,7 @@ const CheckboxContainer = (props: Props) => {
             />
             <label
               className="ml-2 text-blackdark:text-white"
-              htmlFor="{id}"
+              htmlFor={id}
               dangerouslySetInnerHTML={{ __html: description }}
             />
           </div>
