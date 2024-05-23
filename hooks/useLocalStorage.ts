@@ -1,7 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+const isServer = typeof window === "undefined";
 
 export const useLocalStorage = (keyName: string, defaultValue: any) => {
-  const [storedValue, setStoredValue] = useState(() => {
+  const [storedValue, setStoredValue] = useState(() => defaultValue);
+
+  // taken from https://stackoverflow.com/a/75862054
+  const initialize = () => {
+    if (isServer) {
+      return defaultValue;
+    }
     try {
       const value = localStorage.getItem(keyName);
 
@@ -49,7 +57,15 @@ export const useLocalStorage = (keyName: string, defaultValue: any) => {
     } catch (err) {
       return defaultValue;
     }
-  });
+  };
+
+  /* prevents hydration error so that state is only initialized after server is defined */
+  useEffect(() => {
+    if (!isServer) {
+      setStoredValue(initialize());
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const setValue = (newValue: any) => {
     try {
