@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { TabDataArray, TabNames } from "../data/tabs";
+import { MainTabDataArray, PersonalTabDataArray, TabNames } from "../data/tabs";
 import CheckboxContainer from "./checkboxContainer";
 import ToggleAllAccordions from "./toggleAllAccordions";
 import DarkModeToggle from "../components/darkModeToggle";
@@ -15,7 +15,9 @@ const CompleteList = (props: Props) => {
   const [showCompleted, setShowCompleted] = useState<boolean>(true);
   const [accordionState, setAccordionState] = useState({});
 
-  const currentTabListData = TabDataArray.find(
+  const currentTabsDataArray = [...MainTabDataArray, ...PersonalTabDataArray];
+
+  const currentTabListData = currentTabsDataArray.find(
     (tab) => tab.enum === listName
   )?.listData;
 

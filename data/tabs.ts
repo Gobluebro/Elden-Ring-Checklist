@@ -28,7 +28,7 @@ export interface TabData {
   listData: ListType[];
 }
 
-export const TabDataArray: TabData[] = [
+export const MainTabDataArray: TabData[] = [
   {
     id: 1,
     name: "Quests",
@@ -59,6 +59,9 @@ export const TabDataArray: TabData[] = [
     enum: TabNames.FlaskUpgrades,
     listData: FlaskUpgradesList,
   },
+];
+
+export const PersonalTabDataArray: TabData[] = [
   {
     id: 6,
     name: "Weapons",
@@ -73,7 +76,7 @@ export const TabDataArray: TabData[] = [
   },
   {
     id: 8,
-    name: "Misc",
+    name: "Collectables",
     enum: TabNames.Miscellaneous,
     listData: MiscellaneousList,
   },
