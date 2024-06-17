@@ -960,6 +960,13 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "22b42c39-ca55-494c-8011-90b50344d5f8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Meteorite+Staff",
+          "Meteorite Staff"
+        ),
+      },
+      {
         id: "104b71e9-1492-400c-8ee1-e0225b0bcc83",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Prince+of+Death's+Staff",
