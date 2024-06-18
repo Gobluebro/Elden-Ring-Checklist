@@ -589,6 +589,13 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "5217132e-30fd-4c8b-a622-55f6a2705e2c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Nox+Flowing+Sword",
+          "Nox Flowing Sword"
+        ),
+      },
+      {
         id: "08f65fac-056e-4cf7-b39d-07c2b55100ef",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Scavenger's+Curved+Sword",
@@ -2000,13 +2007,6 @@ export const WeaponsList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Noble's+Slender+Sword",
           "Noble's Slender Sword"
-        ),
-      },
-      {
-        id: "5217132e-30fd-4c8b-a622-55f6a2705e2c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Nox+Flowing+Sword",
-          "Nox Flowing Sword"
         ),
       },
       {
