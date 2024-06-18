@@ -449,6 +449,13 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Briars+of+Punishment",
+          "Briars of Punishment"
+        ),
+      },
+      {
         id: "354537c6-6a79-4035-bf79-f658c92a8a1a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Briars+of+Sin",
