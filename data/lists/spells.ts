@@ -1187,630 +1187,630 @@ export const SpellsList: Array<ListType> = [
         id: "28eb1b44-1df5-484a-a910-633ad9272cb8",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Assassin's+Gambit",
-          "Ash of War: Assassin's Gambit"
+          "Assassin's Gambit"
         ),
       },
       {
         id: "a16ed64a-7c8b-4496-9c24-287bfb4531a7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Barbaric+Roar",
-          "Ash of War: Barbaric Roar"
+          "Barbaric Roar"
         ),
       },
       {
         id: "3d3b004f-f0dc-4a5f-bbb9-565ed586b51a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Barrage",
-          "Ash of War: Barrage"
+          "Barrage"
         ),
       },
       {
         id: "8f7ccbc5-a8f2-415a-bcce-dbb9117e1334",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Barricade+Shield",
-          "Ash of War: Barricade Shield"
+          "Barricade Shield"
         ),
       },
       {
         id: "2fa27164-0108-4c3d-8b64-a36ee7a073ee",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Beast's+Roar",
-          "Ash of War: Beast's Roar"
+          "Beast's Roar"
         ),
       },
       {
         id: "ea0fbcfc-fbbb-4874-a249-1882c0f1e88f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado",
-          "Ash of War: Black Flame Tornado"
+          "Black Flame Tornado"
         ),
       },
       {
         id: "4a27c933-4b4f-4713-9984-f4653a6fb6f9",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Blade",
-          "Ash of War: Blood Blade"
+          "Blood Blade"
         ),
       },
       {
         id: "b77646ea-2aa9-451a-9067-e74efc9bd067",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloodhound's+Step",
-          "Ash of War: Bloodhound's Step"
+          "Bloodhound's Step"
         ),
       },
       {
         id: "2a7c1e40-5cee-476b-9038-27a2948d67df",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloody+Slash",
-          "Ash of War: Bloody Slash"
+          "Bloody Slash"
         ),
       },
       {
         id: "0ec3e530-5c57-4be4-af8b-2b2b4a9b6722",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Braggart's+Roar",
-          "Ash of War: Braggart's Roar"
+          "Braggart's Roar"
         ),
       },
       {
         id: "dd4f6ff0-985e-4643-ad3f-459ee516d96c",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Grandeur",
-          "Ash of War: Carian Grandeur"
+          "Carian Grandeur"
         ),
       },
       {
         id: "3518d4fd-7f0b-4ba0-858a-5a9ee46d10a6",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Greatsword",
-          "Ash of War: Carian Greatsword"
+          "Carian Greatsword"
         ),
       },
       {
         id: "3ed802a1-5ec3-478f-a36d-a3c36ca69ae7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Carian+Retaliation",
-          "Ash of War: Carian Retaliation"
+          "Carian Retaliation"
         ),
       },
       {
         id: "8113cbee-306a-44ac-8f59-3380954e0ee0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth",
-          "Ash of War: Charge Forth"
+          "Charge Forth"
         ),
       },
       {
         id: "c50b068d-54e2-42c7-8c44-6cdb4a1d2b42",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Chilling+Mist",
-          "Ash of War: Chilling Mist"
+          "Chilling Mist"
         ),
       },
       {
         id: "98ab218f-91de-4f03-bac5-19c27b67a9f7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Cragblade",
-          "Ash of War: Cragblade"
+          "Cragblade"
         ),
       },
       {
         id: "92cf6f80-76f9-4631-8db5-648341919eff",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Determination",
-          "Ash of War: Determination"
+          "Determination"
         ),
       },
       {
         id: "a7b81cca-3922-4356-906c-27119f5647f3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Double+Slash",
-          "Ash of War: Double Slash"
+          "Double Slash"
         ),
       },
       {
         id: "9d5c8818-fc18-495f-b1b0-19fb03978bb9",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Earthshaker",
-          "Ash of War: Earthshaker"
+          "Earthshaker"
         ),
       },
       {
         id: "29e904e2-ffa1-4fa4-92f4-eaeb1b32727b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Enchanted+Shot",
-          "Ash of War: Enchanted Shot"
+          "Enchanted Shot"
         ),
       },
       {
         id: "a05906d9-7948-4226-9f28-e4b3a441b5cd",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Endure",
-          "Ash of War: Endure"
+          "Endure"
         ),
       },
       {
         id: "f8235c51-16f9-4fac-a9e6-f81dba5bb0f6",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Eruption",
-          "Ash of War: Eruption"
+          "Eruption"
         ),
       },
       {
         id: "e4b8f2f2-0752-488a-87b5-ac3a9f782c81",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Flame+of+the+Redmanes",
-          "Ash of War: Flame of the Redmanes"
+          "Flame of the Redmanes"
         ),
       },
       {
         id: "2992204c-03ae-41b4-92a5-c49ad0584c14",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike",
-          "Ash of War: Flaming Strike"
+          "Flaming Strike"
         ),
       },
       {
         id: "6a47e346-b9c6-457b-8e63-585c0f389251",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintblade+Phalanx",
-          "Ash of War: Glintblade Phalanx"
+          "Glintblade Phalanx"
         ),
       },
       {
         id: "eb9d935d-3f68-4e73-ad71-34125b1c1d8f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Glintstone+Pebble",
-          "Ash of War: Glintstone Pebble"
+          "Glintstone Pebble"
         ),
       },
       {
         id: "98e842e4-6421-4edf-90a6-4e45d837458f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Land",
-          "Ash of War: Golden Land"
+          "Golden Land"
         ),
       },
       {
         id: "2cc9d27a-918c-4c79-992e-32ed6734d57f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Parry",
-          "Ash of War: Golden Parry"
+          "Golden Parry"
         ),
       },
       {
         id: "4c9f9380-80ba-4711-8d30-beeeea6b4722",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Slam",
-          "Ash of War: Golden Slam"
+          "Golden Slam"
         ),
       },
       {
         id: "9f532eb5-bdcc-4ae6-93a3-8e5a4769c436",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Golden+Vow",
-          "Ash of War: Golden Vow"
+          "Golden Vow"
         ),
       },
       {
         id: "e2f5acbd-eb2f-491d-b532-123cf6c13c59",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Gravitas",
-          "Ash of War: Gravitas"
+          "Gravitas"
         ),
       },
       {
         id: "5e5b8201-dde4-4a17-9ce5-02272549aeae",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Ground+Slam",
-          "Ash of War: Ground Slam"
+          "Ground Slam"
         ),
       },
       {
         id: "4a40615a-9626-49dd-8657-0e1bc345c7f0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarah+Loux's+Earthshaker",
-          "Ash of War: Hoarah Loux's Earthshaker"
+          "Hoarah Loux's Earthshaker"
         ),
       },
       {
         id: "8d342a33-f488-4606-885f-5b240d1bd7b7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Hoarfrost+Stomp",
-          "Ash of War: Hoarfrost Stomp"
+          "Hoarfrost Stomp"
         ),
       },
       {
         id: "e7ce942b-6c9e-45bd-9e5d-fa4edd626da4",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Holy+Ground",
-          "Ash of War: Holy Ground"
+          "Holy Ground"
         ),
       },
       {
         id: "45316d18-da8a-4813-a59c-556598738d53",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Ice+Spear",
-          "Ash of War: Ice Spear"
+          "Ice Spear"
         ),
       },
       {
         id: "b1ed7ffa-15f9-4bc2-bd71-ba3f0300a6b6",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Impaling+Thrust",
-          "Ash of War: Impaling Thrust"
+          "Impaling Thrust"
         ),
       },
       {
         id: "c14187d7-29e2-43a2-a359-94458a16da7f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Kick",
-          "Ash of War: Kick"
+          "Kick"
         ),
       },
       {
         id: "3b075b18-c5e8-4707-8152-8f856d48300c",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Lifesteal+Fist",
-          "Ash of War: Lifesteal Fist"
+          "Lifesteal Fist"
         ),
       },
       {
         id: "0b90babf-f9f3-44da-b623-d914d4e10aa6",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Ram",
-          "Ash of War: Lightning Ram"
+          "Lightning Ram"
         ),
       },
       {
         id: "787b1ca3-a4f8-4866-a906-87d3a83ddb7b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Lightning+Slash",
-          "Ash of War: Lightning Slash"
+          "Lightning Slash"
         ),
       },
       {
         id: "fb7043f9-d5f1-48b7-9e04-b8a5ae9c24fe",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Lion's+Claw",
-          "Ash of War: Lion's Claw"
+          "Lion's Claw"
         ),
       },
       {
         id: "43a71877-138f-42fb-a55e-c3d3294957b0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Loretta's+Slash",
-          "Ash of War: Loretta's Slash"
+          "Loretta's Slash"
         ),
       },
       {
         id: "a1cf629d-0d27-48de-84d1-20da27201658",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Mighty+Shot",
-          "Ash of War: Mighty Shot"
+          "Mighty Shot"
         ),
       },
       {
         id: "a88cc37e-aabf-4fec-80fa-bc902913866b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+No+Skill",
-          "Ash of War: No Skill"
+          "No Skill"
         ),
       },
       {
         id: "a1fcf10c-c08f-4029-b46b-bebd758ecbf0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Parry",
-          "Ash of War: Parry"
+          "Parry"
         ),
       },
       {
         id: "4eaca5c8-3cb3-4954-b76b-aa949f249faf",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Phantom+Slash",
-          "Ash of War: Phantom Slash"
+          "Phantom Slash"
         ),
       },
       {
         id: "86eabbab-9a46-42a2-add3-6113308d85df",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Piercing+Fang",
-          "Ash of War: Piercing Fang"
+          "Piercing Fang"
         ),
       },
       {
         id: "ffdc1a36-6143-4fb9-8b2a-2e2dea83f6f7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Poison+Moth+Flight",
-          "Ash of War: Poison Moth Flight"
+          "Poison Moth Flight"
         ),
       },
       {
         id: "d38bb9c0-2ea8-4cc9-8dd8-eb7608b81f75",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Poisonous+Mist",
-          "Ash of War: Poisonous Mist"
+          "Poisonous Mist"
         ),
       },
       {
         id: "e9356ff5-76f5-4ca6-9002-39c3aac70e87",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Prayerful+Strike",
-          "Ash of War: Prayerful Strike"
+          "Prayerful Strike"
         ),
       },
       {
         id: "fe185763-a8aa-47b3-91cc-93339bf56193",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Prelate's+Charge",
-          "Ash of War: Prelate's Charge"
+          "Prelate's Charge"
         ),
       },
       {
         id: "985087f9-f403-42be-ab67-cb79e9248ee3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Quickstep",
-          "Ash of War: Quickstep"
+          "Quickstep"
         ),
       },
       {
         id: "94e8b540-6bd8-4e15-8b4a-32b2b5ead53b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows",
-          "Ash of War: Rain of Arrows"
+          "Rain of Arrows"
         ),
       },
       {
         id: "aa5162e8-c84d-4112-9403-2e7963182b8b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Raptor+of+the+Mists",
-          "Ash of War: Raptor of the Mists"
+          "Raptor of the Mists"
         ),
       },
       {
         id: "4c29c015-0133-4430-a025-b0b3fd876679",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Repeating+Thrust",
-          "Ash of War: Repeating Thrust"
+          "Repeating Thrust"
         ),
       },
       {
         id: "e198cf29-b4ab-43ed-baac-d26814087a65",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Royal+Knight's+Resolve",
-          "Ash of War: Royal Knight's Resolve"
+          "Royal Knight's Resolve"
         ),
       },
       {
         id: "93fb1a89-f0f2-4fef-bc1d-2ca40c15b880",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Blade",
-          "Ash of War: Sacred Blade"
+          "Sacred Blade"
         ),
       },
       {
         id: "00085e3f-d387-4b55-bea5-c848b8df48b7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Order",
-          "Ash of War: Sacred Order"
+          "Sacred Order"
         ),
       },
       {
         id: "779884c4-17d3-4cda-b49c-d83acc54998a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sacred+Ring+of+Light",
-          "Ash of War: Sacred Ring of Light"
+          "Sacred Ring of Light"
         ),
       },
       {
         id: "1f9883a4-a8b2-49bb-a4a4-4df891cba825",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku",
-          "Ash of War: Seppuku"
+          "Seppuku"
         ),
       },
       {
         id: "61a9d211-8edc-4448-a1e4-4b0c9f51433b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Shared+Order",
-          "Ash of War: Shared Order"
+          "Shared Order"
         ),
       },
       {
         id: "611d0808-3a7c-41f2-82a8-cb5b9226225b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Bash",
-          "Ash of War: Shield Bash"
+          "Shield Bash"
         ),
       },
       {
         id: "ef344a18-e625-4c35-8204-63172132211d",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Shield+Crash",
-          "Ash of War: Shield Crash"
+          "Shield Crash"
         ),
       },
       {
         id: "0cbb9e3e-7b38-474e-a542-f3f04c58fa11",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sky+Shot",
-          "Ash of War: Sky Shot"
+          "Sky Shot"
         ),
       },
       {
         id: "c069ea2f-501d-45ba-8e8d-c167506d5700",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Spectral+Lance",
-          "Ash of War: Spectral Lance"
+          "Spectral Lance"
         ),
       },
       {
         id: "7efc6616-0256-4176-976d-2d69a65a2e4a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Slash",
-          "Ash of War: Spinning Slash"
+          "Spinning Slash"
         ),
       },
       {
         id: "d4dbdb13-5832-4ed6-94f2-b7ab850ae89b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Strikes",
-          "Ash of War: Spinning Strikes"
+          "Spinning Strikes"
         ),
       },
       {
         id: "cc62642f-e3f8-4dc4-9982-338e12a4c399",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Spinning+Weapon",
-          "Ash of War: Spinning Weapon"
+          "Spinning Weapon"
         ),
       },
       {
         id: "4433f027-72ff-4245-9fc3-e3e2f7ecc04d",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Square+Off",
-          "Ash of War: Square Off"
+          "Square Off"
         ),
       },
       {
         id: "82b3a18a-2052-4dfc-8a47-fe49473c6fb0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Sweep)",
-          "Ash of War: Stamp (Sweep)"
+          "Stamp (Sweep)"
         ),
       },
       {
         id: "b3521cb6-b229-4bf7-a7d4-552b652b81b8",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Stamp+(Upward+Cut)",
-          "Ash of War: Stamp (Upward Cut)"
+          "Stamp (Upward Cut)"
         ),
       },
       {
         id: "55ca8b1c-df17-4b58-8f88-0a6af0369aa2",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Assault",
-          "Ash of War: Storm Assault"
+          "Storm Assault"
         ),
       },
       {
         id: "927b67fe-882c-46bb-953b-0af9eb780612",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Blade",
-          "Ash of War: Storm Blade"
+          "Storm Blade"
         ),
       },
       {
         id: "493a121c-16eb-464b-a855-119ebee705cd",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Stomp",
-          "Ash of War: Storm Stomp"
+          "Storm Stomp"
         ),
       },
       {
         id: "1fdbadd1-288d-4ddc-8c14-a015386d9be2",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Storm+Wall",
-          "Ash of War: Storm Wall"
+          "Storm Wall"
         ),
       },
       {
         id: "10dec8c3-a6f4-44ff-a162-79063ae97031",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Stormcaller",
-          "Ash of War: Stormcaller"
+          "Stormcaller"
         ),
       },
       {
         id: "69e70d53-d88a-4465-be73-5742b9932e4f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sword+Dance",
-          "Ash of War: Sword Dance"
+          "Sword Dance"
         ),
       },
       {
         id: "ef81fd47-7393-4eeb-b36c-bfd72712c761",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Thops's+Barrier",
-          "Ash of War: Thops's Barrier"
+          "Thops's Barrier"
         ),
       },
       {
         id: "e1b6c88d-a159-4718-b982-147f00075608",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Through+and+Through",
-          "Ash of War: Through and Through"
+          "Through and Through"
         ),
       },
       {
         id: "5f2fb797-812d-4084-a633-d7941fa983ae",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Thunderbolt",
-          "Ash of War: Thunderbolt"
+          "Thunderbolt"
         ),
       },
       {
         id: "4bd9bbae-d03c-4f9a-8c0a-079613235938",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Troll's+Roar",
-          "Ash of War: Troll's Roar"
+          "Troll's Roar"
         ),
       },
       {
         id: "42a136d3-60f5-4dc5-8ea9-e3dc0c035f40",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Unsheathe",
-          "Ash of War: Unsheathe"
+          "Unsheathe"
         ),
       },
       {
         id: "51374687-0423-44c6-acdd-df2bd6177341",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Vacuum+Slice",
-          "Ash of War: Vacuum Slice"
+          "Vacuum Slice"
         ),
       },
       {
         id: "c40ecc45-2bda-418d-98ce-8e95e60a0fdd",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable",
-          "Ash of War: Vow of the Indomitable"
+          "Vow of the Indomitable"
         ),
       },
       {
         id: "d0c70a58-8f68-4fed-b2fc-f5356a66fc50",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+War+Cry",
-          "Ash of War: War Cry"
+          "War Cry"
         ),
       },
       {
         id: "4c6df96e-d780-478a-bc51-4a8f5d875512",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Waves+of+Darkness",
-          "Ash of War: Waves of Darkness"
+          "Waves of Darkness"
         ),
       },
       {
         id: "ff96d251-71f3-494f-aa79-71bb5cf2920c",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+White+Shadow's+Lure",
-          "Ash of War: White Shadow's Lure"
+          "White Shadow's Lure"
         ),
       },
       {
         id: "c3db9257-e962-4f47-be54-29a3bba83c6c",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes",
-          "Ash of War: Wild Strikes"
+          "Wild Strikes"
         ),
       },
       {
         id: "89efa178-8f4d-42d6-a3d4-d6b283b228be",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt",
-          "Ash of War:Giant Hunt"
+          "Giant Hunt"
         ),
       },
     ],
