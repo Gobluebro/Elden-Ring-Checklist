@@ -11,6 +11,7 @@ import {
 } from "./lists";
 
 export enum TabNames {
+  Default,
   Quests,
   Achievements,
   Graces,

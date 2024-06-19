@@ -1,14 +1,34 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import CompleteList from "../components/completeList";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import MetaAndIcons from "../components/metaAndIcons";
 import { TabNames } from "../data/tabs";
 
 const Home: NextPage = () => {
-  const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);
+  const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Default);
+    
+  useEffect(() => {
+    if (currentTab == TabNames.Default)
+      return;
+
+    // on tab change, update hash
+    window.location.hash = TabNames[currentTab];
+  }, [currentTab]);
+
+  useEffect(() => {
+    // on page load, check for hash and change tab, if applicable
+    var hashValue = window.location.hash ? window.location.hash.replace('#', '') : '';
+
+    if (hashValue) { 
+      var selectedTab = hashValue as keyof typeof TabNames;
+      setCurrentTab(TabNames[selectedTab])
+    } else {
+      setCurrentTab(TabNames.Quests)
+    }
+  }, []);
 
   return (
     <div className="container flex flex-col min-h-screen mx-auto">
