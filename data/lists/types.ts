@@ -1,5 +1,3 @@
-import type { ReactElement } from "react";
-
 export interface ListType {
   id: string;
   name: string;
@@ -12,7 +10,7 @@ export interface ListType {
 
 export interface Requirement {
   id: string;
-  description: string | ReactElement;
+  description: string; // rawHTML
   isDLC?: boolean;
 }
 
