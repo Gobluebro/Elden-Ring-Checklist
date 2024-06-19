@@ -21,9 +21,9 @@ const Home: NextPage = () => {
   useEffect(() => {
     // on page load, check for hash and change tab, if applicable
     var hashValue = window.location.hash ? window.location.hash.replace('#', '') : '';
+    var selectedTab = hashValue as keyof typeof TabNames;
 
-    if (hashValue) { 
-      var selectedTab = hashValue as keyof typeof TabNames;
+    if (hashValue && selectedTab in TabNames) { 
       setCurrentTab(TabNames[selectedTab])
     } else {
       setCurrentTab(TabNames.Quests)
