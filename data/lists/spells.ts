@@ -1813,13 +1813,6 @@ export const SpellsList: Array<ListType> = [
           "Ash of War:Giant Hunt"
         ),
       },
-      {
-        id: "7a6a3331-e7b9-46c8-bd89-7471b0cd1f22",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lost+Ashes+of+War",
-          "Lost Ashes of War"
-        ),
-      },
     ],
   },
 ];
