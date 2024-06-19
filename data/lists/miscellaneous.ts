@@ -567,4 +567,641 @@ export const MiscellaneousList: Array<ListType> = [
       },
     ],
   },
+  {
+    id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
+    name: "Talismans",
+    url: "https://eldenring.wiki.fextralife.com/Talismans",
+    requirements: [
+      {
+        id: "b459e819-919a-434a-ae2f-56a667475fa2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ancestral+Spirit's+Horn",
+          "Ancestral Spirit's Horn"
+        ),
+      },
+      {
+        id: "d95e607e-24cd-426a-8945-6a6c9deaf0d7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arrow's+Reach+Talisman",
+          "Arrow's Reach Talisman"
+        ),
+      },
+      {
+        id: "6eefc6bb-b8f1-4fd0-9591-aa8c1731dfae",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arrow's+Sting+Talisman",
+          "Arrow's Sting Talisman"
+        ),
+      },
+      {
+        id: "810d5de7-24a9-493f-a58f-7515d51a419c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arsenal+Charm",
+          "Arsenal Charm"
+        ),
+      },
+      {
+        id: "7eb3398b-34cb-4d24-a87e-222c6b75c907",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Assassin's+Cerulean+Dagger",
+          "Assassin's Cerulean Dagger"
+        ),
+      },
+      {
+        id: "ceec70e8-06b6-466d-aefd-191352a9ec57",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Assassin's+Crimson+Dagger",
+          "Assassin's Crimson Dagger"
+        ),
+      },
+      {
+        id: "34b4b046-0cfe-457a-955b-dd3c52da8451",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Axe+Talisman",
+          "Axe Talisman"
+        ),
+      },
+      {
+        id: "ecb9ed26-9d26-4d06-9652-d9b9d9c33485",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blade+of+Mercy",
+          "Blade of Mercy"
+        ),
+      },
+      {
+        id: "16fcb331-ed94-4ca4-8baf-369e0b9114b5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blessed+Dew+Talisman",
+          "Blessed Dew Talisman"
+        ),
+      },
+      {
+        id: "79ae6f52-2988-42d1-9068-0a067522fd17",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blue+Dancer+Charm",
+          "Blue Dancer Charm"
+        ),
+      },
+      {
+        id: "90da0fb7-5b4b-4cd8-84cf-0617fce7a6e6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blue-Feathered+Branchsword",
+          "Blue-Feathered Branchsword"
+        ),
+      },
+      {
+        id: "ba24a66d-10e5-4cb3-8798-f54780616051",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman"
+        ),
+      },
+      {
+        id: "ee67902a-bd5c-4a8f-b9dc-bf613c967c6f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bull-Goat's+Talisman",
+          "Bull-Goat's Talisman"
+        ),
+      },
+      {
+        id: "87fedc52-06cb-49f2-b9a8-8416e410bbfb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Filigreed+Crest",
+          "Carian Filigreed Crest"
+        ),
+      },
+      {
+        id: "3fbe9d48-fe71-4afb-a636-78693b345e1b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion"
+        ),
+      },
+      {
+        id: "839e3238-a3ee-4874-aa5f-f17a1faa3545",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
+          "Cerulean Seed Talisman"
+        ),
+      },
+      {
+        id: "e7a746b2-e82e-441b-b449-7211039d8a7f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "Clarifying Horn Charm"
+        ),
+      },
+      {
+        id: "63e1708f-8085-419f-88cd-fdae2d5a29db",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Claw+Talisman",
+          "Claw Talisman"
+        ),
+      },
+      {
+        id: "cea1c334-5220-408d-bde8-736073d5bb5b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Companion+Jar",
+          "Companion Jar"
+        ),
+      },
+      {
+        id: "7797a7cc-4fd8-4d85-9f8b-89c4cc0dd65a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Concealing+Veil",
+          "Concealing Veil"
+        ),
+      },
+      {
+        id: "965a507c-db08-48aa-84e6-53f2087645bd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crepu's+Vial",
+          "Crepus's Vial"
+        ),
+      },
+      {
+        id: "ee9e9396-c861-423e-8246-a802c1315a26",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "Crimson Amber Medallion"
+        ),
+      },
+      {
+        id: "c00c46c3-e7f9-4a29-a645-6b4d15b917a3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Seed+Talisman",
+          "Crimson Seed Talisman"
+        ),
+      },
+      {
+        id: "b378e454-5e2d-4716-9e4d-2507ebb47a77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crucible+Feathered+Talisman",
+          "Crucible Feather Talisman"
+        ),
+      },
+      {
+        id: "0e10f3cd-9f47-498f-8489-213fc60a80a4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crucible+Knot+Talisman",
+          "Crucible Knot Talisman"
+        ),
+      },
+      {
+        id: "807e1336-f2d4-45af-8ff9-491920de0e80",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crucible+Scale+Talisman",
+          "Crucible Scale Talisman"
+        ),
+      },
+      {
+        id: "9a701fff-81d3-4896-9d49-792971ac2aca",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Curved+Sword+Talisman",
+          "Curved Sword Talisman"
+        ),
+      },
+      {
+        id: "3aa40258-12cc-4400-a6a8-f5b9de1fd56f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Daedicar's+Woe",
+          "Daedicar's Woe"
+        ),
+      },
+      {
+        id: "78fd89fd-92d8-4e4f-8192-3e746e995691",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dagger+Talisman",
+          "Dagger Talisman"
+        ),
+      },
+      {
+        id: "43f99d7e-a492-4e5a-9926-596fc331b4d2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Greatshield+Talisman",
+          "Dragoncrest Greatshield Talisman"
+        ),
+      },
+      {
+        id: "499d2e75-5ea3-4728-9bfc-ce00f8b0d1de",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
+          "Dragoncrest Shield Talisman"
+        ),
+      },
+      {
+        id: "90bcfd6e-08b5-4661-b956-844201e5762b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "Erdtree's Favor"
+        ),
+      },
+      {
+        id: "b1b4e1a6-bbf1-4d60-ad6b-e41075160e98",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Faithful+Canvas+Talisman",
+          "Faithful's Canvas Talisman"
+        ),
+      },
+      {
+        id: "05fd2d7c-7aaf-4a17-aa93-05ca3f78c279",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Scorpion+Charm",
+          "Fire Scorpion Charm"
+        ),
+      },
+      {
+        id: "3e8c21db-cf5e-4cd4-a31c-23a305fe35cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "Flamedrake Talisman"
+        ),
+      },
+      {
+        id: "ce589206-0721-4744-874f-5c075282f257",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flock's+Canvas+Talisman",
+          "Flock's Canvas Talisman"
+        ),
+      },
+      {
+        id: "4c912352-b086-4687-9fd0-1484c2e342e8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Furled+Finger's+Trick-Mirror",
+          "Furled Finger's Trick-Mirror"
+        ),
+      },
+      {
+        id: "0a0cef5a-57da-44d3-8756-f85a20ff7eac",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Godfrey+Icon",
+          "Godfrey Icon"
+        ),
+      },
+      {
+        id: "d5a095f4-e5cd-4ae9-8ef8-821b6a905e49",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Godskin+Swaddling+Cloth",
+          "Godskin Swaddling Cloth"
+        ),
+      },
+      {
+        id: "19a44453-a7fb-4325-9cee-6c547865df47",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Scarab",
+          "Gold Scarab"
+        ),
+      },
+      {
+        id: "51450eab-480c-4015-8741-302f8edc4e14",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Graven-Mass+Talisman",
+          "Graven-Mass Talisman"
+        ),
+      },
+      {
+        id: "1f2e32b7-edf8-446b-bf52-263017ce96c6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Graven-School+Talisman",
+          "Graven-School Talisman"
+        ),
+      },
+      {
+        id: "3c33fc07-220b-4f78-979e-7505930c83b1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Great-Jar's+Arsenal",
+          "Great-Jar's Arsenal"
+        ),
+      },
+      {
+        id: "356b47a5-a0c0-40bf-94af-0b511010c160",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greatshield+Talisman",
+          "Greatshield Talisman"
+        ),
+      },
+      {
+        id: "da439d6a-c36e-4a08-8d25-8a18a3ac5e3a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Green+Turtle+Talisman",
+          "Green Turtle Talisman"
+        ),
+      },
+      {
+        id: "5ea77609-88ee-42aa-ae6d-54c65ab917cc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "Haligdrake Talisman"
+        ),
+      },
+      {
+        id: "3ab54e5e-27fc-45ae-a1c0-e01230ea118f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Hammer+Talisman",
+          "Hammer Talisman"
+        ),
+      },
+      {
+        id: "1a39a319-ae8b-4ba9-8943-c2245bac9c0c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Host's+Trick-Mirror",
+          "Host's Trick-Mirror"
+        ),
+      },
+      {
+        id: "bd88503e-ee61-42d2-ba7b-abcd64bbf3f5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
+          "Immunizing Horn Charm"
+        ),
+      },
+      {
+        id: "1c678569-2604-4651-81da-15bd665af20c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Kindred+of+Rot's+Exultation",
+          "Kindred of Rot's Exultation"
+        ),
+      },
+      {
+        id: "af65fae9-a7d4-4882-b9dc-6d5c1ba30a93",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lance+Talisman",
+          "Lance Talisman"
+        ),
+      },
+      {
+        id: "192d14a6-4950-4463-9c9d-b3ba3fec739f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning+Scorpion+Charm",
+          "Lightning Scorpion Charm"
+        ),
+      },
+      {
+        id: "6a9fbc22-aced-43bc-a86a-faeeaef9eaab",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Longtail+Cat+Talisman",
+          "Longtail Cat Talisman"
+        ),
+      },
+      {
+        id: "4b972754-ad72-48c8-8ef0-4a1bc4f74762",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lord+of+Blood's+Exultation",
+          "Lord of Blood's Exultation"
+        ),
+      },
+      {
+        id: "fded719e-091b-4af0-80e7-3c19c5272e7d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magic+Scorpion+Charm",
+          "Magic Scorpion Charm"
+        ),
+      },
+      {
+        id: "7f2ae341-f5fc-4f3d-b814-5bc2dae87ba3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Marika's+Scarseal",
+          "Marika's Scarseal"
+        ),
+      },
+      {
+        id: "2666a360-9c81-48e1-a408-949d7ae76d67",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Marika's+Soreseal",
+          "Marika's Soreseal"
+        ),
+      },
+      {
+        id: "5373cc74-845f-45d2-bbba-cce3111821ba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Millicent's+Prosthesis",
+          "Millicent's Prosthesis"
+        ),
+      },
+      {
+        id: "30bd5536-c8e8-46ee-a662-c1c60ea22904",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Moon+of+Nokstella",
+          "Moon of Nokstella"
+        ),
+      },
+      {
+        id: "61708721-5320-46e5-a79b-e99e0182697d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
+          "Mottled Necklace"
+        ),
+      },
+      {
+        id: "94f1ac30-8a5b-40a1-a506-c1d2d045b395",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Old+Lord's+Talisman",
+          "Old Lord's Talisman"
+        ),
+      },
+      {
+        id: "13a1aef7-d07b-4c43-8640-46dbe58dee62",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "Pearldrake Talisman"
+        ),
+      },
+      {
+        id: "56e6828f-1db3-463a-b6f1-539a99c9a60f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfumer's+Talisman",
+          "Perfumer's Talisman"
+        ),
+      },
+      {
+        id: "7965840e-2b8c-4fb2-bb0e-b26de7162804",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Primal+Glintstone+Blade",
+          "Primal Glintstone Blade"
+        ),
+      },
+      {
+        id: "f22719d0-ac80-41f5-af42-67c142fa2d96",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prince+of+Death's+Pustule",
+          "Prince of Death's Pustule"
+        ),
+      },
+      {
+        id: "1ea70746-5c4d-409c-8bca-e7a6b5ec17ce",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prosthesis-Wearer+Heirloom",
+          "Prosthesis-Wearer Heirloom"
+        ),
+      },
+      {
+        id: "04745ba8-4686-43ad-bf40-ae4732bcd7e7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Radagon+Icon",
+          "Radagon Icon"
+        ),
+      },
+      {
+        id: "b3a31c5f-e30d-4127-854f-30d10a21557c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Radagon's+Scarseal",
+          "Radagon's Scarseal"
+        ),
+      },
+      {
+        id: "f487fd15-106d-4371-8001-d60ae3e1b794",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Radagon's+Soreseal",
+          "Radagon's Soreseal"
+        ),
+      },
+      {
+        id: "24c22542-1bbd-41e9-9cbc-0f2983f5e2e1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Red-Feathered+Branchsword",
+          "Red-Feathered Branchsword"
+        ),
+      },
+      {
+        id: "5890f8fd-8c65-4065-9b63-4a1528e5f4c5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ritual+Shield+Talisman",
+          "Ritual Shield Talisman"
+        ),
+      },
+      {
+        id: "57cb6c09-aa7c-4376-be36-c0aa43ae2ebd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ritual+Sword+Talisman",
+          "Ritual Sword Talisman"
+        ),
+      },
+      {
+        id: "0a79e4c4-d4e4-427d-8074-0b0aff67fcf9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Roar+Medallion",
+          "Roar Medallion"
+        ),
+      },
+      {
+        id: "672d4521-feba-4449-9913-d82662ffec3e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rotten+Winged+Sword+Insignia",
+          "Rotten Winged Sword Insignia"
+        ),
+      },
+      {
+        id: "cf9cdffc-e829-4b2c-a7cd-def3d1cd772d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sacred+Scorpion+Charm",
+          "Sacred Scorpion Charm"
+        ),
+      },
+      {
+        id: "eeb627a9-5027-4502-98d1-73e800754198",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sacrificial+Twig",
+          "Sacrificial Twig"
+        ),
+      },
+      {
+        id: "761d0532-e6de-495f-9a87-90da64dc38a7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Shabriri's+Woe",
+          "Shabriri's Woe"
+        ),
+      },
+      {
+        id: "0d16cc1f-fd6c-4fef-b677-0ea53d43c273",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Shard+of+Alexander",
+          "Shard of Alexander"
+        ),
+      },
+      {
+        id: "d64fa48b-9fca-4cc3-bf93-0342c724ee7d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Silver+Scarab",
+          "Silver Scarab"
+        ),
+      },
+      {
+        id: "23ae7e57-f796-4e75-ae62-f9170674590d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spear+Talisman",
+          "Spear Talisman"
+        ),
+      },
+      {
+        id: "7099d7b8-2b4d-4b31-b5ca-eecc2b01df56",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "Spelldrake Talisman"
+        ),
+      },
+      {
+        id: "50255550-740c-4890-b0ba-6ed1d3edf200",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
+          "Stalwart Horn Charm"
+        ),
+      },
+      {
+        id: "cb603d92-6fbe-4e50-b88d-d14a3a865043",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stargazer+Heirloom",
+          "Stargazer Heirloom"
+        ),
+      },
+      {
+        id: "4b3aeb77-be0f-4332-b153-76c49b399908",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Starscourge+Heirloom",
+          "Starscourge Heirloom"
+        ),
+      },
+      {
+        id: "c1d6e1f7-53ad-4383-86e9-d1836636db63",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Taker's+Cameo",
+          "Taker's Cameo"
+        ),
+      },
+      {
+        id: "e1123436-fc05-469b-896a-ff3b0c557d20",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Twinblade+Talisman",
+          "Twinblade Talisman"
+        ),
+      },
+      {
+        id: "b419f03e-215d-48fb-a42a-0da367958a5e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Two+Fingers+Heirloom",
+          "Two Fingers Heirloom"
+        ),
+      },
+      {
+        id: "3bdeac87-8cf5-4878-b88e-d152ec76beea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
+          "Viridian Amber Medallion"
+        ),
+      },
+      {
+        id: "91fdd483-5a9a-4eeb-8301-f7563b56c11c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Warrior+Jar+Shard",
+          "Warrior Jar Shard"
+        ),
+      },
+      {
+        id: "bbc04c04-b1c6-4b2a-8946-c1cd3c1d13ee",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Winged+Sword+Insignia",
+          "Winged Sword Insignia"
+        ),
+      },
+    ],
+  },
 ];
