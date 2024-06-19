@@ -170,11 +170,9 @@ const CheckboxContainer = (props: Props) => {
               onChange={() => handleOnChange(id)}
               className={checkboxInputStyles}
             />
-            <label
-              className="ml-2 text-blackdark:text-white"
-              htmlFor={id}
-              dangerouslySetInnerHTML={{ __html: description }}
-            />
+            <label className="ml-2 text-blackdark:text-white" htmlFor={id}>
+              {description}
+            </label>
           </div>
         ))}
       </div>
