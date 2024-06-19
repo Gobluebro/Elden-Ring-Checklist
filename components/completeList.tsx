@@ -5,6 +5,8 @@ import ToggleAllAccordions from "./toggleAllAccordions";
 import DarkModeToggle from "../components/darkModeToggle";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import FilterButton from "./filterButton";
+import DownloadSaveFile from "../components/downloadSaveFile";
+import UploadSaveFile from "../components/uploadSaveFile";
 
 interface Props {
   listName: TabNames;
@@ -40,20 +42,20 @@ const CompleteList = (props: Props) => {
 
   return (
     <>
-      <div className="flex justify-between items-center leading-none mt-1">
-        <div className="flex">
+      <div className="flex flex-wrap justify-between items-center leading-none">
+        <div className="flex mb-1">
           <ToggleAllAccordions
             accordionState={accordionState}
             setAccordionState={setAccordionState}
           />
-          <div className="ml-4">
+          <div className="mx-2">
             <FilterButton
               onClick={() => setShowCompleted(!showCompleted)}
               showValue={showCompleted}
               label="Completed"
             />
           </div>
-          <div className="ml-4">
+          <div className="mx-2">
             <FilterButton
               onClick={() => setShowDLC(!showDLC)}
               showValue={showDLC}
@@ -61,7 +63,11 @@ const CompleteList = (props: Props) => {
             />
           </div>
         </div>
-        <DarkModeToggle />
+        <div className="flex mb-1">
+          <DownloadSaveFile className="mx-2" />
+          <UploadSaveFile className="mx-2" />
+          <DarkModeToggle />
+        </div>
       </div>
       {currentTabListData?.map((item) => (
         <CheckboxContainer
