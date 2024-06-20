@@ -15,15 +15,15 @@ const Home: NextPage = () => {
       return;
 
     // on tab change, update hash
-    window.location.hash = TabNames[currentTab];
+    localStorage.setItem("currentTab", TabNames[currentTab]);
   }, [currentTab]);
 
   useEffect(() => {
     // on page load, check for hash and change tab, if applicable
-    var hashValue = window.location.hash ? window.location.hash.replace('#', '') : '';
-    var selectedTab = hashValue as keyof typeof TabNames;
+    const storedCurrentTab = localStorage.getItem("currentTab");
+    const selectedTab = storedCurrentTab as keyof typeof TabNames;
 
-    if (hashValue && selectedTab in TabNames) { 
+    if (storedCurrentTab && selectedTab in TabNames) { 
       setCurrentTab(TabNames[selectedTab])
     } else {
       setCurrentTab(TabNames.Quests)
