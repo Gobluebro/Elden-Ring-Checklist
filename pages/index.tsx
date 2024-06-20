@@ -1,34 +1,17 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import CompleteList from "../components/completeList";
-import { useEffect, useState } from "react";
 import TabBar from "../components/tabBar";
 import Footer from "../components/footer";
 import MetaAndIcons from "../components/metaAndIcons";
 import { TabNames } from "../data/tabs";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 const Home: NextPage = () => {
-  const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Default);
-    
-  useEffect(() => {
-    if (currentTab == TabNames.Default)
-      return;
-
-    // on tab change, update hash
-    localStorage.setItem("currentTab", TabNames[currentTab]);
-  }, [currentTab]);
-
-  useEffect(() => {
-    // on page load, check for hash and change tab, if applicable
-    const storedCurrentTab = localStorage.getItem("currentTab");
-    const selectedTab = storedCurrentTab as keyof typeof TabNames;
-
-    if (storedCurrentTab && selectedTab in TabNames) { 
-      setCurrentTab(TabNames[selectedTab])
-    } else {
-      setCurrentTab(TabNames.Quests)
-    }
-  }, []);
+  const [currentTab, setCurrentTab] = useLocalStorage(
+    "currentTab",
+    TabNames.Quests
+  );
 
   return (
     <div className="container flex flex-col min-h-screen mx-auto">
