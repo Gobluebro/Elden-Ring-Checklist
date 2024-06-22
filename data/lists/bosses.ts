@@ -4,7 +4,7 @@ import { rawHTMLLink } from "./listHelper";
 export const BossesList: Array<ListType> = [
   {
     id: "6578f21c-b712-4dda-bbb4-969fab04193b",
-    name: "Limgrave",
+    name: "Necrolimbo",
     requirements: [
       {
         id: "66fbe453-878b-4661-9aee-269941290ac0",
@@ -373,7 +373,7 @@ export const BossesList: Array<ListType> = [
         id: "ae9c69fc-3f6a-4660-897f-e71e2ce45c0e",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
-          "Night's Cavalry (Liurnia South)"
+          "Cabellería Nocturna (Sur de Liurnia)"
         ),
       },
       {
