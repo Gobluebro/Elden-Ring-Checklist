@@ -52,7 +52,7 @@ const CompleteList = (props: Props) => {
             <FilterButton
               onClick={() => setShowCompleted(!showCompleted)}
               showValue={showCompleted}
-              label="Completed"
+              label="Completado"
             />
           </div>
           <div className="mx-2">

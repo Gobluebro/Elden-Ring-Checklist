@@ -9,7 +9,7 @@ interface Props {
 
 const ToggleAllAccordions = (props: Props) => {
   const { accordionState, setAccordionState } = props;
-  const [buttonName, setButtonName] = useState<string>("Open All");
+  const [buttonName, setButtonName] = useState<string>("Abrir Todos");
 
   const toggleAll = () => {
     const booleanArray: boolean[] = Object.values(accordionState);
@@ -28,7 +28,7 @@ const ToggleAllAccordions = (props: Props) => {
     const booleanArray: boolean[] = Object.values(accordionState);
     const isAllOpen = booleanArray.every(Boolean);
 
-    isAllOpen ? setButtonName("Close All") : setButtonName("Open All");
+    isAllOpen ? setButtonName("Cerrar Todos") : setButtonName("Abrir Todos");
   }, [accordionState]);
 
   return (
