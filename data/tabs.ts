@@ -31,31 +31,31 @@ export interface TabData {
 export const MainTabDataArray: TabData[] = [
   {
     id: 1,
-    name: "Quests",
+    name: "Misiones",
     enum: TabNames.Quests,
     listData: QuestsList,
   },
   {
     id: 2,
-    name: "Achievements",
+    name: "Logros",
     enum: TabNames.Achievements,
     listData: AchievementsList,
   },
   {
     id: 3,
-    name: "Graces",
+    name: "Gracias",
     enum: TabNames.Graces,
     listData: GracesList,
   },
   {
     id: 4,
-    name: "Bosses",
+    name: "Jefes",
     enum: TabNames.Bosses,
     listData: BossesList,
   },
   {
     id: 5,
-    name: "Flask Upgrades",
+    name: "Mejoras del Frasco",
     enum: TabNames.FlaskUpgrades,
     listData: FlaskUpgradesList,
   },
@@ -64,19 +64,19 @@ export const MainTabDataArray: TabData[] = [
 export const PersonalTabDataArray: TabData[] = [
   {
     id: 6,
-    name: "Weapons",
+    name: "Armas",
     enum: TabNames.Weapons,
     listData: WeaponsList,
   },
   {
     id: 7,
-    name: "Spells",
+    name: "Hechizos",
     enum: TabNames.Spells,
     listData: SpellsList,
   },
   {
     id: 8,
-    name: "Collectables",
+    name: "Coleccionables",
     enum: TabNames.Miscellaneous,
     listData: MiscellaneousList,
   },
