@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
+  <a href="https://miguerubsk.github.io/Elden-Ring-Checklist/">
     <img src="public/android-chrome-256x256.png" alt="Logo" width="256" height="256">
   </a>
 
@@ -32,11 +32,11 @@
     A checklist for you to complete as you go through Elden Ring. 
     <br />
     <br />
-    <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">Visit the website</a>
+    <a href="http://miguerubsk.ddns.net:8000/">Visit the website</a>
     ·
-    <a href="https://github.com/Gobluebro/Elden-Ring-Checklist/issues">Report Bug</a>
+    <a href="https://github.com/miguerubsk/Elden-Ring-Checklist">Report Bug</a>
     ·
-    <a href="https://github.com/Gobluebro/Elden-Ring-Checklist/issues">Request Feature</a>
+    <a href="https://github.com/miguerubsk/Elden-Ring-Checklist">Request Feature</a>
   </p>
 </div>
 
@@ -70,8 +70,8 @@
 
 ## About The Project
 
-<a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
-  <img src="https://raw.githubusercontent.com/Gobluebro/Elden-Ring-Checklist/main/public/README/2023-04-22%2002_26_29-Elden%20Ring%20Checklist.png" alt="Website Screenshot" title="Website Screenshot">
+<a href="http://miguerubsk.ddns.net:8000/">
+  <img src="https://raw.githubusercontent.com/miguerubsk/Elden-Ring-Checklist/main/public/README/2023-04-22%2002_26_29-Elden%20Ring%20Checklist.png" alt="Website Screenshot" title="Website Screenshot">
 </a>
 
 This project is meant to allow you to explore the game on your own pace. There are many different ways you can play the game. I'm certainly not going to tell you how to play it. If you wish to keep track and complete as much as possible through your playthrough, I hope that this website can help with that.
@@ -98,7 +98,7 @@ This project is meant to allow you to explore the game on your own pace. There a
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Gobluebro/Elden-Ring-Checklist.git
+   git clone https://github.com/miguerubsk/Elden-Ring-Checklist.git
    ```
 2. Install NPM packages
    ```sh
@@ -170,7 +170,7 @@ Run locally with:
 - [ ] Spirits / Puppets?
 - [ ] Search Bar
 
-See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/miguerubsk/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -180,7 +180,7 @@ See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) 
 
 Contributions are greatly appreciated.
 
-Please check out the [CONTRIBUTING.md](https://github.com/Gobluebro/Elden-Ring-Checklist/blob/main/CONTRIBUTING.md) file for more detailed information on how to contribute.
+Please check out the [CONTRIBUTING.md](https://github.com/miguerubsk/Elden-Ring-Checklist/blob/main/CONTRIBUTING.md) file for more detailed information on how to contribute.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -188,7 +188,7 @@ Please check out the [CONTRIBUTING.md](https://github.com/Gobluebro/Elden-Ring-C
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Gobluebro/Elden-Ring-Checklist/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/miguerubsk/Elden-Ring-Checklist/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -206,7 +206,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Gobluebro/El
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[issues-shield]: https://img.shields.io/github/issues/Gobluebro/Elden-Ring-Checklist.svg?style=for-the-badge
-[issues-url]: https://github.com/Gobluebro/Elden-Ring-Checklist/issues
-[license-shield]: https://img.shields.io/github/license/Gobluebro/Elden-Ring-Checklist.svg?style=for-the-badge
-[license-url]: https://github.com/Gobluebro/Elden-Ring-Checklist/blob/main/LICENSE
+[issues-shield]: https://img.shields.io/github/issues/miguerubsk/Elden-Ring-Checklist.svg?style=for-the-badge
+[issues-url]: https://github.com/miguerubsk/Elden-Ring-Checklist/issues
+[license-shield]: https://img.shields.io/github/license/miguerubsk/Elden-Ring-Checklist.svg?style=for-the-badge
+[license-url]: https://github.com/miguerubsk/Elden-Ring-Checklist/blob/main/LICENSE
