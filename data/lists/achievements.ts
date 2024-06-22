@@ -183,64 +183,64 @@ export const AchievementsList: Array<ListType> = [
       {
         id: "60d7351a-8977-4ed9-9276-0b4dd00f7428",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Grafted+Blade+Greatsword",
-          "Grafted Blade Greatsword"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p62.php",
+          "Espadón de hoja injertada"
         ),
       },
       {
         id: "ad87f7e7-7658-4a01-9a29-e24097027372",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Marais+Executioner's+Sword",
-          "Marais Executioner's Sword"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p215.php",
+          "Espada del ejecutor Marais"
         ),
       },
       {
         id: "48886187-b47f-4c3c-878b-3d6ce3dd0cf4",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Eclipse+Shotel",
-          "Eclipse Shotel"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p271.php",
+          "Shotel del eclipse"
         ),
       },
       {
         id: "3ca7f934-5d8e-4eb7-ba05-9a6978263709",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Sword+of+Night+and+Flame",
-          "Sword of Night and Flame"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p125.php",
+          "Espada de la Noche y la Llama"
         ),
       },
       {
         id: "fe5cf178-8c78-4dab-a863-2af73fc1fb65",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Devourer's+Scepter",
-          "Devourer's Scepter"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p76.php",
+          "Cetro de devorador"
         ),
       },
       {
         id: "8b73338e-7aab-47f4-9c71-69de9fd9bfa2",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Golden+Order+Greatsword",
-          "Golden Order Greatsword"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p283.php",
+          "Espadón de la Orden Dorada"
         ),
       },
       {
         id: "34388927-e9cd-4fa2-a08f-37558f62b52c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ruins+Greatsword",
-          "Ruins Greatsword"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p170.php",
+          "Espadón de ruinas"
         ),
       },
       {
         id: "d5ac25e3-83f1-4877-ad85-ca9ce4aa0daa",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Bolt+of+Gransax",
-          "Bolt of Gransax"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p258.php",
+          "Rayo de Gransax"
         ),
       },
       {
         id: "5c90de04-315a-4591-82c1-786107defa55",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dark+Moon+Greatsword",
-          "Dark Moon Greatsword"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_armas-p198.php",
+          "Espadón de la luna negra"
         ),
       },
     ],
