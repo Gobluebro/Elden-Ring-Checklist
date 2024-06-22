@@ -4,42 +4,42 @@ import { rawHTMLLink } from "./listHelper";
 export const SpellsList: Array<ListType> = [
   {
     id: "ed4cb366-2a63-4232-b1f1-adcc4a477d5b",
-    name: "Sorceries",
-    url: "https://eldenring.wiki.fextralife.com/Sorceries",
+    name: "Hechizos",
+    url: "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos.php",
     requirements: [
       {
         id: "12070f02-1a9f-44e8-afe4-2a608a70dcaa",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Pebble",
-          "Glintstone Pebble"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p1.php",
+          "Guijarro de piedras refulgentes"
         ),
       },
       {
         id: "8ecba3ab-150f-4b0d-a1c2-d9f86b9f02bf",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Swift+Glintstone+Shard",
-          "Swift Glintstone Shard"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p14.php",
+          "Esquirla de piedra refulgente ligera"
         ),
       },
       {
         id: "22c2425b-7067-40f3-8608-003dae77bb77",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Great+Glintstone+Shard",
-          "Great Glintstone Shard"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p15.php",
+          "Esquirla de piedra refulgente grande"
         ),
       },
       {
         id: "a6bd75e3-8720-449e-b0a1-885a6bfde320",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Cometshard",
-          "Glintstone Cometshard"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p33.php",
+          "Cometa esquirlado de piedra refulgente"
         ),
       },
       {
         id: "a8f983f5-7cc8-4e30-8f2c-121540f1519e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Comet",
-          "Comet"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p35.php",
+          "Cometa"
         ),
       },
       {
@@ -501,7 +501,7 @@ export const SpellsList: Array<ListType> = [
   },
   {
     id: "2a702f88-a687-426e-bb08-2e6a33ad929d",
-    name: "Incantations",
+    name: "Encantamientos",
     url: "https://eldenring.wiki.fextralife.com/Incantations",
     requirements: [
       {
@@ -1180,7 +1180,7 @@ export const SpellsList: Array<ListType> = [
   },
   {
     id: "d0195d94-dd3a-4c22-96f9-617482d4a88a",
-    name: "Ashes of War",
+    name: "Cenizas de Guerra",
     url: "https://eldenring.wiki.fextralife.com/Ashes+of+War",
     requirements: [
       {
