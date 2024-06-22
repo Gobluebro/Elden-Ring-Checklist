@@ -5,7 +5,7 @@ const Footer = () => {
         Check out the project or report an issue on{" "}
         <a
           className="text-elden-ring-green dark:text-elden-ring-gold font-bold hover:underline"
-          href="https://github.com/Gobluebro/Elden-Ring-Checklist"
+          href="https://github.com/miguerubsk/Elden-Ring-Checklist"
         >
           Github
         </a>
