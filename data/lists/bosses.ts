@@ -234,7 +234,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "cee4d03a-9527-434a-8c6b-eb2bb1e555e3",
-    name: "Liurnia of the Lakes",
+    name: "Liurnia, tierra encharcada",
     requirements: [
       {
         id: "81eedf79-718f-4357-a93b-4a4d8c06f7a4",
@@ -763,7 +763,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "963d9b77-1431-4299-aa4d-c2be3e3779c2",
-    name: "Mt. Gelmir",
+    name: "Monte Gelmir",
     requirements: [
       {
         id: "5ed58ef7-9e28-466c-9694-ab2cc85d91cc",
@@ -846,7 +846,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "cc3996f5-7040-4eb1-8b53-04a6ed591265",
-    name: "Leyndell, Royal Capital",
+    name: "Leyndell, capital del Reino",
     requirements: [
       {
         id: "94e5993b-3879-4dcc-9bca-4ebeec8d0b13",
@@ -929,7 +929,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "205c75ca-6148-4ba9-95f7-d6c757426e1d",
-    name: "Mountaintops of the Giants",
+    name: "Picos de los gigantes",
     requirements: [
       {
         id: "9382e1f4-8b8c-46d3-8d71-8efef91e6784",
@@ -1005,7 +1005,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "36cbe704-2869-4e76-aa5f-139235f95d5c",
-    name: "Siofra River",
+    name: "Río Siofra",
     requirements: [
       {
         id: "7d486a5d-c539-4a35-9693-565ca634421f",
@@ -1032,7 +1032,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "19c7cce4-9379-4ef9-ad8c-12fc4676ea5e",
-    name: "Ainsel River",
+    name: "Río Ainsel",
     requirements: [
       {
         id: "4da0f8b0-872f-4edb-a776-7b77b596425a",
@@ -1045,7 +1045,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "b3d5eb38-4b1b-4d79-b695-35639e6fec2c",
-    name: "Crumbling Farum Azula",
+    name: "Farum Azula, la ciudad en ruinas",
     requirements: [
       {
         id: "d19476b8-05e0-4642-b6f5-3bc015e62824",
@@ -1072,7 +1072,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "bddb6d56-1bd4-4f95-8ef9-1d4a4f067311",
-    name: "Forbidden Lands",
+    name: "Tierras prohibidas",
     requirements: [
       {
         id: "e935d562-bf77-49db-b203-47a4f423b842",
@@ -1092,7 +1092,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "f6a2b85d-6877-412a-bcf2-92b9095dcb96",
-    name: "Nokron, Eternal City",
+    name: "Nokron, Ciudad Eterna",
     requirements: [
       {
         id: "eed93798-45cd-4fcf-94cf-22bbc6b98c69",
@@ -1119,7 +1119,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "c60ea216-a70c-4ff0-a068-114df0cc1ae3",
-    name: "Deeproot Depths",
+    name: "Fondo de Raíz Profunda",
     requirements: [
       {
         id: "4dbc1ae4-3912-4fe1-87bc-3c3eb197095c",
@@ -1146,7 +1146,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "821cd32a-9d60-47f8-baa7-0000b87d1cb8",
-    name: "Lake of Rot",
+    name: "Lago de la Putrefacción",
     requirements: [
       {
         id: "fcb9a6a8-650b-4cd4-84ae-54b18069b06a",
@@ -1166,7 +1166,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "01406b1a-7b67-4e76-a841-a659863b0fab",
-    name: "Consecrated Snowfield",
+    name: "Campo Sacroníveo",
     requirements: [
       {
         id: "71549d38-39cd-4a75-98c7-a65c613ce95c",
@@ -1242,7 +1242,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "20b5bf56-7ff9-46fd-b6d0-6612e763acb2",
-    name: "Leyndell, Capital of Ash",
+    name: "Leyndell, capital cinérea",
     requirements: [
       {
         id: "dd1a6cd6-3936-42b9-a982-7e017c45ce06",
