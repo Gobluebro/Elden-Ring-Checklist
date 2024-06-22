@@ -12,43 +12,43 @@ export const AchievementsList: Array<ListType> = [
       {
         id: "12a5ed50-53b8-491d-b348-56169ea60d1c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lhutel+the+Headless",
-          "Lhutel the Headless"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_cenizas-espiritus-p8.php",
+          "Lhutel la decapitada"
         ),
       },
       {
         id: "0782e771-52b2-447e-a174-b08ff1981cef",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes",
-          "Ancient Dragon Knight Kristoff"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_cenizas-espiritus-p47.php",
+          "Kristoff, Caballero del dragón antiguo"
         ),
       },
       {
         id: "f7b9aad4-d39a-425e-a58e-e25bbc310f84",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Knife+Tiche+Ashes",
-          "Black Knife Tiche"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_cenizas-espiritus-p44.php",
+          "Tiche, la Cuchillo Negro"
         ),
       },
       {
         id: "285aba4b-7ced-4fbc-ace2-859ebd57c4b8",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes",
-          "Mimic Tear Ashes"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_cenizas-espiritus-p39.php",
+          "Cenizas de lágrima mimética"
         ),
       },
       {
         id: "5612a3a9-6ed1-4337-9426-d41733b83212",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Redmane+Knight+Ogha+Ashes",
-          "Redmane Knight Ogha"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_cenizas-espiritus-p34.php",
+          "Caballero de la Melena Roja Ogha"
         ),
       },
       {
         id: "415da615-f877-4823-aaef-9be7df965876",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cleanrot+Knight+Finlay+Ashes",
-          "Cleanrot Knight Finlay"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_cenizas-espiritus-p61.php",
+          "Caballera Imputrescible Finlay"
         ),
       },
     ],
