@@ -507,8 +507,8 @@ export const SpellsList: Array<ListType> = [
       {
         id: "b8f702be-69b7-407b-99b0-8a75b40d02ec",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Urgent+Heal",
-          "Urgent Heal"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_encantamientos-p93.php",
+          "Aeonia carmesí"
         ),
       },
       {
