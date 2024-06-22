@@ -624,7 +624,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "ce42653b-feb9-40b7-b5ca-02867a8e1e29",
-    name: "Llanura de Altus",
+    name: "Meseta de Altus",
     requirements: [
       {
         id: "d144f3a0-10c0-4376-a017-e2f81bea0b8a",
