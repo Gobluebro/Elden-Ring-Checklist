@@ -10,491 +10,491 @@ export const SpellsList: Array<ListType> = [
       {
         id: "12070f02-1a9f-44e8-afe4-2a608a70dcaa",
         description: rawHTMLLink(
-          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p1.php",
-          "Guijarro de piedras refulgentes"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p16.php",
+          "Aguacero mágico"
         ),
       },
       {
         id: "8ecba3ab-150f-4b0d-a1c2-d9f86b9f02bf",
         description: rawHTMLLink(
-          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p14.php",
-          "Esquirla de piedra refulgente ligera"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p2.php",
+          "Aluvión de cristales"
         ),
       },
       {
         id: "22c2425b-7067-40f3-8608-003dae77bb77",
         description: rawHTMLLink(
-          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p15.php",
-          "Esquirla de piedra refulgente grande"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p3.php",
+          "Arco de piedra refulgente"
         ),
       },
       {
         id: "a6bd75e3-8720-449e-b0a1-885a6bfde320",
         description: rawHTMLLink(
-          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p33.php",
-          "Cometa esquirlado de piedra refulgente"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p21.php",
+          "Arco grande de Loretta"
         ),
       },
       {
         id: "a8f983f5-7cc8-4e30-8f2c-121540f1519e",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p5.php",
+          "Armamento de erudito"
+        ),
+      },
+      {
+        id: "532a7ec6-742e-4d8f-9de0-1e096ba905e8",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p39.php",
+          "Barrera de Thops"
+        ),
+      },
+      {
+        id: "bcb50695-0e15-4e5e-ba35-8ebd16777ce1",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p41.php",
+          "Burbujas oraculares"
+        ),
+      },
+      {
+        id: "3d7ba61c-32da-4e6e-b63e-932a1d40fe38",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p37.php",
+          "Cañonazo de Haima"
+        ),
+      },
+      {
+        id: "e8caa85e-d060-4743-a704-7a46dd65e4e1",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p25.php",
+          "Círculo cariano"
+        ),
+      },
+      {
+        id: "8bbbe6b6-1950-4fbb-a550-5bb3e9c3ecc2",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p24.php",
+          "Círculo de espadones"
+        ),
+      },
+      {
+        id: "12cea06a-3b36-4377-9f48-534be81185ee",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p8.php",
+          "Círculo de hojas refulgentes"
+        ),
+      },
+      {
+        id: "9dd81964-9f8e-4a69-b887-2206e8c96d9e",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p35.php",
           "Cometa"
         ),
       },
       {
-        id: "532a7ec6-742e-4d8f-9de0-1e096ba905e8",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shard+Spiral",
-          "Shard Spiral"
-        ),
-      },
-      {
-        id: "bcb50695-0e15-4e5e-ba35-8ebd16777ce1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Stars",
-          "Glintstone Stars"
-        ),
-      },
-      {
-        id: "3d7ba61c-32da-4e6e-b63e-932a1d40fe38",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Star+Shower",
-          "Star Shower"
-        ),
-      },
-      {
-        id: "e8caa85e-d060-4743-a704-7a46dd65e4e1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Arc",
-          "Glintstone Arc"
-        ),
-      },
-      {
-        id: "8bbbe6b6-1950-4fbb-a550-5bb3e9c3ecc2",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crystal+Barrage",
-          "Crystal Barrage"
-        ),
-      },
-      {
-        id: "12cea06a-3b36-4377-9f48-534be81185ee",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crystal+Burst",
-          "Crystal Burst"
-        ),
-      },
-      {
-        id: "9dd81964-9f8e-4a69-b887-2206e8c96d9e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cannon+of+Haima",
-          "Cannon of Haima"
-        ),
-      },
-      {
         id: "85f306f8-5993-4d00-b990-b7f48715d334",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gavel+of+Haima",
-          "Gavel of Haima"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p59.php",
+          "Cometa Azur"
         ),
       },
       {
         id: "4c9311f8-6d5a-4f71-87f1-f6065c28165b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shatter+Earth",
-          "Shatter Earth"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p44.php",
+          "Cometa nocturno"
         ),
       },
       {
         id: "b900a72f-56d8-444e-bf38-96058ed34d55",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rock+Blaster",
-          "Rock Blaster"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p33.php",
+          "Cometa esquirlado de piedra refulgente"
         ),
       },
       {
         id: "3321f57a-1eef-4d5a-a79a-80f6153933e6",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Scholar's+Armament",
-          "Scholar's Armament"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p22.php",
+          "Congelar armamento"
         ),
       },
       {
         id: "78b99dcd-8d8b-474a-bcc5-9fb80458a3c0",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Scholar's+Shield",
-          "Scholar's Shield"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p36.php",
+          "Cristal devastador"
         ),
       },
       {
         id: "7447cc7f-6c21-42e9-808e-cf52bd843054",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Starlight",
-          "Starlight"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p50.php",
+          "Desintegrador de rocas"
         ),
       },
       {
         id: "eb3040f6-3701-413f-981e-1778a87fdad5",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Terra+Magica",
-          "Terra Magica"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p62.php",
+          "Disparo de magma"
         ),
       },
       {
         id: "0213c373-de33-4a40-8224-41c1e8d889ed",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Thops's+Barrier+(Spell)",
-          "Thops's Barrier"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p70.php",
+          "Dominio de Loretta"
         ),
       },
       {
         id: "9be5ffbc-396b-4f03-99eb-baf0115490e7",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Comet+Azur",
-          "Comet Azur"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p7.php",
+          "Escudo de erudito"
         ),
       },
       {
         id: "35e33999-64b5-416f-8d8e-833beb461b03",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Stars+of+Ruin",
-          "Stars of Ruin"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p18.php",
+          "Espadón refulgente cariano"
         ),
       },
       {
         id: "07c6b2e7-8894-4b88-aed6-f53ea4ba24ca",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Founding+Rain+of+Stars",
-          "Founding Rain of Stars"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p15.php",
+          "Esquirla de piedra refulgente grande"
         ),
       },
       {
         id: "972b1db6-b423-4d49-b5c3-673b0abb0c33",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magic+Glintblade",
-          "Magic Glintblade"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p14.php",
+          "Esquirla de piedra refulgente ligera"
         ),
       },
       {
         id: "7a73bb5f-b6bf-4edb-a705-6b1d07894e04",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintblade+Phalanx",
-          "Glintblade Phalanx"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p45.php",
+          "Esquirla nocturna"
         ),
       },
       {
         id: "1c19fb8f-7cb0-4b51-b5f0-9390b10f3b72",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Phalanx",
-          "Carian Phalanx"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p11.php",
+          "Esquirla trampa"
         ),
       },
       {
         id: "a06a445f-98c5-4410-81fc-43efb944701d",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Greatblade+Phalanx",
-          "Greatblade Phalanx"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p10.php",
+          "Estallido de cristales"
         ),
       },
       {
         id: "1cebdcc1-801c-4f4c-bd03-33b377fe1ec3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magic+Downpour",
-          "Magic Downpour"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p4.php",
+          "Estrellas de piedras refulgentes"
         ),
       },
       {
         id: "18101965-4220-40c1-a3fa-0a1031aae824",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Loretta's+Greatbow",
-          "Loretta's Greatbow"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p60.php",
+          "Estrellas de ruina"
         ),
       },
       {
         id: "75793dfb-74bb-47b3-9f2c-b9e1ff1b6b4c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Loretta's+Mastery",
-          "Loretta's Mastery"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p48.php",
+          "Estrellas en colapso"
         ),
       },
       {
         id: "9c3150ba-42aa-45fc-843f-d7f628d687f1",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rennala's+Full+Moon",
-          "Rennala's Full Moon"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p56.php",
+          "Formación invisible"
         ),
       },
       {
         id: "44f42a1f-7d65-4be7-91be-a09dfa06aa6d",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ranni's+Dark+Moon",
-          "Ranni's Dark Moon"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p42.php",
+          "Gran burbuja oracular"
         ),
       },
       {
         id: "20a2502e-5a8e-45cc-85c5-1b6a7777f9a3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Slicer",
-          "Carian Slicer"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p1.php",
+          "Guijarro de piedras refulgentes"
         ),
       },
       {
         id: "ecb64ac5-792d-47f2-8e62-e57b1ccddb7f",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Greatsword",
-          "Carian Greatsword"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p55.php",
+          "Hoja invisible"
         ),
       },
       {
         id: "93463106-5bf2-419c-8112-2df93ed0a6de",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Piercer",
-          "Carian Piercer"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p53.php",
+          "Hoja lunar de Adula"
         ),
       },
       {
         id: "5adbec1e-efa5-40ce-8293-d2265a37c837",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Adula's+Moonblade",
-          "Adula's Moonblade"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p6.php",
+          "Hoja refulgente mágica"
         ),
       },
       {
         id: "8087ac77-dbbc-4d05-8d21-45f2359e6a63",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lucidity",
-          "Lucidity"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p57.php",
+          "Invocaciones tibiales"
         ),
       },
       {
         id: "06615a15-6b96-49b3-af55-b536d683f251",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Retaliation",
-          "Carian Retaliation"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p63.php",
+          "Ira de Gelmir"
         ),
       },
       {
         id: "552c5db9-eb3c-482d-a506-69dbb2a70f12",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ambush+Shard",
-          "Ambush Shard"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p43.php",
+          "Lanzarrocas"
         ),
       },
       {
         id: "6a40a9ad-36be-4b6d-899b-a299096df8dc",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Night+Shard",
-          "Night Shard"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p29.php",
+          "Liberación de cristal"
         ),
       },
       {
         id: "14d51a98-9ce0-43c4-8afe-263c0f7db86b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Night+Comet",
-          "Night Comet"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p12.php",
+          "Llamada del rencor"
         ),
       },
       {
         id: "e0653f85-0c5e-41b8-b971-f1c925cc77a1",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Night+Maiden's+Mist",
-          "Night Maiden's Mist"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p69.php",
+          "Llama espectral explosiva"
         ),
       },
       {
         id: "e0d531ce-4e28-4140-9231-8e44172aa050",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Unseen+Blade",
-          "Unseen Blade"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p67.php",
+          "Lluvia de estrellas de Goliath"
         ),
       },
       {
         id: "72753b67-c9c1-4f58-a3d8-5e939d1232aa",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Unseen+Form",
-          "Unseen Form"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p34.php",
+          "Lluvia estelar"
         ),
       },
       {
         id: "d9109b2f-f05f-4d79-95b2-14940c40c468",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Eternal+Darkness",
-          "Eternal Darkness"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p51.php",
+          "Lucidez"
         ),
       },
       {
         id: "1f625e9b-8561-4b24-8a3f-97db51627784",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magma+Shot",
-          "Magma Shot"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p40.php",
+          "Luna Llena de Rennala"
         ),
       },
       {
         id: "609334a2-cbf4-4931-93dd-18ba4139cd7e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Roiling+Magma",
-          "Roiling Magma"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p54.php",
+          "Luna Negra de Ranni"
         ),
       },
       {
         id: "af22c686-9540-4e30-b928-0f83d3d9be47",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gelmir's+Fury",
-          "Gelmir's Fury"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p13.php",
+          "Luz de las estrellas"
         ),
       },
       {
         id: "abe013ae-5ff1-48af-b8a9-07ba4bee5f65",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rykard's+Rancor",
-          "Rykard's Rancor"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p58.php",
+          "Magma lodoso"
         ),
       },
       {
         id: "c9f88a14-6248-4e58-89db-79a0fb19044c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Icecrag",
-          "Glintstone Icecrag"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p38.php",
+          "Maza de Haima"
         ),
       },
       {
         id: "9047ee51-cffe-4f4a-a5da-b0203dfe9c60",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Freezing+Mist",
-          "Freezing Mist"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p23.php",
+          "Meteoritos"
         ),
       },
       {
         id: "8ea212f8-5b05-474f-9695-0c163364d9ab",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Frozen+Armament",
-          "Frozen Armament"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p68.php",
+          "Meteoritos de Astel"
         ),
       },
       {
         id: "3d719f36-175b-42cf-a7b0-888768ba04b3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Zamor+Ice+Storm+(Spell)",
-          "Zamor Ice Storm"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p46.php",
+          "Niebla de doncella nocturna"
         ),
       },
       {
         id: "81cbdf1e-c309-4f0d-999f-186413779ce7",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shattering+Crystal",
-          "Shattering Crystal"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p52.php",
+          "Niebla de Fia"
         ),
       },
       {
         id: "e88687bd-b8d4-4c07-8937-b84404f6c995",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crystal+Torrent",
-          "Crystal Torrent"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p28.php",
+          "Niebla glacial"
         ),
       },
       {
         id: "e6dc48dd-4551-43f4-bedd-290f31f4ee90",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crystal+Release",
-          "Crystal Release"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p47.php",
+          "Oscuridad eterna"
         ),
       },
       {
         id: "f6f3ca47-034c-497d-aff4-d9a59a245421",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gravity+Well",
-          "Gravity Well"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p32.php",
+          "Pozo de gravedad"
         ),
       },
       {
         id: "5e5c50ef-2102-4b37-9446-59ee9fc7839b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Collapsing+Stars",
-          "Collapsing Stars"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p20.php",
+          "Punzada cariana"
         ),
       },
       {
         id: "632a4c38-0364-4f35-b89f-c0f8617baa18",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rock+Sling",
-          "Rock Sling"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p9.php",
+          "Rebanador cariano"
         ),
       },
       {
         id: "a5a0ce11-14bf-4140-931d-35f37b0008e1",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Meteorite",
-          "Meteorite"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p66.php",
+          "Rencor de Rykard"
         ),
       },
       {
         id: "4258a8e6-ff97-44f3-a0ee-e0f0ef7caa4b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Meteorite+of+Astel",
-          "Meteorite of Astel"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p31.php",
+          "Rencor mortal antiguo"
         ),
       },
       {
         id: "d8040fc8-3e43-4c42-a141-7ba5496c4245",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Oracle+Bubbles",
-          "Oracle Bubbles"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p26.php",
+          "Represalia de los Caria"
         ),
       },
       {
         id: "d5cdee0d-17ff-4260-b214-3589ea970067",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Great+Oracular+Bubble",
-          "Great Oracular Bubble"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p27.php",
+          "Risco helado de piedras refulgentes"
         ),
       },
       {
         id: "94f525ca-d9e4-4dee-843e-b213f467b31d",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Briars+of+Punishment",
-          "Briars of Punishment"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p19.php",
+          "Rompetierra"
         ),
       },
       {
         id: "354537c6-6a79-4035-bf79-f658c92a8a1a",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Briars+of+Sin",
-          "Briars of Sin"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p30.php",
+          "Terra Magica"
         ),
       },
       {
         id: "1dfb6b66-cbd8-4254-a8d0-8f9d569c9d23",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rancorcall",
-          "Rancorcall"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p64.php",
+          "Tormenta helada de Zamor"
         ),
       },
       {
         id: "6ce60ad5-6450-49a8-87d7-1d9a054d2cf3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ancient+Death+Rancor",
-          "Ancient Death Rancor"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p49.php",
+          "Torrente de cristal"
         ),
       },
       {
         id: "79cb786c-831a-4722-8398-d168264d01ec",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Explosive+Ghostflame",
-          "Explosive Ghostflame"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p61.php",
+          "Vórtice de esquirlas"
         ),
       },
       {
         id: "9489dc78-cd4e-44f4-9fb3-2ae55ae0a025",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fia's+Mist",
-          "Fia's Mist"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p65.php",
+          "Zarza de castigo"
         ),
       },
       {
         id: "d64aa40f-193b-44f8-812d-a6f2b72d9ab9",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Tibia's+Summons",
-          "Tibia's Summons"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p17.php",
+          "Zarza pecaminosa"
         ),
       },
     ],
