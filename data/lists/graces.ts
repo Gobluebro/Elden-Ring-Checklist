@@ -15,21 +15,21 @@ export const GracesList: Array<ListType> = [
   },
   {
     id: "64ce6e80-bc04-4502-b3f0-88f52fe016cd",
-    name: "Limgrave",
+    name: "Necrolimbo",
     url: "https://eldenring.wiki.fextralife.com/Limgrave",
     requirements: [
       {
         id: "c947444a-1dba-48f0-96d2-52a8556bb343",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Interactive+Map?id=457&code=mapA",
-          "The First Step"
+          "El Primer Paso"
         ),
       },
       {
         id: "1476d099-c17b-4e43-9e97-c226e649bc65",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Interactive+Map?id=355&code=mapA",
-          "Church of Elleh"
+          "Iglesia de Elleh"
         ),
       },
       {
@@ -442,7 +442,7 @@ export const GracesList: Array<ListType> = [
   },
   {
     id: "a79df62e-b733-4024-b820-c0beb6663b25",
-    name: "Liurnia of the Lakes",
+    name: "Liurnia, Tierra Encharcada",
     url: "https://eldenring.wiki.fextralife.com/Liurnia+of+the+Lakes",
     requirements: [
       {
