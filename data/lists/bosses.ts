@@ -366,14 +366,14 @@ export const BossesList: Array<ListType> = [
         id: "165c520f-8c79-4936-a284-141efff498c0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
-          "Night's Cavalry (Liurnia North)"
+          "Cabellería Nocturna (Liurnia Norte)"
         ),
       },
       {
         id: "ae9c69fc-3f6a-4660-897f-e71e2ce45c0e",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
-          "Cabellería Nocturna (Sur de Liurnia)"
+          "Cabellería Nocturna (Liurnia Sur)"
         ),
       },
       {
@@ -624,7 +624,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "ce42653b-feb9-40b7-b5ca-02867a8e1e29",
-    name: "Altus Plateau",
+    name: "Llanura de Altus",
     requirements: [
       {
         id: "d144f3a0-10c0-4376-a017-e2f81bea0b8a",
