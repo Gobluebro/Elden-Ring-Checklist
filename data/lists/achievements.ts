@@ -62,57 +62,57 @@ export const AchievementsList: Array<ListType> = [
       {
         id: "11ddcd50-99a9-4bb3-b5ad-1dcede078951",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Radagon+Icon",
-          "Radagon Icon"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p36.php",
+          "Icono de Radagon"
         ),
       },
       {
         id: "ae65334a-5ed2-47b6-9920-0eedc52d017c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Radagon's+Soreseal",
-          "Radagon's Soreseal"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p47.php",
+          "Marca ulcerada de Radagon"
         ),
       },
       {
         id: "7079c109-3bb2-4063-9c0d-f68f5e4be09c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Godfrey+Icon",
-          "Godfrey Icon"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p58.php",
+          "Icono de Godfrey"
         ),
       },
       {
         id: "a61a4200-1fbc-42e9-bbd2-0029ed0c46f2",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Moon+of+Nokstella",
-          "Moon of Nokstella"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p53.php",
+          "Luna de Nokstella"
         ),
       },
       {
         id: "cda06299-9016-4e16-b978-3113f73a92fb",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragoncrest+Greatshield+Talisman",
-          "Dragoncrest Greatshield Talisman"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p83.php",
+          "Talismán de escudo grande con blasón de dragón"
         ),
       },
       {
         id: "d767aac1-27b3-49f5-949b-68aa12869ead",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Marika's+Soreseal",
-          "Marika's Soreseal"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p79.php",
+          "Marca ulcerada de Márika"
         ),
       },
       {
         id: "3a6e87ec-7891-4adf-87b2-517edbdd9495",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Old+Lord's+Talisman",
-          "Old Lord's Talisman"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p86.php",
+          "Talismán del antiguo señor"
         ),
       },
       {
         id: "8815eb72-fd77-47d7-9638-33531903b745",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
-          "Erdtree's Favor +2"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p3.php",
+          "Favor del Árbol Áureo +2"
         ),
       },
     ],
