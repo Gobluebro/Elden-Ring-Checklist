@@ -126,50 +126,50 @@ export const AchievementsList: Array<ListType> = [
       {
         id: "2be2eeec-1b01-4276-8ddd-04a35345e077",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+of+the+Fell+God",
-          "Flame of the Fell God"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_encantamientos-p27.php",
+          "Llama del dios caído"
         ),
       },
       {
         id: "dfaff523-ffc5-496c-921c-1880516245bb",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Founding+Rain+of+Stars",
-          "Founding Rain of Stars"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p67.php",
+          "Lluvia de estrellas de Goliath"
         ),
       },
       {
         id: "12767f63-5dd7-4950-9587-269df266b873",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Elden+Stars",
-          "Elden Stars"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_encantamientos-p53.php",
+          "Estrellas ancestrales"
         ),
       },
       {
         id: "c0cc2b26-920c-440a-b71c-c3d3340f2710",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ranni's+Dark+Moon",
-          "Ranni's Dark Moon"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p54.php",
+          "Luna Negra de Ranni"
         ),
       },
       {
         id: "c5a63b48-d748-4ecb-914b-bdbbbf69d779",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Comet+Azur",
-          "Comet Azur"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p59.php",
+          "Cometa Azur"
         ),
       },
       {
         id: "a102a76b-b685-4573-b147-71815eea3047",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Stars%20of%20Ruin",
-          "Stars of Ruin"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_hechizos-p60.php",
+          "Estrellas de ruina"
         ),
       },
       {
         id: "02a9b689-b75a-49e6-91b3-066d1aeed8e0",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Greyoll's+Roar",
-          "Greyoll's Roar"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_encantamientos-p51.php",
+          "Rugido de Greyoll"
         ),
       },
     ],
