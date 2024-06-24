@@ -1176,6 +1176,13 @@ export const SpellsList: Array<ListType> = [
           "Greyoll's Roar"
         ),
       },
+      {
+        id: "1b2299e6-48e2-4621-8f51-ba2e87659a95",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin",
+          "Fire's Deadly Sin"
+        ),
+      },
     ],
   },
   {
