@@ -21,7 +21,7 @@ const DownloadSaveFile = (props: { className?: string }) => {
     >
       <button
         className="rounded-full bg-elden-ring-green-100 dark:bg-elden-ring-green-600 p-3 items-center"
-        title="Download save file *BETA*"
+        title="Download your progress *BETA*"
       >
         <IconDownload size={16} stroke={2} />
       </button>

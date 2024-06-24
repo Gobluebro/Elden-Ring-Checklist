@@ -36,7 +36,7 @@ const UploadSaveFile = (props: { className?: string }) => {
     <div className={props.className}>
       <button
         className="rounded-full bg-elden-ring-green-100 dark:bg-elden-ring-green-600 p-3 items-center"
-        title="Upload save file *BETA*"
+        title="Upload your progress *BETA*"
         onClick={createFileUploadInput}
       >
         <IconUpload size={16} stroke={2} />
