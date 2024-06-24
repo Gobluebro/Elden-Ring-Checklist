@@ -1809,6 +1809,11 @@ export const QuestsList: Array<ListType> = [
           "Talk to Sellen at the Waypoint Ruins Cellar grace about her request and about Lusat's location.",
       },
       {
+        id: "0d0266a5-3cd1-43cb-acfa-4d270936dbe0",
+        description:
+          "Defeat Starscourge Radahn and talk to Sellen at the Waypoint Ruins Cellar grace.",
+      },
+      {
         id: "092a68fc-f94b-4bcc-83b7-b32fdf95f60e",
         description:
           "Talk to Sellen in the Witchbane Ruins where she is shackled. You will receive Sellen's Primal Glintstone.",
