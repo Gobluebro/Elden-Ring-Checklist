@@ -505,269 +505,10 @@ export const SpellsList: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Incantations",
     requirements: [
       {
-        id: "b8f702be-69b7-407b-99b0-8a75b40d02ec",
+        id: "035214f9-251d-4c1c-8a7a-7cd633f05670",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Urgent+Heal",
-          "Urgent Heal"
-        ),
-      },
-      {
-        id: "f8d97ec9-637a-4f20-a741-f516dd95eca3",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Heal",
-          "Heal"
-        ),
-      },
-      {
-        id: "5dec42be-f8dc-489c-84f2-7e943364908a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Great+Heal",
-          "Great Heal"
-        ),
-      },
-      {
-        id: "8b489cb1-66a5-4de7-a418-19a7610c6940",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lord's+Heal",
-          "Lord's Heal"
-        ),
-      },
-      {
-        id: "8d0ec1f2-541c-4eb5-9935-6fae96803f61",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cure+Poison",
-          "Cure Poison"
-        ),
-      },
-      {
-        id: "0fcf5abb-6522-4ef7-961b-dd447afaee6c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lord's+Aid",
-          "Lord's Aid"
-        ),
-      },
-      {
-        id: "e5f5f02b-4adc-42c7-a201-c0a05a6ab66a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magic+Fortification",
-          "Magic Fortification"
-        ),
-      },
-      {
-        id: "d09fc7f5-5da3-4f61-a32f-857f79d2a41a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+Fortification",
-          "Flame Fortification"
-        ),
-      },
-      {
-        id: "cb7a8b2f-7554-4beb-9401-f0c88421a05e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lightning+Fortification",
-          "Lightning Fortification"
-        ),
-      },
-      {
-        id: "cb975587-ff10-4d21-9f9c-6b895848759d",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Divine+Fortification",
-          "Divine Fortification"
-        ),
-      },
-      {
-        id: "842e24c7-f84a-4626-89e8-cabcf1330a08",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lord's+Divine+Fortification",
-          "Lord's Divine Fortification"
-        ),
-      },
-      {
-        id: "e4054c0d-d9a9-49ec-ba06-74c881aab4cc",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rejection",
-          "Rejection"
-        ),
-      },
-      {
-        id: "053bc25c-d419-426e-b6c7-3d843f4fb9ba",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shadow+Bait",
-          "Shadow Bait"
-        ),
-      },
-      {
-        id: "08a57fff-156d-4c6f-924b-82701d90d0d6",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Darkness",
-          "Darkness"
-        ),
-      },
-      {
-        id: "9349be27-9efb-49bd-b557-9422cc304d4f",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Assassin's+Approach",
-          "Assassin's Approach"
-        ),
-      },
-      {
-        id: "ef75a507-38d2-40ad-b307-f56bae57a262",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Golden+Vow+(Spell)",
-          "Golden Vow"
-        ),
-      },
-      {
-        id: "368bfb83-b312-4d99-9408-8bd5145823e5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Barrier+of+Gold",
-          "Barrier of Gold"
-        ),
-      },
-      {
-        id: "fb7a1a09-54fd-4be7-85b3-d51aab5b4bf0",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Golden+Lightning+Fortification",
-          "Golden Lightning Fortification"
-        ),
-      },
-      {
-        id: "5272e035-8432-487f-91c4-9a0e5e403ea0",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Protection+of+the+Erdtree",
-          "Protection of the Erdtree"
-        ),
-      },
-      {
-        id: "af375069-3242-44ac-86e8-fb5d993d714b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Wrath+of+Gold",
-          "Wrath of Gold"
-        ),
-      },
-      {
-        id: "8c3c68c6-00f8-4f76-a09b-f7d826f8776e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Erdtree+Heal",
-          "Erdtree Heal"
-        ),
-      },
-      {
-        id: "35870a54-8432-4a1e-86c6-1aa8d6c89633",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Blessing's+Boon",
-          "Blessing's Boon"
-        ),
-      },
-      {
-        id: "1b51d18b-2c31-4b24-a23f-963f7104d1ba",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Blessing+of+the+Erdtree",
-          "Blessing of the Erdtree"
-        ),
-      },
-      {
-        id: "47c4fdd3-ba6a-4de5-83dc-66b02a05d3ae",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Tail",
-          "Aspects of the Crucible: Tail"
-        ),
-      },
-      {
-        id: "38d9ab14-3987-463b-b8f3-985b174c3646",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Elden+Stars",
-          "Elden Stars"
-        ),
-      },
-      {
-        id: "26b7af8e-e40a-4fec-a57f-b57a0aed3f36",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Blade",
-          "Black Blade"
-        ),
-      },
-      {
-        id: "7ae2e02f-3c45-4f52-aeea-b1ae5c96dd8a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Discus+of+Light",
-          "Discus of Light"
-        ),
-      },
-      {
-        id: "3b23fa6f-57eb-438e-99c0-bfc7a1bd6e6a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Triple+Rings+of+Light",
-          "Triple Rings of Light"
-        ),
-      },
-      {
-        id: "cc3f9bb7-3a74-4681-89a7-a72749ab72dd",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Radagon's+Rings+of+Light",
-          "Radagon's Rings of Light"
-        ),
-      },
-      {
-        id: "cb638fbf-9a33-44f7-9c38-4924408ca9e8",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Litany+of+Proper+Death",
-          "Litany of Proper Death"
-        ),
-      },
-      {
-        id: "9952d7d5-d223-450c-9a4a-04315fe9bbb3",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Order+Healing",
-          "Order Healing"
-        ),
-      },
-      {
-        id: "322bdb3b-38af-4578-837d-a5aa226163bc",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Order's+Blade",
-          "Order's Blade"
-        ),
-      },
-      {
-        id: "d8a9d395-bdc9-4c8d-aab5-a586c051896a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Immutable+Shield",
-          "Immutable Shield"
-        ),
-      },
-      {
-        id: "aae34d50-d507-4ef2-9206-ca5c80849242",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Law+of+Causality",
-          "Law of Causality"
-        ),
-      },
-      {
-        id: "1624adf9-0bce-4f26-bfa3-5a03f236165d",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Law+of+Regression",
-          "Law of Regression"
-        ),
-      },
-      {
-        id: "2071eac2-c6b2-42fd-8cd8-ad6ec95fe533",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lightning+Spear",
-          "Lightning Spear"
-        ),
-      },
-      {
-        id: "897042c3-f86c-4b90-b0cc-26d8e859a9dd",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lightning+Strike",
-          "Lightning Strike"
-        ),
-      },
-      {
-        id: "11a9feaf-04e3-4343-a67e-0ae0c0bfe04a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Honed+Bolt",
-          "Honed Bolt"
+          "https://eldenring.wiki.fextralife.com/Agheel's+Flame",
+          "Agheel's Flame"
         ),
       },
       {
@@ -785,178 +526,24 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "5aa859e3-ccdd-444c-9d56-6721d302d2a0",
+        id: "47c4fdd3-ba6a-4de5-83dc-66b02a05d3ae",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lansseax's+Glaive",
-          "Lansseax's Glaive"
+          "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Tail",
+          "Aspects of the Crucible: Tail"
         ),
       },
       {
-        id: "ef706210-5a19-4aa2-996d-264fc5bab368",
+        id: "9349be27-9efb-49bd-b557-9422cc304d4f",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fortissax's+Lightning+Spear",
-          "Fortissax's Lightning Spear"
+          "https://eldenring.wiki.fextralife.com/Assassin's+Approach",
+          "Assassin's Approach"
         ),
       },
       {
-        id: "20b56870-f61f-4855-a815-4330b5bcbee5",
+        id: "368bfb83-b312-4d99-9408-8bd5145823e5",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Frozen+Lightning+Spear",
-          "Frozen Lightning Spear"
-        ),
-      },
-      {
-        id: "8ec59ec5-988f-46d0-8a8b-a33747337b70",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Death+Lightning",
-          "Death Lightning"
-        ),
-      },
-      {
-        id: "2eb7b5f0-6084-4ed0-af50-821abc6de03b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Electrify+Armament",
-          "Electrify Armament"
-        ),
-      },
-      {
-        id: "c55f996a-02f3-4df7-b9c8-997cf69dddc9",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragonbolt+Blessing",
-          "Dragonbolt Blessing"
-        ),
-      },
-      {
-        id: "d513042d-cbec-4b19-a0e3-e4c669605c7c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Vyke's+Dragonbolt",
-          "Vyke's Dragonbolt"
-        ),
-      },
-      {
-        id: "7fa1404b-83b3-4f48-abc1-4c17d08d8ddf",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Catch+Flame",
-          "Catch Flame"
-        ),
-      },
-      {
-        id: "58dadd90-9180-408d-99a4-19c06cc21d65",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/O+Flame!",
-          "O, Flame!"
-        ),
-      },
-      {
-        id: "8cc5c8f9-90ca-4006-9916-d6a018fb1c20",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+Sling",
-          "Flame Sling"
-        ),
-      },
-      {
-        id: "ebfc9440-a725-4a05-b9f7-9a5d79e75fc3",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Giantsflame+Take+Thee",
-          "Giantsflame Take Thee"
-        ),
-      },
-      {
-        id: "6b99544a-d815-43f8-8801-ccc83a5aad55",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+Fall+Upon+Them",
-          "Flame, Fall Upon Them"
-        ),
-      },
-      {
-        id: "bb7c0e45-65dc-4dea-8e0d-e5c400a3f816",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+of+the+Fell+God",
-          "Flame of the Fell God"
-        ),
-      },
-      {
-        id: "69216265-4910-4329-baeb-6d0f9804b665",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Surge+O+Flame!",
-          "Surge, O Flame!"
-        ),
-      },
-      {
-        id: "0e684c24-ed8b-44be-9156-8be5d6e93a69",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Whirl+O+Flame!",
-          "Whirl, O Flame!"
-        ),
-      },
-      {
-        id: "42d6e481-2657-44a2-9733-50db521dfa20",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Burn+O+Flame!",
-          "Burn, O Flame!"
-        ),
-      },
-      {
-        id: "8899f0d8-5e42-4144-8637-78418754143e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame,+Cleanse+Me",
-          "Flame, Cleanse Me"
-        ),
-      },
-      {
-        id: "b5d6345e-33ba-467c-8a9f-44e343cdda77",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+Protect+Me",
-          "Flame, Protect Me"
-        ),
-      },
-      {
-        id: "c8bd7c44-04c0-4096-aef6-3bf306771407",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flame+Grant+Me+Strength",
-          "Flame, Grant Me Strength"
-        ),
-      },
-      {
-        id: "96d1a223-0e01-4532-aa24-9b8fa50e3ad2",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Flame",
-          "Black Flame"
-        ),
-      },
-      {
-        id: "87678075-6613-4bb2-accf-686cd4e83c0a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Scouring+Black+Flame",
-          "Scouring Black Flame"
-        ),
-      },
-      {
-        id: "567b51dc-ec03-4d8e-97f3-fdf4ef64d114",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Flame+Ritual",
-          "Black Flame Ritual"
-        ),
-      },
-      {
-        id: "7e4668c9-f195-4f88-988a-f80910140d82",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Flame+Blade",
-          "Black Flame Blade"
-        ),
-      },
-      {
-        id: "46b77486-ad1f-4bb7-b2c3-6d55d95c32c5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Flame's+Protection",
-          "Black Flame's Protection"
-        ),
-      },
-      {
-        id: "de06cdd8-cb9d-4238-86f5-61c5d73304f1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Noble+Presence",
-          "Noble Presence"
+          "https://eldenring.wiki.fextralife.com/Barrier+of+Gold",
+          "Barrier of Gold"
         ),
       },
       {
@@ -967,24 +554,17 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "5deac053-50dc-4f6d-91f1-50bac2d90fef",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Bestial+Sling",
-          "Bestial Sling"
-        ),
-      },
-      {
-        id: "7e58ec8b-a75b-4c79-93ba-25a8dc14fbe1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Stone+of+Gurranq",
-          "Stone of Gurranq"
-        ),
-      },
-      {
         id: "43e574ca-9d1a-4a5c-9387-01cd8aed5612",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Bestial+Constitution",
           "Bestial Constitution"
+        ),
+      },
+      {
+        id: "5deac053-50dc-4f6d-91f1-50bac2d90fef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bestial+Sling",
+          "Bestial Sling"
         ),
       },
       {
@@ -995,17 +575,52 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "74e59e17-c9e7-4350-8577-1f51716be13b",
+        id: "26b7af8e-e40a-4fec-a57f-b57a0aed3f36",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Swarm+of+Flies",
-          "Swarm of Flies"
+          "https://eldenring.wiki.fextralife.com/Black+Blade",
+          "Black Blade"
         ),
       },
       {
-        id: "3bddfc25-7f59-4587-9c17-453dd4b2fd8c",
+        id: "96d1a223-0e01-4532-aa24-9b8fa50e3ad2",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Bloodflame+Talons",
-          "Bloodflame Talons"
+          "https://eldenring.wiki.fextralife.com/Black+Flame",
+          "Black Flame"
+        ),
+      },
+      {
+        id: "7e4668c9-f195-4f88-988a-f80910140d82",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Flame+Blade",
+          "Black Flame Blade"
+        ),
+      },
+      {
+        id: "567b51dc-ec03-4d8e-97f3-fdf4ef64d114",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Flame+Ritual",
+          "Black Flame Ritual"
+        ),
+      },
+      {
+        id: "46b77486-ad1f-4bb7-b2c3-6d55d95c32c5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Flame's+Protection",
+          "Black Flame's Protection"
+        ),
+      },
+      {
+        id: "1b51d18b-2c31-4b24-a23f-963f7104d1ba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blessing+of+the+Erdtree",
+          "Blessing of the Erdtree"
+        ),
+      },
+      {
+        id: "35870a54-8432-4a1e-86c6-1aa8d6c89633",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blessing's+Boon",
+          "Blessing's Boon"
         ),
       },
       {
@@ -1023,122 +638,10 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "3fe2bdfc-47ee-4529-8c9d-fe4c336014cb",
+        id: "3bddfc25-7f59-4587-9c17-453dd4b2fd8c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Poison+Mist",
-          "Poison Mist"
-        ),
-      },
-      {
-        id: "c5194547-10d2-4970-90d1-5e638728788c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Poison+Armament",
-          "Poison Armament"
-        ),
-      },
-      {
-        id: "360febf8-55b6-461d-9bd8-5e9c1e53ac32",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Pest+Threads",
-          "Pest Threads"
-        ),
-      },
-      {
-        id: "f2f7014c-c66c-4259-9ce2-d2fd44303465",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/The+Flame+of+Frenzy",
-          "The Flame of Frenzy"
-        ),
-      },
-      {
-        id: "e8ac8c43-2d4b-45a6-9611-b59a3ef3e7a1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Unendurable+Frenzy",
-          "Unendurable Frenzy"
-        ),
-      },
-      {
-        id: "6453b9f7-9cbd-44b8-a666-3a521ade7038",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Frenzied+Burst",
-          "Frenzied Burst"
-        ),
-      },
-      {
-        id: "3ddf10a7-e701-4d4a-bb49-9fdec30e1ff1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Howl+of+Shabriri",
-          "Howl of Shabriri"
-        ),
-      },
-      {
-        id: "9acd3829-5bf2-4315-978a-e72dd8bb20cf",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Inescapable+Frenzy",
-          "Inescapable Frenzy"
-        ),
-      },
-      {
-        id: "557aa74a-911f-435f-b865-b59e1e266a72",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragonfire",
-          "Dragonfire"
-        ),
-      },
-      {
-        id: "035214f9-251d-4c1c-8a7a-7cd633f05670",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Agheel's+Flame",
-          "Agheel's Flame"
-        ),
-      },
-      {
-        id: "60355ca1-bf06-4908-a088-aa0ae0008a35",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magma+Breath",
-          "Magma Breath"
-        ),
-      },
-      {
-        id: "54c0a534-1c80-47f8-8912-572d5116ee10",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Theodorix's+Magma",
-          "Theodorix's Magma"
-        ),
-      },
-      {
-        id: "22c5b7bf-24a7-4a0c-b459-ecf8fabfce60",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Breath",
-          "Glintstone Breath"
-        ),
-      },
-      {
-        id: "091d0333-6783-4965-8203-2aa364313117",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Smarag's+Glintstone+Breath",
-          "Smarag's Glintstone Breath"
-        ),
-      },
-      {
-        id: "89ad0211-b615-4e10-9e5b-3c619801a25a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rotten+Breath",
-          "Rotten Breath"
-        ),
-      },
-      {
-        id: "7316641e-e91d-4caf-bac2-59d7640ad1ae",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ekzykes's+Decay",
-          "Ekzykes's Decay"
-        ),
-      },
-      {
-        id: "72f53714-30aa-4741-a785-092496e3ac2c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragonice",
-          "Dragonice"
+          "https://eldenring.wiki.fextralife.com/Bloodflame+Talons",
+          "Bloodflame Talons"
         ),
       },
       {
@@ -1149,10 +652,59 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "5e8a8057-936a-4998-a034-f8e9d0c88568",
+        id: "42d6e481-2657-44a2-9733-50db521dfa20",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Placidusax's+Ruin",
-          "Placidusax's Ruin"
+          "https://eldenring.wiki.fextralife.com/Burn+O+Flame!",
+          "Burn, O Flame!"
+        ),
+      },
+      {
+        id: "7fa1404b-83b3-4f48-abc1-4c17d08d8ddf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Catch+Flame",
+          "Catch Flame"
+        ),
+      },
+      {
+        id: "8d0ec1f2-541c-4eb5-9935-6fae96803f61",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cure+Poison",
+          "Cure Poison"
+        ),
+      },
+      {
+        id: "08a57fff-156d-4c6f-924b-82701d90d0d6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Darkness",
+          "Darkness"
+        ),
+      },
+      {
+        id: "8ec59ec5-988f-46d0-8a8b-a33747337b70",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Death+Lightning",
+          "Death Lightning"
+        ),
+      },
+      {
+        id: "7ae2e02f-3c45-4f52-aeea-b1ae5c96dd8a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Discus+of+Light",
+          "Discus of Light"
+        ),
+      },
+      {
+        id: "cb975587-ff10-4d21-9f9c-6b895848759d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Divine+Fortification",
+          "Divine Fortification"
+        ),
+      },
+      {
+        id: "c55f996a-02f3-4df7-b9c8-997cf69dddc9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragonbolt+Blessing",
+          "Dragonbolt Blessing"
         ),
       },
       {
@@ -1163,10 +715,164 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "557aa74a-911f-435f-b865-b59e1e266a72",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragonfire",
+          "Dragonfire"
+        ),
+      },
+      {
+        id: "72f53714-30aa-4741-a785-092496e3ac2c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragonice",
+          "Dragonice"
+        ),
+      },
+      {
         id: "f15ab0db-71d7-4110-be51-a04d99eac3f9",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Dragonmaw",
           "Dragonmaw"
+        ),
+      },
+      {
+        id: "7316641e-e91d-4caf-bac2-59d7640ad1ae",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ekzykes's+Decay",
+          "Ekzykes's Decay"
+        ),
+      },
+      {
+        id: "38d9ab14-3987-463b-b8f3-985b174c3646",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Elden+Stars",
+          "Elden Stars"
+        ),
+      },
+      {
+        id: "2eb7b5f0-6084-4ed0-af50-821abc6de03b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Electrify+Armament",
+          "Electrify Armament"
+        ),
+      },
+      {
+        id: "8c3c68c6-00f8-4f76-a09b-f7d826f8776e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree+Heal",
+          "Erdtree Heal"
+        ),
+      },
+      {
+        id: "1b2299e6-48e2-4621-8f51-ba2e87659a95",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin",
+          "Fire's Deadly Sin"
+        ),
+      },
+      {
+        id: "d09fc7f5-5da3-4f61-a32f-857f79d2a41a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+Fortification",
+          "Flame Fortification"
+        ),
+      },
+      {
+        id: "8cc5c8f9-90ca-4006-9916-d6a018fb1c20",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+Sling",
+          "Flame Sling"
+        ),
+      },
+      {
+        id: "bb7c0e45-65dc-4dea-8e0d-e5c400a3f816",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+of+the+Fell+God",
+          "Flame of the Fell God"
+        ),
+      },
+      {
+        id: "8899f0d8-5e42-4144-8637-78418754143e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame,+Cleanse+Me",
+          "Flame, Cleanse Me"
+        ),
+      },
+      {
+        id: "6b99544a-d815-43f8-8801-ccc83a5aad55",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+Fall+Upon+Them",
+          "Flame, Fall Upon Them"
+        ),
+      },
+      {
+        id: "c8bd7c44-04c0-4096-aef6-3bf306771407",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+Grant+Me+Strength",
+          "Flame, Grant Me Strength"
+        ),
+      },
+      {
+        id: "b5d6345e-33ba-467c-8a9f-44e343cdda77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+Protect+Me",
+          "Flame, Protect Me"
+        ),
+      },
+      {
+        id: "ef706210-5a19-4aa2-996d-264fc5bab368",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fortissax's+Lightning+Spear",
+          "Fortissax's Lightning Spear"
+        ),
+      },
+      {
+        id: "6453b9f7-9cbd-44b8-a666-3a521ade7038",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Frenzied+Burst",
+          "Frenzied Burst"
+        ),
+      },
+      {
+        id: "20b56870-f61f-4855-a815-4330b5bcbee5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Frozen+Lightning+Spear",
+          "Frozen Lightning Spear"
+        ),
+      },
+      {
+        id: "ebfc9440-a725-4a05-b9f7-9a5d79e75fc3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Giantsflame+Take+Thee",
+          "Giantsflame Take Thee"
+        ),
+      },
+      {
+        id: "22c5b7bf-24a7-4a0c-b459-ecf8fabfce60",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintstone+Breath",
+          "Glintstone Breath"
+        ),
+      },
+      {
+        id: "fb7a1a09-54fd-4be7-85b3-d51aab5b4bf0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Lightning+Fortification",
+          "Golden Lightning Fortification"
+        ),
+      },
+      {
+        id: "ef75a507-38d2-40ad-b307-f56bae57a262",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Vow+(Spell)",
+          "Golden Vow"
+        ),
+      },
+      {
+        id: "5dec42be-f8dc-489c-84f2-7e943364908a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Great+Heal",
+          "Great Heal"
         ),
       },
       {
@@ -1177,10 +883,304 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "1b2299e6-48e2-4621-8f51-ba2e87659a95",
+        id: "f8d97ec9-637a-4f20-a741-f516dd95eca3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin",
-          "Fire's Deadly Sin"
+          "https://eldenring.wiki.fextralife.com/Heal",
+          "Heal"
+        ),
+      },
+      {
+        id: "11a9feaf-04e3-4343-a67e-0ae0c0bfe04a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Honed+Bolt",
+          "Honed Bolt"
+        ),
+      },
+      {
+        id: "3ddf10a7-e701-4d4a-bb49-9fdec30e1ff1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Howl+of+Shabriri",
+          "Howl of Shabriri"
+        ),
+      },
+      {
+        id: "d8a9d395-bdc9-4c8d-aab5-a586c051896a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Immutable+Shield",
+          "Immutable Shield"
+        ),
+      },
+      {
+        id: "9acd3829-5bf2-4315-978a-e72dd8bb20cf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Inescapable+Frenzy",
+          "Inescapable Frenzy"
+        ),
+      },
+      {
+        id: "5aa859e3-ccdd-444c-9d56-6721d302d2a0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lansseax's+Glaive",
+          "Lansseax's Glaive"
+        ),
+      },
+      {
+        id: "aae34d50-d507-4ef2-9206-ca5c80849242",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Law+of+Causality",
+          "Law of Causality"
+        ),
+      },
+      {
+        id: "1624adf9-0bce-4f26-bfa3-5a03f236165d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Law+of+Regression",
+          "Law of Regression"
+        ),
+      },
+      {
+        id: "cb7a8b2f-7554-4beb-9401-f0c88421a05e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning+Fortification",
+          "Lightning Fortification"
+        ),
+      },
+      {
+        id: "2071eac2-c6b2-42fd-8cd8-ad6ec95fe533",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning+Spear",
+          "Lightning Spear"
+        ),
+      },
+      {
+        id: "897042c3-f86c-4b90-b0cc-26d8e859a9dd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning+Strike",
+          "Lightning Strike"
+        ),
+      },
+      {
+        id: "cb638fbf-9a33-44f7-9c38-4924408ca9e8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Litany+of+Proper+Death",
+          "Litany of Proper Death"
+        ),
+      },
+      {
+        id: "0fcf5abb-6522-4ef7-961b-dd447afaee6c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lord's+Aid",
+          "Lord's Aid"
+        ),
+      },
+      {
+        id: "842e24c7-f84a-4626-89e8-cabcf1330a08",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lord's+Divine+Fortification",
+          "Lord's Divine Fortification"
+        ),
+      },
+      {
+        id: "8b489cb1-66a5-4de7-a418-19a7610c6940",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lord's+Heal",
+          "Lord's Heal"
+        ),
+      },
+      {
+        id: "e5f5f02b-4adc-42c7-a201-c0a05a6ab66a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magic+Fortification",
+          "Magic Fortification"
+        ),
+      },
+      {
+        id: "60355ca1-bf06-4908-a088-aa0ae0008a35",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magma+Breath",
+          "Magma Breath"
+        ),
+      },
+      {
+        id: "de06cdd8-cb9d-4238-86f5-61c5d73304f1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Noble+Presence",
+          "Noble Presence"
+        ),
+      },
+      {
+        id: "58dadd90-9180-408d-99a4-19c06cc21d65",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/O+Flame!",
+          "O, Flame!"
+        ),
+      },
+      {
+        id: "9952d7d5-d223-450c-9a4a-04315fe9bbb3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Order+Healing",
+          "Order Healing"
+        ),
+      },
+      {
+        id: "322bdb3b-38af-4578-837d-a5aa226163bc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Order's+Blade",
+          "Order's Blade"
+        ),
+      },
+      {
+        id: "360febf8-55b6-461d-9bd8-5e9c1e53ac32",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pest+Threads",
+          "Pest Threads"
+        ),
+      },
+      {
+        id: "5e8a8057-936a-4998-a034-f8e9d0c88568",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Placidusax's+Ruin",
+          "Placidusax's Ruin"
+        ),
+      },
+      {
+        id: "c5194547-10d2-4970-90d1-5e638728788c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Poison+Armament",
+          "Poison Armament"
+        ),
+      },
+      {
+        id: "3fe2bdfc-47ee-4529-8c9d-fe4c336014cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Poison+Mist",
+          "Poison Mist"
+        ),
+      },
+      {
+        id: "5272e035-8432-487f-91c4-9a0e5e403ea0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Protection+of+the+Erdtree",
+          "Protection of the Erdtree"
+        ),
+      },
+      {
+        id: "cc3f9bb7-3a74-4681-89a7-a72749ab72dd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Radagon's+Rings+of+Light",
+          "Radagon's Rings of Light"
+        ),
+      },
+      {
+        id: "e4054c0d-d9a9-49ec-ba06-74c881aab4cc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rejection",
+          "Rejection"
+        ),
+      },
+      {
+        id: "89ad0211-b615-4e10-9e5b-3c619801a25a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rotten+Breath",
+          "Rotten Breath"
+        ),
+      },
+      {
+        id: "87678075-6613-4bb2-accf-686cd4e83c0a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Scouring+Black+Flame",
+          "Scouring Black Flame"
+        ),
+      },
+      {
+        id: "053bc25c-d419-426e-b6c7-3d843f4fb9ba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Shadow+Bait",
+          "Shadow Bait"
+        ),
+      },
+      {
+        id: "091d0333-6783-4965-8203-2aa364313117",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smarag's+Glintstone+Breath",
+          "Smarag's Glintstone Breath"
+        ),
+      },
+      {
+        id: "7e58ec8b-a75b-4c79-93ba-25a8dc14fbe1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stone+of+Gurranq",
+          "Stone of Gurranq"
+        ),
+      },
+      {
+        id: "69216265-4910-4329-baeb-6d0f9804b665",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Surge+O+Flame!",
+          "Surge, O Flame!"
+        ),
+      },
+      {
+        id: "74e59e17-c9e7-4350-8577-1f51716be13b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Swarm+of+Flies",
+          "Swarm of Flies"
+        ),
+      },
+      {
+        id: "f2f7014c-c66c-4259-9ce2-d2fd44303465",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/The+Flame+of+Frenzy",
+          "The Flame of Frenzy"
+        ),
+      },
+      {
+        id: "54c0a534-1c80-47f8-8912-572d5116ee10",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Theodorix's+Magma",
+          "Theodorix's Magma"
+        ),
+      },
+      {
+        id: "3b23fa6f-57eb-438e-99c0-bfc7a1bd6e6a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Triple+Rings+of+Light",
+          "Triple Rings of Light"
+        ),
+      },
+      {
+        id: "e8ac8c43-2d4b-45a6-9611-b59a3ef3e7a1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Unendurable+Frenzy",
+          "Unendurable Frenzy"
+        ),
+      },
+      {
+        id: "b8f702be-69b7-407b-99b0-8a75b40d02ec",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Urgent+Heal",
+          "Urgent Heal"
+        ),
+      },
+      {
+        id: "d513042d-cbec-4b19-a0e3-e4c669605c7c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Vyke's+Dragonbolt",
+          "Vyke's Dragonbolt"
+        ),
+      },
+      {
+        id: "0e684c24-ed8b-44be-9156-8be5d6e93a69",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Whirl+O+Flame!",
+          "Whirl, O Flame!"
+        ),
+      },
+      {
+        id: "af375069-3242-44ac-86e8-fb5d993d714b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Wrath+of+Gold",
+          "Wrath of Gold"
         ),
       },
     ],
