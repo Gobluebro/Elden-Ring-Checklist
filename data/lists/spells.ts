@@ -1240,6 +1240,13 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "d25e4a1c-1a7f-4937-9b58-2e8741f8e0b6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War:+Blood+Tax",
+          "Blood Tax"
+        ),
+      },
+      {
         id: "b77646ea-2aa9-451a-9067-e74efc9bd067",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Bloodhound's+Step",
@@ -1356,6 +1363,13 @@ export const SpellsList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike",
           "Flaming Strike"
+        ),
+      },
+      {
+        id: "89efa178-8f4d-42d6-a3d4-d6b283b228be",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt",
+          "Giant Hunt"
         ),
       },
       {
@@ -1811,13 +1825,6 @@ export const SpellsList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Wild+Strikes",
           "Wild Strikes"
-        ),
-      },
-      {
-        id: "89efa178-8f4d-42d6-a3d4-d6b283b228be",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ash+of+War:+Giant+Hunt",
-          "Giant Hunt"
         ),
       },
     ],
