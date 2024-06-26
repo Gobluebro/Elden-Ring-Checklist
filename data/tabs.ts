@@ -76,7 +76,7 @@ export const PersonalTabDataArray: TabData[] = [
   },
   {
     id: 8,
-    name: "Coleccionables",
+    name: "Otros",
     enum: TabNames.Miscellaneous,
     listData: MiscellaneousList,
   },
