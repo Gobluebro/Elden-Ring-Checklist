@@ -4,56 +4,56 @@ import { ListType } from "./types";
 export const MiscellaneousList: Array<ListType> = [
   {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
-    name: "Gestures", // not counting automatically received gestures
-    url: "https://eldenring.wiki.fextralife.com/Gestures",
+    name: "Gestos", // not counting automatically received gestures
+    url: "https://www.eliteguias.com/guias/e/er/elden-ring_gestos.php",
     requirements: [
       {
         id: "b8fb8b2a-9240-4e59-923e-e95ab208fb5a",
-        description: "Calm Down!",
+        description: "Cabeceo pensativo",
       },
       {
         id: "9ece691c-c214-49bd-84ac-72a3dba28b73",
-        description: "Casual Greeting",
+        description: "Cabezadita de piernas cruzadas",
       },
       {
         id: "8f86b3f0-b884-4780-be51-7cefa98d65bb",
-        description: "Bravo!",
+        description: "Chasquido de dedos",
       },
       {
         id: "aed47a2c-40a6-42e2-ab44-61dbafb55bee",
-        description: "Strength!",
+        description: "Como desees",
       },
       {
         id: "aac81107-51db-46ca-a88e-0cf99cae6c7d",
-        description: "Triumphant Delight",
+        description: "El Círculo",
       },
       {
         id: "5e6e548e-e1bd-421f-bf23-014e93b73998",
-        description: "Fancy Spin",
+        description: "El fuego me aviva",
       },
       {
         id: "bd75d508-eef9-4c67-8fe0-e648b2ff13f6",
-        description: "Nod In Thought",
+        description: "Erudición",
       },
       {
         id: "fb3b0443-df67-445a-93e8-13709fba6065",
-        description: "Finger Snap",
+        description: "Espatarrarse",
       },
       {
         id: "defe98bf-073a-43b3-8e3a-a54b0d3221fe",
-        description: "Heartening Cry",
+        description: "¡Fuerza!",
       },
       {
         id: "e36b5e25-ab07-44c0-914d-3e4df5d40ff7",
-        description: "Polite Bow",
+        description: "Genuflexión de Parches",
       },
       {
         id: "7a152b07-3bf5-4d6d-aeba-f93ddd95b6be",
-        description: "As You Wish",
+        description: "Giro encantador",
       },
       {
         id: "529f312a-6dc1-4e22-b0f6-4810b18dd8ea",
-        description: "My Thanks",
+        description: "Gracias",
       },
       {
         id: "4f645ddd-379d-4fac-a2cb-27c0c8ea7a08",
@@ -148,6 +148,19 @@ export const MiscellaneousList: Array<ListType> = [
         description: "Spread Out",
       },
     ],
+  },
+  {
+    id: "c5b0ff2a-9cdc-45ef-bcda-409056780825",
+    name: "Manuales",
+    requirements: [
+      {
+        id: "5f8d7076-b0fe-4b8d-bcc2-65bba4720c99",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p441.php",
+          "Manual de apóstol del dragón antiguo [1]"
+        ),
+      }
+    ]
   },
   {
     id: "4cc71681-af5e-49d0-a86d-3fe59782bb7e",
