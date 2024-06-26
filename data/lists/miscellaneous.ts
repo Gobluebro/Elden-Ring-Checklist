@@ -163,6 +163,19 @@ export const MiscellaneousList: Array<ListType> = [
     ]
   },
   {
+    id: "23692819-22c3-4623-8670-d7fa23d9d932",
+    name: "Objetos principales",
+    requirements:[
+      {
+        id: "a7d8f3da-04c0-4890-94f2-ecc4682c6182",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p71.php",
+          "Aguja"
+        ),
+      }
+    ]
+  },
+  {
     id: "4cc71681-af5e-49d0-a86d-3fe59782bb7e",
     name: "Whetblades",
     requirements: [
