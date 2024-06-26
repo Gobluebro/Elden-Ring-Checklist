@@ -502,7 +502,7 @@ export const SpellsList: Array<ListType> = [
   {
     id: "2a702f88-a687-426e-bb08-2e6a33ad929d",
     name: "Encantamientos",
-    url: "https://eldenring.wiki.fextralife.com/Incantations",
+    url: "https://www.eliteguias.com/guias/e/er/elden-ring_encantamientos.php",
     requirements: [
       {
         id: "b8f702be-69b7-407b-99b0-8a75b40d02ec",
