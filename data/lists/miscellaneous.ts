@@ -57,61 +57,61 @@ export const MiscellaneousList: Array<ListType> = [
       },
       {
         id: "4f645ddd-379d-4fac-a2cb-27c0c8ea7a08",
-        description: "Curtsy",
+        description: "Grito de ánimo",
       },
       {
         id: "42392369-513d-47c9-b0c9-b47867eb9802",
-        description: "Reverential Bow",
+        description: "Mi señor",
       },
       {
         id: "18e85676-9415-42be-9270-9be1c3ffa9be",
-        description: "My Lord",
+        description: "Orden Dorada al completo",
       },
       {
         id: "34ca5145-4b68-44de-bad2-3786d9a1beb4",
-        description: "What Do You Want?",
+        description: "Orden interior",
       },
       {
         id: "68d6c306-9b3c-4cff-9e69-0c16266d897a",
-        description: "By My Sword",
+        description: "Penitencia extrema",
       },
       {
         id: "38c580f0-0887-440e-826a-ffdfe1732721",
-        description: "Hoslow's Oath",
+        description: "Por mi espada",
       },
       {
         id: "24d8deec-1d1e-47c3-ade4-2779fa9061c7",
-        description: "Fire Spur Me",
+        description: "Posición sentada de lado",
       },
       {
         id: "31a13275-3ba3-4f23-8780-ac3581064a56",
-        description: "The Ring",
+        description: "¿Qué quieres?",
       },
       {
         id: "84189621-279f-4ee4-9e74-c0aa53c62467",
-        description: "Erudition",
+        description: "Regocijo por la victoria",
       },
       {
         id: "720ea5f4-cec7-4e74-9422-4faa48b5fb7a",
-        description: "Prayer",
+        description: "Reverencia cordial",
       },
       {
         id: "968bb31b-7ceb-4adf-922e-adedd56164d8",
-        description: "Desperate Prayer",
+        description: "Reverencia profusa",
       },
       {
         id: "68ddaa81-e1a0-4529-8e52-ed8f9e7c81e9",
-        description: "Rapture",
+        description: "Saludo informal",
       },
       {
         id: "bd2387b8-7953-4fed-a6b8-0566d2e3a962",
-        description: "Inner Order",
+        description: "Súplica de piedad",
       },
       {
         id: "3ab4fa19-d98d-4797-8b7b-840b8461295e",
-        description: "Outer Order",
+        description: "¡Tranquilízate!",
       },
-      {
+      /* {
         id: "759347ef-3cfd-4d2f-8e9e-58e7adc9b71e",
         description: "Golden Order Totality",
       },
@@ -146,7 +146,7 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "0cbbba8b-3dae-40f6-8483-09df2efbe8be",
         description: "Spread Out",
-      },
+      }, */
     ],
   },
   {
