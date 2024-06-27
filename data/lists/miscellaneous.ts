@@ -154,10 +154,416 @@ export const MiscellaneousList: Array<ListType> = [
     name: "Manuales",
     requirements: [
       {
-        id: "5f8d7076-b0fe-4b8d-bcc2-65bba4720c99",
+        id: "6bfd3bf6-7a0e-4d94-a9e4-bcb4471c5615",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p441.php",
           "Manual de apóstol del dragón antiguo [1]"
+        ),
+      },
+      {
+        id: "931dbcf7-7784-4a26-90cf-e5132ae7a206",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p427.php",
+          "Manual de apóstol del dragón antiguo [2]"
+        ),
+      },
+      {
+        id: "e98bd2f3-e632-436a-a40f-d8bf1affdf15",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p342.php",
+          "Manual de apóstol del dragón antiguo [3]"
+        ),
+      },
+      {
+        id: "cb366a51-71d2-4b66-9e40-ec64d0a3a618",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p548.php",
+          "Manual de apóstol del dragón antiguo [4]"
+        ),
+      },
+      {
+        id: "6efc6044-f6b2-4db9-a941-4c0cded7e529",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p560.php",
+          "Manual de armero [1]"
+        ),
+      },
+      {
+        id: "8e19f87b-cdde-42fc-afad-2efd7afee94b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p82.php",
+          "Manual de armero [2]"
+        ),
+      },
+      {
+        id: "4c182289-4e60-4d9e-a5f2-faaa308b5982",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p117.php",
+          "Manual de armero [3]"
+        ),
+      },
+      {
+        id: "c16606f3-2e8f-43ef-8645-17a09007d7c8",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p352.php",
+          "Manual de armero [4]"
+        ),
+      },
+      {
+        id: "ab7bbfa1-9ebe-4b16-9867-f09046bf97e0",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p351.php",
+          "Manual de armero [5]"
+        ),
+      },
+      {
+        id: "0f62aefb-c91e-4c74-9ee7-e4f7cf4aa186",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p310.php",
+          "Manual de armero [6]"
+        ),
+      },
+      {
+        id: "b4c36e47-a21d-4de0-aff5-20c04a0fc40b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p444.php",
+          "Manual de armero [7]"
+        ),
+      },
+      {
+        id: "8502c1bc-78ed-4ef7-b9be-16ffe5162910",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p207.php",
+          "Manual de artesano de las piedras refulgentes [1]"
+        ),
+      },
+      {
+        id: "7d3cc31e-bf40-4260-9b35-8caf2021abe6",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p221.php",
+          "Manual de artesano de las piedras refulgentes [2]"
+        ),
+      },
+      {
+        id: "a9de9846-2082-4f32-bad1-5f32f45c30c9",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p225.php",
+          "Manual de artesano de las piedras refulgentes [3]"
+        ),
+      },
+      {
+        id: "2e5208da-89ef-409a-909e-76aad03a577b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p282.php",
+          "Manual de artesano de las piedras refulgentes [4]"
+        ),
+      },
+      {
+        id: "af9c6609-8572-4706-b0bc-9a082c2e212f",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p290.php",
+          "Manual de artesano de las piedras refulgentes [5]"
+        ),
+      },
+      {
+        id: "4bdfadd3-1bb4-4501-8e61-493fce225c96",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p256.php",
+          "Manual de artesano de las piedras refulgentes [6]"
+        ),
+      },
+      {
+        id: "0e0c14cc-89e2-4132-abbc-a30a1e3ff4b4",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p260.php",
+          "Manual de artesano de las piedras refulgentes [7]"
+        ),
+      },
+      {
+        id: "9fd3d26f-9a02-41b0-b3e4-a7dc636c3efc",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p527.php",
+          "Manual de artesano de las piedras refulgentes [8]"
+        ),
+      },
+      {
+        id: "16cddff7-94ba-4a83-87eb-339579518d4f",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p561.php",
+          "Manual de Fevor [1]"
+        ),
+      },
+      {
+        id: "84e5236c-54dc-4579-ae51-23be6375b8e6",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p284.php",
+          "Manual de Fevor [2]"
+        ),
+      },
+      {
+        id: "97c6be9c-aa0a-42c5-9a16-b40f1397bff7",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p535.php",
+          "Manual de Fevor [3]"
+        ),
+      },
+      {
+        id: "fe9fb56d-5192-438b-8782-fcdfda16d5fe",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p249.php",
+          "Manual de frenético [1]"
+        ),
+      },
+      {
+        id: "126d7685-b040-41a2-b1fb-593382e40149",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p500.php",
+          "Manual de frenético [2]"
+        ),
+      },
+      {
+        id: "fb5a725f-5e2f-445f-8c6d-e936f90182ba",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p28.php",
+          "Manual de guerrero nómada [1]"
+        ),
+      },
+      {
+        id: "210cbbde-33af-4c4e-876b-6c8fa8ecb505",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p19.php",
+          "Manual de guerrero nómada [2]"
+        ),
+      },
+      {
+        id: "1837b21f-a19c-46ff-a000-80d39a13d0b0",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p113.php",
+          "Manual de guerrero nómada [3]"
+        ),
+      },
+      {
+        id: "23709bd1-58be-4fc3-9e6b-83c912e70b9f",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p112.php",
+          "Manual de guerrero nómada [4]"
+        ),
+      },
+      {
+        id: "96d97555-7610-4226-873a-9f9dc1c577f6",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p116.php",
+          "Manual de guerrero nómada [5]"
+        ),
+      },
+      {
+        id: "abc010a1-89a8-4273-a063-a6ed2a5c7fd1",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p124.php",
+          "Manual de guerrero nómada [6]"
+        ),
+      },
+      {
+        id: "e3e6549a-e391-4a97-b22c-a157ecb7147e",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p177.php",
+          "Manual de guerrero nómada [7]"
+        ),
+      },
+      {
+        id: "82455e2c-07dd-4ca2-8ddf-bf9ab08b1e6e",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p166.php",
+          "Manual de guerrero nómada [8]"
+        ),
+      },
+      {
+        id: "70edda25-e8df-4006-8ed4-91537a371ed5",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p160.php",
+          "Manual de guerrero nómada [9]"
+        ),
+      },
+      {
+        id: "1179b939-aa81-4c5e-81ce-90a9b7cd5e95",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p197.php",
+          "Manual de guerrero nómada [10]"
+        ),
+      },
+      {
+        id: "7e263ea2-4919-4d81-b522-f156e69f8618",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p211.php",
+          "Manual de guerrero nómada [11]"
+        ),
+      },
+      {
+        id: "4bca3782-71a0-4fd4-95ef-8b7ede9cb36d",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p277.php",
+          "Manual de guerrero nómada [12]"
+        ),
+      },
+      {
+        id: "5eee12e6-5461-407b-8a5f-589677b4b960",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p245.php",
+          "Manual de guerrero nómada [13]"
+        ),
+      },
+      {
+        id: "b50b0eae-68a4-4cc5-a2af-c1f066b1313b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p322.php",
+          "Manual de guerrero nómada [14]"
+        ),
+      },
+      {
+        id: "f1c2d503-df81-4922-ae84-394eaaee87fd",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p337.php",
+          "Manual de guerrero nómada [15]"
+        ),
+      },
+      {
+        id: "d1e68169-83a0-4fb3-b8a0-7092b20990b8",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p303.php",
+          "Manual de guerrero nómada [16]"
+        ),
+      },
+      {
+        id: "b86d697a-edd7-44b8-af9b-edf24c9211eb",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p318.php",
+          "Manual de guerrero nómada [17]"
+        ),
+      },
+      {
+        id: "5a2196a9-423b-4fc1-9c44-1c57e71b036c",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p319.php",
+          "Manual de guerrero nómada [18]"
+        ),
+      },
+      {
+        id: "6545a888-de89-4120-83ae-391e278fe5b2",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p424.php",
+          "Manual de guerrero nómada [19]"
+        ),
+      },
+      {
+        id: "361a2739-5776-4f9b-a3d1-800ed8795e86",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p451.php",
+          "Manual de guerrero nómada [20]"
+        ),
+      },
+      {
+        id: "81563c58-9f63-4c2a-960e-486c4c227308",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p460.php",
+          "Manual de guerrero nómada [21]"
+        ),
+      },
+      {
+        id: "cb737d7c-da43-4baf-9cd9-e3c717434e8d",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p414.php",
+          "Manual de guerrero nómada [22]"
+        ),
+      },
+      {
+        id: "2e0f0cad-ee44-4e71-8923-f46f54bdf042",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p522.php",
+          "Manual de guerrero nómada [23]"
+        ),
+      },
+      {
+        id: "da5d672c-3134-4172-a69e-564488639640",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p533.php",
+          "Manual de guerrero nómada [24]"
+        ),
+      },
+      {
+        id: "2343809d-7628-4db3-af62-d4178fef1041",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p20.php",
+          "Manual de misionero [1]"
+        ),
+      },
+      {
+        id: "5ed0c606-eedf-45ae-8c92-26729f958ffb",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p100.php",
+          "Manual de misionero [2]"
+        ),
+      },
+      {
+        id: "e5f6504c-ac33-4713-8672-83a59013e386",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p323.php",
+          "Manual de misionero [3]"
+        ),
+      },
+      {
+        id: "f3ee1ad6-8880-4668-95a7-0a985960e6f6",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p467.php",
+          "Manual de misionero [4]"
+        ),
+      },
+      {
+        id: "c570fd65-a568-42b1-bce7-8192bcc30a3c",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p390.php",
+          "Manual de misionero [5]"
+        ),
+      },
+      {
+        id: "47be7e59-a2bd-4afb-8dbc-15a0f3b8d017",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p463.php",
+          "Manual de misionero [6]"
+        ),
+      },
+      {
+        id: "c1da2b2e-2529-4597-9440-481112144fab",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p512.php",
+          "Manual de misionero [7]"
+        ),
+      },
+      {
+        id: "1e3c01ef-6e29-40a4-9ae8-45cbc6056e6d",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p436.php",
+          "Manual de perfumista [1]"
+        ),
+      },
+      {
+        id: "38e0ffdf-0985-44c2-8f6f-3010478170d7",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p440.php",
+          "Manual de perfumista [2]"
+        ),
+      },
+      {
+        id: "492fdd37-0250-4759-a1b9-6f2aa49a025e",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p477.php",
+          "Manual de perfumista [3]"
+        ),
+      },
+      {
+        id: "98e99d92-af0c-42be-b232-cf9492334f13",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p304.php",
+          "Manual de perfumista [4]"
         ),
       }
     ]
