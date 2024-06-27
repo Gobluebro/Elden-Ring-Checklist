@@ -583,7 +583,7 @@ export const MiscellaneousList: Array<ListType> = [
   },
   {
     id: "4cc71681-af5e-49d0-a86d-3fe59782bb7e",
-    name: "Whetblades",
+    name: "Hojas de Afilar",
     requirements: [
       {
         id: "1adc93c0-7042-4147-ab2c-3af282696b74",
