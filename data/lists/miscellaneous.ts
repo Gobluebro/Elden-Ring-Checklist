@@ -586,45 +586,45 @@ export const MiscellaneousList: Array<ListType> = [
     name: "Whetblades",
     requirements: [
       {
+        id: "1adc93c0-7042-4147-ab2c-3af282696b74",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p55.php",
+          "Cuchillo de afilar"
+        ),
+      },
+      {
         id: "cda3a154-7924-431f-94c7-fba14b403b9b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Whetstone+Knife",
-          "Whetstone Knife (Gatefront Ruins)"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p353.php",
+          "Hoja de afilar al rojo vivo"
         ),
       },
       {
         id: "0954d6fc-1b67-479d-9c10-5e0fc9ca12f6",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Iron+Whetblade",
-          "Iron Whetblade (Stormveil Castle)"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p483.php",
+          "Hoja de afilar consagrada"
         ),
       },
       {
         id: "a8ab3b24-45b0-4045-82b9-e9c0f102a2fd",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Whetblade",
-          "Glintstone Whetblade (Raya Lucaria Academy)"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p192.php",
+          "Hoja de afilar de hierro"
         ),
       },
       {
         id: "5b98aace-0c7f-4544-b62d-a911552a337f",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Red-Hot+Whetblade",
-          "Red-hot Whetblade (Redmane Castle)"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p292.php",
+          "Hoja de afilar de piedras refulgentes"
         ),
       },
       {
         id: "72a8e4f7-6331-4b52-bd97-491be6e4033a",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Sanctified+Whetblade",
-          "Sanctified Whetblade (Fortified Manor, Leyndell)"
-        ),
-      },
-      {
-        id: "1adc93c0-7042-4147-ab2c-3af282696b74",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Whetblade",
-          "Black Whetblade (Nokron, Eternal City)"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p385.php",
+          "Hoja de afilar negra"
         ),
       },
     ],
