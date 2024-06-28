@@ -526,6 +526,20 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "7b233325-87ee-43a2-bd90-6bea60a55d50",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Breath",
+          "Aspects of the Crucible: Breath"
+        ),
+      },
+      {
+        id: "d356132b-df98-4622-8099-7acfde9bf200",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Horns",
+          "Aspects of the Crucible: Horns"
+        ),
+      },
+      {
         id: "47c4fdd3-ba6a-4de5-83dc-66b02a05d3ae",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Tail",
