@@ -1966,7 +1966,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "e4b0b2fc-7a40-4af3-94b6-1e65db9e3eac",
         description:
-          "Tanith's Knight will invade. Kill and loot the Knight for Aspect of the Crucible: Breath.",
+          "Tanith's Knight will invade. Kill and loot the Knight for Aspects of the Crucible: Breath.",
       },
     ],
   },
