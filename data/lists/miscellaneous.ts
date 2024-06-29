@@ -601,6 +601,13 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "810d5de7-24a9-493f-a58f-7515d51a419c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arsenal+Charm",
+          "Arsenal Charm +1"
+        ),
+      },
+      {
         id: "7eb3398b-34cb-4d24-a87e-222c6b75c907",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Assassin's+Cerulean+Dagger",
