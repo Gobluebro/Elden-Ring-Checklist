@@ -569,7 +569,7 @@ export const MiscellaneousList: Array<ListType> = [
   },
   {
     id: "11ba4bf3-fea7-49ef-960f-4bd6f843192b",
-    name: "Perfume Bottles",
+    name: "Perfume Bottle",
     url: "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
     requirements: [
       {
