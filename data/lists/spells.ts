@@ -897,6 +897,13 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "6691bcf4-7e40-4f7b-aedc-38188c079c59",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gurranq's+Beast+Claw",
+          "Gurranq's Beast Claw"
+        ),
+      },
+      {
         id: "f8d97ec9-637a-4f20-a741-f516dd95eca3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Heal",
@@ -1097,6 +1104,13 @@ export const SpellsList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Rotten+Breath",
           "Rotten Breath"
+        ),
+      },
+      {
+        id: "bbae46db-948a-4ebc-bacd-b5b722e245b9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Scarlet+Aeonia",
+          "Scarlet Aeonia"
         ),
       },
       {
