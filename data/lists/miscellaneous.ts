@@ -568,6 +568,77 @@ export const MiscellaneousList: Array<ListType> = [
     ],
   },
   {
+    id: "11ba4bf3-fea7-49ef-960f-4bd6f843192b",
+    name: "Perfume Bottles",
+    url: "https://eldenring.wiki.fextralife.com/Talismans",
+    requirements: [
+      {
+        id: "8686de75-cd31-4186-862d-170e4ff3d33b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Street of Sages Ruins, Caelid"
+        ),
+      },
+      {
+        id: "5adb2faa-1059-47de-bbfd-2e5bf61746db",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Volcano Manor, Mt Gelmir"
+        ),
+      },
+      {
+        id: "e11e61e2-28db-45cc-a18c-7cb5f98b5b3c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "The Shaded Castle, Altus Plateu"
+        ),
+      },
+      {
+        id: "6076fac1-78d9-4b7a-96ad-9ecc58571502",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Perfumer's Ruin #1, Altus Plateau"
+        ),
+      },
+      {
+        id: "92c7ebcb-1f49-4851-bbce-ae2ac5741035",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Perfumer's Ruin #2, Altus Plateau"
+        ),
+      },
+      {
+        id: "38315e4e-5fb3-407c-a74a-782f036f857e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Altus Highway Junction, Altus Plateau"
+        ),
+      },
+      {
+        id: "a666a425-d8df-4882-9aca-84a14aabece0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Perfumer's Grotto, Altus Plateau"
+        ),
+      },
+      {
+        id: "07822492-d725-41b0-82bf-5ae1f50dec96",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "East Capital Rampart, Leyndell, Royal Capital"
+        ),
+      },
+      {
+        id: "b7e8bd03-8d2c-4add-87ec-8ce242b65e34",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "Avenue Balcony, Leyndell, Royal Capital"
+        ),
+      },
+
+    ]
+  },
+  {
     id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
     name: "Talismans",
     url: "https://eldenring.wiki.fextralife.com/Talismans",
