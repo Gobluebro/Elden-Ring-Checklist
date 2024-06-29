@@ -679,6 +679,13 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "810d5de7-24a9-493f-a58f-7515d51a419c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arsenal+Charm",
+          "Arsenal Charm +1"
+        ),
+      },
+      {
         id: "7eb3398b-34cb-4d24-a87e-222c6b75c907",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Assassin's+Cerulean+Dagger",
@@ -735,6 +742,28 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "c4e0497d-7643-4f74-ac23-1528e6a745ff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +1"
+        ),
+      },
+      {
+        id: "9ee6a0c6-cb8f-437c-8889-9286285084d2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +2"
+        ),
+      },
+      {
+        id: "ba24a66d-10e5-4cb3-8798-f54780616051",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "ee67902a-bd5c-4a8f-b9dc-bf613c967c6f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Bull-Goat's+Talisman",
@@ -756,6 +785,28 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "931087fd-4dcc-4013-9537-616f37350d77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +1"
+        ),
+      },
+      {
+        id: "55dfa1ac-ed19-4053-b27a-af7bef098069",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +2"
+        ),
+      },
+      {
+        id: "43e5a37a-116f-4b7f-b985-448c5d63fb23",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "839e3238-a3ee-4874-aa5f-f17a1faa3545",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
@@ -763,11 +814,34 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "38ad9601-c0a0-4fb6-8987-64e45d3af21c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
+          "Cerulean Seed Talisman +1"
+        ),
+        isDLC: true,
+      },
+      {
         id: "e7a746b2-e82e-441b-b449-7211039d8a7f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
           "Clarifying Horn Charm"
         ),
+      },
+      {
+        id: "b443065e-5ea1-419e-949f-86f57eb89326",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "Clarifying Horn Charm +1"
+        ),
+      },
+      {
+        id: "35e64ffa-f910-4f1a-9ab1-b22b68b7ff3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "Clarifying Horn Charm +2"
+        ),
+        isDLC: true,
       },
       {
         id: "63e1708f-8085-419f-88cd-fdae2d5a29db",
@@ -805,10 +879,31 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "e1bd2808-96db-4bd9-a642-e466dd8d9e0f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "Crimson Amber Medallion +1"
+        ),
+      },
+      {
+        id: "08b21705-6704-41aa-9e64-74fd4db109cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "Crimson Amber Medallion +2"
+        ),
+      },
+      {
         id: "c00c46c3-e7f9-4a29-a645-6b4d15b917a3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Crimson+Seed+Talisman",
           "Crimson Seed Talisman"
+        ),
+      },
+      {
+        id: "41a4de5e-cec3-4553-bbb8-733918e6f82d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Seed+Talisman",
+          "Crimson Seed Talisman +1"
         ),
       },
       {
@@ -875,6 +970,20 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "531ebf4a-080a-4b1f-b926-de0b71c2aaef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "Erdtree's Favor +1"
+        ),
+      },
+      {
+        id: "3c6f516d-cb0a-434a-b991-bec0e8a2c629",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "Erdtree's Favor +2"
+        ),
+      },
+      {
         id: "b1b4e1a6-bbf1-4d60-ad6b-e41075160e98",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Faithful+Canvas+Talisman",
@@ -893,6 +1002,20 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
           "Flamedrake Talisman"
+        ),
+      },
+      {
+        id: "f037ae8e-7a55-4819-9933-f0ccf3552fea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "Flamedrake Talisman +1"
+        ),
+      },
+      {
+        id: "bb4407ed-6326-4aa5-974d-37d7e8b823fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "Flamedrake Talisman +2"
         ),
       },
       {
@@ -973,6 +1096,20 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "43ac72a9-6522-4160-b19b-be84a135c75a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "Haligdrake Talisman +1"
+        ),
+      },
+      {
+        id: "2db447ef-4399-4443-ab9a-96d011440212",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "Haligdrake Talisman +2"
+        ),
+      },
+      {
         id: "3ab54e5e-27fc-45ae-a1c0-e01230ea118f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Hammer+Talisman",
@@ -991,6 +1128,13 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
           "Immunizing Horn Charm"
+        ),
+      },
+      {
+        id: "103c36d6-0729-42c9-a254-6a4d23f463d4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
+          "Immunizing Horn Charm +1"
         ),
       },
       {
@@ -1071,6 +1215,13 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "c1dd9988-d8fc-45b3-b3e3-80cc09c39c92",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
+          "Mottled Necklace +1"
+        ),
+      },
+      {
         id: "94f1ac30-8a5b-40a1-a506-c1d2d045b395",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Old+Lord's+Talisman",
@@ -1082,6 +1233,20 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
           "Pearldrake Talisman"
+        ),
+      },
+      {
+        id: "a268e933-ed61-420a-9c45-e58b263296ca",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "Pearldrake Talisman +1"
+        ),
+      },
+      {
+        id: "acd53048-5a67-4327-9f70-934e5a46e8b7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "Pearldrake Talisman +2"
         ),
       },
       {
@@ -1218,10 +1383,31 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "f06f8b08-afa5-41ab-8993-ddfe22c2e9cf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "Spelldrake Talisman +1"
+        ),
+      },
+      {
+        id: "0883d849-c240-498a-b565-60a4fbd19575",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "Spelldrake Talisman +2"
+        ),
+      },
+      {
         id: "50255550-740c-4890-b0ba-6ed1d3edf200",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
           "Stalwart Horn Charm"
+        ),
+      },
+      {
+        id: "51dc7e48-86e1-47ca-b902-00f2aaef505a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
+          "Stalwart Horn Charm +1"
         ),
       },
       {
@@ -1264,6 +1450,20 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
           "Viridian Amber Medallion"
+        ),
+      },
+      {
+        id: "c01644a3-3a20-4ba5-b8a3-898844ecd286",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
+          "Viridian Amber Medallion +1"
+        ),
+      },
+      {
+        id: "61d1a3e3-ec9f-491e-afe5-01e99372c31d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
+          "Viridian Amber Medallion +2"
         ),
       },
       {
