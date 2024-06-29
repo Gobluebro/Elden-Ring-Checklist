@@ -671,6 +671,14 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "ba24a66d-10e5-4cb3-8798-f54780616051",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "ee67902a-bd5c-4a8f-b9dc-bf613c967c6f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Bull-Goat's+Talisman",
@@ -706,11 +714,27 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "43e5a37a-116f-4b7f-b985-448c5d63fb23",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "839e3238-a3ee-4874-aa5f-f17a1faa3545",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
           "Cerulean Seed Talisman"
         ),
+      },
+      {
+        id: "38ad9601-c0a0-4fb6-8987-64e45d3af21c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
+          "Cerulean Seed Talisman +1"
+        ),
+        isDLC: true,
       },
       {
         id: "e7a746b2-e82e-441b-b449-7211039d8a7f",
@@ -725,6 +749,14 @@ export const MiscellaneousList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
           "Clarifying Horn Charm +1"
         ),
+      },
+      {
+        id: "35e64ffa-f910-4f1a-9ab1-b22b68b7ff3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "Clarifying Horn Charm +2"
+        ),
+        isDLC: true,
       },
       {
         id: "63e1708f-8085-419f-88cd-fdae2d5a29db",
