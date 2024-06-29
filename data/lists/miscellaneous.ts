@@ -570,73 +570,80 @@ export const MiscellaneousList: Array<ListType> = [
   {
     id: "11ba4bf3-fea7-49ef-960f-4bd6f843192b",
     name: "Perfume Bottles",
-    url: "https://eldenring.wiki.fextralife.com/Talismans",
+    url: "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
     requirements: [
       {
         id: "8686de75-cd31-4186-862d-170e4ff3d33b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5707&code=mapA",
           "Street of Sages Ruins, Caelid"
         ),
       },
       {
         id: "5adb2faa-1059-47de-bbfd-2e5bf61746db",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          // wiki is missing the map link for this one
+          "https://eldenring.wiki.fextralife.com/file/Elden-Ring/volcano_manor_ground_floor_level_dungeon_map_elden_ring_wiki_guide_1374px.jpg?v=1652622586762",
           "Volcano Manor, Mt Gelmir"
         ),
       },
       {
         id: "e11e61e2-28db-45cc-a18c-7cb5f98b5b3c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
-          "The Shaded Castle, Altus Plateu"
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2842&code=mapA",
+          "The Shaded Castle, Altus Plateau"
         ),
       },
       {
         id: "6076fac1-78d9-4b7a-96ad-9ecc58571502",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6859&code=mapA",
           "Perfumer's Ruin #1, Altus Plateau"
         ),
       },
       {
         id: "92c7ebcb-1f49-4851-bbce-ae2ac5741035",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6859&code=mapA",
           "Perfumer's Ruin #2, Altus Plateau"
         ),
       },
       {
         id: "38315e4e-5fb3-407c-a74a-782f036f857e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=8302&code=mapA",
           "Altus Highway Junction, Altus Plateau"
+        ),
+      },
+      {
+        id: "2246d2e3-ecd1-4358-a8fc-f48d0d91d43e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5423&code=mapA",
+          "Purchase 1 from Hermit Merchant (Leyndell)"
         ),
       },
       {
         id: "a666a425-d8df-4882-9aca-84a14aabece0",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=4593&code=mapA",
           "Perfumer's Grotto, Altus Plateau"
         ),
       },
       {
         id: "07822492-d725-41b0-82bf-5ae1f50dec96",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2870&code=mapA",
           "East Capital Rampart, Leyndell, Royal Capital"
         ),
       },
       {
         id: "b7e8bd03-8d2c-4add-87ec-8ce242b65e34",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3823&code=mapA",
           "Avenue Balcony, Leyndell, Royal Capital"
         ),
       },
-
-    ]
+    ],
   },
   {
     id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
