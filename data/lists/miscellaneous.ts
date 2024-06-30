@@ -412,6 +412,7 @@ export const MiscellaneousList: Array<ListType> = [
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
     name: "Gestures", // not counting automatically received gestures
     url: "https://eldenring.wiki.fextralife.com/Gestures",
+    // ordered by how they appear in game
     requirements: [
       {
         id: "b8fb8b2a-9240-4e59-923e-e95ab208fb5a",
