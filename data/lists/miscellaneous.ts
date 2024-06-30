@@ -653,44 +653,54 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "cb270b86-6d3b-43c1-abfc-d1ae2bc11233",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/interactive+map?id=1503&lat=-158.570312&lng=72.893318&code=mapA",
+          "https://eldenring.wiki.fextralife.com/interactive+map?id=1503&code=mapA",
           "Laskyar Ruins, Liurnia of the Lakes"
         ),
       },
       {
         id: "e8268c69-01f5-42a0-8781-6fc44c196d4e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2213&lat=-139.257812&lng=57.06589&code=mapA",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2213&code=mapA",
           "Treasure Chest, Raya Lucaria Academy"
         ),
       },
       {
         id: "cebe0c2e-378d-4c8e-b132-0a8ef2b4ad53",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&lat=-145.589062&lng=84.07286&code=mapA",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&code=mapA",
           "Roof, Jarburg, Liurnia of the Lakes"
         ),
       },
       {
         id: "1c03996d-3944-484c-b540-10405b613b77",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&lat=-145.589062&lng=84.07286&code=mapA",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&code=mapA",
           "Large decorative jar, Jarburg, Liurnia of the Lakes"
         ),
       },
       {
         id: "18fc7532-676f-4bb6-bb4d-1eac40cab7f6",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Pidia,+Carian+Servant",
-          "Purchase 1 from Pidia, Carian Servant, Caria Manor"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Pidia,+Carian+Servant",
+            "Purchase 1 from Pidia, Carian Servant, Caria Manor."
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2920&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "d45a12da-aab9-4391-b5db-d1b31e594bbc",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Isolated+Merchant+Dragonbarrow",
-          "Purchase 1 from Isolated Merchant Dragonbarrow, Dragonbarrow"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Isolated+Merchant+Dragonbarrow",
+            "Purchase 1 from Isolated Merchant Dragonbarrow, Dragonbarrow"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+map?id=2353&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "f9caebce-f418-4b69-b0b0-54ccc84d27df",
@@ -715,12 +725,17 @@ export const MiscellaneousList: Array<ListType> = [
       },
       {
         id: "60379d47-cb29-474e-b8b8-0aea93af4ca6",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Giants'+Mountaintop+Catacombs",
-          "Giants' Mountaintop Catacombs, Mountaintops of the Giants"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Giants'+Mountaintop+Catacombs",
+            "Giants' Mountaintop Catacombs, Mountaintops of the Giants"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=8503&code=mapA",
+            "Map Link"
+          )}]`,
       },
-    ]
+    ],
   },
   {
     id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
