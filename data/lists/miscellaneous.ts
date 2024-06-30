@@ -3,6 +3,111 @@ import { ListType } from "./types";
 
 export const MiscellaneousList: Array<ListType> = [
   {
+    id: "98a5935f-ab86-41e7-9201-8d957aad4220",
+    name: "Cracked Pot",
+    url: "https://eldenring.wiki.fextralife.com/Cracked+Pot",
+    requirements: [
+      {
+        id: "c24c0492-c9f9-43cd-b973-5717fab0ab2b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Merchant+Kal%C3%A9",
+          "Purchase 3 from Merchant Kalé - Limgrave"
+        ),
+      },
+      {
+        id: "364050e5-3420-4de0-99c5-9021dc2d9d07",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Groveside+Cave",
+          "Found on a corpse - Groveside Cave - Limgrave"
+        ),
+      },
+      {
+        id: "4bd010c9-3297-4369-aa52-32c6a5cb6356",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+North+Limgrave",
+          "Purchase 1 from Nomadic Merchant North Limgrave - Limgrave"
+        ),
+      },
+      {
+        id: "ff273d37-81ab-4b29-9793-37aa63f4b42e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Castle+Morne+Rampart",
+          "Purchase 1 from Nomadic Merchant Castle Morne Rampart - Weeping Peninsula"
+        ),
+      },
+      {
+        id: "2200f789-3845-420a-ab6f-0910f08f7cd6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6810&lat=-175.664062&lng=85.62142&code=mapA",
+          "Found 2 near Secluded Cell - Stormveil Castle"
+        ),
+      },
+      {
+        id: "bd4af449-4690-431f-923e-cf6850eb39cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Found on a corpse - Jarburg - Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "235bb327-2e34-4b94-93ea-ee888e78c9e8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Found inside a hut - Jarburg - Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "7b700216-116f-4b16-a5d2-7f3fdd024fde",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Found on a large headstone - Jarburg - Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "45a225a1-7e35-45e3-80f4-7bcc61c91c6e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6546&lat=-138.320312&lng=57.918507&code=mapA",
+          "Found on a corpse - Debate Parlor - Raya Lucaria Academy"
+        ),
+      },
+      {
+        id: "1aa769f7-c8d2-4a2d-a087-61c0b3d51c71",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/interactive+map?id=1532&code=mapA",
+          "Royal Moongazing Grounds - Caria Manor"
+        ),
+      },
+      {
+        id: "6a956e63-c5ca-48d7-a986-72670254bac8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5435&lat=-165.71875&lng=129.143472&code=mapA",
+          "Found on a tree branch - Minor Erdtree (Caelid) - Caelid"
+        ),
+      },
+      {
+        id: "bda0113b-ec50-4a72-a45a-57372e0536f5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Caelid+South",
+          "Purchase 1 from Nomadic Merchant Caelid South - Caelid"
+        ),
+      },
+      {
+        id: "1b1c73dd-c7e5-43a0-900f-5c52e6b461a1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6811&lat=-95.289062&lng=122.700222&code=mapA",
+          "Found 4 (2 if keepsake was Cracked Pot) - Auriza Side Tomb - Capital Outskirts"
+        ),
+      },
+      {
+        id: "1fc7057e-1980-4fe6-9fb7-829b56ee57c0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3851&lat=-101.554687&lng=115.023978&code=mapA",
+          "Found on a corpse - Avenue Balcony - Leyndell, Royal Capital"
+        ),
+      },
+    ]
+  },
+  {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
     name: "Gestures", // not counting automatically received gestures
     url: "https://eldenring.wiki.fextralife.com/Gestures",
