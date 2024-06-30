@@ -586,6 +586,7 @@ export const MiscellaneousList: Array<ListType> = [
   {
     id: "4cc71681-af5e-49d0-a86d-3fe59782bb7e",
     name: "Whetblades",
+    url: "https://eldenring.wiki.fextralife.com/Whetblades",
     requirements: [
       {
         id: "cda3a154-7924-431f-94c7-fba14b403b9b",
@@ -634,6 +635,7 @@ export const MiscellaneousList: Array<ListType> = [
   {
     id: "4934833c-c363-4ecf-a238-cea2bccece33",
     name: "Bell Bearings",
+    url: "https://eldenring.wiki.fextralife.com/Bell+Bearings",
     requirements: [
       {
         id: "d31a2e70-448c-4590-b2c2-f3593b74abea",
