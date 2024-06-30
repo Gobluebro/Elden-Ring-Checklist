@@ -9,36 +9,56 @@ export const MiscellaneousList: Array<ListType> = [
     requirements: [
       {
         id: "c24c0492-c9f9-43cd-b973-5717fab0ab2b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Merchant+Kal%C3%A9",
-          "Purchase 3 from Merchant Kalé - Limgrave"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Merchant+Kal%C3%A9",
+            "Purchase 3 from Merchant Kalé - Limgrave"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=4&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "364050e5-3420-4de0-99c5-9021dc2d9d07",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Groveside+Cave",
-          "Found on a corpse - Groveside Cave - Limgrave"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Groveside+Cave",
+            "Found on a corpse - Groveside Cave - Limgrave"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/interactive+map?id=6751&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "4bd010c9-3297-4369-aa52-32c6a5cb6356",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+North+Limgrave",
-          "Purchase 1 from Nomadic Merchant North Limgrave - Limgrave"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+North+Limgrave",
+            "Purchase 1 from Nomadic Merchant North Limgrave - Limgrave"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=959&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "ff273d37-81ab-4b29-9793-37aa63f4b42e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Castle+Morne+Rampart",
-          "Purchase 1 from Nomadic Merchant Castle Morne Rampart - Weeping Peninsula"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Castle+Morne+Rampart",
+            "Purchase 1 from Nomadic Merchant Castle Morne Rampart - Weeping Peninsula"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=475&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "2200f789-3845-420a-ab6f-0910f08f7cd6",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6810&lat=-175.664062&lng=85.62142&code=mapA",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6810&code=mapA",
           "Found 2 near Secluded Cell - Stormveil Castle"
         ),
       },
@@ -66,7 +86,7 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "45a225a1-7e35-45e3-80f4-7bcc61c91c6e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6546&lat=-138.320312&lng=57.918507&code=mapA",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6546&code=mapA",
           "Found on a corpse - Debate Parlor - Raya Lucaria Academy"
         ),
       },
@@ -80,32 +100,37 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "6a956e63-c5ca-48d7-a986-72670254bac8",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5435&lat=-165.71875&lng=129.143472&code=mapA",
-          "Found on a tree branch - Minor Erdtree (Caelid) - Caelid"
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5435&code=mapA",
+          "Found on a tree branch - Minor Erdtree (Caelid)"
         ),
       },
       {
         id: "bda0113b-ec50-4a72-a45a-57372e0536f5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Caelid+South",
-          "Purchase 1 from Nomadic Merchant Caelid South - Caelid"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Caelid+South",
+            "Purchase 1 from Nomadic Merchant Caelid South - Caelid"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/interactive+map?id=1158&code=mapA",
+            "Map Link"
+          )}]`,
       },
       {
         id: "1b1c73dd-c7e5-43a0-900f-5c52e6b461a1",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6811&lat=-95.289062&lng=122.700222&code=mapA",
-          "Found 4 (2 if keepsake was Cracked Pot) - Auriza Side Tomb - Capital Outskirts"
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6811&code=mapA",
+          "Find 4 (2 if keepsake was Cracked Pot) at Auriza Side Tomb - Capital Outskirts"
         ),
       },
       {
         id: "1fc7057e-1980-4fe6-9fb7-829b56ee57c0",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3851&lat=-101.554687&lng=115.023978&code=mapA",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3851&code=mapA",
           "Found on a corpse - Avenue Balcony - Leyndell, Royal Capital"
         ),
       },
-    ]
+    ],
   },
   {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
