@@ -133,6 +133,282 @@ export const MiscellaneousList: Array<ListType> = [
     ],
   },
   {
+    id: "8bf44a9f-3f0c-4ca0-9045-fc7a11e36932",
+    name: "Crystal Tears",
+    url: "https://eldenring.wiki.fextralife.com/Crystal+Tears",
+    // not actually in alphabetically order
+    // I don't have all of them currently to check the true order
+    requirements: [
+      {
+        id: "a0e39f8f-9ac0-47b8-846a-3b70cf23e411",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloodsucking+Cracked+Tear",
+          "Bloodsucking Cracked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b5f848b8-7f06-4c09-8a13-9d9d6853db45",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Crystal+Tear",
+          "Cerulean Crystal Tear"
+        ),
+      },
+      {
+        id: "0ed2c97d-0188-41d2-bc00-b8ff460f07e4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Hidden+Tear",
+          "Cerulean Hidden Tear"
+        ),
+      },
+      {
+        id: "2d6d1c22-88b1-4c56-852e-169f74448dba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean-Sapping+Cracked+Tear",
+          "Cerulean-sapping Cracked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a33ef947-4068-4393-8157-d866accc6bf5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Bubbletear",
+          "Crimson Bubbletear"
+        ),
+      },
+      {
+        id: "36be3c2b-ce73-4f6d-a3ad-f54b1c39586d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Crystal+Tear",
+          "Crimson Crystal Tear"
+        ),
+      },
+      {
+        id: "67ff796e-fccb-45c9-be01-de956cd361be",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson-Sapping+Cracked+Tear",
+          "Crimson-sapping Cracked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9991e6c4-7fde-4142-8efc-78a034173fba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonburst+Crystal+Tear",
+          "Crimsonburst Crystal Tear"
+        ),
+      },
+      {
+        id: "6d8e5752-9f73-4a5b-b37c-f081aac0e612",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonburst+Dried+Tear",
+          "Crimsonburst Dried Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "6c482080-f5ee-478c-9314-2417714d230c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonspill+Crystal+Tear",
+          "Crimsonspill Crystal Tear"
+        ),
+      },
+      {
+        id: "ed02410d-7ce4-4d60-bf43-35e96b435e24",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonwhorl+Bubbletear",
+          "Crimsonwhorl Bubbletear"
+        ),
+      },
+      {
+        id: "b3a49933-6ef5-44ea-8038-4fb128e94ea0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Deflecting+Hardtear",
+          "Deflecting Hardtear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "85c221e9-0fc6-48b4-b1fb-15baeb8e817d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dexterity-knot+Crystal+Tear",
+          "Dexterity-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "f8810d62-b54c-4eba-a69f-999bbcaaa33f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Faith-knot+Crystal+Tear",
+          "Faith-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "79c261c0-5f9c-4528-9db4-625ef7a075cf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame-Shrouding+Cracked+Tear",
+          "Flame-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "9ee22f08-6343-4683-b125-4a025649efc2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glovewort+Crystal+Tear",
+          "Glovewort Crystal Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ac6846cc-dae4-4ba8-b1cd-485637da8c34",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greenburst+Crystal+Tear",
+          "Greenburst Crystal Tear"
+        ),
+      },
+      {
+        id: "5330ad03-57cc-4a8c-829a-91713eec524b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greenspill+Crystal+Tear",
+          "Greenspill Crystal Tear"
+        ),
+      },
+      {
+        id: "6136e523-63da-49dc-ac8e-a8f019fa3907",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Holy-Shrouding+Cracked+Tear",
+          "Holy-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "5953c052-27d5-440e-b03f-506945479cfb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Intelligence-knot+Crystal+Tear",
+          "Intelligence-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "72b90965-0033-4e36-99d5-85beaac2eaa1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Leaden+Hardtear",
+          "Leaden Hardtear"
+        ),
+      },
+      {
+        id: "bdcfb739-e935-400e-b28d-2bfa781c0c40",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning-Shrouding+Cracked+Tear",
+          "Lightning-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "fc8258b1-7941-42f6-aad9-29d28203b291",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magic-Shrouding+Cracked+Tear",
+          "Magic-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "3b860d1d-375d-4cf2-8b06-b1d096cc8eb9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Oil-Soaked+Tear",
+          "Oil-soaked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "66e11134-495d-4871-bc8f-ee8fd1171504",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Opaline+Bubbletear",
+          "Opaline Bubbletear"
+        ),
+      },
+      {
+        id: "8c3a8075-76b3-40f9-9004-2191b6ce02fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Opaline+Hardtear",
+          "Opaline Hardtear"
+        ),
+      },
+      {
+        id: "73482720-2787-4970-b44c-e2eb9d786d97",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Purifying+Crystal+Tear",
+          "Purifying Crystal Tear"
+        ),
+      },
+      {
+        id: "14dee1f9-6d36-4ef1-bac8-a9f96be61703",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ruptured+Crystal+Tear",
+          "Ruptured Crystal Tear"
+        ),
+      },
+      {
+        id: "eb9a1382-a3bd-4ac2-ab76-4ee03538dd36",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Speckled+Hardtear",
+          "Speckled Hardtear"
+        ),
+      },
+      {
+        id: "5df7bf88-7f5c-4d31-8f85-86bc4f479fda",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spiked+Cracked+Tear",
+          "Spiked Cracked Tear"
+        ),
+      },
+      {
+        id: "e82b0b64-d491-4c01-b4ae-18726505031d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stonebarb+Cracked+Tear",
+          "Stonebarb Cracked Tear"
+        ),
+      },
+      {
+        id: "7850b04e-4972-4ff7-938f-dc6d35f2684f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Strength-knot+Crystal+Tear",
+          "Strength-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "0d59229c-3408-4b6a-8d58-57338512c4c8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Thorny+Cracked+Tear",
+          "Thorny Cracked Tear"
+        ),
+      },
+      {
+        id: "ec894f70-7348-408d-a297-723883ba8338",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Twiggy+Cracked+Tear",
+          "Twiggy Cracked Tear"
+        ),
+      },
+      {
+        id: "46788875-1a73-45cd-8db6-139ef682a3ef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Viridian+Hidden+Tear",
+          "Viridian Hidden Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4cb722dd-28dc-4e2c-81dc-85ff8277bc6a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Windy+Crystal+Tear",
+          "Windy Crystal Tear"
+        ),
+      },
+      {
+        id: "6c28bf48-c557-4c3c-b350-5522c5f9ae67",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Winged+Crystal+Tear",
+          "Winged Crystal Tear"
+        ),
+      },
+    ],
+  },
+  {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
     name: "Gestures", // not counting automatically received gestures
     url: "https://eldenring.wiki.fextralife.com/Gestures",
