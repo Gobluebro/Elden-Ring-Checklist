@@ -44,6 +44,11 @@ export const MiscellaneousList: Array<ListType> = [
         description: "Heartening Cry",
       },
       {
+        id: "6a5c8397-e92c-426f-8df7-572679c575aa",
+        description: "May the Best Win",
+        isDLC: true,
+      },
+      {
         id: "e36b5e25-ab07-44c0-914d-3e4df5d40ff7",
         description: "Polite Bow",
       },
@@ -86,6 +91,11 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "31a13275-3ba3-4f23-8780-ac3581064a56",
         description: "The Ring",
+      },
+      {
+        id: "1ed73fa1-be86-470a-b991-bef751b3edb1",
+        description: "Ring of Miquella",
+        isDLC: true,
       },
       {
         id: "84189621-279f-4ee4-9e74-c0aa53c62467",
@@ -146,6 +156,24 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "0cbbba8b-3dae-40f6-8483-09df2efbe8be",
         description: "Spread Out",
+      },
+      {
+        // not in correct order
+        id: "ab406ebc-c4fc-4438-bcd5-dde2fd19d227",
+        description: "The Two Fingers",
+        isDLC: true,
+      },
+      {
+        // not in correct order
+        id: "8c750644-dcc9-4d6f-809e-86dc68c73857",
+        description: "Let Us Go Together",
+        isDLC: true,
+      },
+      {
+        // not in correct order
+        id: "9678bbd8-1f6e-454f-bea0-15773ae02d70",
+        description: "O Mother",
+        isDLC: true,
       },
     ],
   },
