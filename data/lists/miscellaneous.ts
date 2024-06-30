@@ -646,6 +646,83 @@ export const MiscellaneousList: Array<ListType> = [
     ],
   },
   {
+    id: "a5a975e9-b466-46f9-b070-ffc382a2face",
+    name: "Ritual Pot",
+    url: "https://eldenring.wiki.fextralife.com/Ritual+Pot",
+    requirements: [
+      {
+        id: "cb270b86-6d3b-43c1-abfc-d1ae2bc11233",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/interactive+map?id=1503&lat=-158.570312&lng=72.893318&code=mapA",
+          "Laskyar Ruins, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "e8268c69-01f5-42a0-8781-6fc44c196d4e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2213&lat=-139.257812&lng=57.06589&code=mapA",
+          "Treasure Chest, Raya Lucaria Academy"
+        ),
+      },
+      {
+        id: "cebe0c2e-378d-4c8e-b132-0a8ef2b4ad53",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&lat=-145.589062&lng=84.07286&code=mapA",
+          "Roof, Jarburg, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "1c03996d-3944-484c-b540-10405b613b77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&lat=-145.589062&lng=84.07286&code=mapA",
+          "Large decorative jar, Jarburg, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "18fc7532-676f-4bb6-bb4d-1eac40cab7f6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pidia,+Carian+Servant",
+          "Purchase 1 from Pidia, Carian Servant, Caria Manor"
+        ),
+      },
+      {
+        id: "d45a12da-aab9-4391-b5db-d1b31e594bbc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Isolated+Merchant+Dragonbarrow",
+          "Purchase 1 from Isolated Merchant Dragonbarrow, Dragonbarrow"
+        ),
+      },
+      {
+        id: "f9caebce-f418-4b69-b0b0-54ccc84d27df",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb",
+          "#1 guarded by large Living Jar, Auriza Side Tomb, Capital Outskirts"
+        ),
+      },
+      {
+        id: "b8d1e3fe-81c3-457b-b6d0-f80f7d9f4d90",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb",
+          "#2 guarded by large Living Jar, Auriza Side Tomb, Capital Outskirts"
+        ),
+      },
+      {
+        id: "d9376521-b618-4707-84a2-570b9c2fd5b7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Subterranean+Shunning-Grounds",
+          "Forsaken Depths, Subterranean Shunning-Grounds"
+        ),
+      },
+      {
+        id: "60379d47-cb29-474e-b8b8-0aea93af4ca6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Giants'+Mountaintop+Catacombs",
+          "Giants' Mountaintop Catacombs, Mountaintops of the Giants"
+        ),
+      },
+    ]
+  },
+  {
     id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
     name: "Talismans",
     url: "https://eldenring.wiki.fextralife.com/Talismans",
