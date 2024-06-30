@@ -149,6 +149,11 @@ export const MiscellaneousList: Array<ListType> = [
         description: "Heartening Cry",
       },
       {
+        id: "6a5c8397-e92c-426f-8df7-572679c575aa",
+        description: "May the Best Win",
+        isDLC: true,
+      },
+      {
         id: "e36b5e25-ab07-44c0-914d-3e4df5d40ff7",
         description: "Polite Bow",
       },
@@ -191,6 +196,11 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "31a13275-3ba3-4f23-8780-ac3581064a56",
         description: "The Ring",
+      },
+      {
+        id: "1ed73fa1-be86-470a-b991-bef751b3edb1",
+        description: "Ring of Miquella",
+        isDLC: true,
       },
       {
         id: "84189621-279f-4ee4-9e74-c0aa53c62467",
@@ -251,6 +261,24 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "0cbbba8b-3dae-40f6-8483-09df2efbe8be",
         description: "Spread Out",
+      },
+      {
+        // not in correct order
+        id: "ab406ebc-c4fc-4438-bcd5-dde2fd19d227",
+        description: "The Two Fingers",
+        isDLC: true,
+      },
+      {
+        // not in correct order
+        id: "8c750644-dcc9-4d6f-809e-86dc68c73857",
+        description: "Let Us Go Together",
+        isDLC: true,
+      },
+      {
+        // not in correct order
+        id: "9678bbd8-1f6e-454f-bea0-15773ae02d70",
+        description: "O Mother",
+        isDLC: true,
       },
     ],
   },
@@ -751,6 +779,98 @@ export const MiscellaneousList: Array<ListType> = [
     ],
   },
   {
+    id: "a5a975e9-b466-46f9-b070-ffc382a2face",
+    name: "Ritual Pot",
+    url: "https://eldenring.wiki.fextralife.com/Ritual+Pot",
+    requirements: [
+      {
+        id: "cb270b86-6d3b-43c1-abfc-d1ae2bc11233",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/interactive+map?id=1503&code=mapA",
+          "Laskyar Ruins, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "e8268c69-01f5-42a0-8781-6fc44c196d4e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2213&code=mapA",
+          "Treasure Chest, Raya Lucaria Academy"
+        ),
+      },
+      {
+        id: "cebe0c2e-378d-4c8e-b132-0a8ef2b4ad53",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&code=mapA",
+          "Roof, Jarburg, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "1c03996d-3944-484c-b540-10405b613b77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&code=mapA",
+          "Large decorative jar, Jarburg, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "18fc7532-676f-4bb6-bb4d-1eac40cab7f6",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Pidia,+Carian+Servant",
+            "Purchase 1 from Pidia, Carian Servant, Caria Manor."
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2920&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "d45a12da-aab9-4391-b5db-d1b31e594bbc",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Isolated+Merchant+Dragonbarrow",
+            "Purchase 1 from Isolated Merchant Dragonbarrow, Dragonbarrow"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+map?id=2353&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "f9caebce-f418-4b69-b0b0-54ccc84d27df",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb",
+          "#1 guarded by large Living Jar, Auriza Side Tomb, Capital Outskirts"
+        ),
+      },
+      {
+        id: "b8d1e3fe-81c3-457b-b6d0-f80f7d9f4d90",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb",
+          "#2 guarded by large Living Jar, Auriza Side Tomb, Capital Outskirts"
+        ),
+      },
+      {
+        id: "d9376521-b618-4707-84a2-570b9c2fd5b7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Subterranean+Shunning-Grounds",
+          "Forsaken Depths, Subterranean Shunning-Grounds"
+        ),
+      },
+      {
+        id: "60379d47-cb29-474e-b8b8-0aea93af4ca6",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Giants'+Mountaintop+Catacombs",
+            "Giants' Mountaintop Catacombs, Mountaintops of the Giants"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=8503&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+    ],
+  },
+  {
     id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
     name: "Talismans",
     url: "https://eldenring.wiki.fextralife.com/Talismans",
@@ -784,7 +904,7 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
-        id: "810d5de7-24a9-493f-a58f-7515d51a419c",
+        id: "7c93f796-2db2-4279-a37c-3991f5a46bcd",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Arsenal+Charm",
           "Arsenal Charm +1"
@@ -861,7 +981,7 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
-        id: "ba24a66d-10e5-4cb3-8798-f54780616051",
+        id: "20caba8f-28cb-4b18-b28f-13ebde5554c5",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
           "Boltdrake Talisman +3"
