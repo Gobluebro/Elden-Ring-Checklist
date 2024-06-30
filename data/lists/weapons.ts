@@ -64,6 +64,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "816bb8dc-148b-43da-97d4-35941e691b2a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Messmer+Soldier's+Axe",
+          "Messmer Soldier's Axe"
+        ),
+        isDLC: true,
+      },
+      {
         id: "3d3aa490-0515-4e4b-ad8a-c0cd92380ccf",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ripple+Blade",
@@ -85,11 +93,51 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "f9250ef6-d806-43e6-a98f-708173bf8e75",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smithscript+Axe",
+          "Smithscript Axe"
+        ),
+        isDLC: true,
+      },
+      {
         id: "45c801e0-e92e-4d7d-8f18-bffa622eb9b6",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Stormhawk+Axe",
           "Stormhawk Axe"
         ),
+      },
+    ],
+  },
+  {
+    id: "63680cb9-6627-4fec-a60d-3f8ffc301d29",
+    name: "Backhand Blades",
+    url: "https://eldenring.wiki.fextralife.com/Backhand+Blades",
+    isDLC: true,
+    requirements: [
+      {
+        id: "5c3dee4f-a499-429f-b566-699346f2f0dd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Backhand+Blade",
+          "Backhand Blade"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "2617ce67-db9c-4f3b-a0c6-8f83bc108967",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smithscript+Cirque",
+          "Smithscript Cirque"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "00b0d66b-8cc5-4195-884a-f01596935596",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Curseblade's+Cirque",
+          "Curseblade's Cirque"
+        ),
+        isDLC: true,
       },
     ],
   },
@@ -112,6 +160,37 @@ export const WeaponsList: Array<ListType> = [
           "Jar Cannon"
         ),
       },
+      {
+        id: "6702cb5d-3553-48cb-b209-e2d99e427fa3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rabbath's+Cannon",
+          "Rabbath's Cannon"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "fa0dfe05-d95f-4734-947e-26ef38e8316b",
+    name: "Beast Claws",
+    isDLC: true,
+    requirements: [
+      {
+        id: "27acb8de-8f01-4789-93eb-92b52696d69e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Red+Bear's+Claw",
+          "Red Bear's Claw"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a01dc182-5a19-4fa9-b0c3-c6866dddfe4c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Beast+Claw+(Weapon)",
+          "Beast Claw (Weapon)"
+        ),
+        isDLC: true,
+      },
     ],
   },
   {
@@ -125,6 +204,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Albinauric+Bow",
           "Albinauric Bow"
         ),
+      },
+      {
+        id: "",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ansbach's+Longbow",
+          "Ansbach's Longbow"
+        ),
+        isDLC: true,
       },
       {
         id: "b32e5388-1b22-4cb9-8141-6fd1b9100334",
@@ -183,6 +270,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "ea287d14-c6f2-4f05-ab7d-35b024736053",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Claws+of+Night",
+          "Claws of Night"
+        ),
+        isDLC: true,
+      },
+      {
         id: "f13e3c1e-cd4a-4ade-a1f9-a2704b7b4a0b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Hookclaws",
@@ -211,6 +306,22 @@ export const WeaponsList: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Colossal+Swords",
     requirements: [
       {
+        id: "aae45ca6-f078-4174-8c34-457f840ae1d9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword",
+          "Ancient Meteoric Ore Greatsword"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ecff2ced-5b65-4be7-b928-eee59f849db2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Knight's+Greatsword",
+          "Fire Knight's Greatsword"
+        ),
+        isDLC: true,
+      },
+      {
         id: "031e5ec7-7c1b-422f-ba34-929554e76b10",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Godslayer's+Greatsword",
@@ -232,11 +343,35 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "f9ab452e-ef2b-4f87-9a63-ddd20822e286",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Light)",
+          "Greatsword of Radahn (Light)"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "95a42b41-2c0d-4425-8bb3-4c0b36b99bfa",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Lord)",
+          "Greatsword of Radahn (Lord)"
+        ),
+        isDLC: true,
+      },
+      {
         id: "d1a23600-89df-4d7e-9605-cfd5fda9bf55",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Maliketh's+Black+Blade",
           "Maliketh's Black Blade"
         ),
+      },
+      {
+        id: "0ab93a48-1b5f-4dd5-a707-c275ea4a928a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Moonrithyll's+Knight+Sword",
+          "Moonrithyll's Knight Sword"
+        ),
+        isDLC: true,
       },
       {
         id: "c1d9c560-35e4-4c2f-8fad-a2a803f1d506",
@@ -295,11 +430,35 @@ export const WeaponsList: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Colossal+Weapons",
     requirements: [
       {
+        id: "1cd2bdeb-9097-49ec-8f6e-c3db2828fce6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Anvil+Hammer",
+          "Anvil Hammer"
+        ),
+        isDLC: true,
+      },
+      {
         id: "a5903476-4be2-4a41-8b94-e87200a9f9b3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Axe+of+Godfrey",
           "Axe of Godfrey"
         ),
+      },
+      {
+        id: "2f277c03-6989-43b1-8afa-c1709affba40",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloodfiend's+Arm",
+          "Bloodfiend's Arm"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e0259d46-d69d-407a-99bb-e9baee67d5da",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Devonia's+Hammer",
+          "Devonia's Hammer"
+        ),
+        isDLC: true,
       },
       {
         id: "3a9849dc-8f43-4ca8-8d86-dc1271a16602",
@@ -328,6 +487,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Fallingstar+Beast+Jaw",
           "Fallingstar Beast Jaw"
         ),
+      },
+      {
+        id: "4e0eee80-3797-44bc-9f92-14b9d10c35d4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gazing+Finger",
+          "Gazing Finger"
+        ),
+        isDLC: true,
       },
       {
         id: "3cff9cc2-a774-4075-9f17-c338e3b4993c",
@@ -377,6 +544,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Rotten+Staff",
           "Rotten Staff"
         ),
+      },
+      {
+        id: "34637218-049a-4406-b2cf-a921c0a90c07",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Shadow+Sunflower+Blossom",
+          "Shadow Sunflower Blossom"
+        ),
+        isDLC: true,
       },
       {
         id: "75577060-3dbf-492a-8dc1-c6ac82bb9d47",
@@ -449,11 +624,27 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "31ed6944-cef2-4b2f-9c45-42b45063159d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Repeating+Crossbow",
+          "Repeating Crossbow"
+        ),
+        isDLC: true,
+      },
+      {
         id: "5b48cba6-d220-47e4-ad9b-00b4a3c2f101",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Soldier's+Crossbow",
           "Soldier's Crossbow"
         ),
+      },
+      {
+        id: "e71e2a25-57fc-48bc-aaff-cbc31cdf0e83",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spread+Crossbow",
+          "Spread Crossbow"
+        ),
+        isDLC: true,
       },
     ],
   },
@@ -482,6 +673,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Dismounter",
           "Dismounter"
         ),
+      },
+      {
+        id: "fbc7b913-c44c-482f-b038-ce8a40cc9db7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Horned+Warrior's+Greatsword",
+          "Horned Warrior's Greatsword"
+        ),
+        isDLC: true,
       },
       {
         id: "ab0b1ffb-bd32-4f43-a9be-adcc755b2d35",
@@ -547,6 +746,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "915617ac-cab1-4c0e-87b6-cf4d1ca225fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dancing+Blade+of+Ranah",
+          "Dancing Blade of Ranah"
+        ),
+        isDLC: true,
+      },
+      {
         id: "c080ebed-b63e-49db-aba3-c9832faeca4f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Eclipse+Shotel",
@@ -561,6 +768,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "5c00401f-9f0c-4b41-8b2a-6223f4fa3981",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Falx",
+          "Falx"
+        ),
+        isDLC: true,
+      },
+      {
         id: "2272eba0-23b4-43bb-9409-36b1a690bc59",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Flowing+Curved+Sword",
@@ -573,6 +788,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Grossmesser",
           "Grossmesser"
         ),
+      },
+      {
+        id: "abe4d373-78de-4caf-a60f-4aca8148a0ff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Horned+Warrior's+Sword",
+          "Horned Warrior's Sword"
+        ),
+        isDLC: true,
       },
       {
         id: "3fce9367-ef5f-46b1-b2e6-8ccfc4d4fa1c",
@@ -629,6 +852,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Shotel",
           "Shotel"
         ),
+      },
+      {
+        id: "4a54746c-d05b-4e82-b762-d19b4b0d1ab6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spirit+Sword",
+          "Spirit Sword"
+        ),
+        isDLC: true,
       },
       {
         id: "0635d5c8-1657-408f-8bc6-6722951a8ae7",
@@ -722,6 +953,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Main-gauche",
+          "Main-gauche"
+        ),
+        isDLC: true,
+      },
+      {
         id: "c9ff7bce-44cc-4dc8-91eb-f2ee7c7d8a98",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Misericorde",
@@ -785,6 +1024,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "926db3d4-cee5-433c-8339-277a4aec7428",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golem+Fist",
+          "Golem Fist"
+        ),
+        isDLC: true,
+      },
+      {
         id: "934ac8c2-e709-4726-b4e1-637e012a2b58",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Grafted+Dragon",
@@ -806,6 +1053,30 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "a3fa0a22-ddcd-47f2-b65d-36dd2c4970b5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Madding+Hand",
+          "Madding Hand"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "884523cd-977c-4b4c-9e18-50b2eb0d134b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pata",
+          "Pata"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "55900840-476e-43e2-b207-6cc8a6de4bf0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Poisoned+Hand",
+          "Poisoned Hand"
+        ),
+        isDLC: true,
+      },
+      {
         id: "c384113d-fb21-4bb0-9967-6001bf5a57ee",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Spiked+Caestus",
@@ -818,6 +1089,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Star+Fist",
           "Star Fist"
         ),
+      },
+      {
+        id: "49a9adc2-799c-405e-9f20-68fa2834425d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Thiollier's+Hidden+Needle",
+          "Thiollier's Hidden Needle"
+        ),
+        isDLC: true,
       },
       {
         id: "ea5bf7a3-31c9-4de3-920e-b709df286d85",
@@ -867,6 +1146,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Nightrider+Flail",
           "Nightrider Flail"
         ),
+      },
+      {
+        id: "70a221f7-6957-4066-bced-79c44ad482a4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Serpent+Flail",
+          "Serpent Flail"
+        ),
+        isDLC: true,
       },
     ],
   },
@@ -967,6 +1254,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "8f562376-30d0-4a32-b417-af96d3afbdec",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Maternal+Staff",
+          "Maternal Staff"
+        ),
+        isDLC: true,
+      },
+      {
         id: "22b42c39-ca55-494c-8011-90b50344d5f8",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Meteorite+Staff",
@@ -995,6 +1290,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "a098753a-1d63-454f-9ec9-633f35e2c220",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Staff+of+the+Great+Beyond",
+          "Staff of the Great Beyond"
+        ),
+        isDLC: true,
+      },
+      {
         id: "7990de68-9061-45aa-add4-6cd45d93f1d0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Staff+of+the+Guilty",
@@ -1004,16 +1307,193 @@ export const WeaponsList: Array<ListType> = [
     ],
   },
   {
+    id: "820cd374-32da-4e06-91c2-745a24180a4e",
+    name: "Great Hammers / Warhammers",
+    url: "https://eldenring.wiki.fextralife.com/Great+Hammers",
+    requirements: [
+      {
+        id: "e986cc60-0bcc-412b-a04c-e35b46eed753",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Battle+Hammer",
+          "Battle Hammer"
+        ),
+      },
+      {
+        id: "a0342058-b49f-45d1-a23c-fef88b98e66c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer",
+          "Beastclaw Greathammer"
+        ),
+      },
+      {
+        id: "c175c8c0-fbb6-4b2d-91a7-fd2361536d92",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Steel+Greathammer",
+          "Black Steel Greathammer"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "911ee6dc-2a89-4b25-9ce8-eeb77adfe92f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Brick+Hammer",
+          "Brick Hammer"
+        ),
+      },
+      {
+        id: "dc8f3976-fc9a-4527-baeb-8aace839787f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Celebrant's+Skull",
+          "Celebrant's Skull"
+        ),
+      },
+      {
+        id: "865ace90-9ad7-4222-8da6-e4b43b3beb0b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand",
+          "Cranial Vessel Candlestand"
+        ),
+      },
+      {
+        id: "8d7acef9-dae8-489f-a35e-36378ed22cef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Curved+Great+Club",
+          "Curved Great Club"
+        ),
+      },
+      {
+        id: "c0b32738-f7ee-4fac-aa49-bd213eb73e12",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Devourer's+Scepter",
+          "Devourer's Scepter"
+        ),
+      },
+      {
+        id: "351d11a9-2695-4328-82ce-6280ff378357",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn",
+          "Envoy's Long Horn"
+        ),
+      },
+      {
+        id: "bd8c6189-9507-4a14-8060-32bdbf1ec1f6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Great+Mace",
+          "Great Mace"
+        ),
+      },
+      {
+        id: "3afee856-b2c6-43f9-8198-458f35279bec",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Great+Stars",
+          "Great Stars"
+        ),
+      },
+      {
+        id: "a3b734b2-9329-4897-8304-9524c19f7c53",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greathorn+Hammer",
+          "Greathorn Hammer"
+        ),
+      },
+      {
+        id: "63184246-e756-4866-80cf-d0e0d0ddfd34",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Large+Club",
+          "Large Club"
+        ),
+      },
+      {
+        id: "c93f5477-d387-4aaa-9312-c3f438eee842",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pickaxe",
+          "Pickaxe"
+        ),
+      },
+      {
+        id: "00f15e36-4ae2-4b51-aea2-f530f316c618",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer",
+          "Rotten Battle Hammer"
+        ),
+      },
+      {
+        id: "1975ed98-7637-4ea2-82f3-0ba048f4363c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smithscript+Greathammer",
+          "Smithscript Greathammer"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "8f5dd2e6-4b6e-4a3b-9e3d-db0ecc58acc1",
+    name: "Great Katanas",
+    url: "https://eldenring.wiki.fextralife.com/Great+Katanas",
+    isDLC: true,
+    requirements: [
+      {
+        id: "b3cb83be-4c8c-4179-bfb9-68468ee224a0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragon-Hunter's+Great+Katana",
+          "Dragon Hunter's Great Katana"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "da920c52-dd0f-4057-9cf8-e9839a99931a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Great+Katana",
+          "Great Katana"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "d2b68ccd-b260-403f-9b23-e3838e446e6e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rakshasa's+Great+Katana",
+          "Rakshasa's Great Katana"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
     id: "b3a8245d-b018-4ad5-98a7-a704dd5abebf",
     name: "Great Spears",
     url: "https://eldenring.wiki.fextralife.com/Great+Spears",
     requirements: [
+      {
+        id: "c1363925-126c-4572-9d55-0af2afd6539b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Barbed+Staff-Spear",
+          "Barbed Staff-Spear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "d652b5bc-cb2c-447f-ba2e-1320044c0960",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloodfiend's+Sacred+Spear",
+          "Bloodfiend's Sacred Spear"
+        ),
+        isDLC: true,
+      },
       {
         id: "24ec4aa9-ee4b-47e1-9733-2ca32a0eb757",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Lance",
           "Lance"
         ),
+      },
+      {
+        id: "646a89a7-5705-42d3-b485-facc491ef362",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Messmer+Soldier's+Spear",
+          "Messmer Soldier's Spear"
+        ),
+        isDLC: true,
       },
       {
         id: "2028c5e4-c740-4ad0-94dd-69befea8de11",
@@ -1035,6 +1515,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Siluria's+Tree",
           "Siluria's Tree"
         ),
+      },
+      {
+        id: "0e61b966-6b41-43d2-857a-e9308b3eaa04",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spear+of+the+Impaler",
+          "Spear of the Impaler"
+        ),
+        isDLC: true,
       },
       {
         id: "15be0632-f6af-41e4-a7c5-f0055dff254f",
@@ -1065,6 +1553,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "2ddd760b-ca3a-4369-9f7f-dd61e829cbbb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bonny+Butchering+Knife",
+          "Bonny Butchering Knife"
+        ),
+        isDLC: true,
+      },
+      {
         id: "85378280-623e-4172-8f2b-21556fe2cf10",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Butchering+Knife",
@@ -1077,6 +1573,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Crescent+Moon+Axe",
           "Crescent Moon Axe"
         ),
+      },
+      {
+        id: "284b1a12-9d32-43d7-a7c6-e5eb310378cd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Death+Knight's+Longhaft+Axe",
+          "Death Knight's Longhaft Axe"
+        ),
+        isDLC: true,
       },
       {
         id: "b47cde6d-ab87-4bda-94c5-f97d7f94fab6",
@@ -1119,6 +1623,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Longhaft+Axe",
           "Longhaft Axe"
         ),
+      },
+      {
+        id: "66e90501-8df2-4a6e-a9c0-31b7104b2288",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Putrescence+Cleaver",
+          "Putrescence Cleaver"
+        ),
+        isDLC: true,
       },
       {
         id: "7156f4a2-71f0-4a91-9405-50f929ac7a7c",
@@ -1168,6 +1680,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Greatbow",
           "Greatbow"
         ),
+      },
+      {
+        id: "73162915-f863-426a-a417-3c6ecc5fa886",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Igon's+Greatbow",
+          "Igon's Greatbow"
+        ),
+        isDLC: true,
       },
       {
         id: "1b3da6d5-c474-46bc-a330-5678227245d5",
@@ -1247,6 +1767,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "55bb4c6e-880d-49d2-adee-426c66a5dd3e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Freyja's+Greatsword",
+          "Freyja's Greatsword"
+        ),
+        isDLC: true,
+      },
+      {
         id: "8cb7a86e-2811-4737-82ed-5db8e0dae1ff",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Gargoyle's+Blackblade",
@@ -1266,6 +1794,22 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Golden+Order+Greatsword",
           "Golden Order Greatsword"
         ),
+      },
+      {
+        id: "044d6eea-3d65-4a93-9157-8eb697dbf2fc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greatsword+of+Damnation",
+          "Greatsword of Damnation"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "dbb649ff-9bef-4a3c-b826-6f7d89bffe25",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greatsword+of+Solitude",
+          "Greatsword of Solitude"
+        ),
+        isDLC: true,
       },
       {
         id: "40e0631b-4e87-42a6-9ada-33f06c8123e0",
@@ -1296,6 +1840,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "eb8ebb1e-0a7d-4001-98af-33ea33b4297a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lizard+Greatsword",
+          "Lizard Greatsword"
+        ),
+        isDLC: true,
+      },
+      {
         id: "ca08d324-3beb-46cd-b27d-1370fedc85c2",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Lordsworn's+Greatsword",
@@ -1315,6 +1867,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ordovis's+Greatsword",
           "Ordovis's Greatsword"
         ),
+      },
+      {
+        id: "a51e4cdd-81cc-401b-a182-4b61a96727bc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Queelign's+Greatsword",
+          "Queelign's Greatsword"
+        ),
+        isDLC: true,
       },
       {
         id: "4968f598-06db-4dba-b429-9cf825c33cd0",
@@ -1429,11 +1989,27 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "fcfdfe94-8f61-4eb9-9fb4-56f10e8e8d6e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Poleblade+of+the+Bud",
+          "Poleblade of the Bud"
+        ),
+        isDLC: true,
+      },
+      {
         id: "4cd86db7-a838-484d-bcc9-ee446d92db3f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ripple+Crescent+Halberd",
           "Ripple Crescent Halberd"
         ),
+      },
+      {
+        id: "d8eaa129-e988-4e9c-8a2e-7044cfc76eab",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spirit+Glaive",
+          "Spirit Glaive"
+        ),
+        isDLC: true,
       },
       {
         id: "2186e76b-3cdb-44ca-9d26-35cf5dc599ab",
@@ -1476,6 +2052,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Envoy's+Horn",
           "Envoy's Horn"
         ),
+      },
+      {
+        id: "03c2ecea-d912-452a-8cb9-3d4e660f3a02",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flowerstone+Gavel",
+          "Flowerstone Gavel"
+        ),
+        isDLC: true,
       },
       {
         id: "b9b40594-dc41-41a4-b9b1-fcac19a47004",
@@ -1564,6 +2148,30 @@ export const WeaponsList: Array<ListType> = [
     ],
   },
   {
+    id: "ef33dfa1-1a2a-4443-829e-7d2e3bafe6e8",
+    name: "Hand-To-Hand Arts",
+    url: "https://eldenring.wiki.fextralife.com/Hand-to-Hand+Arts",
+    isDLC: true,
+    requirements: [
+      {
+        id: "c8594107-31dd-423c-894b-ab0ac3a23bb7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dryleaf+Arts",
+          "Dryleaf Arts"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b75273ae-9252-413c-b555-ffdc89694d38",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dane's+Footwork",
+          "Dane's Footwork"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
     id: "02c7084b-5175-4f34-ad8d-7489b672d7e6",
     name: "Heavy Thrusting Swords",
     url: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords",
@@ -1595,6 +2203,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Great+epee",
           "Great epee"
         ),
+      },
+      {
+        id: "144d57bf-9dd5-49be-a8d1-bca17f433a91",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sword+Lance",
+          "Sword Lance"
+        ),
+        isDLC: true,
       },
     ],
   },
@@ -1653,6 +2269,22 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "1530ed3b-ec32-4894-b398-e54c4bbae713",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Star-Lined+Sword",
+          "Star-Lined Sword"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "71ee2b30-8b04-4058-92c3-e7bf2d4059b5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sword+of+Night",
+          "Sword of Night"
+        ),
+        isDLC: true,
+      },
+      {
         id: "6153f47a-fb8f-4e31-b40e-913143a55ea1",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Uchigatana",
@@ -1666,6 +2298,14 @@ export const WeaponsList: Array<ListType> = [
     name: "Light Bows",
     url: "https://eldenring.wiki.fextralife.com/Light+Bows",
     requirements: [
+      {
+        id: "c46db426-9fe2-4ced-9f87-64de3cc285e4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bone+Bow",
+          "Bone Bow"
+        ),
+        isDLC: true,
+      },
       {
         id: "4ea79bf1-cdf5-48d1-a749-b4d36df7a8b4",
         description: rawHTMLLink(
@@ -1704,6 +2344,86 @@ export const WeaponsList: Array<ListType> = [
     ],
   },
   {
+    id: "769b57b8-20aa-4b9d-8ead-466c8c57cf17",
+    name: "Light Greatswords",
+    url: "https://eldenring.wiki.fextralife.com/Light+Greatswords",
+    isDLC: true,
+    requirements: [
+      {
+        id: "bb68d456-b05d-4846-a107-765ddd1b56d5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Leda's+Sword",
+          "Leda's Sword"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5b6a140f-ea4e-4c6d-b1a4-d2d58c36e01f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Milady",
+          "Milady"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "29f5dd40-60ca-48a9-98da-50591ec5f914",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rellana's+Twin+Blades",
+          "Rellana's Twin Blades"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "aeab3fe4-c6f2-4219-ac4e-d4f0d91daa15",
+    name: "Perfume Bottles",
+    url: "https://eldenring.wiki.fextralife.com/Perfume+Bottles",
+    isDLC: true,
+    requirements: [
+      {
+        id: "da59a138-f77a-400b-bfa7-50e261c0eb79",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Chilling+Perfume+Bottle",
+          "Chilling Perfume Bottle"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "47bac73d-485f-4166-ae91-d810e7f37271",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Deadly+Poison+Perfume+Bottle",
+          "Deadly Poison Perfume Bottle"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "cc42d1b0-76cd-454e-8b98-0a269b51092d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Firespark+Perfume+Bottle",
+          "Firespark Perfume Bottle"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f722ddb2-4503-4bd1-9edb-f3639f6ccc71",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Frenzyflame+Perfume+Bottle",
+          "Frenzyflame Perfume Bottle"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9afcb886-1947-4ed5-b433-ad36bef8b49c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning+Perfume+Bottle",
+          "Lightning Perfume Bottle"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
     id: "ea94b215-b2bd-4c22-875f-db9418ff7a3a",
     name: "Reapers",
     url: "https://eldenring.wiki.fextralife.com/Reapers",
@@ -1721,6 +2441,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Halo+Scythe",
           "Halo Scythe"
         ),
+      },
+      {
+        id: "0ffe28c6-16a3-4048-ac87-93344e113e0a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Obsidian+Lamina",
+          "Obsidian Lamina"
+        ),
+        isDLC: true,
       },
       {
         id: "ea32547e-45c4-4763-8984-cb1991405232",
@@ -1741,6 +2469,7 @@ export const WeaponsList: Array<ListType> = [
   {
     id: "81a005a8-3c5f-43f8-a0a0-6f00236fc169",
     name: "Sacred Seal",
+    url: "https://eldenring.wiki.fextralife.com/Sacred+Seals",
     requirements: [
       {
         id: "a29ec338-0860-4f55-89ea-4a094b1ea679",
@@ -1757,6 +2486,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "d73a02f8-4bb0-45b2-b0f6-8b1e1bde44fa",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dryleaf+Seal",
+          "Dryleaf Seal"
+        ),
+        isDLC: true,
+      },
+      {
         id: "50f165e7-11cf-44d0-9312-d33e22e2bfff",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Erdtree+Seal",
@@ -1769,6 +2506,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Finger+Seal",
           "Finger Seal"
         ),
+      },
+      {
+        id: "f4de2bea-f6fb-45aa-a0ac-039d61d24bd1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Knight's+Seal",
+          "Fire Knight's Seal"
+        ),
+        isDLC: true,
       },
       {
         id: "e37da141-4c2d-4925-bedd-20db681de14a",
@@ -1805,14 +2550,29 @@ export const WeaponsList: Array<ListType> = [
           "Gravel Stone Seal"
         ),
       },
+      {
+        id: "1c265eea-7066-48b4-9769-eb4b9bfe7c69",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spiraltree+Seal",
+          "Spiraltree Seal"
+        ),
+        isDLC: true,
+      },
     ],
-    url: "https://eldenring.wiki.fextralife.com/Sacred+Seals",
   },
   {
     id: "f314e8da-47a7-4852-8ba4-c0ed1e835730",
     name: "Spears",
     url: "https://eldenring.wiki.fextralife.com/Spears",
     requirements: [
+      {
+        id: "4e948733-8276-4da5-b8ba-cb51efd18da5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloodfiend's+Fork",
+          "Bloodfiend's Fork"
+        ),
+        isDLC: true,
+      },
       {
         id: "94f1e017-cbcd-4fc2-97d9-645e58992730",
         description: rawHTMLLink(
@@ -1905,6 +2665,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "9f8844e2-9c8e-4311-8480-d0b33871c42e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smithscript+Spear",
+          "Smithscript Spear"
+        ),
+        isDLC: true,
+      },
+      {
         id: "b95c0447-1f53-405b-8a55-ffb9d6e32d09",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Spear",
@@ -1917,6 +2685,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Spiked+Spear",
           "Spiked Spear"
         ),
+      },
+      {
+        id: "e3bc863d-a8fa-472c-bded-3ba7cd531787",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Swift+Spear",
+          "Swift Spear"
+        ),
+        isDLC: true,
       },
       {
         id: "90c1779e-422d-4a6e-b70d-464b748fdc9f",
@@ -1966,6 +2742,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Crystal+Sword",
           "Crystal Sword"
         ),
+      },
+      {
+        id: "0220dd17-583c-42c3-8c27-fe2305888a99",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Knight's+Shortsword",
+          "Fire Knight's Shortsword"
+        ),
+        isDLC: true,
       },
       {
         id: "a77c72dc-35f5-4ea9-9017-809d86523977",
@@ -2038,6 +2822,30 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "10b8a325-a173-4740-aa28-2687ff95b310",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stone-Sheathed+Sword",
+          "Stone-Sheathed Sword"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e55f7d76-d69c-450f-8052-03bb8d3999c9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sword+of+Darkness",
+          "Sword of Darkness"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "bf0619df-2b7c-41ab-b546-1a6d94c8f53e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sword+of+Light",
+          "Sword of Light"
+        ),
+        isDLC: true,
+      },
+      {
         id: "f6aaf966-4d68-49be-bfd1-fb270aaa7a9c",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Sword+of+Night+and+Flame",
@@ -2050,6 +2858,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Sword+of+St.+Trina",
           "Sword of St. Trina"
         ),
+      },
+      {
+        id: "561bbaa2-ff0f-402f-95af-e07100e6e957",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Velvet+Sword+of+St+Trina",
+          "Velvet Sword of St. Trina"
+        ),
+        isDLC: true,
       },
       {
         id: "e6803d6e-1600-4615-b192-3843351b02cc",
@@ -2068,6 +2884,46 @@ export const WeaponsList: Array<ListType> = [
     ],
   },
   {
+    id: "c0426c2c-d493-4fba-81a8-5278ba57492a",
+    name: "Throwing Blades",
+    url: "https://eldenring.wiki.fextralife.com/Throwing+Blades",
+    isDLC: true,
+    requirements: [
+      {
+        id: "d7e6ce4e-af4d-4d8d-9c59-71f79759fc24",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smithscript+Dagger",
+          "Smithscript Dagger"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "088cf2b9-5e1c-4c0f-ba51-0b2f1237d8c0",
+    name: "Thrusting Shields",
+    url: "https://eldenring.wiki.fextralife.com/Thrusting+Shields",
+    isDLC: true,
+    requirements: [
+      {
+        id: "7778bee9-b0bf-49ab-ae2e-5b2cd3f7c185",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dueling+Shield",
+          "Dueling Shield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7880c570-e3fa-4a8c-a68d-f939708fdcf5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Thrusting+Shield",
+          "Carian Thrusting Shield"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
     id: "2d338bd0-26f4-4171-b523-a93b26401e59",
     name: "Thrusting Swords",
     url: "https://eldenring.wiki.fextralife.com/Thrusting+Swords",
@@ -2078,6 +2934,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Antspur+Rapier",
           "Antspur Rapier"
         ),
+      },
+      {
+        id: "241acbba-59dc-4f72-ac61-da198fe715bd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Sorcery+Sword",
+          "Carian Sorcery Sword"
+        ),
+        isDLC: true,
       },
       {
         id: "3e1908bd-c9d5-4392-af1d-9698f0d33f7e",
@@ -2143,6 +3007,22 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "007b8142-b59c-4600-96eb-52b6f9dad7ae",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lamenting+Visage",
+          "Lamenting Visage"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7c235edd-83f5-463a-987a-1e8f116c8605",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Nanaya's+Torch",
+          "Nanaya's Torch"
+        ),
+        isDLC: true,
+      },
+      {
         id: "356d25e0-b3a5-4caa-859c-f448491d5446",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Sentry's+Torch",
@@ -2177,11 +3057,27 @@ export const WeaponsList: Array<ListType> = [
     name: "Twinblades",
     requirements: [
       {
+        id: "c333d69f-e6e9-430a-8e91-3e27b74881ad",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Steel+Twinblade",
+          "Black Steel Twinblade"
+        ),
+        isDLC: true,
+      },
+      {
         id: "7bd455a2-afaf-4f19-8e57-503cd456144f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Eleonora's+Poleblade",
           "Eleonora's Poleblade"
         ),
+      },
+      {
+        id: "c1a46650-d658-4c37-84d7-9b93565bbf33",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Euporia",
+          "Euporia"
+        ),
+        isDLC: true,
       },
       {
         id: "c3e5b292-0b58-46d8-9d64-4824d3cfd715",
@@ -2222,111 +3118,6 @@ export const WeaponsList: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Twinblades",
   },
   {
-    id: "820cd374-32da-4e06-91c2-745a24180a4e",
-    name: "Warhammers / Great Hammers",
-    url: "https://eldenring.wiki.fextralife.com/Great+Hammers",
-    requirements: [
-      {
-        id: "e986cc60-0bcc-412b-a04c-e35b46eed753",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Battle+Hammer",
-          "Battle Hammer"
-        ),
-      },
-      {
-        id: "a0342058-b49f-45d1-a23c-fef88b98e66c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer",
-          "Beastclaw Greathammer"
-        ),
-      },
-      {
-        id: "911ee6dc-2a89-4b25-9ce8-eeb77adfe92f",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Brick+Hammer",
-          "Brick Hammer"
-        ),
-      },
-      {
-        id: "dc8f3976-fc9a-4527-baeb-8aace839787f",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Celebrant's+Skull",
-          "Celebrant's Skull"
-        ),
-      },
-      {
-        id: "865ace90-9ad7-4222-8da6-e4b43b3beb0b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand",
-          "Cranial Vessel Candlestand"
-        ),
-      },
-      {
-        id: "8d7acef9-dae8-489f-a35e-36378ed22cef",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Curved+Great+Club",
-          "Curved Great Club"
-        ),
-      },
-      {
-        id: "c0b32738-f7ee-4fac-aa49-bd213eb73e12",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Devourer's+Scepter",
-          "Devourer's Scepter"
-        ),
-      },
-      {
-        id: "351d11a9-2695-4328-82ce-6280ff378357",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn",
-          "Envoy's Long Horn"
-        ),
-      },
-      {
-        id: "bd8c6189-9507-4a14-8060-32bdbf1ec1f6",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Great+Mace",
-          "Great Mace"
-        ),
-      },
-      {
-        id: "3afee856-b2c6-43f9-8198-458f35279bec",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Great+Stars",
-          "Great Stars"
-        ),
-      },
-      {
-        id: "a3b734b2-9329-4897-8304-9524c19f7c53",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Greathorn+Hammer",
-          "Greathorn Hammer"
-        ),
-      },
-      {
-        id: "63184246-e756-4866-80cf-d0e0d0ddfd34",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Large+Club",
-          "Large Club"
-        ),
-      },
-      {
-        id: "c93f5477-d387-4aaa-9312-c3f438eee842",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Pickaxe",
-          "Pickaxe"
-        ),
-      },
-      {
-        id: "00f15e36-4ae2-4b51-aea2-f530f316c618",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer",
-          "Rotten Battle Hammer"
-        ),
-      },
-    ],
-  },
-  {
     id: "96d64763-7278-4e42-a18a-78310f4e2274",
     name: "Whips",
     url: "https://eldenring.wiki.fextralife.com/Whips",
@@ -2358,6 +3149,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Thorned+Whip",
           "Thorned Whip"
         ),
+      },
+      {
+        id: "494f46b5-ad5e-4383-b7ad-a204bbb71e1b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Tooth+Whip",
+          "Tooth Whip"
+        ),
+        isDLC: true,
       },
       {
         id: "2b3ff84b-7311-4f57-9599-ef96d4f34e2b",
