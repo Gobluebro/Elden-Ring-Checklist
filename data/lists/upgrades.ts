@@ -1,6 +1,6 @@
 import { ListType } from "./types";
 
-export const FlaskUpgradesList: Array<ListType> = [
+export const UpgradesList: Array<ListType> = [
   {
     id: "f706904c-d313-4551-b346-d1e72afd04fa",
     name: "Character Creation",
