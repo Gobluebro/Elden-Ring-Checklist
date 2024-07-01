@@ -255,7 +255,7 @@ export const UpgradesList: Array<ListType> = [
     name: "Lake of Rot",
     requirements: [
       {
-        id: "a95a9019-647e-4387-80ae-c99c7dc488c8",
+        id: "0286de0a-7786-4b82-8296-7c41266aba2c",
         description:
           "Golden Seed - Grand Cloister: Defeat the Ulcerated Tree Spirit near the rotten waterfall at the bottom of the area",
       },
@@ -357,5 +357,17 @@ export const UpgradesList: Array<ListType> = [
           "Golden Seed - Dynasty Museum Midpoint: On the rocks behind the Sanguine Noble (Mutually exclusive with the seed above unless both are looted before reloading the area)",
       },
     ],
+  },
+  {
+    id: "e3229bbc-73dc-41c4-b2b5-15f079a7de8d",
+    name: "DLC Area",
+    isDLC: true,
+    requirements: [],
+  },
+  {
+    id: "b1259193-6158-4955-8796-a91b310c7406",
+    name: "DLC Area 2",
+    isDLC: true,
+    requirements: [],
   },
 ];
