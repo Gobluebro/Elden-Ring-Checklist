@@ -29,6 +29,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "e136335c-681c-47d7-acf2-b1ec205715f8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blades+of+Stone",
+          "Blades of Stone"
+        ),
+        isDLC: true,
+      },
+      {
         id: "94f525ca-d9e4-4dee-843e-b213f467b31d",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Briars+of+Punishment",
@@ -83,6 +91,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Carian+Slicer",
           "Carian Slicer"
         ),
+      },
+      {
+        id: "f6a04d33-84ed-41e8-83a6-a3421c49211d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cherishing+Fingers",
+          "Cherishing Fingers"
+        ),
+        isDLC: true,
       },
       {
         id: "5e5c50ef-2102-4b37-9446-59ee9fc7839b",
@@ -155,6 +171,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "56f2a8f2-9068-4655-8089-33a4e99480b4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fleeting+Microcosm",
+          "Fleeting Microcosm"
+        ),
+        isDLC: true,
+      },
+      {
         id: "07c6b2e7-8894-4b88-aed6-f53ea4ba24ca",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Founding+Rain+of+Stars",
@@ -197,6 +221,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "d7ee0002-20e8-4e9a-b640-7d093445ad3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintblade+Trio",
+          "Glintblade Trio"
+        ),
+        isDLC: true,
+      },
+      {
         id: "e8caa85e-d060-4743-a704-7a46dd65e4e1",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Glintstone+Arc",
@@ -218,6 +250,22 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "2710a452-8199-44c6-802e-fc0e1403fb5f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintstone+Nail",
+          "Glintstone Nail"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "34891dcd-8d24-4998-a17e-c23a67458b42",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintstone+Nails",
+          "Glintstone Nails"
+        ),
+        isDLC: true,
+      },
+      {
         id: "12070f02-1a9f-44e8-afe4-2a608a70dcaa",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Glintstone+Pebble",
@@ -230,6 +278,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Glintstone+Stars",
           "Glintstone Stars"
         ),
+      },
+      {
+        id: "409f3f1c-11a4-4487-ab54-83ccd4a9cf29",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gravitational+Missile",
+          "Gravitational Missile"
+        ),
+        isDLC: true,
       },
       {
         id: "f6f3ca47-034c-497d-aff4-d9a59a245421",
@@ -258,6 +314,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Greatblade+Phalanx",
           "Greatblade Phalanx"
         ),
+      },
+      {
+        id: "8e6ad1b0-5204-4569-b76d-b77dd695ba75",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Impenetrable+Thorns",
+          "Impenetrable Thorns"
+        ),
+        isDLC: true,
       },
       {
         id: "18101965-4220-40c1-a3fa-0a1031aae824",
@@ -302,6 +366,22 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "ffcb0d11-e180-4340-a65b-fc00bf10b691",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mantle+of+Thorns",
+          "Mantle of Thorns"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a818fe3d-9583-42ed-a499-b13fff8160bf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mass+of+Putrescence",
+          "Mass of Putrescence"
+        ),
+        isDLC: true,
+      },
+      {
         id: "a5a0ce11-14bf-4140-931d-35f37b0008e1",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Meteorite",
@@ -314,6 +394,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Meteorite+of+Astel",
           "Meteorite of Astel"
         ),
+      },
+      {
+        id: "dfabc3b5-7e87-49e9-8b01-8f5c1ce60463",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Miriam's+Vanishing",
+          "Miriam's Vanishing"
+        ),
+        isDLC: true,
       },
       {
         id: "14d51a98-9ce0-43c4-8afe-263c0f7db86b",
@@ -363,6 +451,22 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Rennala's+Full+Moon",
           "Rennala's Full Moon"
         ),
+      },
+      {
+        id: "98f4a0c3-8d86-4a33-a830-b78dea83761d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rellana's+Twin+Moons",
+          "Rellana's Twin Moons"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "3c9f1c3c-a4a0-4eb3-bb8e-eb1cfe15ea3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rings+of+Spectral+Light",
+          "Rings of Spectral Light"
+        ),
+        isDLC: true,
       },
       {
         id: "b900a72f-56d8-444e-bf38-96058ed34d55",
@@ -491,6 +595,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "44e5806a-43ba-40ce-9bd3-0e3b39cfc752",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Vortex+of+Putrescence",
+          "Vortex of Putrescence"
+        ),
+        isDLC: true,
+      },
+      {
         id: "3d719f36-175b-42cf-a7b0-888768ba04b3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Zamor+Ice+Storm+(Spell)",
@@ -526,6 +638,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "00f3f010-e738-4ae0-b35a-4bcf8648dd1c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Bloom",
+          "Aspects of the Crucible: Bloom"
+        ),
+        isDLC: true,
+      },
+      {
         id: "7b233325-87ee-43a2-bd90-6bea60a55d50",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Breath",
@@ -547,6 +667,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "5e5cb7d4-6b4d-4b8b-8b3d-d8156af3d08b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Thorns",
+          "Aspects of the Crucible: Thorns"
+        ),
+        isDLC: true,
+      },
+      {
         id: "9349be27-9efb-49bd-b557-9422cc304d4f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Assassin's+Approach",
@@ -559,6 +687,22 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Barrier+of+Gold",
           "Barrier of Gold"
         ),
+      },
+      {
+        id: "cc49f78d-801f-4403-9a9d-3d096e814646",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bayle's+Flame+Lightning",
+          "Bayle's Flame Lightning"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "6ae3ba58-2373-454e-b7c7-dcc789ab1ed0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bayle's+Tyranny",
+          "Bayle's Tyranny"
+        ),
+        isDLC: true,
       },
       {
         id: "5bcbfaca-2d6e-4330-81b1-36c07e17b9be",
@@ -708,6 +852,22 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "5b84eae0-88b2-4241-96a1-70bffa71426e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Divine+Beast+Tornado",
+          "Divine Beast Tornado"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "3f7ff7f8-3fad-4fcf-ab47-33cd6a1716f9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Divine+Bird+Feathers",
+          "Divine Bird Feathers"
+        ),
+        isDLC: true,
+      },
+      {
         id: "cb975587-ff10-4d21-9f9c-6b895848759d",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Divine+Fortification",
@@ -720,6 +880,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Dragonbolt+Blessing",
           "Dragonbolt Blessing"
         ),
+      },
+      {
+        id: "48a3be66-f95a-457a-aef2-27ff96f5a943",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragonbolt+of+Florissax",
+          "Dragonbolt of Florissax"
+        ),
+        isDLC: true,
       },
       {
         id: "c5cc4f5f-96c1-4bf6-a941-d48600692d26",
@@ -771,6 +939,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "d4af8322-70fd-432a-b074-22cecbee1dcf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Electrocharge",
+          "Electrocharge"
+        ),
+        isDLC: true,
+      },
+      {
         id: "8c3c68c6-00f8-4f76-a09b-f7d826f8776e",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Erdtree+Heal",
@@ -783,6 +959,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Fire's+Deadly+Sin",
           "Fire's Deadly Sin"
         ),
+      },
+      {
+        id: "1007593d-2e45-4687-927e-31d72a3efd0a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Serpent",
+          "Fire Serpent"
+        ),
+        isDLC: true,
       },
       {
         id: "d09fc7f5-5da3-4f61-a32f-857f79d2a41a",
@@ -855,6 +1039,30 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "c475e46f-3cd2-46db-8023-69ac8aeecee3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Furious+Blade+of+Ansbach",
+          "Furious Blade of Ansbach"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f94ccc26-0348-4409-a80e-94894d161cc8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ghostflame+Breath",
+          "Ghostflame Breath"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "226a38a7-7a9e-4fce-8553-e06eb9194a88",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Giant+Golden+Arc",
+          "Giant Golden Arc"
+        ),
+        isDLC: true,
+      },
+      {
         id: "ebfc9440-a725-4a05-b9f7-9a5d79e75fc3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Giantsflame+Take+Thee",
@@ -867,6 +1075,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Glintstone+Breath",
           "Glintstone Breath"
         ),
+      },
+      {
+        id: "eef2b101-7998-449f-b214-7a0a4961f7d0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Arcs",
+          "Golden Arcs"
+        ),
+        isDLC: true,
       },
       {
         id: "fb7a1a09-54fd-4be7-85b3-d51aab5b4bf0",
@@ -911,6 +1127,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "dedd5f08-f984-46aa-9fae-384029e243af",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Heal+from+Afar",
+          "Heal from Afar"
+        ),
+        isDLC: true,
+      },
+      {
         id: "11a9feaf-04e3-4343-a67e-0ae0c0bfe04a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Honed+Bolt",
@@ -937,6 +1161,22 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Inescapable+Frenzy",
           "Inescapable Frenzy"
         ),
+      },
+      {
+        id: "b49430b8-135e-49c9-8eff-fd48b245f02c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Knight's+Lightning+Spear",
+          "Knight's Lightning Spear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5b90e3ea-213c-4be8-93ce-b8d670a1c344",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Land+of+Shadow+(Incantation)",
+          "Land of Shadow"
+        ),
+        isDLC: true,
       },
       {
         id: "5aa859e3-ccdd-444c-9d56-6721d302d2a0",
@@ -981,6 +1221,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "665d51cd-7032-483d-894a-9c258e657081",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Light+of+Miquella",
+          "Light of Miquella"
+        ),
+        isDLC: true,
+      },
+      {
         id: "cb638fbf-9a33-44f7-9c38-4924408ca9e8",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Litany+of+Proper+Death",
@@ -1023,6 +1271,38 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "7748866b-9117-46ee-a84e-2dbdaff28b4c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Messmer's+Orb",
+          "Messmer's Orb"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e7779cc1-8702-44e4-915d-9f1f8b84d811",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Midra's+Flame+of+Frenzy",
+          "Midra's Flame of Frenzy"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4554a47c-e3af-493b-b166-2b6bad88d2fe",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Minor+Erdtree",
+          "Minor Erdtree"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "641a3ff5-8edd-4112-a9d6-08ea9ecc669a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Multilayered+Ring+of+Light",
+          "Multilayered Ring of Light"
+        ),
+        isDLC: true,
+      },
+      {
         id: "de06cdd8-cb9d-4238-86f5-61c5d73304f1",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Noble+Presence",
@@ -1056,6 +1336,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Pest+Threads",
           "Pest Threads"
         ),
+      },
+      {
+        id: "e1452be9-ac9b-41b6-93cf-50c79302c05f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pest-Thread+Spears",
+          "Pest-Thread Spears"
+        ),
+        isDLC: true,
       },
       {
         id: "5e8a8057-936a-4998-a034-f8e9d0c88568",
@@ -1093,6 +1381,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "07dd283a-e997-431b-985a-4c09a0d8df9f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rain+of+Fire",
+          "Rain of Fire"
+        ),
+        isDLC: true,
+      },
+      {
         id: "e4054c0d-d9a9-49ec-ba06-74c881aab4cc",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Rejection",
@@ -1100,11 +1396,27 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "db260b4e-5685-4231-a1ee-7de7f052576f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Roar+of+Rugalea",
+          "Roar of Rugalea"
+        ),
+        isDLC: true,
+      },
+      {
         id: "89ad0211-b615-4e10-9e5b-3c619801a25a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Rotten+Breath",
           "Rotten Breath"
         ),
+      },
+      {
+        id: "69182ff4-94c1-46dc-920d-24948d909803",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rotten+Butterflies",
+          "Rotten Butterflies"
+        ),
+        isDLC: true,
       },
       {
         id: "bbae46db-948a-4ebc-bacd-b5b722e245b9",
@@ -1133,6 +1445,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Smarag's+Glintstone+Breath",
           "Smarag's Glintstone Breath"
         ),
+      },
+      {
+        id: "dde33b17-62b4-4252-a6e5-b615a85bae4f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spira",
+          "Spira"
+        ),
+        isDLC: true,
       },
       {
         id: "7e58ec8b-a75b-4c79-93ba-25a8dc14fbe1",
@@ -1198,6 +1518,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "63fcb688-980a-4d23-b64f-f17252110bb0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Watchful+Spirit",
+          "Watchful Spirit"
+        ),
+        isDLC: true,
+      },
+      {
         id: "0e684c24-ed8b-44be-9156-8be5d6e93a69",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Whirl+O+Flame!",
@@ -1211,6 +1539,14 @@ export const SpellsList: Array<ListType> = [
           "Wrath of Gold"
         ),
       },
+      {
+        id: "ca7704ed-fe63-460a-86d1-be9febdf9d15",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Wrath+from+Afar",
+          "Wrath from Afar"
+        ),
+        isDLC: true,
+      },
     ],
   },
   {
@@ -1218,6 +1554,14 @@ export const SpellsList: Array<ListType> = [
     name: "Ashes of War",
     url: "https://eldenring.wiki.fextralife.com/Ashes+of+War",
     requirements: [
+      {
+        id: "1a28fe5d-e975-4659-9362-858c5a44a608",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War:+Aspects+of+the+Crucible:+Wings",
+          "Aspects of the Crucible: Wings"
+        ),
+        isDLC: true,
+      },
       {
         id: "28eb1b44-1df5-484a-a910-633ad9272cb8",
         description: rawHTMLLink(
@@ -1259,6 +1603,22 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Black+Flame+Tornado",
           "Black Flame Tornado"
         ),
+      },
+      {
+        id: "4c3bb082-5b60-4704-b094-f2f307a2ba7f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Blind+Spot",
+          "Blind Spot"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "24478f30-f20e-4fb3-94f2-1d62cfcaae2e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Blinkbolt",
+          "Blinkbolt"
+        ),
+        isDLC: true,
       },
       {
         id: "4a27c933-4b4f-4713-9984-f4653a6fb6f9",
@@ -1317,6 +1677,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "6b0279b3-a0b1-4bab-967a-e324dd8a67cc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Carian+Sovereignty",
+          "Carian Sovereignty"
+        ),
+        isDLC: true,
+      },
+      {
         id: "8113cbee-306a-44ac-8f59-3380954e0ee0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Charge+Forth",
@@ -1345,11 +1713,27 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "aac9f6b8-a26c-423e-b767-b581415ea6fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Divine+Beast+Frost+Stomp",
+          "Divine Beast Frost Stomp"
+        ),
+        isDLC: true,
+      },
+      {
         id: "a7b81cca-3922-4356-906c-27119f5647f3",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Double+Slash",
           "Double Slash"
         ),
+      },
+      {
+        id: "23fbc150-e055-4c35-94f6-70ed8b2696fc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Dryleaf+Whirlwind",
+          "Dryleaf Whirlwind"
+        ),
+        isDLC: true,
       },
       {
         id: "9d5c8818-fc18-495f-b1b0-19fb03978bb9",
@@ -1380,6 +1764,22 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "0519db63-a42a-4f65-8ad6-62ac003d2e56",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Skewer",
+          "Flame Skewer"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "2ffdefa1-a2e8-4ea2-8207-75eba59bc08e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Spear",
+          "Flame Spear"
+        ),
+        isDLC: true,
+      },
+      {
         id: "e4b8f2f2-0752-488a-87b5-ac3a9f782c81",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Flame+of+the+Redmanes",
@@ -1392,6 +1792,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Flaming+Strike",
           "Flaming Strike"
         ),
+      },
+      {
+        id: "11b349af-2691-46d9-8b6d-31e1eb2b82d6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Ghostflame+Call",
+          "Ghostflame Call"
+        ),
+        isDLC: true,
       },
       {
         id: "89efa178-8f4d-42d6-a3d4-d6b283b228be",
@@ -1485,6 +1893,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "22fa6f9a-40ae-4501-9fc2-2712f97d01f3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Igon's+Drake+Hunt",
+          "Igon's Drake Hunt"
+        ),
+        isDLC: true,
+      },
+      {
         id: "b1ed7ffa-15f9-4bc2-bd71-ba3f0300a6b6",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Impaling+Thrust",
@@ -1548,6 +1964,22 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "4a2a066f-6253-461b-a080-0a2de5446a0d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Overhead+Stance",
+          "Overhead Stance"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f2febe3d-0df2-4ff5-8fed-b671afc917c7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Palm+Blast",
+          "Palm Blast"
+        ),
+        isDLC: true,
+      },
+      {
         id: "a1fcf10c-c08f-4029-b46b-bebd758ecbf0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Parry",
@@ -1567,6 +1999,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Piercing+Fang",
           "Piercing Fang"
         ),
+      },
+      {
+        id: "32c3857c-9844-409e-b8c6-054af2a98a37",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Piercing+Throw",
+          "Piercing Throw"
+        ),
+        isDLC: true,
       },
       {
         id: "ffdc1a36-6143-4fb9-8b2a-2e2dea83f6f7",
@@ -1604,6 +2044,14 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "4ecf5ae3-cd18-4cea-9027-5e580a82dc71",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Raging+Beast",
+          "Raging Beast"
+        ),
+        isDLC: true,
+      },
+      {
         id: "94e8b540-6bd8-4e15-8b4a-32b2b5ead53b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Rain+of+Arrows",
@@ -1623,6 +2071,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Repeating+Thrust",
           "Repeating Thrust"
         ),
+      },
+      {
+        id: "847cff48-59f3-4e59-af93-ce2e441b4a28",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Rolling+Sparks",
+          "Rolling Sparks"
+        ),
+        isDLC: true,
       },
       {
         id: "e198cf29-b4ab-43ed-baac-d26814087a65",
@@ -1653,6 +2109,30 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "03002c7b-5d16-4004-b8a9-7ba45f35e056",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Claws",
+          "Savage Claws"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "bf916f0e-ad18-469f-8893-5315a5b759fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Lion's+Claw",
+          "Savage Lion's Claw"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "8efae978-06af-4b3b-8093-31f0eb4ccce8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Scattershot+Throw",
+          "Scattershot Throw"
+        ),
+        isDLC: true,
+      },
+      {
         id: "1f9883a4-a8b2-49bb-a4a4-4df891cba825",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Seppuku",
@@ -1681,6 +2161,22 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "4f9a1454-0f2d-41ea-90bb-9c29f992eb4e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Shield+Strike",
+          "Shield Strike"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "77ac290d-28ba-4e8d-80f4-a2ad753e5a56",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Shriek+of+Sorrow",
+          "Shriek of Sorrow"
+        ),
+        isDLC: true,
+      },
+      {
         id: "0cbb9e3e-7b38-474e-a542-f3f04c58fa11",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sky+Shot",
@@ -1693,6 +2189,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Spectral+Lance",
           "Spectral Lance"
         ),
+      },
+      {
+        id: "34aa4499-12e0-4bf6-b729-b87da11d27ce",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Spinning+Gravity+Thrust",
+          "Spinning Gravity Thrust"
+        ),
+        isDLC: true,
       },
       {
         id: "7efc6616-0256-4176-976d-2d69a65a2e4a",
@@ -1772,11 +2276,27 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
+        id: "18d106e6-e8cd-4296-932e-a94044ceebb1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Swift+Slash",
+          "Swift Slash"
+        ),
+        isDLC: true,
+      },
+      {
         id: "69e70d53-d88a-4465-be73-5742b9932e4f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Sword+Dance",
           "Sword Dance"
         ),
+      },
+      {
+        id: "d2cf9471-311e-4aed-b40f-1c305ca8377a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+The+Poison+Flower+Blooms+Twice",
+          "The Poison Flower Blooms Twice"
+        ),
+        isDLC: true,
       },
       {
         id: "ef81fd47-7393-4eeb-b36c-bfd72712c761",
@@ -1826,6 +2346,14 @@ export const SpellsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ash+of+War:+Vow+of+the+Indomitable",
           "Vow of the Indomitable"
         ),
+      },
+      {
+        id: "d4aed672-b6ea-4c72-b8f5-01b91ff7eb3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War+Wall+of+Sparks",
+          "Wall of Sparks"
+        ),
+        isDLC: true,
       },
       {
         id: "d0c70a58-8f68-4fed-b2fc-f5356a66fc50",
