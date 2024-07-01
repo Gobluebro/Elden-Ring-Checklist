@@ -20,11 +20,6 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /Elden-Ring-Checklist
 
-      - name: Export
-        run: npm run export
-        env:
-          NEXT_PUBLIC_BASE_PATH: /Elden-Ring-Checklist
-
       - run: touch ./out/.nojekyll
 
       - name: Deploy
