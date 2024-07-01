@@ -2525,4 +2525,991 @@ export const GracesList: Array<ListType> = [
       },
     ],
   },
+  {
+    id: "0534aa1c-71fb-499e-9777-f3026cbffab4",
+    name: "Gravesite Plain",
+    url: "https://eldenring.wiki.fextralife.com/Gravesite+Plain",
+    isDLC: true,
+    requirements: [
+      {
+        id: "16834957-74e9-49f5-bf64-0b9e22129248",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654859&code=mapD",
+          "Gravesite Plain"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "2e8fe06a-785a-48e7-8992-1dff63c1c026",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655026&code=mapD",
+          "Scorched Ruins"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "8fd71fe8-7429-4139-91c2-723c34ba5600",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654862&code=mapD",
+          "Three-Path Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "8078629c-bda7-4418-9236-f730d5f7fbcc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654933&code=mapD",
+          "Greatbridge, North"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "654b5988-2446-4ec2-a3ae-19230be60bce",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654869&code=mapD",
+          "Main Gate Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "95ce226c-f6e1-4548-9e33-66f866bc60f7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654788&code=mapD",
+          "Cliffroad Terminus"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "77ace331-f5ea-48db-a957-22f75e89ac5e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654991&code=mapD",
+          "Castle Front"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "993c0828-959d-453c-959d-ae6e5068b350",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655244&code=mapD",
+          "Pillar Path Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "0a20df98-cece-4932-ab6d-c9c0b52ef1e7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655245&code=mapD",
+          "Pillar Path Waypoint"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a824e32d-6dcd-4e18-8ddc-ee05a2d29038",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655246&code=mapD",
+          "Ellac River Cave"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b70ca81e-dd4f-4cbb-a170-34409483850d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655247&code=mapD",
+          "Ellac River Downstream"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "22256818-bd34-41d3-aae4-28ae7787edf6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655223&code=mapD",
+          "Fog Rift Catacombs"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7e90dba7-a7e3-48e0-8618-98b360f471fa",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654938&code=mapD",
+          "Belurat Gaol"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "3c8cd3b9-9a4d-4f54-8976-72f6a4fa0763",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654995&code=mapD",
+          "Ruined Forge Lava Intake"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5dbd787e-35f1-4706-91f2-880053ce5e09",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655248&code=mapD",
+          "Dragon's Pit"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "695818a9-47da-493a-873d-1920c9beb291",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655249&code=mapD",
+          "Dragon's Pit Terminus"
+        ),
+        isDLC: true,
+      },
+      {
+        // needs order checked
+        id: "d5e9f7e5-d37b-419b-811b-c4ea6dbf6b57",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655378&code=mapD",
+          "Rivermouth Cave"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "d3c9e4fb-e54f-4bc5-aaf5-78105852e6fb",
+    name: "Castle Ensis",
+    url: "https://eldenring.wiki.fextralife.com/Castle+Ensis",
+    isDLC: true,
+    requirements: [
+      {
+        id: "15ba9349-dbf8-4d18-b6e9-1f80bd6d85ba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655128&code=mapD",
+          "Castle Ensis Checkpoint"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "fb374d80-8b28-4285-8782-1718de72de20",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655151&code=mapD",
+          "Castle-Lord's Chamber"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "6893a9a1-4f0d-49bd-81f3-77e710789fda",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655159&code=mapD",
+          "Ensis Moongazing Grounds"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "af8b9488-cdae-44ff-93d0-b4e65b04940e",
+    name: "Cerulean Coast",
+    url: "https://eldenring.wiki.fextralife.com/Cerulean+Coast",
+    isDLC: true,
+    requirements: [
+      {
+        id: "0ca77513-2519-4f6a-abd7-b30cf2aeb629",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655250&code=mapD",
+          "Cerulean Coast"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a15cf2c2-74d7-46bb-9dd3-5c0d46247853",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655251&code=mapD",
+          "Cerulean Coast West"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "c85e969c-7521-460f-a652-301eb8606527",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655252&code=mapD",
+          "Cerulean Coast Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ec47f6c3-4382-4085-9bc8-cb42c590aae3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655253&code=mapD",
+          "The Fissure"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "08e6c073-232c-48fb-b03e-06ca6f2e1ffa",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655254&code=mapD",
+          "Finger Ruins of Rhia"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "a4b4e353-bc3e-4a37-8c4c-93ba92106e6e",
+    name: "Charo's Hidden Grave",
+    url: "https://eldenring.wiki.fextralife.com/Charo's+Hidden+Grave",
+    isDLC: true,
+    requirements: [
+      {
+        id: "db788132-faa2-4c63-8003-f5aa7bf8b5fd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655255&code=mapD",
+          "Charo's Hidden Grave"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "31a2a843-063f-404b-aa69-103dabc7007c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655256&code=mapD",
+          "Lamenter's Gaol"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "6cd018e7-298c-42a1-b00b-70978b487361",
+    name: "Stone Coffin Fissure",
+    url: "https://eldenring.wiki.fextralife.com/Stone+Coffin+Fissure",
+    isDLC: true,
+    requirements: [
+      {
+        id: "329997da-ac77-4f28-9259-9dfcfb7c7ad1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655257&code=mapD",
+          "Stone Coffin Fissure"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a6730178-aa6b-4a1a-8cf1-74c70909cea6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655258&code=mapD",
+          "Fissure Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a03228d6-de39-40e7-8ce9-727cab7beecd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655259&code=mapD",
+          "Fissure Waypoint"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b46378b4-79f3-46ac-8ec6-2c2a81ac190f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655260&code=mapD",
+          "Fissure Depths"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e8db23bf-1061-4c35-88de-bfdbdc2f4b3e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655261&code=mapD",
+          "Garden of Deep Purple"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "1b38bcd3-b875-4652-a829-8737fd2f7ce4",
+    name: "Foot of the Jagged Peak",
+    url: "https://eldenring.wiki.fextralife.com/Foot+of+the+Jagged+Peak",
+    isDLC: true,
+    requirements: [
+      {
+        id: "a0604069-1b8c-4616-8ed0-f52bb22c6f17",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655262&code=mapD",
+          "Grand Altar of Dragon Communion"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e42b3cc5-ce90-44fc-8410-7c057650b1e6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655263&code=mapD",
+          "Foot of the Jagged Peak"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "21fae3a3-07e7-4950-b1ec-41d9158745a7",
+    name: "Jagged Peak",
+    url: "https://eldenring.wiki.fextralife.com/Jagged+Peak",
+    isDLC: true,
+    requirements: [
+      {
+        id: "35f9e069-e846-48f3-a44d-e06a4d69e375",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655264&code=mapD",
+          "Jagged Peak Mountainside"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1e2b53c1-30d5-4e15-b58e-403f41584782",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655265&code=mapD",
+          "Jagged Peak Summit"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4d1ccb5b-fb21-4870-b20b-98ca5bea2148",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655266&code=mapD",
+          "Rest of the Dead Dragon"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "88681606-3b6e-4e8e-a255-c7fb7fad41e4",
+    name: "Belurat, Tower Settlement",
+    url: "https://eldenring.wiki.fextralife.com/Belurat,+Tower+Settlement",
+    isDLC: true,
+    requirements: [
+      {
+        id: "12e69660-8e89-444f-ab1b-59b0ecbd3f8a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654891&code=mapD",
+          "Belurat, Tower Settlement"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "3d5c1bb4-d600-4ac0-b0d8-a4343defae66",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654900&code=mapD",
+          "Small Private Altar"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9982af33-4505-49f8-8007-e4cc3feedc67",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654963&code=mapD",
+          "Stagefront"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "51835e8f-7c8c-49cc-948a-be23130e4fdc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=654968&code=mapD",
+          "Theatre of the Divine Beast"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "eedd0cfa-5341-4c67-8e95-d19bbf12d9de",
+    name: "Enir-Ilim",
+    url: "https://eldenring.wiki.fextralife.com/Enir-Ilim",
+    isDLC: true,
+    requirements: [
+      {
+        id: "12ee6f15-70fa-4e1f-ad98-d9c1a47169b0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655273&code=mapD",
+          "Enir-Ilim: Outer Wall"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "c39876d3-350c-4dc0-8fe4-4c90ad6a29fc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655274&code=mapD",
+          "First Rise"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "86cbc505-9257-4a07-9258-110f095acd3c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655275&code=mapD",
+          "Spiral Rise"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e8b6127b-193b-4b17-a893-c057cc81100c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655279&code=mapD",
+          "Cleansing Chamber Anteroom"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9f08602d-e285-4070-9b20-7646f0af3395",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655282&code=mapD",
+          "Divine Gate Front Staircase"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b7727e67-33ef-4bcb-919e-281b97090eff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=659409&code=mapD",
+          "Gate of Divinity"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "07ce9dd0-443b-4d6d-b4d3-1fcc20edfd7b",
+    name: "Ancient Ruins of Rauh",
+    url: "https://eldenring.wiki.fextralife.com/Ancient+Ruins+of+Rauh",
+    isDLC: true,
+    requirements: [
+      {
+        id: "79f05f35-f301-46cb-850e-d3726a239b49",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655283&code=mapD",
+          "Viaduct Minor Tower"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "fc9af2eb-cccd-4b4c-ac15-cd330d204ff2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655287&code=mapD",
+          "Rauh Ancient Ruins, East"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "d09b43f7-0e70-463e-8e45-dcf4db9ea909",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655289&code=mapD",
+          "Rauh Ancient Ruins, West"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f36b1ca4-3b76-4416-8ea4-2d4c81733823",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655291&code=mapD",
+          "Ancient Ruins, Grand Stairway"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "c236db46-d275-4508-a42a-c183cdb91f63",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655292&code=mapD",
+          "Church of the Bud, Main Entrance"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "c86462dc-3dae-4a6d-bc53-2766f0a471f6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655470&code=mapD",
+          "Church of the Bud"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "c96dace3-294e-49b4-a997-13216f5dbbc1",
+    name: "Rauh Base",
+    url: "https://eldenring.wiki.fextralife.com/Rauh+Base",
+    isDLC: true,
+    requirements: [
+      {
+        id: "77c74286-0405-4abd-8279-8f3939bfffc3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655208&code=mapD",
+          "Ancient Ruins Base"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b5cbde3d-1f94-4548-a6e0-dc7a55d642df",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655313&code=mapD",
+          "Temple Town Ruins"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5a249cf0-90ca-4c0f-8c26-fd73b2c47475",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655314&code=mapD",
+          "Ravine North"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1342d540-9e3c-4e66-991a-134e50e43453",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655315&code=mapD",
+          "Scorpion River Catacombs"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "472513d9-a1ba-4a7f-80dd-9c269063389a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655212&code=mapD",
+          "Taylew's Ruined Forge"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "7e4e2be9-3d73-46be-84cc-53cc9b6d5dc5",
+    name: "Scadu Altus",
+    url: "https://eldenring.wiki.fextralife.com/Scadu+Altus",
+    isDLC: true,
+    requirements: [
+      {
+        id: "6c568660-9eb6-4350-ba2b-5488dd86d5f9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655191&code=mapD",
+          "Highroad Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "684a69a9-d4f9-4217-bc1c-b97162bd2cf9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655200&code=mapD",
+          "Scadu Altus, West"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "98097fe9-8638-4e48-8ca7-b412cdef35b0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655316&code=mapD",
+          "Moorth Ruins"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1d943bbb-38f2-4aa9-97cf-f321135e618a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655069&code=mapD",
+          "Moorth Highway, South"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "eb971df6-7b11-470a-a8ec-92166a76faac",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655323&code=mapD",
+          "Fort of Reprimand"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f4c6365c-ffe8-4db9-8fcb-0b1be1f19a1f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655325&code=mapD",
+          "Behind the Fort of Reprimand"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "0e3e2a40-e2c5-4c32-b9b9-3ad8470707d0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655047&code=mapD",
+          "Scaduview Cross"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7501140d-bf50-4b63-814b-5a3438e843be",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655079&code=mapD",
+          "Bonny Village"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "33ca26b2-4673-4349-8781-6d8428e314cd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655326&code=mapD",
+          "Bridge Leading to the Village"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "392e6192-8103-4ffc-9246-98459109e785",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655102&code=mapD",
+          "Church District Highroad"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "28fa424f-0d96-40ce-8bde-31b4a1a3ae5f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655108&code=mapD",
+          "Cathedral of Manus Metyr"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "81899987-d401-4f8d-81a5-7662462d3f7e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655327&code=mapD",
+          "Finger Birthing Grounds"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f246acd9-fd39-424f-ae2e-fe8e12c0bfad",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655666&code=mapD",
+          "Castle Watering Hole"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1fab17ad-54d8-4810-9af5-afce7df42adb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655329&code=mapD",
+          "Recluses' River Upstream"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7fffaeb1-6818-4c50-a080-497ed81f6a91",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655330&code=mapD",
+          "Recluses' River Downstream"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "d7ba622a-b78a-43f5-b1e4-9c8ba4825500",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655331&code=mapD",
+          "Darklight Catacombs"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "20f9746d-8281-4c62-a553-d42be2acd4c8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655090&code=mapD",
+          "Bonny Gaol"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "bedb5e72-406f-48d5-ad35-51b0f35e22a3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655333&code=mapD",
+          "Ruined Forged of Starfall Past"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "5d4d0019-f7c5-49fd-bb2b-deed555f4770",
+    name: "Abyssal Woods",
+    url: "https://eldenring.wiki.fextralife.com/Abyssal+Woods",
+    isDLC: true,
+    requirements: [
+      {
+        // needs order checked
+        id: "f6f7301b-c00a-4fc9-aec7-5347efbec5f5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655671&code=mapD",
+          "Divided Falls"
+        ),
+        isDLC: true,
+      },
+      {
+        // needs order checked
+        id: "bd25d378-5350-48fb-a906-98a653c664cd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655669&code=mapD",
+          "Abyssal Woods"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "49fff405-ab02-4644-9c2b-4406574b4af1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655334&code=mapD",
+          "Forsaken Graveyard"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5edc9e22-380a-4059-b965-ecbefe5a0777",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655667&code=mapD",
+          "Woodland Trail"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7de2cf2b-70db-4d3d-bbbf-09873a722928",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655668&code=mapD",
+          "Church Ruins"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "5c96fcde-661b-4d1d-96d9-28f3c2da33b4",
+    name: "Midra's Manse",
+    url: "https://eldenring.wiki.fextralife.com/Midra's+Manse",
+    isDLC: true,
+    requirements: [
+      {
+        id: "0c24672a-a409-42cf-95e0-97768c024b4d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655672&code=mapD",
+          "Manse Hall"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "01a727d9-9e52-42da-ac75-ad695b9882a5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655673&code=mapD",
+          "Midra's Library"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ccf19b0f-2a08-45b3-b930-b61264de744d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655674&code=mapD",
+          "Second Floor Chamber"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "26783224-8329-4031-a4e7-0e750b82dc8d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655675&code=mapD",
+          "Discussion Chamber"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "c929c225-897f-46c8-bf20-8840d109eb20",
+    name: "Shadow Keep",
+    url: "https://eldenring.wiki.fextralife.com/Shadow+Keep",
+    isDLC: true,
+    requirements: [
+      {
+        id: "2abe9675-3962-45c5-b4f9-b012247695ae",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655322&code=mapD",
+          "Shadow Keep Main Gate"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f34c2db8-a284-4ee9-9ab4-923601682dfe",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655324&code=mapD",
+          "Main Gate Plaza"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "40c4aa8d-7775-4be0-9c9c-a0e09a6c1b08",
+    name: "Shadow Keep, Church District",
+    url: "https://eldenring.wiki.fextralife.com/Shadow+Keep,+Church+District",
+    isDLC: true,
+    requirements: [
+      {
+        id: "81437853-3ae3-4e6c-bc64-4281410d31eb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655343&code=mapD",
+          "Church District Entrance"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "fc635ed9-2b02-4275-b07d-6359f344fc5c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655344&code=mapD",
+          "Sunken Chapel"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1a69618d-8485-4cc3-ba90-b904bf7dd598",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655346&code=mapD",
+          "Tree-Worship Passage"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "bcb25624-6c0e-4dbc-a579-89386686cbfb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655661&code=mapD",
+          "Tree-Worship Sanctum"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "896684e8-5c5c-4854-b20b-4aad0fe5bb86",
+    name: "Specimen Storehouse",
+    url: "https://eldenring.wiki.fextralife.com/Specimen+Storehouse",
+    isDLC: true,
+    requirements: [
+      {
+        id: "44ced813-e8a8-4db1-936f-244b4e39160c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655353&code=mapD",
+          "Storehouse, First Floor"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "97e9223b-f6f8-477f-ad36-9693b60414ef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655665&code=mapD",
+          "Storehouse, Fourth Floor"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "d4a3d1a8-47cf-4387-afd8-abfde30b5a75",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655519&code=mapD",
+          "Storehouse, Seventh Floor"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "66015535-0ec9-4390-9cfa-cdd86deed4a2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655520&code=mapD",
+          "Dark Chamber Entrance"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7a790e53-44ae-4a5d-b4cf-11c4f7f6c6dc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655348&code=mapD",
+          "Storehouse, Back Section"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a02a4d10-5be8-4606-8355-d72b57a05fc4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655351&code=mapD",
+          "Storehouse, Loft"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7548e782-4ec8-441e-a83d-8afe61a2ab6d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655319&code=mapD",
+          "West Rampart"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4070a9af-cbde-4ecb-b7d8-cdbea6e9fdff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655664&code=mapD",
+          "Messmer's Dark Chamber"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "be481700-ad50-4161-b857-df72f0f149f2",
+    name: "Scaduview",
+    url: "https://eldenring.wiki.fextralife.com/Scaduview",
+    isDLC: true,
+    requirements: [
+      {
+        id: "8102debe-de92-466a-bf37-aab1858bc5f1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Map+Link",
+          "Scaduview"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a460338d-5a53-4ac7-a475-322281894ee5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655352&code=mapD",
+          "Shadow Keep, Back Gate"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5c9a2760-bdf6-43db-af3d-73d2051d22f7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655362&code=mapD",
+          "Scadutree Base"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "36689d27-3ec2-4b46-95b9-4e8c81a9ca1a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655663&code=mapD",
+          "Hinterland"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "0ff7add0-6529-4d9c-a092-633fd722d445",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655660&code=mapD",
+          "Hinterland Bridge"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "97a8ca6b-a675-4ffa-b087-6567280b4c74",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655659&code=mapD",
+          "Fingerstone Hill"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
 ];
