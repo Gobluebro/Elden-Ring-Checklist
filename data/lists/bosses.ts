@@ -1423,10 +1423,16 @@ export const BossesList: Array<ListType> = [
       },
       {
         id: "389ee498-089e-4819-811e-0b47bf17cedd",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Messmer+the+Impaler",
-          "Messmer the Impaler / Base Serpent Messmer"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Messmer+the+Impaler",
+            "Messmer the Impaler"
+          ) +
+          " / " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Base+Serpent+Messmer",
+            "Base Serpent Messmer"
+          ),
         isDLC: true,
       },
       {
@@ -1656,10 +1662,16 @@ export const BossesList: Array<ListType> = [
     requirements: [
       {
         id: "e2bc0f86-88f3-4a67-8356-730683f96cfc",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Promised+Consort+Radahn",
-          "Promised Consort Radahn / Radahn Consort of Miquella"
-        ),
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Promised+Consort+Radahn",
+            "Promised Consort Radahn"
+          ) +
+          " / " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Radahn+Consort+of+Miquella",
+            "Radahn Consort of Miquella"
+          ),
         isDLC: true,
       },
     ],
