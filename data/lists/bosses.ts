@@ -1346,7 +1346,7 @@ export const BossesList: Array<ListType> = [
   },
   {
     id: "7afcddc4-6855-4bd4-83d4-976d828f306c",
-    name: "Scadu Atlus",
+    name: "Scadu Altus",
     isDLC: true,
     requirements: [
       {
