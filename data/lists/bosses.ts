@@ -1273,4 +1273,422 @@ export const BossesList: Array<ListType> = [
       },
     ],
   },
+  {
+    id: "1785d147-9342-4f67-8fd6-4e5c0208ba67",
+    name: "Gravesite Plain",
+    isDLC: true,
+    requirements: [
+      {
+        id: "90a084aa-6d68-49d3-b3f2-8624ff287f6c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blackgaol+Knight",
+          "Blackgaol Knight"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "bcf383aa-a6a7-4aea-8840-7fb49632595b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Chief+Bloodfiend",
+          "Chief Bloodfiend"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "d6e4da10-2e52-445a-a2d8-fbce1eef67d0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Demi-Human+Swordmaster+Onze",
+          "Demi-Human Swordmaster Onze"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1481fdbf-c081-411e-8524-3bfe7990f039",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Divine+Beast+Dancing+Lion",
+          "Divine Beast Dancing Lion"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "2674692e-7f74-447b-be42-2a2ec8dd717c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ghostflame+Dragon",
+          "Ghostflame Dragon"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "8105f21c-b221-4154-95aa-2a0ab57cd158",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lamenter",
+          "Lamenter"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "30dc6586-d33b-4692-b674-b4ce3d10158b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rellana+Twin+Moon+Knight",
+          "Rellana Twin Moon Knight"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a0ccc7dd-77cb-489c-968b-c5546e8fb84c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Red+Bear",
+          "Red Bear"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "7afcddc4-6855-4bd4-83d4-976d828f306c",
+    name: "Scadu Altus",
+    isDLC: true,
+    requirements: [
+      {
+        id: "0db7051e-a63c-42a4-8cfb-cb6081c2c547",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Knight+Edreed",
+          "Black Knight Edreed"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "3a29da41-721b-45b9-94fa-a7f380b3fddc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Knight+Garrew",
+          "Black Knight Garrew"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5b71e7ae-8806-4c2f-8cb8-75bdbdb2d20a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Commander+Gaius",
+          "Commander Gaius"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "317d27e4-4c23-4748-a6e9-28467c8785c5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Count+Ymir,+Mother+of+Fingers",
+          "Count Ymir, Mother of Fingers"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4811a9ed-310c-481d-8b88-e4a60f386b70",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Curseblade+Labirith",
+          "Curseblade Labirith"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "213e4456-0b71-4686-b350-2368bf1e8495",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Death+Knight",
+          "Death Knight"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "be166d84-aafe-4fda-b575-0e3929e220ef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dryleaf+Dane+(Boss)",
+          "Dryleaf Dane"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b27cd0e8-a54a-4634-9e7e-7fa4c5515758",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ghostflame+Dragon",
+          "Ghostflame Dragon"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "081bd061-05ff-4f50-94df-2129eecd9f54",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Hippopotamus",
+          "Golden Hippopotamus"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "389ee498-089e-4819-811e-0b47bf17cedd",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Messmer+the+Impaler",
+            "Messmer the Impaler"
+          ) +
+          " / " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Base+Serpent+Messmer",
+            "Base Serpent Messmer"
+          ),
+        isDLC: true,
+      },
+      {
+        id: "a409891b-055b-43bf-bd4c-e0902380894c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Metyr,+Mother+of+Fingers",
+          "Metyr, Mother of Fingers"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "356360a5-0fe3-4ab9-8826-3b6c848d23e0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rakshasa",
+          "Rakshasa"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7d0de939-62ff-410a-ab3e-2a296191c7f5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ralva+the+Great+Red+Bear",
+          "Ralva the Great Red Bear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e7932a2f-078d-4ed3-88ab-973d1797332a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
+          "Tree Sentinel"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "6d64dd48-3172-4003-9194-25501e5980ad",
+    name: "Rauh Base",
+    isDLC: true,
+    requirements: [
+      {
+        id: "a96ea737-23fd-414b-8a63-466a44217501",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Death+Knight",
+          "Death Knight"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "96259149-776f-4443-b0bf-0a07c6aaa836",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Divine+Beast+Dancing+Lion",
+          "Divine Beast Dancing Lion"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ef7ebdf9-1e39-40ec-be85-61e6a7cccedf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Romina,+Saint+of+the+Bud",
+          "Romina, Saint of the Bud"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "463190ca-25ba-4eff-beed-c69e872b402a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rugalea+the+Great+Red+Bear",
+          "Rugalea the Great Red Bear"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "5c45a2c5-87d8-4850-8882-13b6a36fea40",
+    name: "Cerulean Coast",
+    isDLC: true,
+    requirements: [
+      {
+        id: "70bb15c5-14ad-4500-aa27-3660586ab522",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dancer+of+Ranah",
+          "Dancer of Ranah"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4f60951c-6b3f-4f5f-a176-b27a20ccbe34",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ghostflame+Dragon",
+          "Ghostflame Dragon"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9d8168c4-555e-4477-89cc-42bd3dfa837a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Putrescent+Knight",
+          "Putrescent Knight"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "4cc9f327-be98-4b97-bf11-a6cf60ff4d27",
+    name: "Charo's Hidden Grave",
+    isDLC: true,
+    requirements: [
+      {
+        id: "e424925d-819b-4502-aa29-c278d866ff26",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Death+Rite+Bird",
+          "Death Rite Bird"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "c9a17a00-61d0-4856-8d8a-aa555d2b1b35",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Demi-Human+Queen+Marigga",
+          "Demi-Human Queen Marigga"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "1b96ffa1-7b11-4e04-9870-0acd93da649c",
+    name: "Jagged Peak",
+    isDLC: true,
+    requirements: [
+      {
+        id: "85aa0757-9912-4697-94dc-520cb5b44eff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ancient+Dragon-Man",
+          "Ancient Dragon-Man"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "c21e8cdd-9116-4202-a2ed-a5c9a95728d8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Senessax",
+          "Ancient Dragon Senessax"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "552b9b06-fdd2-4f7a-b885-dea514a17ac9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bayle+the+Dread",
+          "Bayle the Dread"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "8221f51c-f5ce-48fb-bc61-5f94aba049a2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jagged+Peak+Drake",
+          "Jagged Peak Drake"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "739c03b0-a75a-4e96-9ded-76107e96c976",
+    name: "Abyssal Woods",
+    isDLC: true,
+    requirements: [
+      {
+        id: "88be244c-b0cd-4cbc-9e18-da9bd51f03a2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jori,+Elder+Inquisitor",
+          "Jori, Elder Inquisitor"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "e1f5f2c2-8913-41fa-b2ee-9ac1eb5f0f32",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Midra+Lord+of+Frenzied+Flame",
+          "Midra Lord of Frenzied Flame"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "0ff4b3d8-e40c-4055-83af-22076c78b7c9",
+    name: "Scaduview",
+    isDLC: true,
+    requirements: [
+      {
+        id: "2f32d08f-0e7c-418c-bfc0-2102f30af59e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fallingstar+Beast",
+          "Fallingstar Beast"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "0247cc88-3b8f-43e6-aa99-a27d77f242da",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Scadutree+Avatar",
+          "Scadutree Avatar"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "66b3a9cf-dcb3-40b8-8a81-2526b1cb30c2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
+          "Tree Sentinel"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "cdaec027-0fd3-4197-b8cb-481a26ee5e6d",
+    name: "Enir-Ilim",
+    isDLC: true,
+    requirements: [
+      {
+        id: "e2bc0f86-88f3-4a67-8356-730683f96cfc",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Promised+Consort+Radahn",
+            "Promised Consort Radahn"
+          ) +
+          " / " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Radahn+Consort+of+Miquella",
+            "Radahn Consort of Miquella"
+          ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "c7b4682a-e8cd-44b5-b4fb-a9e08b02b340",
+    name: "Finger Ruins Rhia",
+    isDLC: true,
+    requirements: [
+      {
+        id: "2bc17fec-6850-4946-977c-eca9568ac136",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jagged+Peak+Drake",
+          "Jagged Peak Drake"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
 ];
