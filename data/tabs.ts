@@ -2,7 +2,7 @@ import {
   AchievementsList,
   BossesList,
   GracesList,
-  MiscellaneousList,
+  CollectablesList,
   QuestsList,
   UpgradesList,
   ListType,
@@ -16,7 +16,7 @@ export enum TabNames {
   Graces,
   Bosses,
   Upgrades,
-  Miscellaneous,
+  Collectables,
   Weapons,
   Spells,
 }
@@ -77,7 +77,7 @@ export const PersonalTabDataArray: TabData[] = [
   {
     id: 8,
     name: "Collectables",
-    enum: TabNames.Miscellaneous,
-    listData: MiscellaneousList,
+    enum: TabNames.Collectables,
+    listData: CollectablesList,
   },
 ];

@@ -1,7 +1,7 @@
 import { rawHTMLLink } from "./listHelper";
 import { ListType } from "./types";
 
-export const MiscellaneousList: Array<ListType> = [
+export const CollectablesList: Array<ListType> = [
   {
     id: "98a5935f-ab86-41e7-9201-8d957aad4220",
     name: "Cracked Pot",
