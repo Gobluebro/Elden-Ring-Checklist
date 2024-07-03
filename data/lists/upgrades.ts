@@ -360,9 +360,76 @@ export const UpgradesList: Array<ListType> = [
   },
   {
     id: "e3229bbc-73dc-41c4-b2b5-15f079a7de8d",
-    name: "DLC Area",
+    name: "Gravesite Plain",
     isDLC: true,
-    requirements: [],
+    requirements: [
+      {
+        id: "6e9e454b-3854-47b7-a0d6-01874ec98074",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Three-Path Cross",
+      },
+      {
+        id: "a812db12-3ad3-43eb-919a-666995396044",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Northeast of Scorched Ruins (Pot Shadow)",
+      },
+      {
+        id: "0ce66e58-7365-4b88-9759-3f5579e0bf71",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Church Of Consolation (x2)",
+      },
+      {
+        id: "d92cbf1a-ad00-49c0-b1f2-670fb88e65ee",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Main Gate Cross outside Belurat",
+      },
+      {
+        id: "3316171f-4e43-4d34-81e5-72d73f7e7738",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - West of Prospect Town (Pot Shadow)",
+      },
+      {
+        id: "009f3272-b4de-45dc-914d-c0961026587c",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Outside Castle Ensis",
+      },
+      {
+        id: "5188cbfd-f836-4cb5-836b-d72395d8c261",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Pillar Path Cross",
+      },
+      {
+        id: "09797fc1-7f0e-4228-9b31-6bb6f385fe7b",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - East of Scorched Ruins",
+      },
+      {
+        id: "f89a2901-396c-4992-b781-2bede3e17d9c",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Abandoned Ailing Village",
+      },
+      {
+        id: "5817e779-d827-4ad2-b5d6-24654969b67e",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - East of Prospect Town",
+      },
+      {
+        id: "ab260c70-233e-46fc-bbd5-5b92b4a2e685",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Ellac River Cave",
+      },
+    ],
   },
   {
     id: "b1259193-6158-4955-8796-a91b310c7406",
