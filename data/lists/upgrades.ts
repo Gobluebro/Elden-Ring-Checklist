@@ -358,16 +358,16 @@ export const UpgradesList: Array<ListType> = [
       },
     ],
   },
-  {
-    id: "e3229bbc-73dc-41c4-b2b5-15f079a7de8d",
-    name: "DLC Area",
-    isDLC: true,
-    requirements: [],
-  },
-  {
-    id: "b1259193-6158-4955-8796-a91b310c7406",
-    name: "DLC Area 2",
-    isDLC: true,
-    requirements: [],
-  },
+  // {
+  //   id: "e3229bbc-73dc-41c4-b2b5-15f079a7de8d",
+  //   name: "DLC Area",
+  //   isDLC: true,
+  //   requirements: [],
+  // },
+  // {
+  //   id: "b1259193-6158-4955-8796-a91b310c7406",
+  //   name: "DLC Area 2",
+  //   isDLC: true,
+  //   requirements: [],
+  // },
 ];
