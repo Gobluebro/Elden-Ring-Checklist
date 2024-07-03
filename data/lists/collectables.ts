@@ -2290,7 +2290,8 @@ export const CollectablesList: Array<ListType> = [
     requirements: [
       {
         id: "37ed06b3-bfc6-4729-9ad4-a3a72ee36df3",
-        description: "Limgrave - Chest behind the Black Knife Assassin in the Deathtouched Catacombs.",
+        description:
+          "Limgrave - Chest behind the Black Knife Assassin in the Deathtouched Catacombs.",
       },
       {
         id: "7bf6d038-ff67-48e8-99c1-38fad83f1f9a",
@@ -2298,11 +2299,13 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "d24e48eb-d509-46aa-a219-9d3caddbeae2",
-        description: "Liurnia of the Lakes - Chest behind the Cemetery Shade in the Black Knife Catacombs.",
+        description:
+          "Liurnia of the Lakes - Chest behind the Cemetery Shade in the Black Knife Catacombs.",
       },
       {
         id: "81cadfa9-e0ad-488f-8c63-31278663d284",
-        description: "Liurnia of the Lakes - Kill Tibia Mariner at East Liurnia of the Lakes.",
+        description:
+          "Liurnia of the Lakes - Kill Tibia Mariner at East Liurnia of the Lakes.",
       },
       {
         id: "fb9a7eb3-430f-43dc-b185-e53aee220f09",
@@ -2310,19 +2313,23 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "4c2358a7-d8b5-4a72-9c13-88972d16dd9d",
-        description: "Altus Plateau - Chest behind the Red Wolf of the Champion at Gelmir Hero's Grave.",
+        description:
+          "Altus Plateau - Chest behind the Red Wolf of the Champion at Gelmir Hero's Grave.",
       },
       {
         id: "6f4cbdbd-d37d-4307-99e6-8e5abffce2c3",
-        description: "Mountaintops of the Giants - Kill Tibia Mariner on a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook.",
+        description:
+          "Mountaintops of the Giants - Kill Tibia Mariner on a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook.",
       },
       {
         id: "7960bc68-1d2d-4bec-a694-f0795742e5a9",
-        description: "Mountaintops of the Giants - Chest after defeating the Stray Mimic Tear in the secret catacombs underneath the Hidden Path to the Haligtree.",
+        description:
+          "Mountaintops of the Giants - Chest after defeating the Stray Mimic Tear in the secret catacombs underneath the Hidden Path to the Haligtree.",
       },
       {
         id: "43d1eb4b-da12-46fb-9bb5-97c7564da9c9",
-        description: "Mountaintops of the Giants - Chest after defeating the Ulcerated Tree Spirit boss inside the Giants' Mountaintop Catacombs.",
+        description:
+          "Mountaintops of the Giants - Chest after defeating the Ulcerated Tree Spirit boss inside the Giants' Mountaintop Catacombs.",
       },
     ],
   },
@@ -2333,35 +2340,71 @@ export const CollectablesList: Array<ListType> = [
     requirements: [
       {
         id: "3ef14f61-c8d2-4b3d-9305-0b7be3e3b5a1",
-        description: "Purchased from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes.",
+        description:
+          "Purchased from Twin Maiden Husks at the Roundtable Hold for 3,000 Runes.",
       },
       {
         id: "1e59cfa2-04e7-432e-977f-96cda0d36eed",
-        description: "Found in a chest at the top of Oridys's Rise in Weeping Peninsula.",
+        description:
+          "Found in a chest at the top of Oridys's Rise in Weeping Peninsula. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=726&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "30ee1777-38c2-447a-a94f-e3d4d553fd63",
-        description: "Found in a chest on the top floor of the Converted Tower in western Liurnia of the Lakes.",
+        description:
+          "Found in a chest on the top floor of the Converted Tower in western Liurnia of the Lakes. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/interactive+map?id=1344&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "bdd2cd91-1fb8-4acb-bd96-40ec8932f258",
-        description: "Dropped by the Red Wolf of Radagon at Raya Lucaria Academy.",
+        description:
+          "Dropped by the Red Wolf of Radagon at Raya Lucaria Academy. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2264&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "25c232b6-37f2-4a99-9f2b-4fb6e15814da",
-        description: "Found in a chest at the top floor of Testu's Rise in northern Liurnia of the Lakes.",
+        description:
+          "Found in a chest at the top floor of Testu's Rise in northern Liurnia of the Lakes. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/interactive+map?id=1589&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "44a14959-116d-437e-9133-8399e3d80a83",
-        description: "Found in a chest on the top floor of Seluvis's Rise in the Three Sisters sub-region.",
+        description:
+          "Found in a chest on the top floor of Seluvis's Rise in the Three Sisters sub-region. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+map?id=1801&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "7642cbcf-2b3c-4820-8ad8-4ca57fdd26c0",
-        description: "Dropped by Demi-Human Queen Maggie, an optional boss in the northeast of Hermit Village in Mt. Gelmir.",
+        description:
+          "Dropped by Demi-Human Queen Maggie, an optional boss in the northeast of Hermit Village in Mt. Gelmir. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+map?id=2315&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "b8047be5-ae3f-43c3-9868-3b435bac563d",
-        description: "Found in a chest at the top floor of Lenne's Rise in eastern Dragonbarrow.",
+        description:
+          "Found in a chest at the top floor of Lenne's Rise in eastern Dragonbarrow. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+map?id=4277&code=mapA",
+            "Map Link"
+          ),
       },
     ],
   },
