@@ -1180,6 +1180,22 @@ export const MiscellaneousList: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Talismans",
     requirements: [
       {
+        id: "32d69424-24e1-4eaf-988a-ddccc7092b3f",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Aged+One's+Exultation",
+          "Aged One's Exultation"
+        ),
+      },
+      {
+        id: "f135f6bf-5bb5-45b9-a4b2-52a2238938dd",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ailment+Talisman",
+          "Ailment Talisman"
+        ),
+      },
+      {
         id: "b459e819-919a-434a-ae2f-56a667475fa2",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ancestral+Spirit's+Horn",
@@ -1191,6 +1207,14 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Arrow's+Reach+Talisman",
           "Arrow's Reach Talisman"
+        ),
+      },
+      {
+        id: "4997f3dc-9488-42fc-9f79-dd2f19eef021",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arrow's+Soaring+Sting+Talisman",
+          "Arrow's Soaring Sting Talisman"
         ),
       },
       {
@@ -1236,10 +1260,27 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "2d3a5735-6a9b-428f-8e9f-b0ddc7c01284",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Beloved+Stardust",
+          "Beloved Stardust"
+        ),
+      },
+      {
         id: "ecb9ed26-9d26-4d06-9652-d9b9d9c33485",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Blade+of+Mercy",
           "Blade of Mercy"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "eb211187-b29e-442b-b5a5-bac1f6fa6e72",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blessed+Blue+Dew+Talisman",
+          "Blessed Blue Dew Talisman"
         ),
       },
       {
@@ -1466,6 +1507,14 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "23142878-cd2f-4132-aee7-d684dbb52337",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crusade+Insignia",
+          "Crusade Insignia"
+        ),
+      },
+      {
         id: "9a701fff-81d3-4896-9d49-792971ac2aca",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Curved+Sword+Talisman",
@@ -1487,13 +1536,6 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
-        id: "43f99d7e-a492-4e5a-9926-596fc331b4d2",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragoncrest+Greatshield+Talisman",
-          "Dragoncrest Greatshield Talisman"
-        ),
-      },
-      {
         id: "499d2e75-5ea3-4728-9bfc-ce00f8b0d1de",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
@@ -1512,6 +1554,22 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
           "Dragoncrest Shield Talisman +2"
+        ),
+      },
+      {
+        id: "9f332c4a-89ce-41f1-9f86-5729a45e6a32",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dried+Bouquet",
+          "Dried Bouquet"
+        ),
+      },
+      {
+        id: "79b8da2d-cf0a-4819-a55f-b321a8dfaac7",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Enraged+Divine+Beast",
+          "Enraged Divine Beast"
         ),
       },
       {
@@ -1540,6 +1598,14 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Faithful+Canvas+Talisman",
           "Faithful's Canvas Talisman"
+        ),
+      },
+      {
+        id: "b34e70eb-c9fe-4b93-b011-27627495bd8d",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fine+Crucible+Feather+Talisman",
+          "Fine Crucible Feather Talisman"
         ),
       },
       {
@@ -1611,6 +1677,14 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Golden+Scarab",
           "Gold Scarab"
+        ),
+      },
+      {
+        id: "0c3fdd65-1eda-4928-9d9a-778fc5016972",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Braid",
+          "Golden Braid"
         ),
       },
       {
@@ -1713,6 +1787,14 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "7f90661f-ed65-42ea-8605-908bdb090769",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lacerating+Crossed-Tree",
+          "Lacerating Crossed-Tree"
+        ),
+      },
+      {
         id: "af65fae9-a7d4-4882-b9dc-6d5c1ba30a93",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Lance+Talisman",
@@ -1805,6 +1887,22 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "98719e70-bf00-470b-977c-7e17f653495d",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Outer+God+Heirloom",
+          "Outer God Heirloom"
+        ),
+      },
+      {
+        id: "75593c3c-59e0-4060-bb23-bbae23049867",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearl+Shield+Talisman",
+          "Pearl Shield Talisman"
+        ),
+      },
+      {
         id: "13a1aef7-d07b-4c43-8640-46dbe58dee62",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
@@ -1890,6 +1988,22 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "7b6b510b-af84-4d8e-a03c-15a260be2660",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rellana's+Cameo",
+          "Rellana's Cameo"
+        ),
+      },
+      {
+        id: "b5c0cb9a-2767-435a-af6c-a4bd02e465fc",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Retaliatory+Crossed-Tree",
+          "Retaliatory Crossed-Tree"
+        ),
+      },
+      {
         id: "5890f8fd-8c65-4065-9b63-4a1528e5f4c5",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ritual+Shield+Talisman",
@@ -1946,10 +2060,34 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "ae02a315-0f86-4d9f-909d-3f338425846e",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sharpshot+Talisman",
+          "Sharpshot Talisman"
+        ),
+      },
+      {
+        id: "c92e9468-e9f5-46f1-80f6-628ed7604a82",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Shattered+Stone+Talisman",
+          "Shattered Stone Talisman"
+        ),
+      },
+      {
         id: "d64fa48b-9fca-4cc3-bf93-0342c724ee7d",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Silver+Scarab",
           "Silver Scarab"
+        ),
+      },
+      {
+        id: "b33bb84c-e78f-4400-988b-aca59926eb59",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Smithing+Talisman",
+          "Smithing Talisman"
         ),
       },
       {
@@ -1987,6 +2125,14 @@ export const MiscellaneousList: Array<ListType> = [
           "Spelldrake Talisman +3"
         ),
         isDLC: true,
+      },
+      {
+        id: "d470bcb4-6966-4e46-8d20-f13b34d248ab",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/St.+Trina's+Smile",
+          "St. Trina's Smile"
+        ),
       },
       {
         id: "50255550-740c-4890-b0ba-6ed1d3edf200",
@@ -2032,6 +2178,30 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "7a0ba4f6-f665-4880-8148-b5f529f461c9",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Talisman+of+All+Crucibles",
+          "Talisman of All Crucibles"
+        ),
+      },
+      {
+        id: "00964916-5614-4802-bc7a-2d890cfa6b96",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Talisman+of+Lord's+Bestowal",
+          "Talisman of Lord's Bestowal"
+        ),
+      },
+      {
+        id: "69b61622-30ae-4cf3-9a7a-611d18515bc7",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Talisman+of+the+Dread",
+          "Talisman of the Dread"
+        ),
+      },
+      {
         id: "e1123436-fc05-469b-896a-ff3b0c557d20",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Twinblade+Talisman",
@@ -2043,6 +2213,30 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Two+Fingers+Heirloom",
           "Two Fingers Heirloom"
+        ),
+      },
+      {
+        id: "c25c4063-a2ca-4c28-adec-173d9ca72470",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Two-Handed+Sword+Talisman",
+          "Two-Handed Sword Talisman"
+        ),
+      },
+      {
+        id: "2410be11-e424-4229-b5fb-b3256d057c43",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Two-Headed+Turtle+Talisman",
+          "Two-Headed Turtle Talisman"
+        ),
+      },
+      {
+        id: "5e11474b-0e20-41ec-9fcd-14b8bbcaf397",
+        isDLC: true,
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Verdigris+Discus",
+          "Verdigris Discus"
         ),
       },
       {
