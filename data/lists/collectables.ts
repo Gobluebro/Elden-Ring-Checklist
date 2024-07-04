@@ -2291,45 +2291,83 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "37ed06b3-bfc6-4729-9ad4-a3a72ee36df3",
         description:
-          "Limgrave - Chest behind the Black Knife Assassin in the Deathtouched Catacombs.",
+          "Limgrave - Chest behind the Black Knife Assassin in the Deathtouched Catacombs. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=855&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "7bf6d038-ff67-48e8-99c1-38fad83f1f9a",
-        description: "Limgrave - Kill Tibia Mariner at Summonwater Village.",
+        description:
+          "Limgrave - Kill Tibia Mariner at Summonwater Village. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1547&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "d24e48eb-d509-46aa-a219-9d3caddbeae2",
         description:
-          "Liurnia of the Lakes - Chest behind the Cemetery Shade in the Black Knife Catacombs.",
+          "Liurnia of the Lakes - Chest behind the Cemetery Shade in the Black Knife Catacombs. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6807&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "81cadfa9-e0ad-488f-8c63-31278663d284",
         description:
-          "Liurnia of the Lakes - Kill Tibia Mariner at East Liurnia of the Lakes.",
+          "Liurnia of the Lakes - Kill Tibia Mariner at East Liurnia of the Lakes. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2010&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "fb9a7eb3-430f-43dc-b185-e53aee220f09",
-        description: "Altus Plateau - Kill Tibia Mariner at Wyndham Ruins.",
+        description:
+          "Altus Plateau - Kill Tibia Mariner at Wyndham Ruins. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2007&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "4c2358a7-d8b5-4a72-9c13-88972d16dd9d",
         description:
-          "Altus Plateau - Chest behind the Red Wolf of the Champion at Gelmir Hero's Grave.",
+          "Altus Plateau - Chest behind the Red Wolf of the Champion at Gelmir Hero's Grave. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5765&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "6f4cbdbd-d37d-4307-99e6-8e5abffce2c3",
         description:
-          "Mountaintops of the Giants - Kill Tibia Mariner on a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook.",
+          "Mountaintops of the Giants - Kill Tibia Mariner on a ledge between Castle Sol Main Gate and Snow Valley Ruins Overlook. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6808&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "7960bc68-1d2d-4bec-a694-f0795742e5a9",
         description:
-          "Mountaintops of the Giants - Chest after defeating the Stray Mimic Tear in the secret catacombs underneath the Hidden Path to the Haligtree.",
+          "Mountaintops of the Giants - Chest after defeating the Stray Mimic Tear in the secret catacombs underneath the Hidden Path to the Haligtree. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6359&code=mapA",
+            "Map Link"
+          ),
       },
       {
         id: "43d1eb4b-da12-46fb-9bb5-97c7564da9c9",
         description:
-          "Mountaintops of the Giants - Chest after defeating the Ulcerated Tree Spirit boss inside the Giants' Mountaintop Catacombs.",
+          "Mountaintops of the Giants - Chest after defeating the Ulcerated Tree Spirit boss inside the Giants' Mountaintop Catacombs. " +
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6809&code=mapA",
+            "Map Link"
+          ),
       },
     ],
   },
