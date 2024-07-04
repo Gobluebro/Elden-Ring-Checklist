@@ -3474,18 +3474,18 @@ export const WeaponsList: Array<ListType> = [
     isDLC: true,
     requirements: [
       {
-        id: "7778bee9-b0bf-49ab-ae2e-5b2cd3f7c185",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dueling+Shield",
-          "Dueling Shield"
-        ),
-        isDLC: true,
-      },
-      {
         id: "7880c570-e3fa-4a8c-a68d-f939708fdcf5",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Carian+Thrusting+Shield",
           "Carian Thrusting Shield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7778bee9-b0bf-49ab-ae2e-5b2cd3f7c185",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dueling+Shield",
+          "Dueling Shield"
         ),
         isDLC: true,
       },
