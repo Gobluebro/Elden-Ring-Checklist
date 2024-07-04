@@ -358,16 +358,485 @@ export const UpgradesList: Array<ListType> = [
       },
     ],
   },
-  // {
-  //   id: "e3229bbc-73dc-41c4-b2b5-15f079a7de8d",
-  //   name: "DLC Area",
-  //   isDLC: true,
-  //   requirements: [],
-  // },
-  // {
-  //   id: "b1259193-6158-4955-8796-a91b310c7406",
-  //   name: "DLC Area 2",
-  //   isDLC: true,
-  //   requirements: [],
-  // },
+  {
+    id: "e3229bbc-73dc-41c4-b2b5-15f079a7de8d",
+    name: "Gravesite Plain",
+    isDLC: true,
+    requirements: [
+      {
+        id: "6e9e454b-3854-47b7-a0d6-01874ec98074",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Three-Path Cross",
+      },
+      {
+        id: "a812db12-3ad3-43eb-919a-666995396044",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Northeast of Scorched Ruins (Pot Shadow)",
+      },
+      {
+        id: "0ce66e58-7365-4b88-9759-3f5579e0bf71",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Church Of Consolation (x2)",
+      },
+      {
+        id: "d92cbf1a-ad00-49c0-b1f2-670fb88e65ee",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Main Gate Cross outside Belurat",
+      },
+      {
+        id: "3316171f-4e43-4d34-81e5-72d73f7e7738",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - West of Prospect Town (Pot Shadow)",
+      },
+      {
+        id: "009f3272-b4de-45dc-914d-c0961026587c",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Outside Castle Ensis",
+      },
+      {
+        id: "5188cbfd-f836-4cb5-836b-d72395d8c261",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Pillar Path Cross",
+      },
+      {
+        id: "09797fc1-7f0e-4228-9b31-6bb6f385fe7b",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - East of Scorched Ruins",
+      },
+      {
+        id: "f89a2901-396c-4992-b781-2bede3e17d9c",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Abandoned Ailing Village",
+      },
+      {
+        id: "5817e779-d827-4ad2-b5d6-24654969b67e",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - East of Prospect Town",
+      },
+      {
+        id: "ab260c70-233e-46fc-bbd5-5b92b4a2e685",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Ellac River Cave",
+      },
+    ],
+  },
+  {
+    id: "b1259193-6158-4955-8796-a91b310c7406",
+    name: "Belurat",
+    isDLC: true,
+    requirements: [
+      {
+        id: "1bf4763c-460b-4337-a633-87f84b33b196",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Belurat Cross",
+      },
+      {
+        id: "c4338cc0-a708-4244-92a0-3c4bd1242c66",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Belurat Entrance (x2)",
+      },
+      {
+        id: "7598a55e-fde1-4283-a225-ec38cc41f4e6",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Belurat Bridge",
+      },
+      {
+        id: "34c5fd2a-38f7-4727-b1e3-8fb47c4f5371",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Minor Scadutree Altar",
+      },
+      {
+        id: "6c963349-5cc1-4af7-b51f-46c705d03afc",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Beyond The Divine Beast",
+      },
+    ],
+  },
+  {
+    id: "3106b9a6-a3b6-4af1-bae9-f232df781aed",
+    name: "Castle Ensis",
+    isDLC: true,
+    requirements: [
+      {
+        id: "85420d70-7318-4319-a5a1-f2783ead6114",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Castle Ensis Checkpoint",
+      },
+    ],
+  },
+  {
+    id: "b29ab275-78f5-42ea-a11a-6bcc182c3f96",
+    name: "Cerulean Coast",
+    isDLC: true,
+    requirements: [
+      {
+        id: "ad3149a1-68a7-45fd-ad6d-da03e3f9b569",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Cerulean Coast Cross",
+      },
+      {
+        id: "1be8299c-621a-4a58-a185-1c278a1640e6",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - North of Cerulean Coast West",
+      },
+    ],
+  },
+  {
+    id: "92f7e9a7-0c59-4c5c-bb66-057bdbaa45c0",
+    name: "Charo's Hidden Grave",
+    isDLC: true,
+    requirements: [
+      {
+        id: "65c1de0d-3bfe-4fbe-80ab-ec68d7b54579",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Western Lake (Hippo)",
+      },
+    ],
+  },
+  {
+    id: "c88f3ae8-6bae-4beb-ac53-5266c748562b",
+    name: "Jagged Peak",
+    isDLC: true,
+    requirements: [
+      {
+        id: "5956ccc6-3844-4a7d-a538-79d4fd0bab8f",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - End of Rolling Boulder path",
+      },
+    ],
+  },
+  {
+    id: "f0ee5af1-c996-49f8-8129-205f772d7ccb",
+    name: "Stone Coffin Fissure",
+    isDLC: true,
+    requirements: [
+      {
+        id: "76426cc9-a349-44e2-87d5-2968c8b3c11d",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Fissure Cross",
+      },
+    ],
+  },
+  {
+    id: "502721f8-1546-4793-ab60-66441a772850",
+    name: "Scadu Altus",
+    isDLC: true,
+    requirements: [
+      {
+        id: "d00d08ab-0651-4065-aea4-40eee636f378",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Highroad Cross",
+      },
+      {
+        id: "a1aaaf99-ea91-4dbd-b0e7-d9d0cea1cbbd",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Highroad encampment",
+      },
+      {
+        id: "f15001da-7eaf-43a8-a61b-dad152f20d3a",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Church Of The Crusade (x2)",
+      },
+      {
+        id: "25a58dc8-ca1a-42fa-97ab-605a1e4a53d4",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Camp west of Moorth Ruins",
+      },
+      {
+        id: "f43ae059-121c-4870-bc41-37c78a00207e",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Moorth Ruins Cross",
+      },
+      {
+        id: "f76d284f-d91f-46a6-947f-86c2c3d32204",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - North of Moorth Ruins",
+      },
+      {
+        id: "f8e1439a-0621-4db4-b421-a0c73cb8ae86",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Southeast Moorth Ruins (Pot Shadow)",
+      },
+      {
+        id: "59f7a41f-9f1e-46c9-a520-29326ab68ceb",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Scaduview Cross",
+      },
+      {
+        id: "ad0bc106-0cab-4baa-8345-795999dc7cd6",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Waterfall Base",
+      },
+      {
+        id: "5c654fb4-4402-4be0-be0e-4004e8b251a8",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Recluses' River lake (First Hippo)",
+      },
+      {
+        id: "7fc81c49-02ae-472e-b715-8cbcb2b7ef90",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Recluses' River lake (Second Hippo)",
+      },
+      {
+        id: "7eafbf2c-f3c4-4449-9341-138f2ce5ef4c",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Cliff East Of Moorth Ruins",
+      },
+      {
+        id: "04ee7911-384b-451d-a949-ab6fe82480ac",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Bonny Village Ravine",
+      },
+      {
+        id: "949069a7-9cef-4b44-a5e1-af9667cd2e4d",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Castle Watering Hole",
+      },
+      {
+        id: "d11e2d53-b914-40e9-a2dd-4a5d7a5f5c7d",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Village Of Flies",
+      },
+    ],
+  },
+  {
+    id: "390d6b21-ed0a-4789-874d-1e049e6e553f",
+    name: "Rauh Ancient Ruins",
+    isDLC: true,
+    requirements: [
+      {
+        id: "141f97e5-ee61-4661-bfd3-8ab6b61ab6c4",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Rauh Ancient Ruins Cross",
+      },
+      {
+        id: "e11d96c5-7e17-49b4-acbc-5370844ff9d9",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Ruins north of Cross (Pot Shadow)",
+      },
+      {
+        id: "37f01d91-96f7-43c4-a127-2333c469ede4",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - South of Viaduct Minor Tower (Hippo)",
+      },
+      {
+        id: "d7a15988-73fc-4dc5-bb46-1a6ab3b64826",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Rauh Ancient Ruins, West (Pot Shadow)",
+      },
+      {
+        id: "134c58e7-cdb7-4503-b3b1-4d110a27dc14",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Temple Town Ruins",
+      },
+      {
+        id: "14ced2e1-0cbc-4632-9555-9c04834cda7f",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - South Of Temple Town Ruins",
+      },
+      {
+        id: "c47e5fc7-b564-4003-a053-7da56c0e2f77",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Ancient Ruins East Pot Shadow",
+      },
+      {
+        id: "fa71d0c1-17cb-4a7f-a1c2-17c347835ac3",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Rauh Ancient Ruins Garden",
+      },
+      {
+        id: "4b3c52cf-86a8-4a93-9b8c-9c7321c38503",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Ancient Ruins West Pot Shadow",
+      },
+    ],
+  },
+  {
+    id: "0da0410e-eb79-4d5e-a2af-eaf462a2c5c3",
+    name: "Shadow Keep",
+    isDLC: true,
+    requirements: [
+      {
+        id: "139b73f3-928c-4717-960f-2f1931568612",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Golden Hippopotamus (x2)",
+      },
+      {
+        id: "91bf871d-838b-4445-b2f9-eb2095409905",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Storehouse, Fourth Floor Cross",
+      },
+      {
+        id: "80e774c7-b205-4624-81df-ceb6cad21e9f",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Sunken Chapel Statue",
+      },
+      {
+        id: "1307f798-65fe-40a8-81ca-c6b5fab1c158",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Outside Dark Chamber",
+      },
+      {
+        id: "6b9a9ab0-50c7-407f-a208-7944d37a3d55",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Back Gate Marika Statue",
+      },
+      {
+        id: "2e837895-aff6-493e-9f5e-b5d804701cb4",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Specimen Storehouse Central Statue",
+      },
+      {
+        id: "a8fbd5d8-7d9f-4b35-bd08-dafe8a73acd4",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Specimen Storehouse Seventh Floor",
+      },
+    ],
+  },
+  {
+    id: "75d7ca23-aad0-4046-b135-d5b4fe3bd9db",
+    name: "Scaduview",
+    isDLC: true,
+    requirements: [
+      {
+        id: "5f6d612a-b459-4678-8088-cefc01beaa58",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Scadutree Chalice (x5)",
+      },
+    ],
+  },
+  {
+    id: "a640a848-da8e-4da8-aa50-abd87aa402d7",
+    name: "Abyssal Woods",
+    isDLC: true,
+    requirements: [
+      {
+        id: "065b974b-eec9-47f9-8a7c-95c13e9f9d1d",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Church Ruins (x2)",
+      },
+      {
+        id: "eff1ce23-8f5c-4e47-8a7c-6941463a2e8f",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - North of Abyssal Woods Grace",
+      },
+      {
+        id: "c1fe2755-067b-4e5e-940f-090f4327b409",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Midra's Manse Inquisitor",
+      },
+      {
+        id: "1f798ec1-60a9-46a8-83ea-e6898ddd0e1c",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Midra's Manse Chandelier",
+      },
+    ],
+  },
+  {
+    id: "d738d379-8808-4d85-b465-45e929a79b92",
+    name: "Enir-Ilim",
+    isDLC: true,
+    requirements: [
+      {
+        id: "cfce36ab-1fb3-43c9-894d-376d604c3b99",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Spiral Rise Cross",
+      },
+      {
+        id: "67a1fc50-e76e-4f3b-9ce4-5cc65a87105d",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Belurat Statue Base",
+      },
+      {
+        id: "b16a3c75-6751-4d16-a79f-eaa563fe702c",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Altar Room",
+      },
+      {
+        id: "eb51f33a-d7d4-4013-b88b-3e2ffd80c39b",
+        isDLC: true,
+        description:
+          "Scadutree Fragment - Cleansing Chamber Anteroom",
+      },
+      {
+        id: "8f64564e-4048-4650-b0ef-f0449ea1ca17",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Enir-Ilim Inquisitor",
+      },
+      {
+        id: "714a5241-fd2c-47b5-adcb-7e5daaa35e85",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Statue Beneath Garden (x2)",
+      },
+      {
+        id: "8c065140-b8d7-4376-81b3-fed4d85499fb",
+        isDLC: true,
+        description:
+          "Revered Spirit Ash - Enir-Ilim Altar Room",
+      },
+    ],
+  },
 ];
