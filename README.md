@@ -157,18 +157,48 @@ Run locally with:
   - [x] Jar-Bairn
   - [x] Seluvis
   - [x] Tanith
-- [x] Achievements
-  - [ ] Not sure if I should include anything else but collectable achievements.
+  - [ ] DLC
+- [x] Collection Achievements
 - [x] Graces
   - [x] Double checked by [@13xforever](https://github.com/13xforever)
+  - [x] DLC
+    - [ ] order checked
 - [x] Bosses
+  - [x] DLC Bosses
+    - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
 - [x] Gestures
-  - [ ] Add more information in the URL?
-- [x] Golden Seeds
-  - Added by [@RDoll](https://github.com/RDoll-Repo)
+  - [x] DLC
+    - [ ] order checked
+- [x] Upgrades
+  - [x] Golden Seeds
+    - Added by [@RDoll](https://github.com/RDoll-Repo)
+  - [x] Sacred Tears
+  - [x] Scadutree Fragments
+    - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
+  - [x] Revered Spirit Ashes
+    - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
 - [x] Weapons
-- [ ] Spirits / Puppets?
-- [ ] Search Bar
+- [ ] Armor
+- [x] Spells
+  - [x] Sorceries
+  - [x] Incantations
+  - [x] Ashes of War
+- [x] Collections
+  - [x] Gestures
+  - [x] Crystal Tears
+  - [x] Talismans
+  - [x] Cracked Pots
+    - Added by [@ashemedai](https://github.com/ashemedai)
+  - [x] Ritual Pots
+    - Added by [@ashemedai](https://github.com/ashemedai)
+  - [x] Perfume bottle
+    - Added by [@ashemedai](https://github.com/ashemedai)
+  - [x] Spirits / Puppets
+  - [x] Whetblades
+    - Added by [@3bdNKocY](https://github.com/3bdNKocY)
+- [ ] Search Bar?
+
+Thank you to all contributors who helped make this project better!
 
 See the [open issues](https://github.com/Gobluebro/Elden-Ring-Checklist/issues) for a full list of proposed features (and known issues).
 
