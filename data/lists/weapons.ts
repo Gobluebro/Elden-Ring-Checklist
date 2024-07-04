@@ -2376,6 +2376,234 @@ export const WeaponsList: Array<ListType> = [
     ],
   },
   {
+    id: "1eda94ec-2907-4701-b86d-d83e96b91799",
+    name: "Medium Shields",
+    url: "https://eldenring.wiki.fextralife.com/Medium+Shields",
+    requirements: [
+      {
+        id: "3078c810-941e-4345-a610-b0740edf4536",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Albinauric+Shield",
+          " Albinauric Shield"
+        ),
+      },
+      {
+        id: "b2638695-f386-4d1c-be5d-04e5d23f241b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Banished+Knight's+Shield",
+          "Banished Knight's Shield"
+        ),
+      },
+      {
+        id: "a86932cf-6e13-4dc5-a320-f72dbabb5d6b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Beast+Crest+Heater+Shield",
+          "Beast Crest Heater Shield"
+        ),
+      },
+      {
+        id: "cf05ca86-fe32-4b8d-91a4-3cbcc58cf893",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Beastman's+Jar-Shield",
+          "Beastman's Jar-Shield"
+        ),
+      },
+      {
+        id: "ef785fc0-a024-42d8-a36c-991a46b45c20",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Leather+Shield",
+          "Black Leather Shield"
+        ),
+      },
+      {
+        id: "2503e915-45d1-4b38-b899-d3556e0190ea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blue+Crest+Heater+Shield",
+          "Blue Crest Heater Shield"
+        ),
+      },
+      {
+        id: "25af7ab3-ab12-495e-b0ab-1b7df53e25ba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blue-Gold+Kite+Shield",
+          "Blue-Gold Kite Shield"
+        ),
+      },
+      {
+        id: "69bfae7c-ebf0-4922-ad6b-2a8f19f9f1ce",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Brass+Shield",
+          "Brass Shield"
+        ),
+      },
+      {
+        id: "72807bf8-554f-4d27-8009-59a850cb7761",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Candletree+Wooden+Shield",
+          " Candletree Wooden Shield"
+        ),
+      },
+      {
+        id: "86ffa008-0200-43fb-94dd-4c204ff8b417",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Knight's+Shield",
+          "Carian Knight's Shield"
+        ),
+      },
+      {
+        id: "48087fc3-b2f0-4217-9e51-c85a198b7545",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Eclipse+Crest+Heater+Shield",
+          "Eclipse Crest Heater Shield"
+        ),
+      },
+      {
+        id: "8ae5e365-ad06-4032-8ac6-7a8b4b9a5e1e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame+Crest+Wooden+Shield",
+          "Flame Crest Wooden Shield"
+        ),
+      },
+      {
+        id: "6d58dadf-d448-4e6b-a36b-a0241c285509",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Lion+Shield",
+          "Golden Lion Shield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "68039da7-6a6a-4b25-bd3e-33232fe6ec58",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Great+Turtle+Shell",
+          "Great Turtle Shell"
+        ),
+      },
+      {
+        id: "aa0099e9-5290-406d-9324-2f8fed1d3747",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Hawk+Crest+Wooden+Shield",
+          "Hawk Crest Wooden Shield"
+        ),
+      },
+      {
+        id: "8bf9c204-8142-4c1c-b901-90cff2c9c208",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Heater+Shield",
+          "Heater Shield"
+        ),
+      },
+      {
+        id: "6dbdabba-7538-4432-9a35-157177ec5d8e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Horse+Crest+Wooden+Shield",
+          "Horse Crest Wooden Shield"
+        ),
+      },
+      {
+        id: "269dfda1-d4c6-4aad-b70e-51a7d0cdfdb9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Inverted+Hawk+Heater+Shield",
+          " Inverted Hawk Heater Shield"
+        ),
+      },
+      {
+        id: "09792bf6-f93e-4b12-afc4-3fbcff7f08f9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Kite+Shield",
+          "Kite Shield"
+        ),
+      },
+      {
+        id: "fb9d815d-0f8c-43ee-b762-dc67d0050789",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Large+Leather+Shield",
+          "Large Leather Shield"
+        ),
+      },
+      {
+        id: "d898fe08-0981-4bf0-9518-c0ddaf651622",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Marred+Leather+Shield",
+          "Marred Leather Shield"
+        ),
+      },
+      {
+        id: "71903a65-7f5f-4755-b05c-1b3e0dddc5c0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Marred+Wooden+Shield",
+          "Marred Wooden Shield"
+        ),
+      },
+      {
+        id: "d8d766e1-5ae6-4a19-ade9-210e58fb43b4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Shield",
+          "Messmer Soldier Shield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ca5d4ded-447c-4850-a65c-b596a2126ba4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Red+Crest+Heater+Shield",
+          "Red Crest Heater Shield"
+        ),
+      },
+      {
+        id: "f29e1add-980a-44ee-8720-b99860347d8c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Round+Shield",
+          "Round Shield"
+        ),
+      },
+      {
+        id: "62ffce0b-092b-4983-8eba-c85668c13d2f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Scorpion+Kite+Shield",
+          " Scorpion Kite Shield"
+        ),
+      },
+      {
+        id: "d6ee28bf-b01d-4d57-a261-7f6ba070af44",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield",
+          "Serpent Crest Shield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5f9bd7cf-487f-4bac-9d1a-76457272a2d2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Silver+Mirrorshield",
+          "Silver Mirrorshield"
+        ),
+      },
+      {
+        id: "fb33d60c-1c0b-4fd6-9b88-b5affa6a4d0a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sun+Realm+Shield",
+          "Sun Realm Shield"
+        ),
+      },
+      {
+        id: "4bf58fdf-f90c-4ffa-b120-b6d117ef9155",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Twinbird+Kite+Shield",
+          "Twinbird Kite Shield"
+        ),
+      },
+      {
+        id: "c6d1fa2e-24d9-42fa-b3b8-89bcca1372b4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Wolf+Crest+Shield",
+          "Wolf Crest Shield"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
     id: "aeab3fe4-c6f2-4219-ac4e-d4f0d91daa15",
     name: "Perfume Bottles",
     url: "https://eldenring.wiki.fextralife.com/Perfume+Bottles",
