@@ -1699,6 +1699,204 @@ export const WeaponsList: Array<ListType> = [
     ],
   },
   {
+    id: "b730968e-7ba7-45a9-b0e0-4997d114c456",
+    name: "Greatshields",
+    url: "https://eldenring.wiki.fextralife.com/GreatShields",
+    requirements: [
+      {
+        id: "1041fe4f-b7e8-47f3-87aa-ea42810c7615",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ant's+Skull+Plate",
+          "Ant's Skull Plate"
+        ),
+      },
+      {
+        id: "dd01769a-88aa-4bf7-a39e-aa5defb98557",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Steel+Greatshield",
+          "Black Steel Greatshield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4562d2ab-1589-46b1-a006-59a08ebde969",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Briar+Greatshield",
+          "Briar Greatshield"
+        ),
+      },
+      {
+        id: "adf8192b-75e9-438c-b749-2644c8fc2bad",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crossed-Tree+Towershield",
+          "Crossed-Tree Towershield"
+        ),
+      },
+      {
+        id: "71f6d068-e417-400a-9ebe-37ecd594eee9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crucible+Hornshield",
+          "Crucible Hornshield"
+        ),
+      },
+      {
+        id: "fa0f4dff-400b-4020-8d2d-8fb98115bb5d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cuckoo+Greatshield",
+          "Cuckoo Greatshield"
+        ),
+      },
+      {
+        id: "8467c953-5f05-40b8-ac88-3c02476ed9a2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Distinguished+Greatshield",
+          "Distinguished Greatshield"
+        ),
+      },
+      {
+        id: "726d97e9-dabe-4440-bf54-877601333500",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragon+Towershield",
+          " Dragon Towershield"
+        ),
+      },
+      {
+        id: "6fec2585-d541-437d-bed0-8dfa92de581d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragonclaw+Shield",
+          "Dragonclaw Shield"
+        ),
+      },
+      {
+        id: "dc2ba95e-a325-4142-a157-4c029cf54b6f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Eclipse+Crest+Greatshield",
+          "Eclipse Crest Greatshield"
+        ),
+      },
+      {
+        id: "9c56ec68-98e7-4e5e-b909-4b0baecc0ec4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree+Greatshield",
+          "Erdtree Greatshield"
+        ),
+      },
+      {
+        id: "e94a6676-66fc-498b-b96e-3b8f75af6170",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fingerprint+Stone+Shield",
+          "Fingerprint Stone Shield"
+        ),
+      },
+      {
+        id: "ede8f029-74e9-42e0-8a9b-7082d95d5096",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gilded+Greatshield",
+          "Gilded Greatshield"
+        ),
+      },
+      {
+        id: "5dd8d10a-c098-49cd-a847-3e587d6a6697",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Beast+Crest+Shield",
+          "Golden Beast Crest Shield"
+        ),
+      },
+      {
+        id: "7ba442ff-6611-4d1c-9560-7c0ba6d57605",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Greatshield",
+          "Golden Greatshield"
+        ),
+      },
+      {
+        id: "d7ab51ec-3f85-4ed8-9354-009d4809513d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Haligtree+Crest+Greatshield",
+          "Haligtree Crest Greatshield"
+        ),
+      },
+      {
+        id: "8f366ab5-1b77-4785-9f1f-9529540a36e2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Icon+Shield",
+          "Icon Shield"
+        ),
+      },
+      {
+        id: "2843f3eb-5a30-48bb-8b39-ba4ae993b19d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Inverted+Hawk+Towershield",
+          "Inverted Hawk Towershield"
+        ),
+      },
+      {
+        id: "e0f57808-9edf-4c8a-9e25-ed58ed6c6766",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jellyfish+Shield",
+          " Jellyfish Shield"
+        ),
+      },
+      {
+        id: "e9aa1be2-b07b-4bef-8943-06aba73c151a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lordsworn's+Shield",
+          "Lordsworn's Shield"
+        ),
+      },
+      {
+        id: "b7fa7cd4-cb92-4672-b4e0-098219764567",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Manor+Towershield",
+          "Manor Towershield"
+        ),
+      },
+      {
+        id: "d05a0d5f-66e0-43ce-9b62-95bcb2cccf24",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/One-Eyed+Shield",
+          "One-Eyed Shield"
+        ),
+      },
+      {
+        id: "6983a7e9-745e-41a0-aef2-aa310f97cc92",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Redmane+Greatshield",
+          "Redmane Greatshield"
+        ),
+      },
+      {
+        id: "6325f221-070a-4591-8673-487596a7b957",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spiked+Palisade+Shield",
+          "Spiked Palisade Shield"
+        ),
+      },
+      {
+        id: "73532558-4915-4872-a6dd-a023df52c335",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Verdigris+Greatshield",
+          "Verdigris Greatshield"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "33c815ba-2083-4d49-b7fb-8b94a970f57d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Visage+Shield",
+          "Visage Shield"
+        ),
+      },
+      {
+        id: "5c929a40-8e99-485e-b12b-9b3b636a416b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Wooden+Greatshield",
+          "Wooden Greatshield"
+        ),
+      },
+    ],
+  },
+  {
     id: "4e4c228a-26eb-44cc-bda9-dad8401aab34",
     name: "Greatswords",
     url: "https://eldenring.wiki.fextralife.com/Greatswords",
