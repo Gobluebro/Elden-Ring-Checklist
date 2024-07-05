@@ -516,7 +516,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "05e68320-e745-4472-8fd0-7364c001249c",
         description:
-          "Give the item to Ranni in Ranni's Rise, you will receive the inverted statue (locks out Seluvis's questline for this NG cycle).",
+          "Give the item to Ranni in Ranni's Rise, you will receive the inverted statue (locks out Seluvis's questline for this playthrough).",
       },
       {
         id: "d2a30b83-30d9-4fa5-83f9-9f6c0acbb14a",
@@ -1509,8 +1509,7 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "34e4b608-86e7-45fe-8124-7c2eb53177f7",
-        description:
-          "Purchase Dung Eater's Puppet if you gave him the potion on this NG cycle.",
+        description: "Purchase Dung Eater's Puppet if you gave him the potion.",
       },
       {
         id: "1ec168fa-7721-4a26-8fec-c5acdda7ccba",
