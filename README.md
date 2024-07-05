@@ -196,6 +196,8 @@ Run locally with:
   - [x] Spirits / Puppets
   - [x] Whetblades
     - Added by [@3bdNKocY](https://github.com/3bdNKocY)
+  - [ ] Scrolls
+  - [ ] Cookbooks
 - [ ] Search Bar?
 
 Thank you to all contributors who helped make this project better!
