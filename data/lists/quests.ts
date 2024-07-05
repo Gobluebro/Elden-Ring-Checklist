@@ -917,7 +917,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "c6b12699-738d-463d-9216-ae76b24aa1f1",
         description:
-          "Retrieve a Deathroot inside a chest behind the Cemetery Shade in the" +
+          "Retrieve a Deathroot inside a chest behind the Cemetery Shade in the " +
           rawHTMLLink(
             "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6807&code=mapA",
             "Black Knife Catacombs."
