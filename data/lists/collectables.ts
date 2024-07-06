@@ -3061,4 +3061,62 @@ export const CollectablesList: Array<ListType> = [
       },
     ],
   },
+  {
+    id: "485cd4fb-6864-4358-8477-9993d38f75db",
+    name: "Hefty Cracked Pot",
+    url: "https://eldenring.wiki.fextralife.com/Hefty+Cracked+Pot",
+    isDLC: true,
+    requirements: [
+      {
+        id: "fe8a5c0c-2385-4745-9c6b-308499f77bf6",
+        description: "Scorched Ruins: From the location of the Ghost NPC, south of the Scorched Ruins. Head north and take the first right to the higher ground. Alongside a group of Shadows, you will find a body containing this item.",
+        isDLC: true,
+      },
+      {
+        id: "47552fcc-b3aa-4171-a0c6-828937365ab8",
+        description: "Belurat Gaol: One is inside a treasure chest in a room full of hanging pots that players have to jump down between.",
+        isDLC: true,
+      },
+      {
+        id: "c707d10b-bb0b-4911-bd42-31d43cd9e769",
+        description: "Belurat Gaol: One more can be found within a room full of large jars after falling down a broken staircase trap.",
+        isDLC: true,
+      },
+      {
+        id: "bb8bc167-0326-46cc-a42f-af032be926f4",
+        description: "Belurat Gaol: Can be found on some jar pots in the jar labyrinth. ",
+        isDLC: true,
+      },
+      {
+        id: "ccff9ef1-1a1f-43be-ac88-911c6c07d615",
+        description: "Bonny Village: Can be found on the edge of the broken bridge.",
+        isDLC: true,
+      },
+      {
+        id: "2c17317e-03df-424a-85e6-db6489523298",
+        description: "Bonny Village: Past the broken bridge, among many enemies. Below a shed.",
+        isDLC: true,
+      },
+      {
+        id: "a062507d-a4e2-4ea0-a57d-292161551438",
+        description: "Shadow Keep: Right to the location of the Iris of Grace, on a bed. In the Room after the West Rampart Site of Grace.",
+        isDLC: true,
+      },
+      {
+        id: "1e9af4ec-ca91-4da2-8a51-76a0c7c2fcb0",
+        description: "Cerulean Coast: One is given after defeating a Troll that throws giant pots.",
+        isDLC: true,
+      },
+      {
+        id: "feaccdbd-1bba-479a-bf5c-254a5f2aec4d",
+        description: "Bonny Gaol: Right when you walk in, there are two hanging pots you can jump down to and that leads to it.",
+        isDLC: true,
+      },
+      {
+        id: "30317e21-8388-4498-8766-7a50d9640124",
+        description: "Lementer's Gaol: A body on the southwestern corner of the area with the piled-up remains.",
+        isDLC: true,
+      },
+    ],
+  },
 ];
