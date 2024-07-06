@@ -401,7 +401,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "cb90d59d-9c67-4fb4-988b-87fab462cfdd",
         description:
-          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Death-Prince" dialogue option.',
+          'Defeat the Final Boss and select the "Use Mending Rune of the Death-Prince" dialogue option.',
       },
     ],
   },
@@ -430,8 +430,7 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "f25f7590-ca9c-4f8b-967a-517a041b5fca",
-        description:
-          'Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask\'s whereabouts."',
+        description: `Go back to Brother Corhyn near the Altus Plateau map fragment and "Tell the noble Goldmask's whereabouts."`,
       },
       {
         id: "e59a5d41-7c4a-461e-a642-5653461df6ec",
@@ -471,7 +470,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "2c3255de-4c4e-40d4-99bb-98fbfce2f3c1",
         description:
-          'Defeat the final boss and select the "Use Mending Rune of Perfect Order" dialogue option.',
+          'Defeat the Final Boss and select the "Use Mending Rune of Perfect Order" dialogue option.',
       },
     ],
   },
@@ -563,11 +562,16 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "c5d4512c-3dd5-4470-904f-abec927162b1",
-        description: "Defeat Blaidd outside of Ranni's Rise.",
+        description: "(Optional) Defeat Blaidd outside of Ranni's Rise.",
       },
       {
         id: "ee36e71e-9c19-4f67-bf38-f33be07df8e0",
-        description: "Talk to Iji about Blaidd's death.",
+        description: "(Optional) Talk to Iji about Blaidd's death.",
+      },
+      {
+        id: "5a77c2cc-3121-42d1-bab5-37c6c0d2d4c6",
+        description:
+          'Defeat the Final Boss and touch the blue summon sign that states "Summon Ranni."',
       },
     ],
   },
@@ -640,7 +644,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "d3745216-125d-4a68-a78d-f69f5823e8cc",
         description:
-          'Defeat the Boss at the end of the game and select the "Use Mending Rune of the Fell Curse" dialogue option.',
+          'Defeat the Final Boss and select the "Use Mending Rune of the Fell Curse" dialogue option.',
       },
     ],
   },
@@ -734,7 +738,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "2662179f-44f6-44d2-a930-2c64e25d1f58",
         description:
-          "Defeat the final boss and become the Lord of Frenzied Flame.",
+          "Defeat the Final Boss and become the Lord of Frenzied Flame.",
       },
     ],
   },
