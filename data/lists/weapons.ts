@@ -27,6 +27,7 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Death+Knight's+Twin+Axes",
           "Death Knight's Twin Axes"
         ),
+        isDLC: true,
       },
       {
         id: "138d0b66-fe82-43db-b4c5-f547908f0f54",
@@ -41,6 +42,7 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Forked-Tongue+Hatchet",
           "Forked-Tongue Hatchet"
         ),
+        isDLC: true,
       },
       {
         id: "2f037484-15ca-44da-a842-8a4ab546f9ca",
