@@ -692,6 +692,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "55bb4c6e-880d-49d2-adee-426c66a5dd3e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Freyja's+Greatsword",
+          "Freyja's Greatsword"
+        ),
+        isDLC: true,
+      },
+      {
         id: "fbc7b913-c44c-482f-b038-ce8a40cc9db7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Horned+Warrior's+Greatsword",
@@ -1980,14 +1988,6 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Forked+Greatsword",
           "Forked Greatsword"
         ),
-      },
-      {
-        id: "55bb4c6e-880d-49d2-adee-426c66a5dd3e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Freyja's+Greatsword",
-          "Freyja's Greatsword"
-        ),
-        isDLC: true,
       },
       {
         id: "8cb7a86e-2811-4737-82ed-5db8e0dae1ff",
