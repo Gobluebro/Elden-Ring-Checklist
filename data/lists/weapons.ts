@@ -2084,14 +2084,6 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
-        id: "a51e4cdd-81cc-401b-a182-4b61a96727bc",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Queelign's+Greatsword",
-          "Queelign's Greatsword"
-        ),
-        isDLC: true,
-      },
-      {
         id: "4968f598-06db-4dba-b429-9cf825c33cd0",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Sacred+Relic+Sword",
@@ -2418,6 +2410,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Great+epee",
           "Great epee"
         ),
+      },
+      {
+        id: "a51e4cdd-81cc-401b-a182-4b61a96727bc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Queelign's+Greatsword",
+          "Queelign's Greatsword"
+        ),
+        isDLC: true,
       },
       {
         id: "144d57bf-9dd5-49be-a8d1-bca17f433a91",
