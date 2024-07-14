@@ -123,6 +123,13 @@ export const WeaponsList: Array<ListType> = [
           "Stormhawk Axe"
         ),
       },
+      {
+        id: "ffa4e4fa-bf94-4cd9-bf03-609c869c1306",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Warped+Axe",
+          "Warped Axe"
+        ),
+      },
     ],
   },
   {
@@ -1662,13 +1669,6 @@ export const WeaponsList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Rusted+Anchor",
           "Rusted Anchor"
-        ),
-      },
-      {
-        id: "ffa4e4fa-bf94-4cd9-bf03-609c869c1306",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Warped+Axe",
-          "Warped Axe"
         ),
       },
       {
