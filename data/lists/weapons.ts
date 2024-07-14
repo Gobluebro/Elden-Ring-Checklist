@@ -1782,7 +1782,7 @@ export const WeaponsList: Array<ListType> = [
         id: "726d97e9-dabe-4440-bf54-877601333500",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Dragon+Towershield",
-          " Dragon Towershield"
+          "Dragon Towershield"
         ),
       },
       {
@@ -1859,7 +1859,7 @@ export const WeaponsList: Array<ListType> = [
         id: "e0f57808-9edf-4c8a-9e25-ed58ed6c6766",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Jellyfish+Shield",
-          " Jellyfish Shield"
+          "Jellyfish Shield"
         ),
       },
       {
@@ -2599,7 +2599,7 @@ export const WeaponsList: Array<ListType> = [
         id: "3078c810-941e-4345-a610-b0740edf4536",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Albinauric+Shield",
-          " Albinauric Shield"
+          "Albinauric Shield"
         ),
       },
       {
@@ -2655,7 +2655,7 @@ export const WeaponsList: Array<ListType> = [
         id: "72807bf8-554f-4d27-8009-59a850cb7761",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Candletree+Wooden+Shield",
-          " Candletree Wooden Shield"
+          "Candletree Wooden Shield"
         ),
       },
       {
@@ -2719,7 +2719,7 @@ export const WeaponsList: Array<ListType> = [
         id: "269dfda1-d4c6-4aad-b70e-51a7d0cdfdb9",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Inverted+Hawk+Heater+Shield",
-          " Inverted Hawk Heater Shield"
+          "Inverted Hawk Heater Shield"
         ),
       },
       {
@@ -2776,7 +2776,7 @@ export const WeaponsList: Array<ListType> = [
         id: "62ffce0b-092b-4983-8eba-c85668c13d2f",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Scorpion+Kite+Shield",
-          " Scorpion Kite Shield"
+          "Scorpion Kite Shield"
         ),
       },
       {
