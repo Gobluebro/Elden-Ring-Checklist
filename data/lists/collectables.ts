@@ -3233,6 +3233,13 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "e2abe391-4ef8-4422-945d-49983407acdf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pureblood+Knight's+Medal",
+          "Pureblood Knight's Medal"
+        ),
+      },
+      {
         id: "54a48416-5957-481b-8712-cb84ad202ec7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Blasphemous+Claw",
