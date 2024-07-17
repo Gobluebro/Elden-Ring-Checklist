@@ -3119,4 +3119,286 @@ export const CollectablesList: Array<ListType> = [
       },
     ],
   },
+  {
+    id: "b3dc2824-d280-4085-b9cc-efa6baf66e56",
+    name: "Tools",
+    url: "https://eldenring.wiki.fextralife.com/Tools",
+    requirements: [
+      {
+        id: "6e292dce-8f64-4ad5-9034-b7779e06645a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Memory+of+Grace",
+          "Memory of Grace"
+        ),
+      },
+      {
+        id: "e6f2eca4-3b53-4510-97cd-c2c7073d9ad5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crafting+Kit",
+          "Crafting Kit"
+        ),
+      },
+      {
+        id: "807b9013-f96e-41ee-bff0-e513929ecb71",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Telescope",
+          "Telescope"
+        ),
+      },
+      {
+        id: "8769fa00-98b8-441f-886f-4aba17c6cec3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spectral+Steed+Whistle",
+          "Spectral Steed Whistle"
+        ),
+      },
+      {
+        id: "dc6e523b-4a23-44a6-9f3b-a192737dcca3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spirit+Calling+Bell",
+          "Spirit Calling Bell"
+        ),
+      },
+      {
+        id: "c5e83ed8-ed4d-4c94-a1bf-6a1036d0abe6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Tailoring+Tools",
+          "Tailoring Tools"
+        ),
+      },
+      {
+        id: "37c71b67-dc23-4fe8-b70b-cc4fc8520994",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mimic's+Veil",
+          "Mimic's Veil"
+        ),
+      },
+      {
+        id: "43d85e74-9dec-4e0f-84d7-c77ce4881928",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lantern",
+          "Lantern"
+        ),
+      },
+      {
+        id: "01a2dcb1-4e51-4d74-9076-186b6b0c06ea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Wraith+Calling+Bell",
+          "Wraith Calling Bell"
+        ),
+      },
+      {
+        id: "bf4db4a8-5174-412c-9665-6f3582805ea3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Tailoring+Tools",
+          "Golden Tailoring Tools"
+        ),
+      },
+      {
+        id: "6c50cd4c-e77e-4d2b-a85f-6c2bdc4749ac",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ancestral+Infant's+Head",
+          "Ancestral Infants Head"
+        ),
+      },
+      {
+        id: "75f057e8-93bc-4f35-bcf8-27c3a1ab36e3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Omen+Bairn",
+          "Omen Bairn"
+        ),
+      },
+      {
+        id: "fbdabc99-153c-4c37-84a1-d26c61719080",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Regal+Omen+Bairn",
+          "Regal Omen Bairn"
+        ),
+      },
+      {
+        id: "0489918e-affa-4833-a1f0-f2fd9d32c4be",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Margit's+Shackle",
+          "Margit's Shackle"
+        ),
+      },
+      {
+        id: "ef6316a9-6f26-4e4c-a60b-b838e69e507d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mohg's+Shackle",
+          "Mohg's Shackle"
+        ),
+      },
+      {
+        id: "54a48416-5957-481b-8712-cb84ad202ec7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blasphemous+Claw",
+          "Blasphemous Claw"
+        ),
+      },
+      {
+        id: "2b9515dc-2307-4ca4-9d70-113b3809fe57",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Horned+Bairn",
+          "Horned Bairn",
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ff9945b9-ee84-41b9-9bdc-02bbf6616966",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Perfumed+Oil+of+Ranah",
+          "Perfumed Oil of Ranah"
+        ),
+        isDLC: true,
+      },
+    ],
+  },
+  {
+    id: "05fa5138-b2aa-4fef-b27e-5b8cadc29db6",
+    name: "Prattling Pates",
+    url: "https://eldenring.wiki.fextralife.com/Tools",
+    requirements: [
+      {
+        id: "3525bd1f-5e2d-480f-894c-3cb5cd90e4ee",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Hello",
+          "Hello"
+        ),
+      },
+      {
+        id: "2c277ff7-1ec3-4ea0-a076-d100bc360490",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Thank+you",
+          "Thank You"
+        ),
+      },
+      {
+        id: "577123a1-4932-498e-bf18-4ba8e7b39fc2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Please+help",
+          "Please Help"
+        ),
+      },
+      {
+        id: "00a3c087-6d74-4802-8d2d-690d3b5710ff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Apologies",
+          "Apologies"
+        ),
+      },
+      {
+        id: "76e6b62e-2fc7-4cc1-9377-c0a5458ec237",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+You're+Beautiful",
+          "You're Beautiful"
+        ),
+      },
+      {
+        id: "1e3901b8-ea52-4ef0-acb1-d08fe0e64b52",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Wonderful",
+          "Wonderful"
+        ),
+      },
+      {
+        id: "f316c080-94ee-4545-80de-31fb7f0a7aa7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Let's+get+to+it",
+          "Let's Get To It"
+        ),
+      },
+      {
+        id: "13cf4992-b22c-4114-a426-bb391502f766",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+My+Beloved",
+          "My Beloved"
+        ),
+      },
+    ]
+  },
+  {
+    id: "51c52a82-1a44-471f-b50f-c449f3885213",
+    name: "Multiplayer",
+    url: "https://eldenring.wiki.fextralife.com/Multiplayer+Items",
+    requirements: [
+      {
+        id: "cdab309c-0337-455f-bf75-bbb79cfaae12",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Tarnished's+Furled+Finger",
+          "Tarnished's Furled Finger"
+        ),
+      },
+      {
+        id: "42d43f23-e8ad-423d-a394-8476b27e9eb2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Small+Golden+Effigy",
+          "Small Golden Effigy"
+        ),
+      },
+      {
+        id: "1ebe16f6-8f45-43f1-ad61-a98626c657bb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Duelist's+Furled+Finger",
+          "Duelist's Furled Finger"
+        ),
+      },
+      {
+        id: "71716f9d-cb5f-47d8-9af1-e4f8e7ce2e7e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Small+Red+Effigy",
+          "Small Red Effigy"
+        ),
+      },
+      {
+        id: "d6382d98-67c9-4cef-9eea-327e421d3069",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloody+Finger",
+          "Bloody Finger"
+        ),
+      },
+      {
+        id: "7e008982-7422-45c3-88db-e480904c0ae7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Recusant+Finger",
+          "Recusant Finger"
+        ),
+      },
+      {
+        id: "3b7b4451-10c0-4d90-98a0-f2e78794b8c8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/White+Cipher+Ring",
+          "White Cipher Ring"
+        ),
+      },
+      {
+        id: "63b09d1c-ce28-405d-b743-7cefcbb37da4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Blue+Cipher+Ring",
+          "Blue Cipher Ring"
+        ),
+      },
+      {
+        id: "29a46780-265e-4d21-946a-c1d50eff8a69",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Taunter's+Tongue",
+          "Taunter's Tongue"
+        ),
+      },
+      {
+        id: "61c2a95e-7781-4cc3-a529-834a3f157411",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Finger+Severer",
+          "Finger Severer"
+        ),
+      },
+      {
+        id: "dd46bdab-0c3d-4452-a4ec-4d0f849fce2e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Tarnished's+Wizened+Finger",
+          "Tarnished's Wizend Finger"
+        ),
+      },
+    ]
+  },
 ];
