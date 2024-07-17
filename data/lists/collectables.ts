@@ -3414,7 +3414,7 @@ export const CollectablesList: Array<ListType> = [
         id: "dd46bdab-0c3d-4452-a4ec-4d0f849fce2e",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Tarnished's+Wizened+Finger",
-          "Tarnished's Wizend Finger"
+          "Tarnished's Wizened Finger"
         ),
       },
     ],
