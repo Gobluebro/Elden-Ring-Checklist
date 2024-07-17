@@ -3135,13 +3135,6 @@ export const CollectablesList: Array<ListType> = [
     url: "https://eldenring.wiki.fextralife.com/Tools",
     requirements: [
       {
-        id: "6e292dce-8f64-4ad5-9034-b7779e06645a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Memory+of+Grace",
-          "Memory of Grace"
-        ),
-      },
-      {
         id: "e6f2eca4-3b53-4510-97cd-c2c7073d9ad5",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Crafting+Kit",
