@@ -3262,6 +3262,78 @@ export const CollectablesList: Array<ListType> = [
         ),
         isDLC: true,
       },
+      {
+        id: "08d0d3f4-e897-4117-b3dc-ce2fdc32db9e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Spritestone",
+          "Fire Spritestone"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "08c5037c-7eb8-4a92-883b-df77e2b15150",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glinting+Nail",
+          "Glinting Nail"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "2bf45c72-a2e4-4534-935d-68cba8a47063",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Sunwarmth+Stone",
+          "Sunwarmth Stone"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "https://eldenring.wiki.fextralife.com/Golden+Vow+(Tool)",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Golden+Vow",
+          "Golden Vow (Tool)"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "1d9f3bb9-bcdb-4e77-ad43-a59ffb6c13fd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Surging+Frenzied+Flame",
+          "Surging Frenzied Flame"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "8d33bdf5-543f-4bce-bddb-6b7630d0d1f7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bondstone",
+          "Bondstone"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "da034775-143c-44ec-8f25-643d654ec5d0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spritestone",
+          "Spritestone"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "eaff40b2-dda5-4152-87a7-16630fcb2973",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Coil",
+          "Fire Coil"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "51bbba9b-ef4b-4953-ba1f-daebe845fa51",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Charming+Branch",
+          "Charming Branch"
+        ),
+        isDLC: true,
+      },
     ],
   },
   {
