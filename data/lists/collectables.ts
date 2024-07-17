@@ -3315,7 +3315,15 @@ export const CollectablesList: Array<ListType> = [
           "My Beloved"
         ),
       },
-    ]
+      {
+        id: "3cfe3e33-349c-4839-a725-fdd910d7c3a9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prattling+Pate+Lamentation",
+          "Lamentation"
+        ),
+        isDLC: true,
+      },
+    ],
   },
   {
     id: "51c52a82-1a44-471f-b50f-c449f3885213",
