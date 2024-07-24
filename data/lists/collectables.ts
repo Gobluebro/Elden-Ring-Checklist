@@ -1536,6 +1536,13 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "6ea00d30-57de-436e-9919-1912aac1aaea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Greatshield+Talisman",
+          "Dragoncrest Greatshield Talisman"
+        ),
+      },
+      {
         id: "499d2e75-5ea3-4728-9bfc-ce00f8b0d1de",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
