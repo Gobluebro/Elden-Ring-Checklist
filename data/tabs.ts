@@ -8,6 +8,7 @@ import {
   ListType,
   WeaponsList,
   SpellsList,
+  ArmorList,
 } from "./lists";
 
 export enum TabNames {
@@ -19,6 +20,7 @@ export enum TabNames {
   Collectables,
   Weapons,
   Spells,
+  Armor,
 }
 
 export interface TabData {
@@ -70,12 +72,18 @@ export const PersonalTabDataArray: TabData[] = [
   },
   {
     id: 7,
+    name: "Armor",
+    enum: TabNames.Armor,
+    listData: ArmorList,
+  },
+  {
+    id: 8,
     name: "Spells",
     enum: TabNames.Spells,
     listData: SpellsList,
   },
   {
-    id: 8,
+    id: 9,
     name: "Collectables",
     enum: TabNames.Collectables,
     listData: CollectablesList,
