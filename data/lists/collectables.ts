@@ -1953,6 +1953,13 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "8c1153d1-2f36-4b10-8c60-49caa8387100",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Prince+of+Death%27s+Cyst",
+          "Prince of Death's Cyst"
+        ),
+      },
+      {
         id: "f22719d0-ac80-41f5-af42-67c142fa2d96",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Prince+of+Death's+Pustule",
