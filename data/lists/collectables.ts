@@ -480,6 +480,16 @@ export const CollectablesList: Array<ListType> = [
         description: "My Lord",
       },
       {
+        id: "8c750644-dcc9-4d6f-809e-86dc68c73857",
+        description: "Let Us Go Together",
+        isDLC: true,
+      },
+      {
+        id: "9678bbd8-1f6e-454f-bea0-15773ae02d70",
+        description: "O Mother",
+        isDLC: true,
+      },
+      {
         id: "34ca5145-4b68-44de-bad2-3786d9a1beb4",
         description: "What Do You Want?",
       },
@@ -529,6 +539,11 @@ export const CollectablesList: Array<ListType> = [
         description: "Outer Order",
       },
       {
+        id: "ab406ebc-c4fc-4438-bcd5-dde2fd19d227",
+        description: "The Two Fingers",
+        isDLC: true,
+      },
+      {
         id: "759347ef-3cfd-4d2f-8e9e-58e7adc9b71e",
         description: "Golden Order Totality",
       },
@@ -563,24 +578,6 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "0cbbba8b-3dae-40f6-8483-09df2efbe8be",
         description: "Spread Out",
-      },
-      {
-        // not in correct order
-        id: "ab406ebc-c4fc-4438-bcd5-dde2fd19d227",
-        description: "The Two Fingers",
-        isDLC: true,
-      },
-      {
-        // not in correct order
-        id: "8c750644-dcc9-4d6f-809e-86dc68c73857",
-        description: "Let Us Go Together",
-        isDLC: true,
-      },
-      {
-        // not in correct order
-        id: "9678bbd8-1f6e-454f-bea0-15773ae02d70",
-        description: "O Mother",
-        isDLC: true,
       },
     ],
   },
