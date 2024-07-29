@@ -539,13 +539,13 @@ export const CollectablesList: Array<ListType> = [
         description: "Outer Order",
       },
       {
+        id: "759347ef-3cfd-4d2f-8e9e-58e7adc9b71e",
+        description: "Golden Order Totality",
+      },
+      {
         id: "ab406ebc-c4fc-4438-bcd5-dde2fd19d227",
         description: "The Two Fingers",
         isDLC: true,
-      },
-      {
-        id: "759347ef-3cfd-4d2f-8e9e-58e7adc9b71e",
-        description: "Golden Order Totality",
       },
       {
         id: "354817e3-bfa7-4322-8d4c-e8c79f1870aa",
