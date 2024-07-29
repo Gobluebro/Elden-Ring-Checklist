@@ -2644,6 +2644,14 @@ export const GracesList: Array<ListType> = [
         isDLC: true,
       },
       {
+        id: "d5e9f7e5-d37b-419b-811b-c4ea6dbf6b57",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655378&code=mapD",
+          "Rivermouth Cave"
+        ),
+        isDLC: true,
+      },
+      {
         id: "5dbd787e-35f1-4706-91f2-880053ce5e09",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655248&code=mapD",
@@ -2656,15 +2664,6 @@ export const GracesList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655249&code=mapD",
           "Dragon's Pit Terminus"
-        ),
-        isDLC: true,
-      },
-      {
-        // needs order checked
-        id: "d5e9f7e5-d37b-419b-811b-c4ea6dbf6b57",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655378&code=mapD",
-          "Rivermouth Cave"
         ),
         isDLC: true,
       },
@@ -3237,24 +3236,6 @@ export const GracesList: Array<ListType> = [
     isDLC: true,
     requirements: [
       {
-        // needs order checked
-        id: "f6f7301b-c00a-4fc9-aec7-5347efbec5f5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655671&code=mapD",
-          "Divided Falls"
-        ),
-        isDLC: true,
-      },
-      {
-        // needs order checked
-        id: "bd25d378-5350-48fb-a906-98a653c664cd",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655669&code=mapD",
-          "Abyssal Woods"
-        ),
-        isDLC: true,
-      },
-      {
         id: "49fff405-ab02-4644-9c2b-4406574b4af1",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655334&code=mapD",
@@ -3275,6 +3256,22 @@ export const GracesList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655668&code=mapD",
           "Church Ruins"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "bd25d378-5350-48fb-a906-98a653c664cd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655669&code=mapD",
+          "Abyssal Woods"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "f6f7301b-c00a-4fc9-aec7-5347efbec5f5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655671&code=mapD",
+          "Divided Falls"
         ),
         isDLC: true,
       },
