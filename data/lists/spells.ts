@@ -2383,6 +2383,14 @@ export const SpellsList: Array<ListType> = [
           "Wild Strikes"
         ),
       },
+      {
+        id: "e1f078f9-72dc-423f-a5a8-9347ad928f60",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ash+of+War:+Wing+Stance",
+          "Wing Stance"
+        ),
+        isDLC: true,
+      },
     ],
   },
 ];
