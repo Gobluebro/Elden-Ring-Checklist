@@ -162,13 +162,10 @@ Run locally with:
 - [x] Graces
   - [x] Double checked by [@13xforever](https://github.com/13xforever)
   - [x] DLC
-    - [ ] order checked
+  - [x] sort order checked
 - [x] Bosses
   - [x] DLC Bosses
     - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
-- [x] Gestures
-  - [x] DLC
-    - [ ] order checked
 - [x] Upgrades
   - [x] Golden Seeds
     - Added by [@RDoll](https://github.com/RDoll-Repo)
@@ -181,10 +178,15 @@ Run locally with:
 - [x] Armor
 - [x] Spells
   - [x] Sorceries
+    - [ ] Item type sort order
   - [x] Incantations
+    - [ ] Item type sort order
   - [x] Ashes of War
+    - [ ] Item type sort order
 - [x] Collections
   - [x] Gestures
+    - [x] DLC
+    - [x] sort order checked
   - [x] Crystal Tears
   - [x] Talismans
   - [x] Cracked Pots
@@ -194,6 +196,7 @@ Run locally with:
   - [x] Perfume bottle
     - Added by [@ashemedai](https://github.com/ashemedai)
   - [x] Spirits / Puppets
+    - [x] sort order checked
   - [x] Whetblades
     - Added by [@3bdNKocY](https://github.com/3bdNKocY)
   - [x] Tools
