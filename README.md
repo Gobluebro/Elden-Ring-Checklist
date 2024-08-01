@@ -178,7 +178,7 @@ Run locally with:
   - [x] Revered Spirit Ashes
     - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
 - [x] Weapons
-- [ ] Armor
+- [x] Armor
 - [x] Spells
   - [x] Sorceries
   - [x] Incantations
@@ -196,6 +196,12 @@ Run locally with:
   - [x] Spirits / Puppets
   - [x] Whetblades
     - Added by [@3bdNKocY](https://github.com/3bdNKocY)
+  - [x] Tools
+    - Added by [@ArtificialLegacy](https://github.com/ArtificialLegacy)
+  - [x] Prattling Pates
+    - Added by [@ArtificialLegacy](https://github.com/ArtificialLegacy)
+  - [x] Multiplayer items
+    - Added by [@ArtificialLegacy](https://github.com/ArtificialLegacy)
   - [ ] Scrolls
   - [ ] Cookbooks
 - [ ] Search Bar?
