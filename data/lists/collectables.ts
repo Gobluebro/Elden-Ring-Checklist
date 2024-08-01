@@ -2458,6 +2458,7 @@ export const CollectablesList: Array<ListType> = [
     ],
   },
   {
+    // in order by in game sort order: Item type
     id: "62be8d24-c0e3-41e6-8e91-9e913949eb76",
     name: "Spirit Ashes and Puppets",
     url: "https://eldenring.wiki.fextralife.com/Spirit+Ashes",
@@ -2540,6 +2541,14 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "f1f8366e-2906-4339-b78d-995a074d749c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Man-Fly+Ashes",
+          "Man-Fly Ashes"
+        ),
+        isDLC: true,
+      },
+      {
         id: "5d0daa82-3706-4508-a203-ab9ff361c2c4",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Lone+Wolf+Ashes",
@@ -2589,11 +2598,43 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "b4e87e8a-2e4b-4c07-85c3-b551c36b9b08",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spider+Scorpion+Ashes",
+          "Spider Scorpion Ashes"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "29ba563c-436d-4ee5-aa9b-70012cbcd5ab",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fingercreeper+Ashes",
+          "Fingercreeper Ashes"
+        ),
+        isDLC: true,
+      },
+      {
         id: "147996f0-f053-48e4-b103-c0d22c731b6e",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Fanged+Imp+Ashes",
           "Fanged Imp Ashes"
         ),
+      },
+      {
+        id: "d53289ce-ba3c-404c-836d-477af8cef4e4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bigmouth+Imp+Ashes",
+          "Bigmouth Imp Ashes"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "69357681-ec8e-40d2-bc31-9f80e08810d5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gravebird+Ashes",
+          "Gravebird Ashes"
+        ),
+        isDLC: true,
       },
       {
         id: "f636b5f4-2d88-40ce-93b3-6137f5ffd612",
@@ -2602,6 +2643,7 @@ export const CollectablesList: Array<ListType> = [
           "Soldjars of Fortune Ashes"
         ),
       },
+      // horizontal rule in game
       {
         id: "55f22340-fe23-4eed-8bed-61c32c70a67c",
         description: rawHTMLLink(
@@ -2673,6 +2715,14 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "acbed506-f02e-461e-a9bb-7b0abee810bd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Horned+Warrior+Ashes",
+          "Horned Warrior Ashes"
+        ),
+        isDLC: true,
+      },
+      {
         id: "aff3f92b-4171-45c4-9028-37a20a5fe42a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Azula+Beastman+Ashes",
@@ -2701,6 +2751,14 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "8b728fc1-cbb6-45bb-90ae-4075d56f3f92",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloodfiend+Hexer's+Ashes",
+          "Bloodfiend Hexer's Ashes"
+        ),
+        isDLC: true,
+      },
+      {
         id: "ae5155d1-96f3-4ca5-ab32-e860acb4754a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Glintstone+Sorcerer+Ashes",
@@ -2713,6 +2771,14 @@ export const CollectablesList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Twinsage+Sorcerer+Ashes",
           "Twinsage Sorcerer Ashes"
         ),
+      },
+      {
+        id: "ddf67cba-f39d-4d01-9fda-26f693dd3eae",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Inquisitor+Ashes",
+          "Inquisitor Ashes"
+        ),
+        isDLC: true,
       },
       {
         id: "48df34c4-226a-42ca-abf1-e2b7516d8f6b",
@@ -2757,6 +2823,15 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "289f6371-c130-4368-9c88-9f872f25de07",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Ashes",
+          "Messmer Soldier Ashes"
+        ),
+        isDLC: true,
+      },
+      // horizontal rule in game
+      {
         id: "f854a941-95c7-4fdc-95b9-3ebde7abef70",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Stormhawk+Deenh",
@@ -2767,14 +2842,14 @@ export const CollectablesList: Array<ListType> = [
         id: "845a527b-1045-459d-ba01-5d1f00581058",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Banished+Knight+Oleg+Ashes",
-          "Banished Knight Oleg Ashes"
+          "Banished Knight Oleg"
         ),
       },
       {
         id: "d9f7a761-b368-487d-88c1-08575bef0315",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Banished+Knight+Engvall+Ashes",
-          "Banished Knight Engvall Ashes"
+          "Banished Knight Engvall"
         ),
       },
       {
@@ -2785,10 +2860,58 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "bfc3efe5-56a1-4d78-adc6-cbb5930fb05b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Knight+Captain+Huw",
+          "Black Knight Captain Huw"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "629e2a94-9563-4656-a1a4-486df0b68c5e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Black+Knight+Commander+Andreas",
+          "Black Knight Commander Andreas"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7a8f0115-b67a-4dc2-89b2-acde865abd5b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Knight+Hilde",
+          "Fire Knight Hilde"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "52f721d3-1e35-4f86-b27a-781bb11302b4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Knight+Queelign",
+          "Fire Knight Queelign"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a75f6c09-e66c-4a4d-a42d-d2edda35ae31",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Swordhand+of+Night+Jol%C3%A1n",
+          "Swordhand of Night Jolán"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9803ac9d-1cc1-497f-a1f1-93fe92138e30",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jol%C3%A1n+and+Anna",
+          "Jolán and Anna"
+        ),
+        isDLC: true,
+      },
+      {
         id: "247cbc35-b037-4dc7-838d-699330ab056a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Battlemage+Hugues+Ashes",
-          "Battlemage Hugues Ashes"
+          "Battlemage Hugues"
         ),
       },
       {
@@ -2809,7 +2932,7 @@ export const CollectablesList: Array<ListType> = [
         id: "f53f441c-025a-4200-9090-2ee0853a0b2b",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Carmaan+Ashes",
-          "Depraved Perfumer Carmaan Ashes"
+          "Depraved Perfumer Carmaan"
         ),
       },
       {
@@ -2823,21 +2946,37 @@ export const CollectablesList: Array<ListType> = [
         id: "e40d806b-09af-4804-b1b0-dd02c83eac24",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Blackflame+Monk+Amon+Ashes",
-          "Blackflame Monk Amon Ashes"
+          "Blackflame Monk Amon"
         ),
+      },
+      {
+        id: "246f113b-f399-4624-aa3b-2231a07949cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Curseblade+Meera",
+          "Curseblade Meera"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "5278b0f7-11c5-4c05-9c92-f65f36a87069",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Demi-Human+Swordsman+Yosh",
+          "Demi-Human Swordsman Yosh"
+        ),
+        isDLC: true,
       },
       {
         id: "9527ee01-55eb-4de2-aec6-b9ffd1d8b400",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Knight+Kristoff+Ashes",
-          "Ancient Dragon Knight Kristoff Ashes"
+          "Ancient Dragon Knight Kristoff"
         ),
       },
       {
         id: "d09619c5-dfee-4b5d-87f2-3860913035df",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Redmane+Knight+Ogha+Ashes",
-          "Redmane Knight Ogha Ashes"
+          "Redmane Knight Ogha"
         ),
       },
       {
@@ -2851,7 +2990,7 @@ export const CollectablesList: Array<ListType> = [
         id: "f4c27bcb-8ec7-4018-90e1-d3efe7c59006",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Cleanrot+Knight+Finlay+Ashes",
-          "Cleanrot Knight Finlay Ashes"
+          "Cleanrot Knight Finlay"
         ),
       },
       {
@@ -2862,12 +3001,37 @@ export const CollectablesList: Array<ListType> = [
         ),
       },
       {
+        id: "5b806416-5377-4442-970e-892cafb1a0b5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis",
+          "Divine Bird Warrior Ornis"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9d6e2d34-3d48-4f27-8f47-9223ea622e70",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith",
+          "Taylew the Golem Smith"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7c5e0b53-783e-42a4-8eed-e1cc264783ea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax",
+          "Ancient Dragon Florissax"
+        ),
+        isDLC: true,
+      },
+      {
         id: "d34743bc-bcf4-4397-97e8-02cae0c983c7",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Mimic+Tear+Ashes",
           "Mimic Tear Ashes"
         ),
       },
+      // horizontal rule in game
       {
         id: "399ba3fe-c283-4da6-81a4-f83b0813675f",
         description: rawHTMLLink(
@@ -2909,166 +3073,6 @@ export const CollectablesList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Nightmaiden+&+Swordstress+Puppets",
           "Nightmaiden & Swordstress Puppets"
         ),
-      },
-      {
-        id: "f1f8366e-2906-4339-b78d-995a074d749c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Man-Fly+Ashes",
-          "Man-Fly Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "b4e87e8a-2e4b-4c07-85c3-b551c36b9b08",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Spider+Scorpion+Ashes",
-          "Spider Scorpion Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "29ba563c-436d-4ee5-aa9b-70012cbcd5ab",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fingercreeper+Ashes",
-          "Fingercreeper Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "d53289ce-ba3c-404c-836d-477af8cef4e4",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Bigmouth+Imp+Ashes",
-          "Bigmouth Imp Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "69357681-ec8e-40d2-bc31-9f80e08810d5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gravebird+Ashes",
-          "Gravebird Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "acbed506-f02e-461e-a9bb-7b0abee810bd",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Horned+Warrior+Ashes",
-          "Horned Warrior Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "8b728fc1-cbb6-45bb-90ae-4075d56f3f92",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Bloodfiend+Hexer's+Ashes",
-          "Bloodfiend Hexer's Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "ddf67cba-f39d-4d01-9fda-26f693dd3eae",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Inquisitor+Ashes",
-          "Inquisitor Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "289f6371-c130-4368-9c88-9f872f25de07",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Ashes",
-          "Messmer Soldier Ashes"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "bfc3efe5-56a1-4d78-adc6-cbb5930fb05b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Knight+Captain+Huw",
-          "Black Knight Captain Huw"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "629e2a94-9563-4656-a1a4-486df0b68c5e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Black+Knight+Commander+Andreas",
-          "Black Knight Commander Andreas"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "7a8f0115-b67a-4dc2-89b2-acde865abd5b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fire+Knight+Hilde",
-          "Fire Knight Hilde"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "52f721d3-1e35-4f86-b27a-781bb11302b4",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fire+Knight+Queelign",
-          "Fire Knight Queelign"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "246f113b-f399-4624-aa3b-2231a07949cb",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Curseblade+Meera",
-          "Curseblade Meera"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "5278b0f7-11c5-4c05-9c92-f65f36a87069",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Demi-Human+Swordsman+Yosh",
-          "Demi-Human Swordsman Yosh"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "a75f6c09-e66c-4a4d-a42d-d2edda35ae31",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Swordhand+of+Night+Jol%C3%A1n",
-          "Swordhand of Night Jolán"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "9803ac9d-1cc1-497f-a1f1-93fe92138e30",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Jol%C3%A1n+and+Anna",
-          "Jolán and Anna"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "7c5e0b53-783e-42a4-8eed-e1cc264783ea",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax",
-          "Ancient Dragon Florissax"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "5b806416-5377-4442-970e-892cafb1a0b5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis",
-          "Divine Bird Warrior Ornis"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "9d6e2d34-3d48-4f27-8f47-9223ea622e70",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith",
-          "Taylew the Golem Smith"
-        ),
-        isDLC: true,
       },
     ],
   },
