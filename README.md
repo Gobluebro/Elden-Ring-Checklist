@@ -180,7 +180,7 @@ Run locally with:
   - [x] Sorceries
     - [x] Item type sort order
   - [x] Incantations
-    - [ ] Item type sort order
+    - [x] Item type sort order
   - [x] Ashes of War
     - [ ] Item type sort order
 - [x] Collections
