@@ -352,7 +352,8 @@ export const QuestsList: Array<ListType> = [
     requirements: [
       {
         id: "753a3949-1f33-4953-93b9-0ef16e351da4",
-        description: "Rest at a site of grace in Altus Plateau.",
+        description:
+          "Start the festival at Redmane Castle to fight Starscourge Radahn.",
       },
       {
         id: "3d72b66b-98c5-4ee2-838e-28251a186c24",
@@ -375,33 +376,43 @@ export const QuestsList: Array<ListType> = [
       },
       {
         id: "fa9e90a8-bc0f-4dc0-8fe8-726f333611b3",
-        description: "Give D's twin brother the Twinned Armor set.",
+        description: "Give D's twin brother the Twinned Armor set (Optional).",
       },
       {
         id: "7cf4a33d-0ae7-4f54-894c-d87ba8acd580",
         description: "Defeat Fia's Champions.",
       },
       {
+        id: "2b00cd10-cc38-4898-a696-bcfbb64bdae2",
+        description:
+          "Give Fia the Cursemark of Death (See Ranni's questline if you don't have it).",
+      },
+      {
         id: "e4afc57f-69cb-42f2-b1a1-d4ccafbbe849",
-        description: "Rest and talk to Fia multiple times until falls asleep.",
+        description:
+          "Exhaust her dialog and rest at the grace until she falls asleep.",
       },
       {
         id: "df1b7f52-a3d0-45d0-a2c6-5b9f5354c70a",
-        description: "Defeat Lichdragon Fortissax.",
+        description: "Interact with her and Defeat Lichdragon Fortissax.",
       },
       {
         id: "5e98459f-6e25-423c-a450-71c9d5770606",
-        description: "Pick up the Mending Rune of the Death-Prince.",
+        description:
+          "Interact with her and acquire the Mending Rune of the Death-Prince.",
       },
       {
         id: "7d9e7119-54ef-4a45-baf6-2936e8e6b07a",
+        description: "Rest at the grace pick up Fia's armor sets.",
+      },
+      {
+        id: "30e6ed47-171e-4be9-8c71-8c33c9f5485d",
         description:
-          "Rest at the grace multiple times and pick up Fia's and D's brothers armor sets.",
+          "Rest at the grace again gain D's armor set (If you gave it to his brother).",
       },
       {
         id: "cb90d59d-9c67-4fb4-988b-87fab462cfdd",
-        description:
-          'Defeat the Final Boss and select the "Use Mending Rune of the Death-Prince" dialogue option.',
+        description: `Defeat the Final Boss and select the "Use Mending Rune of the Death-Prince" dialogue option.`,
       },
     ],
   },
