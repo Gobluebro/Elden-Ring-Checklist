@@ -178,7 +178,7 @@ Run locally with:
 - [x] Armor
 - [x] Spells
   - [x] Sorceries
-    - [ ] Item type sort order
+    - [x] Item type sort order
   - [x] Incantations
     - [ ] Item type sort order
   - [x] Ashes of War

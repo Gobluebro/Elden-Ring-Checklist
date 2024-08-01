@@ -3,108 +3,37 @@ import { rawHTMLLink } from "./listHelper";
 
 export const SpellsList: Array<ListType> = [
   {
+    // ordered by in game sort order: Item type
     id: "ed4cb366-2a63-4232-b1f1-adcc4a477d5b",
     name: "Sorceries",
     url: "https://eldenring.wiki.fextralife.com/Sorceries",
     requirements: [
       {
-        id: "5adbec1e-efa5-40ce-8293-d2265a37c837",
+        id: "12070f02-1a9f-44e8-afe4-2a608a70dcaa",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Adula's+Moonblade",
-          "Adula's Moonblade"
+          "https://eldenring.wiki.fextralife.com/Glintstone+Pebble",
+          "Glintstone Pebble"
         ),
       },
       {
-        id: "552c5db9-eb3c-482d-a506-69dbb2a70f12",
+        id: "8ecba3ab-150f-4b0d-a1c2-d9f86b9f02bf",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ambush+Shard",
-          "Ambush Shard"
+          "https://eldenring.wiki.fextralife.com/Swift+Glintstone+Shard",
+          "Swift Glintstone Shard"
         ),
       },
       {
-        id: "6ce60ad5-6450-49a8-87d7-1d9a054d2cf3",
+        id: "22c2425b-7067-40f3-8608-003dae77bb77",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ancient+Death+Rancor",
-          "Ancient Death Rancor"
+          "https://eldenring.wiki.fextralife.com/Great+Glintstone+Shard",
+          "Great Glintstone Shard"
         ),
       },
       {
-        id: "e136335c-681c-47d7-acf2-b1ec205715f8",
+        id: "a6bd75e3-8720-449e-b0a1-885a6bfde320",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Blades+of+Stone",
-          "Blades of Stone"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "94f525ca-d9e4-4dee-843e-b213f467b31d",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Briars+of+Punishment",
-          "Briars of Punishment"
-        ),
-      },
-      {
-        id: "354537c6-6a79-4035-bf79-f658c92a8a1a",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Briars+of+Sin",
-          "Briars of Sin"
-        ),
-      },
-      {
-        id: "9dd81964-9f8e-4a69-b887-2206e8c96d9e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cannon+of+Haima",
-          "Cannon of Haima"
-        ),
-      },
-      {
-        id: "ecb64ac5-792d-47f2-8e62-e57b1ccddb7f",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Greatsword",
-          "Carian Greatsword"
-        ),
-      },
-      {
-        id: "1c19fb8f-7cb0-4b51-b5f0-9390b10f3b72",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Phalanx",
-          "Carian Phalanx"
-        ),
-      },
-      {
-        id: "93463106-5bf2-419c-8112-2df93ed0a6de",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Piercer",
-          "Carian Piercer"
-        ),
-      },
-      {
-        id: "06615a15-6b96-49b3-af55-b536d683f251",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Retaliation",
-          "Carian Retaliation"
-        ),
-      },
-      {
-        id: "20a2502e-5a8e-45cc-85c5-1b6a7777f9a3",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Carian+Slicer",
-          "Carian Slicer"
-        ),
-      },
-      {
-        id: "f6a04d33-84ed-41e8-83a6-a3421c49211d",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cherishing+Fingers",
-          "Cherishing Fingers"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "5e5c50ef-2102-4b37-9446-59ee9fc7839b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Collapsing+Stars",
-          "Collapsing Stars"
+          "https://eldenring.wiki.fextralife.com/Glintstone+Cometshard",
+          "Glintstone Cometshard"
         ),
       },
       {
@@ -115,10 +44,31 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "9be5ffbc-396b-4f03-99eb-baf0115490e7",
+        id: "532a7ec6-742e-4d8f-9de0-1e096ba905e8",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Comet+Azur",
-          "Comet Azur"
+          "https://eldenring.wiki.fextralife.com/Shard+Spiral",
+          "Shard Spiral"
+        ),
+      },
+      {
+        id: "bcb50695-0e15-4e5e-ba35-8ebd16777ce1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintstone+Stars",
+          "Glintstone Stars"
+        ),
+      },
+      {
+        id: "3d7ba61c-32da-4e6e-b63e-932a1d40fe38",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Star+Shower",
+          "Star Shower"
+        ),
+      },
+      {
+        id: "e8caa85e-d060-4743-a704-7a46dd65e4e1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintstone+Arc",
+          "Glintstone Arc"
         ),
       },
       {
@@ -136,17 +86,260 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "e6dc48dd-4551-43f4-bedd-290f31f4ee90",
+        id: "9dd81964-9f8e-4a69-b887-2206e8c96d9e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crystal+Release",
-          "Crystal Release"
+          "https://eldenring.wiki.fextralife.com/Cannon+of+Haima",
+          "Cannon of Haima"
         ),
       },
       {
-        id: "e88687bd-b8d4-4c07-8937-b84404f6c995",
+        id: "85f306f8-5993-4d00-b990-b7f48715d334",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crystal+Torrent",
-          "Crystal Torrent"
+          "https://eldenring.wiki.fextralife.com/Gavel+of+Haima",
+          "Gavel of Haima"
+        ),
+      },
+      {
+        id: "4c9311f8-6d5a-4f71-87f1-f6065c28165b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Shatter+Earth",
+          "Shatter Earth"
+        ),
+      },
+      {
+        id: "b900a72f-56d8-444e-bf38-96058ed34d55",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rock+Blaster",
+          "Rock Blaster"
+        ),
+      },
+      {
+        id: "3321f57a-1eef-4d5a-a79a-80f6153933e6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Scholar's+Armament",
+          "Scholar's Armament"
+        ),
+      },
+      {
+        id: "78b99dcd-8d8b-474a-bcc5-9fb80458a3c0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Scholar's+Shield",
+          "Scholar's Shield"
+        ),
+      },
+      {
+        id: "7447cc7f-6c21-42e9-808e-cf52bd843054",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Starlight",
+          "Starlight"
+        ),
+      },
+      {
+        id: "eb3040f6-3701-413f-981e-1778a87fdad5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Terra+Magica",
+          "Terra Magica"
+        ),
+      },
+      {
+        id: "0213c373-de33-4a40-8224-41c1e8d889ed",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Thops's+Barrier+(Spell)",
+          "Thops's Barrier"
+        ),
+      },
+      {
+        id: "9be5ffbc-396b-4f03-99eb-baf0115490e7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Comet+Azur",
+          "Comet Azur"
+        ),
+      },
+      {
+        id: "35e33999-64b5-416f-8d8e-833beb461b03",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stars+of+Ruin",
+          "Stars of Ruin"
+        ),
+      },
+      {
+        id: "07c6b2e7-8894-4b88-aed6-f53ea4ba24ca",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Founding+Rain+of+Stars",
+          "Founding Rain of Stars"
+        ),
+      },
+      // horizontal rule in game
+      {
+        id: "972b1db6-b423-4d49-b5c3-673b0abb0c33",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magic+Glintblade",
+          "Magic Glintblade"
+        ),
+      },
+      {
+        id: "d7ee0002-20e8-4e9a-b640-7d093445ad3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintblade+Trio",
+          "Glintblade Trio"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "7a73bb5f-b6bf-4edb-a705-6b1d07894e04",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintblade+Phalanx",
+          "Glintblade Phalanx"
+        ),
+      },
+      {
+        id: "1c19fb8f-7cb0-4b51-b5f0-9390b10f3b72",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Phalanx",
+          "Carian Phalanx"
+        ),
+      },
+      {
+        id: "a06a445f-98c5-4410-81fc-43efb944701d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greatblade+Phalanx",
+          "Greatblade Phalanx"
+        ),
+      },
+      {
+        id: "1cebdcc1-801c-4f4c-bd03-33b377fe1ec3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magic+Downpour",
+          "Magic Downpour"
+        ),
+      },
+      {
+        id: "18101965-4220-40c1-a3fa-0a1031aae824",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Loretta's+Greatbow",
+          "Loretta's Greatbow"
+        ),
+      },
+      {
+        id: "75793dfb-74bb-47b3-9f2c-b9e1ff1b6b4c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Loretta's+Mastery",
+          "Loretta's Mastery"
+        ),
+      },
+      {
+        id: "9c3150ba-42aa-45fc-843f-d7f628d687f1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rennala's+Full+Moon",
+          "Rennala's Full Moon"
+        ),
+      },
+      {
+        id: "44f42a1f-7d65-4be7-91be-a09dfa06aa6d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ranni's+Dark+Moon",
+          "Ranni's Dark Moon"
+        ),
+      },
+      {
+        id: "98f4a0c3-8d86-4a33-a830-b78dea83761d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Rellana's+Twin+Moons",
+          "Rellana's Twin Moons"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "20a2502e-5a8e-45cc-85c5-1b6a7777f9a3",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Slicer",
+          "Carian Slicer"
+        ),
+      },
+      {
+        id: "ecb64ac5-792d-47f2-8e62-e57b1ccddb7f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Greatsword",
+          "Carian Greatsword"
+        ),
+      },
+      {
+        id: "93463106-5bf2-419c-8112-2df93ed0a6de",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Piercer",
+          "Carian Piercer"
+        ),
+      },
+      {
+        id: "5adbec1e-efa5-40ce-8293-d2265a37c837",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Adula's+Moonblade",
+          "Adula's Moonblade"
+        ),
+      },
+      {
+        id: "8087ac77-dbbc-4d05-8d21-45f2359e6a63",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lucidity",
+          "Lucidity"
+        ),
+      },
+      {
+        id: "06615a15-6b96-49b3-af55-b536d683f251",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Carian+Retaliation",
+          "Carian Retaliation"
+        ),
+      },
+      {
+        id: "dfabc3b5-7e87-49e9-8b01-8f5c1ce60463",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Miriam's+Vanishing",
+          "Miriam's Vanishing"
+        ),
+        isDLC: true,
+      },
+      // horizontal rule in game
+      {
+        id: "552c5db9-eb3c-482d-a506-69dbb2a70f12",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ambush+Shard",
+          "Ambush Shard"
+        ),
+      },
+      {
+        id: "6a40a9ad-36be-4b6d-899b-a299096df8dc",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Night+Shard",
+          "Night Shard"
+        ),
+      },
+      {
+        id: "14d51a98-9ce0-43c4-8afe-263c0f7db86b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Night+Comet",
+          "Night Comet"
+        ),
+      },
+      {
+        id: "e0653f85-0c5e-41b8-b971-f1c925cc77a1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Night+Maiden's+Mist",
+          "Night Maiden's Mist"
+        ),
+      },
+      {
+        id: "e0d531ce-4e28-4140-9231-8e44172aa050",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Unseen+Blade",
+          "Unseen Blade"
+        ),
+      },
+      {
+        id: "72753b67-c9c1-4f58-a3d8-5e939d1232aa",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Unseen+Form",
+          "Unseen Form"
         ),
       },
       {
@@ -157,32 +350,39 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "79cb786c-831a-4722-8398-d168264d01ec",
+        id: "1f625e9b-8561-4b24-8a3f-97db51627784",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Explosive+Ghostflame",
-          "Explosive Ghostflame"
+          "https://eldenring.wiki.fextralife.com/Magma+Shot",
+          "Magma Shot"
         ),
       },
       {
-        id: "9489dc78-cd4e-44f4-9fb3-2ae55ae0a025",
+        id: "609334a2-cbf4-4931-93dd-18ba4139cd7e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fia's+Mist",
-          "Fia's Mist"
+          "https://eldenring.wiki.fextralife.com/Roiling+Magma",
+          "Roiling Magma"
         ),
       },
       {
-        id: "56f2a8f2-9068-4655-8089-33a4e99480b4",
+        id: "af22c686-9540-4e30-b928-0f83d3d9be47",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fleeting+Microcosm",
-          "Fleeting Microcosm"
+          "https://eldenring.wiki.fextralife.com/Gelmir's+Fury",
+          "Gelmir's Fury"
         ),
-        isDLC: true,
       },
       {
-        id: "07c6b2e7-8894-4b88-aed6-f53ea4ba24ca",
+        id: "abe013ae-5ff1-48af-b8a9-07ba4bee5f65",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Founding+Rain+of+Stars",
-          "Founding Rain of Stars"
+          "https://eldenring.wiki.fextralife.com/Rykard's+Rancor",
+          "Rykard's Rancor"
+        ),
+      },
+      // horizontal rule in game
+      {
+        id: "c9f88a14-6248-4e58-89db-79a0fb19044c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glintstone+Icecrag",
+          "Glintstone Icecrag"
         ),
       },
       {
@@ -200,53 +400,83 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "85f306f8-5993-4d00-b990-b7f48715d334",
+        id: "3d719f36-175b-42cf-a7b0-888768ba04b3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gavel+of+Haima",
-          "Gavel of Haima"
+          "https://eldenring.wiki.fextralife.com/Zamor+Ice+Storm+(Spell)",
+          "Zamor Ice Storm"
         ),
       },
       {
-        id: "af22c686-9540-4e30-b928-0f83d3d9be47",
+        id: "81cbdf1e-c309-4f0d-999f-186413779ce7",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gelmir's+Fury",
-          "Gelmir's Fury"
+          "https://eldenring.wiki.fextralife.com/Shattering+Crystal",
+          "Shattering Crystal"
         ),
       },
       {
-        id: "7a73bb5f-b6bf-4edb-a705-6b1d07894e04",
+        id: "e88687bd-b8d4-4c07-8937-b84404f6c995",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintblade+Phalanx",
-          "Glintblade Phalanx"
+          "https://eldenring.wiki.fextralife.com/Crystal+Torrent",
+          "Crystal Torrent"
         ),
       },
       {
-        id: "d7ee0002-20e8-4e9a-b640-7d093445ad3f",
+        id: "e6dc48dd-4551-43f4-bedd-290f31f4ee90",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintblade+Trio",
-          "Glintblade Trio"
+          "https://eldenring.wiki.fextralife.com/Crystal+Release",
+          "Crystal Release"
+        ),
+      },
+      // horizontal rule in game
+      {
+        id: "f6f3ca47-034c-497d-aff4-d9a59a245421",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gravity+Well",
+          "Gravity Well"
+        ),
+      },
+      {
+        id: "5e5c50ef-2102-4b37-9446-59ee9fc7839b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Collapsing+Stars",
+          "Collapsing Stars"
+        ),
+      },
+      {
+        id: "409f3f1c-11a4-4487-ab54-83ccd4a9cf29",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Gravitational+Missile",
+          "Gravitational Missile"
         ),
         isDLC: true,
       },
       {
-        id: "e8caa85e-d060-4743-a704-7a46dd65e4e1",
+        id: "632a4c38-0364-4f35-b89f-c0f8617baa18",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Arc",
-          "Glintstone Arc"
+          "https://eldenring.wiki.fextralife.com/Rock+Sling",
+          "Rock Sling"
         ),
       },
       {
-        id: "a6bd75e3-8720-449e-b0a1-885a6bfde320",
+        id: "e136335c-681c-47d7-acf2-b1ec205715f8",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Cometshard",
-          "Glintstone Cometshard"
+          "https://eldenring.wiki.fextralife.com/Blades+of+Stone",
+          "Blades of Stone"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a5a0ce11-14bf-4140-931d-35f37b0008e1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Meteorite",
+          "Meteorite"
         ),
       },
       {
-        id: "c9f88a14-6248-4e58-89db-79a0fb19044c",
+        id: "4258a8e6-ff97-44f3-a0ee-e0f0ef7caa4b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Icecrag",
-          "Glintstone Icecrag"
+          "https://eldenring.wiki.fextralife.com/Meteorite+of+Astel",
+          "Meteorite of Astel"
         ),
       },
       {
@@ -266,39 +496,26 @@ export const SpellsList: Array<ListType> = [
         isDLC: true,
       },
       {
-        id: "12070f02-1a9f-44e8-afe4-2a608a70dcaa",
+        id: "56f2a8f2-9068-4655-8089-33a4e99480b4",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Pebble",
-          "Glintstone Pebble"
-        ),
-      },
-      {
-        id: "bcb50695-0e15-4e5e-ba35-8ebd16777ce1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Glintstone+Stars",
-          "Glintstone Stars"
-        ),
-      },
-      {
-        id: "409f3f1c-11a4-4487-ab54-83ccd4a9cf29",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gravitational+Missile",
-          "Gravitational Missile"
+          "https://eldenring.wiki.fextralife.com/Fleeting+Microcosm",
+          "Fleeting Microcosm"
         ),
         isDLC: true,
       },
       {
-        id: "f6f3ca47-034c-497d-aff4-d9a59a245421",
+        id: "f6a04d33-84ed-41e8-83a6-a3421c49211d",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Gravity+Well",
-          "Gravity Well"
+          "https://eldenring.wiki.fextralife.com/Cherishing+Fingers",
+          "Cherishing Fingers"
         ),
+        isDLC: true,
       },
       {
-        id: "22c2425b-7067-40f3-8608-003dae77bb77",
+        id: "d8040fc8-3e43-4c42-a141-7ba5496c4245",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Great+Glintstone+Shard",
-          "Great Glintstone Shard"
+          "https://eldenring.wiki.fextralife.com/Oracle+Bubbles",
+          "Oracle Bubbles"
         ),
       },
       {
@@ -309,60 +526,17 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "a06a445f-98c5-4410-81fc-43efb944701d",
+        id: "354537c6-6a79-4035-bf79-f658c92a8a1a",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Greatblade+Phalanx",
-          "Greatblade Phalanx"
+          "https://eldenring.wiki.fextralife.com/Briars+of+Sin",
+          "Briars of Sin"
         ),
       },
       {
-        id: "8e6ad1b0-5204-4569-b76d-b77dd695ba75",
+        id: "94f525ca-d9e4-4dee-843e-b213f467b31d",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Impenetrable+Thorns",
-          "Impenetrable Thorns"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "18101965-4220-40c1-a3fa-0a1031aae824",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Loretta's+Greatbow",
-          "Loretta's Greatbow"
-        ),
-      },
-      {
-        id: "75793dfb-74bb-47b3-9f2c-b9e1ff1b6b4c",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Loretta's+Mastery",
-          "Loretta's Mastery"
-        ),
-      },
-      {
-        id: "8087ac77-dbbc-4d05-8d21-45f2359e6a63",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Lucidity",
-          "Lucidity"
-        ),
-      },
-      {
-        id: "1cebdcc1-801c-4f4c-bd03-33b377fe1ec3",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magic+Downpour",
-          "Magic Downpour"
-        ),
-      },
-      {
-        id: "972b1db6-b423-4d49-b5c3-673b0abb0c33",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magic+Glintblade",
-          "Magic Glintblade"
-        ),
-      },
-      {
-        id: "1f625e9b-8561-4b24-8a3f-97db51627784",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Magma+Shot",
-          "Magma Shot"
+          "https://eldenring.wiki.fextralife.com/Briars+of+Punishment",
+          "Briars of Punishment"
         ),
       },
       {
@@ -374,63 +548,14 @@ export const SpellsList: Array<ListType> = [
         isDLC: true,
       },
       {
-        id: "a818fe3d-9583-42ed-a499-b13fff8160bf",
+        id: "8e6ad1b0-5204-4569-b76d-b77dd695ba75",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Mass+of+Putrescence",
-          "Mass of Putrescence"
+          "https://eldenring.wiki.fextralife.com/Impenetrable+Thorns",
+          "Impenetrable Thorns"
         ),
         isDLC: true,
       },
-      {
-        id: "a5a0ce11-14bf-4140-931d-35f37b0008e1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Meteorite",
-          "Meteorite"
-        ),
-      },
-      {
-        id: "4258a8e6-ff97-44f3-a0ee-e0f0ef7caa4b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Meteorite+of+Astel",
-          "Meteorite of Astel"
-        ),
-      },
-      {
-        id: "dfabc3b5-7e87-49e9-8b01-8f5c1ce60463",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Miriam's+Vanishing",
-          "Miriam's Vanishing"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "14d51a98-9ce0-43c4-8afe-263c0f7db86b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Night+Comet",
-          "Night Comet"
-        ),
-      },
-      {
-        id: "e0653f85-0c5e-41b8-b971-f1c925cc77a1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Night+Maiden's+Mist",
-          "Night Maiden's Mist"
-        ),
-      },
-      {
-        id: "6a40a9ad-36be-4b6d-899b-a299096df8dc",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Night+Shard",
-          "Night Shard"
-        ),
-      },
-      {
-        id: "d8040fc8-3e43-4c42-a141-7ba5496c4245",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Oracle+Bubbles",
-          "Oracle Bubbles"
-        ),
-      },
+      // horizontal rule in game
       {
         id: "1dfb6b66-cbd8-4254-a8d0-8f9d569c9d23",
         description: rawHTMLLink(
@@ -439,26 +564,11 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "44f42a1f-7d65-4be7-91be-a09dfa06aa6d",
+        id: "6ce60ad5-6450-49a8-87d7-1d9a054d2cf3",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Ranni's+Dark+Moon",
-          "Ranni's Dark Moon"
+          "https://eldenring.wiki.fextralife.com/Ancient+Death+Rancor",
+          "Ancient Death Rancor"
         ),
-      },
-      {
-        id: "9c3150ba-42aa-45fc-843f-d7f628d687f1",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rennala's+Full+Moon",
-          "Rennala's Full Moon"
-        ),
-      },
-      {
-        id: "98f4a0c3-8d86-4a33-a830-b78dea83761d",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rellana's+Twin+Moons",
-          "Rellana's Twin Moons"
-        ),
-        isDLC: true,
       },
       {
         id: "3c9f1c3c-a4a0-4eb3-bb8e-eb1cfe15ea3f",
@@ -469,108 +579,17 @@ export const SpellsList: Array<ListType> = [
         isDLC: true,
       },
       {
-        id: "b900a72f-56d8-444e-bf38-96058ed34d55",
+        id: "79cb786c-831a-4722-8398-d168264d01ec",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rock+Blaster",
-          "Rock Blaster"
+          "https://eldenring.wiki.fextralife.com/Explosive+Ghostflame",
+          "Explosive Ghostflame"
         ),
       },
       {
-        id: "632a4c38-0364-4f35-b89f-c0f8617baa18",
+        id: "9489dc78-cd4e-44f4-9fb3-2ae55ae0a025",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rock+Sling",
-          "Rock Sling"
-        ),
-      },
-      {
-        id: "609334a2-cbf4-4931-93dd-18ba4139cd7e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Roiling+Magma",
-          "Roiling Magma"
-        ),
-      },
-      {
-        id: "abe013ae-5ff1-48af-b8a9-07ba4bee5f65",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Rykard's+Rancor",
-          "Rykard's Rancor"
-        ),
-      },
-      {
-        id: "3321f57a-1eef-4d5a-a79a-80f6153933e6",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Scholar's+Armament",
-          "Scholar's Armament"
-        ),
-      },
-      {
-        id: "78b99dcd-8d8b-474a-bcc5-9fb80458a3c0",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Scholar's+Shield",
-          "Scholar's Shield"
-        ),
-      },
-      {
-        id: "532a7ec6-742e-4d8f-9de0-1e096ba905e8",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shard+Spiral",
-          "Shard Spiral"
-        ),
-      },
-      {
-        id: "4c9311f8-6d5a-4f71-87f1-f6065c28165b",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shatter+Earth",
-          "Shatter Earth"
-        ),
-      },
-      {
-        id: "81cbdf1e-c309-4f0d-999f-186413779ce7",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Shattering+Crystal",
-          "Shattering Crystal"
-        ),
-      },
-      {
-        id: "3d7ba61c-32da-4e6e-b63e-932a1d40fe38",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Star+Shower",
-          "Star Shower"
-        ),
-      },
-      {
-        id: "7447cc7f-6c21-42e9-808e-cf52bd843054",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Starlight",
-          "Starlight"
-        ),
-      },
-      {
-        id: "35e33999-64b5-416f-8d8e-833beb461b03",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Stars+of+Ruin",
-          "Stars of Ruin"
-        ),
-      },
-      {
-        id: "8ecba3ab-150f-4b0d-a1c2-d9f86b9f02bf",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Swift+Glintstone+Shard",
-          "Swift Glintstone Shard"
-        ),
-      },
-      {
-        id: "eb3040f6-3701-413f-981e-1778a87fdad5",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Terra+Magica",
-          "Terra Magica"
-        ),
-      },
-      {
-        id: "0213c373-de33-4a40-8224-41c1e8d889ed",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Thops's+Barrier+(Spell)",
-          "Thops's Barrier"
+          "https://eldenring.wiki.fextralife.com/Fia's+Mist",
+          "Fia's Mist"
         ),
       },
       {
@@ -581,18 +600,12 @@ export const SpellsList: Array<ListType> = [
         ),
       },
       {
-        id: "e0d531ce-4e28-4140-9231-8e44172aa050",
+        id: "a818fe3d-9583-42ed-a499-b13fff8160bf",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Unseen+Blade",
-          "Unseen Blade"
+          "https://eldenring.wiki.fextralife.com/Mass+of+Putrescence",
+          "Mass of Putrescence"
         ),
-      },
-      {
-        id: "72753b67-c9c1-4f58-a3d8-5e939d1232aa",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Unseen+Form",
-          "Unseen Form"
-        ),
+        isDLC: true,
       },
       {
         id: "44e5806a-43ba-40ce-9bd3-0e3b39cfc752",
@@ -601,13 +614,6 @@ export const SpellsList: Array<ListType> = [
           "Vortex of Putrescence"
         ),
         isDLC: true,
-      },
-      {
-        id: "3d719f36-175b-42cf-a7b0-888768ba04b3",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Zamor+Ice+Storm+(Spell)",
-          "Zamor Ice Storm"
-        ),
       },
     ],
   },
