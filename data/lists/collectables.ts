@@ -2277,6 +2277,7 @@ export const CollectablesList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
           "Viridian Amber Medallion +3"
         ),
+        isDLC: true,
       },
       {
         id: "91fdd483-5a9a-4eeb-8301-f7563b56c11c",
