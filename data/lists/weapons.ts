@@ -964,6 +964,14 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "0220dd17-583c-42c3-8c27-fe2305888a99",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Fire+Knight's+Shortsword",
+          "Fire Knight's Shortsword"
+        ),
+        isDLC: true,
+      },
+      {
         id: "2fe45e79-8217-439c-a970-82b18ae7d4e8",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Glintstone+Kris",
@@ -3327,14 +3335,6 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Crystal+Sword",
           "Crystal Sword"
         ),
-      },
-      {
-        id: "0220dd17-583c-42c3-8c27-fe2305888a99",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Fire+Knight's+Shortsword",
-          "Fire Knight's Shortsword"
-        ),
-        isDLC: true,
       },
       {
         id: "a77c72dc-35f5-4ea9-9017-809d86523977",
