@@ -3174,7 +3174,7 @@ export const GracesList: Array<ListType> = [
       {
         id: "81899987-d401-4f8d-81a5-7662462d3f7e",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655327&code=mapD",
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=655729&code=mapD",
           "Finger Birthing Grounds"
         ),
         isDLC: true,
