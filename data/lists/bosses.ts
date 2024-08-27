@@ -1463,7 +1463,7 @@ export const BossesList: Array<ListType> = [
         id: "e7932a2f-078d-4ed3-88ab-973d1797332a",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
-          "Tree Sentinel"
+          "Tree Sentinel (Duo)"
         ),
         isDLC: true,
       },
@@ -1642,14 +1642,6 @@ export const BossesList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Scadutree+Avatar",
           "Scadutree Avatar"
-        ),
-        isDLC: true,
-      },
-      {
-        id: "66b3a9cf-dcb3-40b8-8a81-2526b1cb30c2",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
-          "Tree Sentinel"
         ),
         isDLC: true,
       },
