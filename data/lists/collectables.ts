@@ -1354,21 +1354,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "931087fd-4dcc-4013-9537-616f37350d77",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion+1",
           "Cerulean Amber Medallion +1"
         ),
       },
       {
         id: "55dfa1ac-ed19-4053-b27a-af7bef098069",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion+2",
           "Cerulean Amber Medallion +2"
         ),
       },
       {
         id: "43e5a37a-116f-4b7f-b985-448c5d63fb23",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion+3",
           "Cerulean Amber Medallion +3"
         ),
         isDLC: true,
