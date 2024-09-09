@@ -1231,7 +1231,7 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "7c93f796-2db2-4279-a37c-3991f5a46bcd",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Arsenal+Charm",
+          "https://eldenring.wiki.fextralife.com/Arsenal+Charm+1",
           "Arsenal Charm +1"
         ),
       },
