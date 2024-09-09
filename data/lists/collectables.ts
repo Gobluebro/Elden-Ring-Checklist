@@ -1629,21 +1629,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "f037ae8e-7a55-4819-9933-f0ccf3552fea",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman+1",
           "Flamedrake Talisman +1"
         ),
       },
       {
         id: "bb4407ed-6326-4aa5-974d-37d7e8b823fb",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman+2",
           "Flamedrake Talisman +2"
         ),
       },
       {
         id: "3081b6c1-bac3-406a-959f-5ba6f4c752e9",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman+3",
           "Flamedrake Talisman +3"
         ),
         isDLC: true,
