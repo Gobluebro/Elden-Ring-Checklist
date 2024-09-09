@@ -1916,21 +1916,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "a268e933-ed61-420a-9c45-e58b263296ca",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman+1",
           "Pearldrake Talisman +1"
         ),
       },
       {
         id: "acd53048-5a67-4327-9f70-934e5a46e8b7",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman+2",
           "Pearldrake Talisman +2"
         ),
       },
       {
         id: "df53c672-63f8-4179-8425-cc8a6859aa88",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman+3",
           "Pearldrake Talisman +3"
         ),
         isDLC: true,
