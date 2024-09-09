@@ -1586,14 +1586,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "531ebf4a-080a-4b1f-b926-de0b71c2aaef",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor+1",
           "Erdtree's Favor +1"
         ),
       },
       {
         id: "3c6f516d-cb0a-434a-b991-bec0e8a2c629",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor+2",
           "Erdtree's Favor +2"
         ),
       },
