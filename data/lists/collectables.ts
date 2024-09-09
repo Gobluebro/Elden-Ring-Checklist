@@ -2118,21 +2118,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "f06f8b08-afa5-41ab-8993-ddfe22c2e9cf",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman+1",
           "Spelldrake Talisman +1"
         ),
       },
       {
         id: "0883d849-c240-498a-b565-60a4fbd19575",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman+2",
           "Spelldrake Talisman +2"
         ),
       },
       {
         id: "62401a59-56c9-4a00-983b-f55d39a8973b",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman+3",
           "Spelldrake Talisman +3"
         ),
         isDLC: true,
