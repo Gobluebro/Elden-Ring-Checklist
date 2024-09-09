@@ -1871,14 +1871,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "c1dd9988-d8fc-45b3-b3e3-80cc09c39c92",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
+          "https://eldenring.wiki.fextralife.com/Mottled+Necklace+1",
           "Mottled Necklace +1"
         ),
       },
       {
         id: "c3756d80-4b3c-4948-9bb0-5d72939f8aee",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
+          "https://eldenring.wiki.fextralife.com/Mottled+Necklace+2",
           "Mottled Necklace +2"
         ),
         isDLC: true,
