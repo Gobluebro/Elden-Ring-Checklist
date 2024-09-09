@@ -2155,14 +2155,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "51dc7e48-86e1-47ca-b902-00f2aaef505a",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
+          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm+1",
           "Stalwart Horn Charm +1"
         ),
       },
       {
         id: "b25462ae-e151-4615-b661-a66e7af99072",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
+          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm+2",
           "Stalwart Horn Charm +2"
         ),
         isDLC: true,
