@@ -1736,14 +1736,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "43ac72a9-6522-4160-b19b-be84a135c75a",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman+1",
           "Haligdrake Talisman +1"
         ),
       },
       {
         id: "2db447ef-4399-4443-ab9a-96d011440212",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman+2",
           "Haligdrake Talisman +2"
         ),
       },
