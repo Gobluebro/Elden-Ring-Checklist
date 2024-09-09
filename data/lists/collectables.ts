@@ -1311,21 +1311,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "c4e0497d-7643-4f74-ac23-1528e6a745ff",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman+1",
           "Boltdrake Talisman +1"
         ),
       },
       {
         id: "9ee6a0c6-cb8f-437c-8889-9286285084d2",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman+2",
           "Boltdrake Talisman +2"
         ),
       },
       {
         id: "20caba8f-28cb-4b18-b28f-13ebde5554c5",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman+3",
           "Boltdrake Talisman +3"
         ),
         isDLC: true,
