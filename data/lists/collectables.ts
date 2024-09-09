@@ -1383,7 +1383,7 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "38ad9601-c0a0-4fb6-8987-64e45d3af21c",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
+          "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman+1",
           "Cerulean Seed Talisman +1"
         ),
         isDLC: true,
