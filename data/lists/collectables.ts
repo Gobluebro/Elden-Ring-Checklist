@@ -1448,21 +1448,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "e1bd2808-96db-4bd9-a642-e466dd8d9e0f",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion+1",
           "Crimson Amber Medallion +1"
         ),
       },
       {
         id: "08b21705-6704-41aa-9e64-74fd4db109cb",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion+2",
           "Crimson Amber Medallion +2"
         ),
       },
       {
         id: "ac620f96-350d-4b6a-b911-09587ad5e8ce",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion+3",
           "Crimson Amber Medallion +3"
         ),
         isDLC: true,
