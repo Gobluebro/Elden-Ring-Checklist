@@ -1398,14 +1398,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "b443065e-5ea1-419e-949f-86f57eb89326",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm+1",
           "Clarifying Horn Charm +1"
         ),
       },
       {
         id: "35e64ffa-f910-4f1a-9ab1-b22b68b7ff3f",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm+2",
           "Clarifying Horn Charm +2"
         ),
         isDLC: true,
