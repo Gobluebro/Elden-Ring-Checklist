@@ -1771,14 +1771,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "103c36d6-0729-42c9-a254-6a4d23f463d4",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
+          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm+1",
           "Immunizing Horn Charm +1"
         ),
       },
       {
         id: "3fefd3b7-242a-47d4-bfb7-17d794995b27",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
+          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm+2",
           "Immunizing Horn Charm +2"
         ),
         isDLC: true,
