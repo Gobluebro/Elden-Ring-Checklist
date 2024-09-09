@@ -2260,21 +2260,21 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "c01644a3-3a20-4ba5-b8a3-898844ecd286",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion+1",
           "Viridian Amber Medallion +1"
         ),
       },
       {
         id: "61d1a3e3-ec9f-491e-afe5-01e99372c31d",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion+2",
           "Viridian Amber Medallion +2"
         ),
       },
       {
         id: "b83eff01-4749-4e19-9867-d877f83a3b73",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
+          "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion+3",
           "Viridian Amber Medallion +3"
         ),
         isDLC: true,
