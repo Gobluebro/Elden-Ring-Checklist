@@ -1549,14 +1549,14 @@ export const CollectablesList: Array<ListType> = [
       {
         id: "1c2bf93a-079a-4dbe-85e5-102e0599aa89",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman+1",
           "Dragoncrest Shield Talisman +1"
         ),
       },
       {
         id: "8978de2a-a1c3-422f-81e1-52fc0418ea15",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman+2",
           "Dragoncrest Shield Talisman +2"
         ),
       },
