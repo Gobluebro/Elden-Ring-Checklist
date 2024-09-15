@@ -19,6 +19,7 @@ const CompleteList = (props: Props) => {
     "showCompleted",
     true
   );
+  const [showBaseGame, setShowBaseGame] = useLocalStorage("showBaseGame", true);
   const [showDLC, setShowDLC] = useLocalStorage("showDLC", false);
   const [accordionState, setAccordionState] = useState({});
 
@@ -55,7 +56,14 @@ const CompleteList = (props: Props) => {
               label="Completed"
             />
           </div>
-          <div className="mx-2">
+          <div className="ml-2 mr-1">
+            <FilterButton
+              onClick={() => setShowBaseGame(!showBaseGame)}
+              showValue={showBaseGame}
+              label="Base Game"
+            />
+          </div>
+          <div className="ml-1 mr-2">
             <FilterButton
               onClick={() => setShowDLC(!showDLC)}
               showValue={showDLC}
@@ -74,6 +82,7 @@ const CompleteList = (props: Props) => {
           key={item.id}
           list={item}
           showCompleted={showCompleted}
+          showBaseGame={showBaseGame}
           showDLC={showDLC}
           accordionState={accordionState}
           setAccordionState={setAccordionState}

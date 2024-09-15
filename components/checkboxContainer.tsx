@@ -7,6 +7,7 @@ import ToggleButtonIcon from "./toggleButtonIcon";
 interface Props {
   list: ListType;
   showCompleted: boolean;
+  showBaseGame: boolean;
   showDLC: boolean;
   accordionState: KeyBooleanValuePair;
   setAccordionState: Dispatch<SetStateAction<Object>>;
@@ -16,8 +17,14 @@ const checkboxInputStyles =
   "rounded text-elden-ring-dark-blue focus:border-elden-ring-green-300 focus:ring focus:ring-offset-0 focus:ring-elden-ring-green-200 focus:ring-opacity-50";
 
 const CheckboxContainer = (props: Props) => {
-  const { list, showCompleted, accordionState, setAccordionState, showDLC } =
-    props;
+  const {
+    list,
+    showCompleted,
+    accordionState,
+    setAccordionState,
+    showBaseGame,
+    showDLC,
+  } = props;
   const [isAllTrue, setIsAllTrue] = useState<boolean>(false);
   const [numberOfCompletedEntries, setNumberOfCompletedEntries] =
     useState<number>(0);
@@ -31,6 +38,8 @@ const CheckboxContainer = (props: Props) => {
     (object, item) => ({ ...object, [item.id]: false }),
     {}
   );
+
+  const hasDLCRequirements = list.requirements.some((item) => !!item.isDLC);
 
   const totalEntries = Object.keys(defaultValuesHash).length;
 
@@ -83,7 +92,9 @@ const CheckboxContainer = (props: Props) => {
   return (
     <fieldset
       className={`my-4 ${
-        (isAllTrue && !showCompleted) || (!!list.isDLC && !showDLC)
+        (isAllTrue && !showCompleted) ||
+        (!showDLC && !!list.isDLC) ||
+        (!showBaseGame && !list.isDLC && !hasDLCRequirements)
           ? "hidden"
           : "block"
       }`}
@@ -157,7 +168,9 @@ const CheckboxContainer = (props: Props) => {
             key={id}
             className={`py-1
               ${
-                (!!isDLC && !showDLC) || (!showCompleted && checkedState[id])
+                (!!isDLC && !showDLC) ||
+                (!isDLC && !showBaseGame) ||
+                (!showCompleted && checkedState[id])
                   ? "hidden"
                   : "block"
               }
