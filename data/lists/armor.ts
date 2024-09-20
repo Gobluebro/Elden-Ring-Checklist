@@ -2571,7 +2571,7 @@ export const ArmorList: Array<ListType> = [
         id: "2334ddae-1894-4430-9b39-ad2386640c30",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Blue+Silver+Mail+Armor",
-          " Blue Silver Mail Armor"
+          "Blue Silver Mail Armor"
         ),
       },
       {
