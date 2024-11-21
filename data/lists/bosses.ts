@@ -490,7 +490,7 @@ export const BossesList: Array<ListType> = [
       {
         id: "cac3de02-b7d4-4ce2-ae30-2ab36d090b19",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Crucible+Knight",
+          "https://eldenring.wiki.fextralife.com/Crucible+Knight+and+Misbegotten+Warrior",
           "Crucible Knight & Misbegotten Warrior"
         ),
       },
