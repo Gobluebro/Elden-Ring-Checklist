@@ -508,6 +508,9 @@ export const BossesList: Array<ListType> = [
           "Decaying Ekzykes"
         ),
       },
+      // this boss has no health bar but is still in the list
+      // see issue #101 for reasoning
+      // https://github.com/Gobluebro/Elden-Ring-Checklist/issues/101
       {
         id: "9990cdfd-83a4-4421-a4d3-2b8c4e793552",
         description: rawHTMLLink(
@@ -985,13 +988,6 @@ export const BossesList: Array<ListType> = [
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Roundtable+Knight+Vyke",
           "Roundtable Knight Vyke"
-        ),
-      },
-      {
-        id: "923ce895-5952-432c-82d4-dd14655a969e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Tibia+Mariner",
-          "Tibia Mariner (Snow Valley Ruins Overlook)"
         ),
       },
       {
