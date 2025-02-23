@@ -160,19 +160,23 @@ Run locally with:
   - [ ] DLC
 - [x] Collection Achievements
 - [x] Graces
+  <!-- cspell:disable-next-line -->
   - [x] Double checked by [@13xforever](https://github.com/13xforever)
   - [x] DLC
   - [x] sort order checked
 - [x] Bosses
   - [x] DLC Bosses
+    <!-- cspell:disable-next-line -->
     - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
 - [x] Upgrades
   - [x] Golden Seeds
     - Added by [@RDoll](https://github.com/RDoll-Repo)
   - [x] Sacred Tears
   - [x] Scadutree Fragments
+    <!-- cspell:disable-next-line -->
     - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
   - [x] Revered Spirit Ashes
+    <!-- cspell:disable-next-line -->
     - Added by [@DanyBoyP123](https://github.com/DanyBoyP123)
 - [x] Weapons
 - [x] Armor
@@ -190,10 +194,13 @@ Run locally with:
   - [x] Crystal Tears
   - [x] Talismans
   - [x] Cracked Pots
+    <!-- cspell:disable-next-line -->
     - Added by [@ashemedai](https://github.com/ashemedai)
   - [x] Ritual Pots
+    <!-- cspell:disable-next-line -->
     - Added by [@ashemedai](https://github.com/ashemedai)
   - [x] Perfume bottle
+    <!-- cspell:disable-next-line -->
     - Added by [@ashemedai](https://github.com/ashemedai)
   - [x] Spirits / Puppets
     - [x] sort order checked
