@@ -158,6 +158,20 @@ Run locally with:
   - [x] Seluvis
   - [x] Tanith
   - [ ] DLC
+    - [ ] Needle Knight Leda
+    - [ ] Redmane Freyja
+    - [ ] Hornsent
+    - [ ] Sir Ansbach
+    - [ ] Moore
+    - [ ] Fire Knight Queelign
+    - [ ] Hornsent Grandam
+    - [ ] Thiollier
+    - [ ] St. Trina
+    - [ ] Count Ymir
+    - [ ] Swordhand of Night, Jolan
+    - [ ] Dryleaf Dane
+    - [ ] Igon
+    - [ ] Dragon Communion Priestess
 - [x] Collection Achievements
 - [x] Graces
   <!-- cspell:disable-next-line -->
