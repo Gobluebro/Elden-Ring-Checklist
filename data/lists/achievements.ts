@@ -111,7 +111,7 @@ export const AchievementsList: Array<ListType> = [
       {
         id: "8815eb72-fd77-47d7-9638-33531903b745",
         description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor+2",
           "Erdtree's Favor +2"
         ),
       },
