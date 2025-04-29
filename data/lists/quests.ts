@@ -1904,6 +1904,58 @@ export const QuestsList: Array<ListType> = [
     ],
   },
   {
+    id: "a8fe18a8-6153-4228-a20d-b9b369f1070b",
+    name: "Redmane Freyja",
+    url: "https://eldenring.wiki.fextralife.com/Redmane+Freyja",
+    isDLC: true,
+    requirements: [
+      {
+        id: "a3d39303-78b2-49bb-9fae-4e6796831c46",
+        description:
+          "Speak with Redmane Freyja at the Three-Path Cross Site of Grace.",
+      },
+      {
+        id: "dda60770-8615-4fe1-8dbc-a6faf8284d65",
+        description: "Speak with Freyja after defeating the Divine Beast.",
+      },
+      {
+        id: "73a55978-12a0-4f10-b935-471a493343ca",
+        description: "Break Miquella's charm.",
+      },
+      {
+        id: "a93d7e37-50cb-4728-82e7-a0e989b903fa",
+        description:
+          "Speak to Freyja and exhaust her dialogues at the Three-Path Cross Site of Grace.",
+      },
+      {
+        id: "feebeec8-feec-4d06-a676-759fc044007a",
+        description: "Look for Freyja in the Seventh Floor Storehouse.",
+      },
+      {
+        id: "38f88904-9508-40ba-bc53-30e973d618eb",
+        description: "Obtain the Secret Rite Scroll.",
+      },
+      {
+        id: "a1a227e9-029c-4cd7-a49d-bf4ff99ec0ca",
+        description:
+          "Tell Sir Ansbach about Freyja in the First Floor Storehouse.",
+      },
+      {
+        id: "6ee79cdb-2a89-4077-b008-1e5e0d7c67ac",
+        description: "Acquire the Letter for Freyja from Sir Ansbach.",
+      },
+      {
+        id: "b4f09670-4872-4d3e-b49f-98049efb068a",
+        description:
+          "Give the letter to Freyja and exhaust her dialogue to receive the Golden Lion Shield.",
+      },
+      {
+        id: "62722163-ca2a-4078-9cd2-68465c6759c0",
+        description: "Fight the NPC allies in Enir-Ilim.",
+      },
+    ],
+  },
+  {
     id: "5bcdbf66-3270-4af8-9c76-2d6e646d20cb",
     name: "Roderika (Spirit-Tuner)",
     url: "https://eldenring.wiki.fextralife.com/Roderika",
@@ -2047,6 +2099,53 @@ export const QuestsList: Array<ListType> = [
     ],
   },
   {
+    id: "5b5dfac2-b0cb-4cb1-b857-cb4675bf3acd",
+    name: "Sir Ansbach",
+    url: "https://eldenring.wiki.fextralife.com/Sir+Ansbach",
+    isDLC: true,
+    requirements: [
+      {
+        id: "67f39ba6-c324-4a64-905c-012f226709d7",
+        description:
+          "Speak with Sir Ansbach at the Main Gate Cross - Site of Grace",
+      },
+      {
+        id: "0dbcfde9-8b4e-4d52-9803-6f6f2a1e268f",
+        description: "Break Miquella's charm",
+      },
+      {
+        id: "59e9e924-33ef-4fab-93d1-18ce3d4aeef9",
+        description:
+          "Speak to Sir Ansbach at the Main Gate Cross - Site of Grace",
+      },
+      {
+        id: "b2f020e2-ff96-422c-9834-cb7c571bd451",
+        description:
+          "Travel to the Shadow Keep and speak to him at the Storehouse, First Floor",
+      },
+      {
+        id: "a7c58fa4-f99d-4a7f-b976-ee53a1cfa24d",
+        description: "Hand over the Secret Rite Scroll to Sir Ansbach",
+      },
+      {
+        id: "205bc2b5-619f-40da-9897-f335d917ce20",
+        description: "Continue Needle Knight Leda's questline",
+      },
+      {
+        id: "9bac0566-1485-4082-b585-1722b5005e7a",
+        description: "Respond to the summons in the Storehouse",
+      },
+      {
+        id: "fce267eb-a646-47b0-8aba-5b9dd515db08",
+        description: "Join the NPC battle in Enir-Ilim",
+      },
+      {
+        id: "002415dc-6653-4dab-8c9b-7157b488547e",
+        description: "Defeat the final boss in Enir-Ilim",
+      },
+    ],
+  },
+  {
     id: "16d5085f-b29c-433d-ba3e-9edfcbd02856",
     name: "Sorcerer Rogier",
     url: "https://eldenring.wiki.fextralife.com/Sorcerer+Rogier",
@@ -2178,6 +2277,89 @@ export const QuestsList: Array<ListType> = [
         id: "4ea19246-09c3-4ce4-87d9-39019d398c2b",
         description:
           "After defeating either Sellen or Witch-Hunter Jerren, collect their respective rewards.",
+      },
+    ],
+  },
+  {
+    id: "26ce09bb-d844-432e-ad46-fa230bc553ef",
+    name: "St. Trina",
+    url: "https://eldenring.wiki.fextralife.com/St.+Trina",
+    isDLC: true,
+    requirements: [
+      {
+        id: "cf500e55-b343-4c00-9287-80cb1766bfa9",
+        description: "Break Miquella's great rune",
+      },
+      {
+        id: "f8f18196-d84c-4c34-b31f-44da5e4db277",
+        description: "Discover the Stone Coffin Fissure",
+      },
+      {
+        id: "3fd873c2-925a-49c0-8fcc-4502528fa7d4",
+        description: "Defeat the Putrescent Knight",
+      },
+      {
+        id: "ed3dd291-011d-4f5d-969f-cdf26fda147e",
+        description: "Drink and die from St. Trina's nectar four times",
+      },
+      {
+        id: "fc839764-dc00-4623-a594-149c677bd0dc",
+        description:
+          "(Optional) Pass on the words of St. Trina to Thiollier, defeat him when he invades, and then pass on her words to him again",
+      },
+      {
+        id: "fdcffbaa-d1e9-49c0-a0cb-869e7d9eb778",
+        description: "Defeat the final boss in Enir-Ilim",
+      },
+    ],
+  },
+  {
+    id: "f9b5096c-1046-4ed9-9f90-1e0850b57558",
+    name: "Swordhand of Night Jolán",
+    url: "https://eldenring.wiki.fextralife.com/Swordhand+of+Night+Jolan",
+    isDLC: true,
+    requirements: [
+      {
+        id: "67ae8e19-927f-4fca-9392-a90f3ce76792",
+        description: "Speak with Count Ymir at the Cathedral of Manus Metyr",
+      },
+      {
+        id: "df52f3db-efa9-4a55-899f-317765687fee",
+        description: "Speak with Jolan after getting the Ruins Map",
+      },
+      {
+        id: "03866acf-a34b-46ab-b72d-78e2be22e6e0",
+        description:
+          "Continue Count Ymir's questline until you finish blowing 2 whistles",
+      },
+      {
+        id: "652464e6-e5a7-4912-9c05-42e66de9b30b",
+        description: "Go back to the Cathedral, talk",
+      },
+      {
+        id: "f7b0f32e-aa63-4e54-acd0-1c81a88a444e",
+        description: "Go down the ladder and defeat Metyr, Mother of Fingers",
+      },
+      {
+        id: "9952b7d0-c411-490b-be56-f9eafa18b542",
+        description: "Return to the Cathedral to fight Jolan and Count Ymir",
+      },
+      {
+        id: "b4d17b8f-b9ac-453e-b826-241e876717ac",
+        description: "Speak with Jolan after defeating Ymir",
+      },
+      {
+        id: "c2c3bf97-082b-4645-9192-648e5aa31017",
+        description: "Obtain the Iris of Grace or Iris of Occultation",
+      },
+      {
+        id: "62830fd9-a433-40ee-a394-21e6b51a5a4d",
+        description: "Give one of the Irises to Jolan",
+      },
+      {
+        id: "2b5c6877-f318-4ded-90d8-0939e8290725",
+        description:
+          "Make your way to Rabbath's Rise to reunite with Jolan and Anna",
       },
     ],
   },
