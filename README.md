@@ -157,21 +157,23 @@ Run locally with:
   - [x] Jar-Bairn
   - [x] Seluvis
   - [x] Tanith
-  - [ ] DLC
-    - [ ] Needle Knight Leda
-    - [ ] Redmane Freyja
-    - [ ] Hornsent
-    - [ ] Sir Ansbach
-    - [ ] Moore
-    - [ ] Fire Knight Queelign
-    - [ ] Hornsent Grandam
-    - [ ] Thiollier
-    - [ ] St. Trina
-    - [ ] Count Ymir
-    - [ ] Swordhand of Night, Jolan
-    - [ ] Dryleaf Dane
-    - [ ] Igon
-    - [ ] Dragon Communion Priestess
+  - [x] DLC
+    - [ ] Needs double checked
+    - [x] Needle Knight Leda
+    - [x] Redmane Freyja
+    - [x] Hornsent
+    - [x] Sir Ansbach
+    - [x] Moore
+    - [x] Fire Knight Queelign
+    - [x] Hornsent Grandam
+    - [x] Thiollier
+    - [x] St. Trina
+    - [x] Count Ymir
+    - [x] Swordhand of Night, Jolan
+    - [x] Dryleaf Dane
+    - [x] Igon
+    - [x] Dragon Communion Priestess
+    - Above added by [@fvoltolina](https://github.com/fvoltolina)
 - [x] Collection Achievements
 - [x] Graces
   <!-- cspell:disable-next-line -->
