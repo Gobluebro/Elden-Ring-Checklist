@@ -243,6 +243,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "d8d5b364-cc98-451d-9bbb-881b09861e7e",
     name: "Count Ymir, High Priest",
+    url: "https://eldenring.wiki.fextralife.com/Count+Ymir,+High+Priest",
     isDLC: true,
     requirements: [
       {
@@ -396,6 +397,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "0c6486e2-4ca7-4096-942b-56b431581b9a",
     name: "Dragon Communion Priestess",
+    url: "https://eldenring.wiki.fextralife.com/Dragon+Communion+Priestess",
     isDLC: true,
     requirements: [
       {
@@ -420,6 +422,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "50fa65ed-ec53-467b-8b85-a5268b2ed0f9",
     name: "Dryleaf Dane",
+    url: "https://eldenring.wiki.fextralife.com/Dryleaf+Dane",
     isDLC: true,
     requirements: [
       {
@@ -882,6 +885,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "a5c7457b-693e-453c-ba7e-e8abdce2b666",
     name: "Fire Knight Queelign",
+    url: "https://eldenring.wiki.fextralife.com/Fire+Knight+Queelign+(NPC)",
     isDLC: true,
     requirements: [
       {
@@ -1150,6 +1154,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "bc3e40a5-b9ef-4b45-8fac-5979cd61ba4f",
     name: "Hornsent",
+    url: "https://eldenring.wiki.fextralife.com/Hornsent",
     isDLC: true,
     requirements: [
       {
@@ -1198,6 +1203,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "980689d4-5713-4c78-ad6b-29619b6db8aa",
     name: "Hornsent Grandam",
+    url: "https://eldenring.wiki.fextralife.com/Hornsent+Grandam",
     isDLC: true,
     requirements: [
       {
@@ -1231,6 +1237,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "3398e851-c0ef-48ab-aa3a-555454161ec3",
     name: "Igon",
+    url: "https://eldenring.wiki.fextralife.com/Igon",
     isDLC: true,
     requirements: [
       {
@@ -1539,6 +1546,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "0f110c46-aeec-442f-bed2-b2d4d3bad170",
     name: "Moore",
+    url: "https://eldenring.wiki.fextralife.com/Moore",
     isDLC: true,
     requirements: [
       {
@@ -1558,6 +1566,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "9e705cba-7d43-4e2a-bb69-d6dcd89f5bc0",
     name: "Needle Knight Leda",
+    url: "https://eldenring.wiki.fextralife.com/Needle+Knight+Leda",
     isDLC: true,
     requirements: [
       {
@@ -2300,6 +2309,7 @@ export const QuestsList: Array<ListType> = [
   {
     id: "359048e0-02bf-430a-a81d-ac31de66fb23",
     name: "Thiollier",
+    url: "https://eldenring.wiki.fextralife.com/Thiollier",
     isDLC: true,
     requirements: [
       {
