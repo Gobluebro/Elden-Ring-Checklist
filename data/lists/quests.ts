@@ -250,42 +250,52 @@ export const QuestsList: Array<ListType> = [
         id: "abc052ae-3990-428e-a8a8-2f56e9f4622c",
         description:
           "Speak with Count Ymir, High Priest at the Cathedral of Manus Metyr",
+        isDLC: true,
       },
       {
         id: "2dc9bd86-d87a-4a96-830c-9c6626a19d19",
         description: "Ring the bell in the Finger Ruins of Rhia",
+        isDLC: true,
       },
       {
         id: "a7dd87aa-ee20-4f8d-8606-37d102de539d",
         description: "Head back to Ymir and obtain Ruins Map (2nd)",
+        isDLC: true,
       },
       {
         id: "c737a583-ab86-488b-b653-755cd60a72d9",
         description: "Find Scaduview",
+        isDLC: true,
       },
       {
         id: "3142a776-f391-4261-9f59-b78fe5578c47",
         description: "Ring the bell in the Finger Ruins of Dheo",
+        isDLC: true,
       },
       {
         id: "cb26ab16-82dc-4aac-8fa2-1f12c9df0ae9",
         description: "Head back to Ymir to obtain Ruins Map (3rd)",
+        isDLC: true,
       },
       {
         id: "fe8f1394-6299-44b4-9c04-a32636cf1a12",
         description: "Ring the bell in the Finger Ruins of Miyr",
+        isDLC: true,
       },
       {
         id: "19c2bf60-cd87-4c07-a8ef-dfd199c6e299",
         description: "Defeat Metyr Mother of Fingers",
+        isDLC: true,
       },
       {
         id: "c78aabd5-cd13-4cad-bfc7-c770419ec3f1",
         description: "Defeat Jolan and Ymir",
+        isDLC: true,
       },
       {
         id: "d0631e8c-56d0-4f94-b4fe-836643f56658",
         description: "Obtain the Cherishing Fingers",
+        isDLC: true,
       },
     ],
   },
@@ -403,19 +413,23 @@ export const QuestsList: Array<ListType> = [
       {
         id: "4157727d-1649-42f8-af39-99c93a577c2a",
         description: "Devour the Draconic Essence that the Priestess offers",
+        isDLC: true,
       },
       {
         id: "99412d50-2d2e-4018-ae75-5bfb096b85d6",
         description: "Decide to give Thiollier's Concoction to her or not",
+        isDLC: true,
       },
       {
         id: "4c01df73-f57e-4e8b-a6f9-f34d3ff2262a",
         description: "Defeat Bayle the Dread",
+        isDLC: true,
       },
       {
         id: "8bcdc752-8d9d-4eb9-a2e5-5592185f4443",
         description:
           "Return to the Grand Altar of Dragon Communion after defeating Bayle",
+        isDLC: true,
       },
     ],
   },
@@ -428,18 +442,22 @@ export const QuestsList: Array<ListType> = [
       {
         id: "d2d06b2a-a906-4077-ae72-273f7a6f0201",
         description: "Acquire Monk's Missive and May the Best Win",
+        isDLC: true,
       },
       {
         id: "76855057-befb-488d-96c3-581318bbc1f4",
         description: "Duel with Dryleaf Dane at Moorth Ruins",
+        isDLC: true,
       },
       {
         id: "ff9bdbb2-02e3-4368-9cfc-e5ce27fae474",
         description: "Defeat the NPC allies at Enir-Ilim",
+        isDLC: true,
       },
       {
         id: "c04f2949-d26a-4d7f-be48-412ad81213fa",
         description: "Obtain Dryleaf Dane's equipment",
+        isDLC: true,
       },
     ],
   },
@@ -891,14 +909,17 @@ export const QuestsList: Array<ListType> = [
       {
         id: "c584ebe6-dc21-4098-a262-9ab7bfa04bd1",
         description: "Get invaded by Fire Knight Queelign Twice",
+        isDLC: true,
       },
       {
         id: "e6216134-7223-44ba-827f-5bfcf1d5395c",
         description: "Collect the Irises",
+        isDLC: true,
       },
       {
         id: "ebe856cf-f8f9-4c3c-acb9-f74de06fbb59",
         description: "Look for Queelign in Shadow Keep",
+        isDLC: true,
       },
     ],
   },
@@ -1161,42 +1182,52 @@ export const QuestsList: Array<ListType> = [
         id: "df6a07e6-8874-48c3-a93b-e4eb7737fe9f",
         description:
           "Speak with Hornsent by the Three-Path Cross Site of Grace",
+        isDLC: true,
       },
       {
         id: "724b9352-e8ac-46eb-ac8a-34ea209ad1ae",
         description: "Speak with Hornsent at the Highroad Cross Site of Grace",
+        isDLC: true,
       },
       {
         id: "ed2890f4-10bb-494a-ae6e-dfaa5939086b",
         description: "Break Miquella's charm",
+        isDLC: true,
       },
       {
         id: "69f32519-7c5b-4e17-9902-f0dc22c13153",
         description: "Speak with Hornsent after the charm is broken",
+        isDLC: true,
       },
       {
         id: "f9b9ce81-81b9-45ae-b25b-b884e2c0cb10",
         description: "Help Leda decide who she should go after",
+        isDLC: true,
       },
       {
         id: "7ddf47ec-79f7-4a05-ad0e-e015edc5bae4",
         description: "Assist Hornsent to fight against Leda",
+        isDLC: true,
       },
       {
         id: "3f25262f-6a62-418a-b4c2-8acbf05f875c",
         description: "Optional, can skip both fights",
+        isDLC: true,
       },
       {
         id: "d6e54f0a-a503-41f1-8a8e-e49fb99c74cf",
         description: "Summon Hornsent to fight against Messmer, The Impaler",
+        isDLC: true,
       },
       {
         id: "776b4097-4a14-4933-9cd7-e85e90d420ec",
         description: "Speak with Hornsent in the boss room",
+        isDLC: true,
       },
       {
         id: "0e91ed12-656e-4682-9cc7-0c794f430620",
         description: "Defeat Hornsent during his invasion.",
+        isDLC: true,
       },
     ],
   },
@@ -1209,28 +1240,34 @@ export const QuestsList: Array<ListType> = [
       {
         id: "f1ee5d24-24d5-497d-9d0a-21c5c2afbed4",
         description: "Look for the Storeroom Key in Belurat.",
+        isDLC: true,
       },
       {
         id: "009dd057-6de3-4bd6-90c5-5119e57b8828",
         description: "Speak with Hornsent Grandam in the Storeroom.",
+        isDLC: true,
       },
       {
         id: "4fe9ab0d-91a8-4cb6-a2a9-69dbc2786dc5",
         description: "Defeat the Divine Beast Dancing Lion.",
+        isDLC: true,
       },
       {
         id: "b73fda62-c64b-46a1-8909-f229608f932f",
         description:
           "Wear the Divine Beast Head and speak with Hornsent Grandam.",
+        isDLC: true,
       },
       {
         id: "12a5a483-4bcb-4e91-a556-085d6563703e",
         description: "Reload the area and speak with Hornsent Grandam again.",
+        isDLC: true,
       },
       {
         id: "f57803d4-0189-4d22-b6e7-86c302e356ee",
         description:
           "Defeat Messmer the Impaler, and speak with Hornsent Grandam once more.",
+        isDLC: true,
       },
     ],
   },
@@ -1244,35 +1281,43 @@ export const QuestsList: Array<ListType> = [
         id: "65c2251e-b006-4769-8f82-63920fc9058f",
         description:
           "Speak with Igon near the Pillar Path Waypoint Site of Grace",
+        isDLC: true,
       },
       {
         id: "a6b062b0-8427-4218-894e-9624ebebfcf0",
         description: "Discover Jagged Peak",
+        isDLC: true,
       },
       {
         id: "dccda385-a79e-44c2-8962-212378b4e66e",
         description: "(Optional) Defeat the first Jagged Peak Drake",
+        isDLC: true,
       },
       {
         id: "7d950278-3f9f-4a1f-8cc7-5008a0275268",
         description: "Reach the Grand Altar of Dragon Communion",
+        isDLC: true,
       },
       {
         id: "05d37656-046b-4d4f-ab3c-0767e8e782d3",
         description: "Defeat the two Jagged Peak Drakes",
+        isDLC: true,
       },
       {
         id: "c88d17d4-5eac-4358-a879-d3a46d58ad94",
         description: "Speak with Igon and obtain Igon's Furled Finger",
+        isDLC: true,
       },
       {
         id: "f90d1f88-1ad2-442a-a27e-dc5ed633a876",
         description: "(Optional) Defeat the Ancient Dragon Senessax",
+        isDLC: true,
       },
       {
         id: "1961cc7e-5077-4526-b5a8-4a5709f80e81",
         description:
           "(Optional) Summon Igon to assist you in defeating Bayle the Dread",
+        isDLC: true,
       },
     ],
   },
@@ -1552,14 +1597,17 @@ export const QuestsList: Array<ListType> = [
       {
         id: "a90a21f9-4256-4d4a-b6a7-d6a1e7c6b995",
         description: "Meet Moore outside Belurat, Tower Settlement",
+        isDLC: true,
       },
       {
         id: "098e3827-ef2b-46ba-9a12-924fe402de07",
         description: "Meet Thiollier",
+        isDLC: true,
       },
       {
         id: "8558db54-74fd-45c9-b6a0-590144aa1c68",
         description: "Speak with Moore after breaking Miquella's charm",
+        isDLC: true,
       },
     ],
   },
@@ -1573,52 +1621,64 @@ export const QuestsList: Array<ListType> = [
         id: "4ab42ef6-18a2-4839-928b-86b256e87714",
         description:
           "Speak with Leda at the Cocoon of the Empyrean in the base game",
+        isDLC: true,
       },
       {
         id: "a29a294f-8c41-4bce-83ba-b54b3d207a42",
         description: "Receive Leda's Message at Belurat Tower Settlement",
+        isDLC: true,
       },
       {
         id: "7cc42e5f-63c7-499b-a67a-85c66bd7af0a",
         description: "Receive Leda's Message at Castle Ensis",
+        isDLC: true,
       },
       {
         id: "176e9b3c-aeb1-4b2e-b98b-399f934da02a",
         description: "Speak with Leda by the Highroad Cross Site of Grace",
+        isDLC: true,
       },
       {
         id: "d4ddf1a5-2fcf-4a98-b0d0-653138d2a94b",
         description:
           "Break Miquella's charm by approaching Shadow Keep or crossing the bridge east of Bonny Village",
+        isDLC: true,
       },
       {
         id: "cabb3c8c-21fc-4656-adf2-4a348a21dbc5",
         description: "Speak with Leda at the Highroad Cross Site of Grace",
+        isDLC: true,
       },
       {
         id: "075ca9c8-a993-448e-8fe9-f28af0ef6d24",
         description: "Enter Shadow Keep",
+        isDLC: true,
       },
       {
         id: "7c242fcd-955a-4f17-954f-c488f6eee2b5",
         description:
           "Speak with Leda at the Highroad Cross and decide who you want to investigate",
+        isDLC: true,
       },
       {
         id: "55e52f57-367c-4fc4-9a77-690c4627ce6a",
         description: "Assist Leda or assist Hornsent",
+        isDLC: true,
       },
       {
         id: "333f9e0c-1026-491d-b16c-ad1f4464b208",
         description: "Continue Sir Ansbach's questline",
+        isDLC: true,
       },
       {
         id: "f6af301d-c36b-4606-a4ee-d239902adbe7",
         description: "Assist Leda or assist Sir Ansbach",
+        isDLC: true,
       },
       {
         id: "f23a1a93-a116-4717-a1bc-7f23999d653b",
         description: "Fight the NPC battle in Enir-Ilim",
+        isDLC: true,
       },
     ],
   },
@@ -1913,45 +1973,55 @@ export const QuestsList: Array<ListType> = [
         id: "a3d39303-78b2-49bb-9fae-4e6796831c46",
         description:
           "Speak with Redmane Freyja at the Three-Path Cross Site of Grace.",
+        isDLC: true,
       },
       {
         id: "dda60770-8615-4fe1-8dbc-a6faf8284d65",
         description: "Speak with Freyja after defeating the Divine Beast.",
+        isDLC: true,
       },
       {
         id: "73a55978-12a0-4f10-b935-471a493343ca",
         description: "Break Miquella's charm.",
+        isDLC: true,
       },
       {
         id: "a93d7e37-50cb-4728-82e7-a0e989b903fa",
         description:
           "Speak to Freyja and exhaust her dialogues at the Three-Path Cross Site of Grace.",
+        isDLC: true,
       },
       {
         id: "feebeec8-feec-4d06-a676-759fc044007a",
         description: "Look for Freyja in the Seventh Floor Storehouse.",
+        isDLC: true,
       },
       {
         id: "38f88904-9508-40ba-bc53-30e973d618eb",
         description: "Obtain the Secret Rite Scroll.",
+        isDLC: true,
       },
       {
         id: "a1a227e9-029c-4cd7-a49d-bf4ff99ec0ca",
         description:
           "Tell Sir Ansbach about Freyja in the First Floor Storehouse.",
+        isDLC: true,
       },
       {
         id: "6ee79cdb-2a89-4077-b008-1e5e0d7c67ac",
         description: "Acquire the Letter for Freyja from Sir Ansbach.",
+        isDLC: true,
       },
       {
         id: "b4f09670-4872-4d3e-b49f-98049efb068a",
         description:
           "Give the letter to Freyja and exhaust her dialogue to receive the Golden Lion Shield.",
+        isDLC: true,
       },
       {
         id: "62722163-ca2a-4078-9cd2-68465c6759c0",
         description: "Fight the NPC allies in Enir-Ilim.",
+        isDLC: true,
       },
     ],
   },
@@ -2108,40 +2178,49 @@ export const QuestsList: Array<ListType> = [
         id: "67f39ba6-c324-4a64-905c-012f226709d7",
         description:
           "Speak with Sir Ansbach at the Main Gate Cross - Site of Grace",
+        isDLC: true,
       },
       {
         id: "0dbcfde9-8b4e-4d52-9803-6f6f2a1e268f",
         description: "Break Miquella's charm",
+        isDLC: true,
       },
       {
         id: "59e9e924-33ef-4fab-93d1-18ce3d4aeef9",
         description:
           "Speak to Sir Ansbach at the Main Gate Cross - Site of Grace",
+        isDLC: true,
       },
       {
         id: "b2f020e2-ff96-422c-9834-cb7c571bd451",
         description:
           "Travel to the Shadow Keep and speak to him at the Storehouse, First Floor",
+        isDLC: true,
       },
       {
         id: "a7c58fa4-f99d-4a7f-b976-ee53a1cfa24d",
         description: "Hand over the Secret Rite Scroll to Sir Ansbach",
+        isDLC: true,
       },
       {
         id: "205bc2b5-619f-40da-9897-f335d917ce20",
         description: "Continue Needle Knight Leda's questline",
+        isDLC: true,
       },
       {
         id: "9bac0566-1485-4082-b585-1722b5005e7a",
         description: "Respond to the summons in the Storehouse",
+        isDLC: true,
       },
       {
         id: "fce267eb-a646-47b0-8aba-5b9dd515db08",
         description: "Join the NPC battle in Enir-Ilim",
+        isDLC: true,
       },
       {
         id: "002415dc-6653-4dab-8c9b-7157b488547e",
         description: "Defeat the final boss in Enir-Ilim",
+        isDLC: true,
       },
     ],
   },
@@ -2289,27 +2368,33 @@ export const QuestsList: Array<ListType> = [
       {
         id: "cf500e55-b343-4c00-9287-80cb1766bfa9",
         description: "Break Miquella's great rune",
+        isDLC: true,
       },
       {
         id: "f8f18196-d84c-4c34-b31f-44da5e4db277",
         description: "Discover the Stone Coffin Fissure",
+        isDLC: true,
       },
       {
         id: "3fd873c2-925a-49c0-8fcc-4502528fa7d4",
         description: "Defeat the Putrescent Knight",
+        isDLC: true,
       },
       {
         id: "ed3dd291-011d-4f5d-969f-cdf26fda147e",
         description: "Drink and die from St. Trina's nectar four times",
+        isDLC: true,
       },
       {
         id: "fc839764-dc00-4623-a594-149c677bd0dc",
         description:
           "(Optional) Pass on the words of St. Trina to Thiollier, defeat him when he invades, and then pass on her words to him again",
+        isDLC: true,
       },
       {
         id: "fdcffbaa-d1e9-49c0-a0cb-869e7d9eb778",
         description: "Defeat the final boss in Enir-Ilim",
+        isDLC: true,
       },
     ],
   },
@@ -2322,44 +2407,54 @@ export const QuestsList: Array<ListType> = [
       {
         id: "67ae8e19-927f-4fca-9392-a90f3ce76792",
         description: "Speak with Count Ymir at the Cathedral of Manus Metyr",
+        isDLC: true,
       },
       {
         id: "df52f3db-efa9-4a55-899f-317765687fee",
         description: "Speak with Jolan after getting the Ruins Map",
+        isDLC: true,
       },
       {
         id: "03866acf-a34b-46ab-b72d-78e2be22e6e0",
         description:
           "Continue Count Ymir's questline until you finish blowing 2 whistles",
+        isDLC: true,
       },
       {
         id: "652464e6-e5a7-4912-9c05-42e66de9b30b",
         description: "Go back to the Cathedral, talk",
+        isDLC: true,
       },
       {
         id: "f7b0f32e-aa63-4e54-acd0-1c81a88a444e",
         description: "Go down the ladder and defeat Metyr, Mother of Fingers",
+        isDLC: true,
       },
       {
         id: "9952b7d0-c411-490b-be56-f9eafa18b542",
         description: "Return to the Cathedral to fight Jolan and Count Ymir",
+        isDLC: true,
       },
       {
         id: "b4d17b8f-b9ac-453e-b826-241e876717ac",
         description: "Speak with Jolan after defeating Ymir",
+        isDLC: true,
       },
       {
         id: "c2c3bf97-082b-4645-9192-648e5aa31017",
         description: "Obtain the Iris of Grace or Iris of Occultation",
+        isDLC: true,
       },
       {
         id: "62830fd9-a433-40ee-a394-21e6b51a5a4d",
         description: "Give one of the Irises to Jolan",
+        isDLC: true,
       },
       {
         id: "2b5c6877-f318-4ded-90d8-0939e8290725",
         description:
           "Make your way to Rabbath's Rise to reunite with Jolan and Anna",
+        isDLC: true,
       },
     ],
   },
@@ -2498,39 +2593,48 @@ export const QuestsList: Array<ListType> = [
         id: "8ce89658-84fb-48a9-aa23-bac0ff216c03",
         description:
           "Speak with Thiollier at the Pillar Path Cross Site of Grace",
+        isDLC: true,
       },
       {
         id: "8a9c5ee8-ab39-4901-bd54-18b5d7bfecd7",
         description: "Break Miquella's charm",
+        isDLC: true,
       },
       {
         id: "9b2bc746-0b3d-41d1-ac4d-caf97093a098",
         description: "Look for St. Trina in the Garden of Deep Purple",
+        isDLC: true,
       },
       {
         id: "48c21ce7-2ad0-4155-9661-eaedd570a6f7",
         description: "Drink and die from St. Trina's nectar 4 times",
+        isDLC: true,
       },
       {
         id: "0fe56e8f-10d5-45dd-9713-726f24441856",
         description: "Pass on St.Trina's words to Thiollier.",
+        isDLC: true,
       },
       {
         id: "e4745d49-5235-4b02-933f-f4d056428ef4",
         description: "Defeat Thiollier when he invades you",
+        isDLC: true,
       },
       {
         id: "f09f1fb3-dfc5-4f43-8a31-8fe63ea11b0b",
         description: "Drink St. Trina's once more and speak with Thiollier",
+        isDLC: true,
       },
       {
         id: "4bfc21a4-53a9-42f0-8c1e-7f486ecc7120",
         description:
           "(Optional) Summon Thiollier to defeat the NPC allies at Enir-Ilim",
+        isDLC: true,
       },
       {
         id: "adf2a9f6-4394-4937-a2c4-40fcc27d4c3f",
         description: "(Optional) Summon Thiollier to defeat the final boss",
+        isDLC: true,
       },
     ],
   },
