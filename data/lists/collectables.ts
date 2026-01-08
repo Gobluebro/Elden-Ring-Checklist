@@ -3350,6 +3350,14 @@ export const CollectablesList: Array<ListType> = [
         ),
         isDLC: true,
       },
+      {
+        id: "49b8f486-253c-4a3a-9409-5e450edec66d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lamenter%27s+Mask",
+          "Lamenter's Mask"
+        ),
+        isDLC: true,
+      },
     ],
   },
   {
