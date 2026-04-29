@@ -105,7 +105,6 @@ This project is meant to allow you to explore the game on your own pace. There a
    npm install
    ```
 3. Optional VSCode Extensions
-
    - [Insert GUID](https://marketplace.visualstudio.com/items?itemName=heaths.vscode-guid) for adding GUIDs to ids.
 
    - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to spell check your commits. The `.vscode` workspace folder has been committed to ignore Elden Ring related words.
@@ -230,6 +229,7 @@ Run locally with:
     - Added by [@ArtificialLegacy](https://github.com/ArtificialLegacy)
   - [ ] Scrolls
   - [ ] Cookbooks
+  - [ ] Invasions
 - [ ] Search Bar?
 
 Thank you to all contributors who helped make this project better!
